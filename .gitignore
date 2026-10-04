@@ -1,0 +1,23 @@
+# Secrets (never commit these)
+.env
+.env.*
+!.env.example
+
+# Node / React
+node_modules/
+dist/
+build/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.ipynb_checkpoints/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
