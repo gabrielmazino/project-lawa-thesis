@@ -1,8 +1,14 @@
 -- =============================================================
 -- Project LAWA: user profiles
 --
--- Supabase Auth stores each user's email and bcrypt-hashed password
+-- Supabase Auth stores each user's login and bcrypt-hashed password
 -- in auth.users. This table stores everything else about the user.
+--
+-- Users log in with a USERNAME, not an email. Supabase Auth requires
+-- an email, so every account uses an internal address:
+--   username "jdelacruz"  ->  email "jdelacruz@lawa.local"
+-- .local addresses never receive mail. The username is taken from
+-- that email automatically and cannot be edited afterwards.
 --
 -- How to run: Supabase dashboard -> SQL Editor -> New query ->
 -- paste this whole file -> Run. Run it only once.
@@ -49,8 +55,9 @@ create trigger profiles_set_updated_at
 
 
 -- 4. Create a profile automatically for every new login account --
--- username and full_name come from the account's user metadata when
--- provided; otherwise the part of the email before "@" is used.
+-- username is always the part of the email before "@", so it matches
+-- what the user types on the login page.
+-- full_name comes from user metadata when provided, else the username.
 -- The role is read from app metadata (which users cannot edit
 -- themselves), never from user metadata. Defaults to environmental_officer.
 create function public.handle_new_user()
@@ -63,7 +70,7 @@ begin
   insert into public.profiles (id, username, full_name, role)
   values (
     new.id,
-    lower(coalesce(new.raw_user_meta_data ->> 'username', split_part(new.email, '@', 1))),
+    lower(split_part(new.email, '@', 1)),
     coalesce(new.raw_user_meta_data ->> 'full_name', split_part(new.email, '@', 1)),
     coalesce((new.raw_app_meta_data ->> 'role')::public.user_role, 'environmental_officer')
   );
@@ -106,7 +113,9 @@ alter table public.profiles enable row level security;
 
 -- "Automatically expose new tables" is off, so access is granted
 -- explicitly. Logged-out visitors (anon) get nothing.
-grant select, update on public.profiles to authenticated;
+-- username is not in the update list: changing it would break login.
+grant select on public.profiles to authenticated;
+grant update (full_name, role, is_active) on public.profiles to authenticated;
 grant all on public.profiles to service_role;
 
 -- Every logged-in user can read their own profile.

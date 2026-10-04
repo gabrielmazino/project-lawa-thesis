@@ -41,7 +41,7 @@ function Alert({ message, isError }) {
 }
 
 export default function LoginForm() {
-  const [identifier, setIdentifier] = useState('')
+  const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
   const [showPassword, setShowPassword] = useState(false)
   const [remember, setRemember] = useState(false)
@@ -51,8 +51,8 @@ export default function LoginForm() {
   function handleSubmit(event) {
     event.preventDefault()
 
-    if (!identifier.trim()) {
-      setAlert({ message: 'Enter your email or username.', isError: true })
+    if (!username.trim()) {
+      setAlert({ message: 'Enter your username.', isError: true })
       return
     }
     if (!password) {
@@ -94,18 +94,20 @@ export default function LoginForm() {
             {alert && <Alert message={alert.message} isError={alert.isError} />}
 
             <div className="mb-3.5">
-              <label className={labelClass} htmlFor="identifier">
-                Email / Username
+              <label className={labelClass} htmlFor="username">
+                Username
               </label>
               <input
-                id="identifier"
+                id="username"
                 type="text"
                 autoComplete="username"
-                placeholder="officer@llda.gov.ph"
+                placeholder="e.g. jdelacruz"
+                autoCapitalize="none"
+                spellCheck={false}
                 className={inputClass}
-                value={identifier}
+                value={username}
                 onChange={(e) => {
-                  setIdentifier(e.target.value)
+                  setUsername(e.target.value)
                   setAlert(null)
                 }}
               />
@@ -164,7 +166,7 @@ export default function LoginForm() {
               <button
                 type="button"
                 onClick={() =>
-                  setAlert({ message: 'Password reset will be available once the backend is connected.', isError: false })
+                  setAlert({ message: 'Forgot your password? Ask your System Administrator to reset it.', isError: false })
                 }
                 className="cursor-pointer font-mono text-[10px] text-muted underline hover:text-text focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
               >
