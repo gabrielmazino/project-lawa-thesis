@@ -1,5 +1,6 @@
 // Right side of the login page: the sign-in card.
 import { useState } from 'react'
+import { useAuth } from '../../hooks/useAuth'
 
 const inputClass =
   'w-full rounded-box border-[1.5px] border-line bg-white leading-[normal] px-2.5 py-[9px] text-[12px] text-text outline-none ' +
@@ -41,6 +42,7 @@ function Alert({ message, isError }) {
 }
 
 export default function LoginForm() {
+  const { signIn } = useAuth()
   const [identifier, setIdentifier] = useState('')
   const [password, setPassword] = useState('')
   const [showPassword, setShowPassword] = useState(false)
@@ -48,7 +50,7 @@ export default function LoginForm() {
   const [loading, setLoading] = useState(false)
   const [alert, setAlert] = useState(null) // { message, isError } or null
 
-  function handleSubmit(event) {
+  async function handleSubmit(event) {
     event.preventDefault()
 
     if (!identifier.trim()) {
@@ -60,12 +62,15 @@ export default function LoginForm() {
       return
     }
 
-    // TODO (Step 4): replace this fake delay with the real Supabase login.
     setLoading(true)
-    setTimeout(() => {
+    setAlert(null)
+    try {
+      // On success the app switches to the next page automatically.
+      await signIn(identifier, password, remember)
+    } catch (error) {
+      setAlert({ message: error.message, isError: true })
       setLoading(false)
-      setAlert({ message: 'Backend not connected yet. This is a placeholder.', isError: false })
-    }, 1500)
+    }
   }
 
   return (
