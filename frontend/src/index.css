@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+/*
+  Design tokens for Project LAWA.
+  Each variable here becomes a Tailwind class, e.g.
+  --color-ink  ->  bg-ink, text-ink, border-ink
+  --font-mono  ->  font-mono
+*/
+@theme {
+  /* Colors */
+  --color-page: #f4f4f4;
+  --color-canvas: #ffffff;
+  --color-line: #c8c8c8;
+  --color-line-dark: #9a9a9a;
+  --color-fill-light: #ebebeb;
+  --color-fill-mid: #d6d6d6;
+  --color-fill-dark: #ababab;
+  --color-ink: #2e2e2e;
+  --color-text: #1a1a1a;
+  --color-muted: #5a5a5a;
+  --color-faint: #aaaaaa;
+
+  /* Fonts */
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  /* Corner radius used on cards, inputs and buttons */
+  --radius-box: 3px;
+
+  /* Animations */
+  --animate-ping-ring: ping-ring 2.8s ease-out infinite;
+  --animate-drift: drift 26s linear infinite;
+  --animate-drift-slow: drift 38s linear infinite reverse;
+  --animate-blink: blink 2s infinite;
+
+  @keyframes ping-ring {
+    0% { transform: scale(0.4); opacity: 0.9; }
+    100% { transform: scale(1.8); opacity: 0; }
+  }
+  @keyframes drift {
+    to { transform: translateX(-50%); }
+  }
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.25; }
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-page font-sans text-[13px] leading-normal text-text;
+  }
+}
+
+/* Faint map grid on the dark brand panel */
+@utility bg-map-grid {
+  background-image:
+    linear-gradient(rgb(255 255 255 / 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255 255 255 / 0.06) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Dotted background behind the login form */
+@utility bg-dots {
+  background-image: radial-gradient(var(--color-fill-mid) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
