@@ -1,0 +1,1347 @@
+Month,Station,DO,pH,Ammonia,Nitrate,Phosphate,Temperature,FC_MPN100mL,Outlier_flag,FC_imputed,FC_Class
+2016-02,Stn. I (Central West Bay),8.9,8.4,0.051,0.331,0.057,27.0,1138.0,,False,Failed
+2016-02,Stn. II (East Bay),7.9,8.0,0.057,0.357,0.059,26.0,410.0,,False,Failed
+2016-02,Stn. IV (Central Bay),7.8,7.8,0.036,0.335,0.063,27.0,522.0,,False,Failed
+2016-02,Stn. V (Northern West Bay),7.5,8.0,0.018,0.715,0.135,27.0,360.0,,False,D
+2016-02,Stn. VIII (South Bay),7.5,8.0,0.006,0.375,0.098,27.0,435.0,,False,Failed
+2016-02,Stn. XV (San Pedro),7.8,8.0,0.027,0.538,0.067,27.0,820.0,,False,Failed
+2016-02,Stn. XVI (Sta. Rosa),8.3,8.2,0.008,0.285,0.04,27.0,639.0,,False,Failed
+2016-02,Stn. XVII (Sanctuary),8.0,8.3,0.014,0.45,0.052,26.0,1486.0,,False,Failed
+2016-02,Stn. XVIII (Pagsanjan),8.3,8.1,0.024,0.283,0.056,27.0,401.0,,False,Failed
+2016-03,Stn. I (Central West Bay),7.6,8.0,0.045,0.308,0.021,26.0,678.0,,False,Failed
+2016-03,Stn. II (East Bay),8.4,8.3,0.264,0.176,0.004,25.0,333.0,,False,D
+2016-03,Stn. IV (Central Bay),8.3,8.1,0.019,0.355,0.006,26.0,457.0,,False,Failed
+2016-03,Stn. V (Northern West Bay),7.6,8.0,0.133,0.103,0.037,26.0,357.0,,False,D
+2016-03,Stn. VIII (South Bay),8.0,7.8,0.22,0.204,0.001,25.0,672.0,,False,Failed
+2016-03,Stn. XV (San Pedro),7.6,8.1,0.169,0.352,0.03,26.0,485.0,,False,Failed
+2016-03,Stn. XVI (Sta. Rosa),8.1,8.2,0.027,0.559,0.003,26.0,271.0,,False,D
+2016-03,Stn. XVII (Sanctuary),7.9,8.1,0.092,0.192,0.016,26.0,918.0,,False,Failed
+2016-03,Stn. XVIII (Pagsanjan),8.5,7.8,0.024,0.004,0.007,25.0,301.0,,False,D
+2016-04,Stn. I (Central West Bay),8.6,8.7,0.152,0.065,0.125,29.5,144.0,,False,C
+2016-04,Stn. II (East Bay),8.3,8.5,0.085,0.046,0.071,29.5,627.0,,False,Failed
+2016-04,Stn. IV (Central Bay),8.6,8.7,0.129,0.039,0.104,29.5,125.0,,False,C
+2016-04,Stn. V (Northern West Bay),7.5,8.9,0.083,0.087,0.102,29.0,125.0,,False,C
+2016-04,Stn. VIII (South Bay),8.3,8.5,0.094,0.081,0.084,30.0,428.0,,False,Failed
+2016-04,Stn. XV (San Pedro),8.6,8.3,0.088,0.128,0.103,31.0,201.0,,False,D
+2016-04,Stn. XVI (Sta. Rosa),8.1,8.3,0.081,0.102,0.087,30.0,165.0,,False,C
+2016-04,Stn. XVII (Sanctuary),8.3,8.6,0.058,0.088,0.089,30.0,294.0,,False,D
+2016-04,Stn. XVIII (Pagsanjan),8.5,8.7,0.068,0.096,0.031,30.0,110.0,,False,C
+2016-05,Stn. I (Central West Bay),6.4,8.3,0.236,0.001,0.147,31.0,144.0,,False,C
+2016-05,Stn. II (East Bay),8.4,8.7,0.081,0.009,0.037,31.0,945.0,,False,Failed
+2016-05,Stn. IV (Central Bay),6.8,8.3,0.05,0.002,0.103,31.5,117.0,,False,C
+2016-05,Stn. V (Northern West Bay),7.1,8.2,0.349,0.059,0.164,31.0,102.0,,False,C
+2016-05,Stn. VIII (South Bay),7.9,8.3,0.055,0.001,0.077,31.0,620.0,,False,Failed
+2016-05,Stn. XV (San Pedro),6.9,8.2,0.074,0.019,0.069,30.0,185.0,,False,C
+2016-05,Stn. XVI (Sta. Rosa),7.7,8.3,0.054,0.036,0.067,31.5,107.0,,False,C
+2016-05,Stn. XVII (Sanctuary),7.5,8.1,0.079,0.051,0.066,31.0,86.0,,False,B
+2016-05,Stn. XVIII (Pagsanjan),10.0,9.4,0.056,0.004,0.004,30.5,51.0,,False,B
+2016-06,Stn. I (Central West Bay),14.4,9.4,0.063,0.065,0.108,33.0,85.0,DO,False,B
+2016-06,Stn. II (East Bay),8.3,9.3,0.092,0.05,0.181,32.0,973.0,,False,Failed
+2016-06,Stn. IV (Central Bay),9.5,9.6,0.051,0.051,0.149,31.0,117.0,,False,C
+2016-06,Stn. V (Northern West Bay),9.5,9.0,0.336,0.069,0.19,33.0,363.0,,False,D
+2016-06,Stn. VIII (South Bay),8.9,9.4,0.054,0.684,0.095,31.0,709.0,,False,Failed
+2016-06,Stn. XV (San Pedro),7.6,8.9,0.067,0.77,0.12,32.0,208.0,,False,D
+2016-06,Stn. XVI (Sta. Rosa),7.7,9.0,0.042,0.165,0.087,31.0,83.0,,False,B
+2016-06,Stn. XVII (Sanctuary),8.9,9.3,0.047,0.372,0.073,31.0,35.0,,False,A
+2016-06,Stn. XVIII (Pagsanjan),9.1,9.4,0.031,0.798,0.12,31.0,26.0,,False,A
+2016-07,Stn. I (Central West Bay),7.3,8.8,0.025,0.068,0.134,30.0,185.0,,False,C
+2016-07,Stn. II (East Bay),9.7,9.5,0.015,0.574,0.179,32.0,586.0,,False,Failed
+2016-07,Stn. IV (Central Bay),15.9,9.8,0.034,0.031,0.147,32.0,104.0,"DO, pH",False,C
+2016-07,Stn. V (Northern West Bay),6.3,8.9,0.067,0.11,0.048,30.0,793.0,,False,Failed
+2016-07,Stn. VIII (South Bay),8.1,9.0,0.031,0.001,0.143,30.0,517.0,,False,Failed
+2016-07,Stn. XV (San Pedro),4.0,8.1,0.073,0.001,0.176,31.0,786.0,DO,False,Failed
+2016-07,Stn. XVI (Sta. Rosa),7.5,8.7,0.039,0.001,0.074,31.0,136.0,,False,C
+2016-07,Stn. XVII (Sanctuary),7.8,8.8,0.028,0.001,0.134,31.0,41.0,,False,A
+2016-07,Stn. XVIII (Pagsanjan),9.4,9.6,0.001,0.038,0.001,31.0,38.0,,False,A
+2016-08,Stn. I (Central West Bay),5.5,8.1,0.313,0.382,0.235,34.0,126.0,,False,C
+2016-08,Stn. II (East Bay),6.8,8.9,0.181,0.271,0.001,29.0,665.0,,False,Failed
+2016-08,Stn. IV (Central Bay),7.3,8.6,0.183,0.142,0.014,28.0,121.0,,False,C
+2016-08,Stn. V (Northern West Bay),6.6,8.5,0.12,0.313,0.306,30.0,945.0,,False,Failed
+2016-08,Stn. VIII (South Bay),7.6,9.1,0.069,0.028,0.001,28.0,586.0,,False,Failed
+2016-08,Stn. XV (San Pedro),6.5,8.9,0.07,0.301,0.008,29.0,418.0,,False,Failed
+2016-08,Stn. XVI (Sta. Rosa),7.4,8.8,0.033,0.001,0.009,28.0,211.0,,False,D
+2016-08,Stn. XVII (Sanctuary),7.3,8.9,0.025,0.037,0.005,28.0,46.0,,False,A
+2016-08,Stn. XVIII (Pagsanjan),6.7,8.9,0.256,0.041,0.001,29.0,99.0,,False,B
+2016-09,Stn. I (Central West Bay),7.3,7.8,0.076,0.728,0.134,27.0,335.0,,False,D
+2016-09,Stn. II (East Bay),9.0,9.0,0.048,0.022,0.011,27.0,754.0,,False,Failed
+2016-09,Stn. IV (Central Bay),13.5,9.6,0.073,0.058,0.039,27.0,49.0,DO,False,A
+2016-09,Stn. V (Northern West Bay),7.8,8.0,0.029,1.084,0.145,28.0,305.0,,False,D
+2016-09,Stn. VIII (South Bay),8.8,9.0,0.001,0.109,0.045,28.0,272.0,,False,D
+2016-09,Stn. XV (San Pedro),8.7,8.7,0.001,0.069,0.072,28.0,418.0,,False,Failed
+2016-09,Stn. XVI (Sta. Rosa),10.2,9.0,0.011,0.037,0.036,28.0,211.0,,False,D
+2016-09,Stn. XVII (Sanctuary),12.1,9.4,0.005,0.028,0.061,28.0,82.0,DO,False,B
+2016-09,Stn. XVIII (Pagsanjan),9.4,9.4,0.013,0.031,0.007,27.0,194.0,,False,C
+2016-10,Stn. I (Central West Bay),7.3,7.9,0.055,0.796,0.185,28.0,231.0,,False,D
+2016-10,Stn. II (East Bay),10.0,9.2,0.045,0.035,0.016,27.0,213.0,,False,D
+2016-10,Stn. IV (Central Bay),8.9,8.9,0.034,0.046,0.07,27.0,49.0,,False,A
+2016-10,Stn. V (Northern West Bay),6.3,7.8,0.236,0.463,0.133,28.0,478.0,,False,Failed
+2016-10,Stn. VIII (South Bay),8.5,8.0,0.008,0.034,0.066,28.0,309.0,,False,D
+2016-10,Stn. XV (San Pedro),5.9,7.6,0.181,0.035,0.089,28.0,140.0,,False,C
+2016-10,Stn. XVI (Sta. Rosa),5.8,7.7,0.22,0.055,0.121,28.0,211.0,,False,D
+2016-10,Stn. XVII (Sanctuary),7.6,8.8,0.093,0.091,0.074,28.0,101.0,,False,C
+2016-10,Stn. XVIII (Pagsanjan),9.3,9.0,0.1,0.036,0.021,27.0,76.0,,False,B
+2016-11,Stn. I (Central West Bay),7.8,7.9,0.065,0.131,0.031,28.0,179.0,,False,C
+2016-11,Stn. II (East Bay),7.2,8.55,0.32,0.255,0.051,26.0,153.0,,False,C
+2016-11,Stn. IV (Central Bay),7.4,8.65,0.052,0.545,0.251,26.0,26.0,,False,A
+2016-11,Stn. V (Northern West Bay),7.5,8.1,0.048,0.038,0.258,28.0,558.0,,False,Failed
+2016-11,Stn. VIII (South Bay),8.1,8.15,0.032,0.308,0.258,27.0,272.0,,False,D
+2016-11,Stn. XV (San Pedro),6.8,8.3,0.155,0.184,0.208,28.0,309.0,,False,D
+2016-11,Stn. XVI (Sta. Rosa),9.8,8.1,0.002,0.14,0.168,27.0,268.0,,False,D
+2016-11,Stn. XVII (Sanctuary),7.9,8.8,0.045,0.127,0.244,27.0,196.0,,False,C
+2016-11,Stn. XVIII (Pagsanjan),6.6,8.7,0.049,0.314,0.222,26.5,110.0,,False,C
+2016-12,Stn. I (Central West Bay),6.5,7.9,0.077,0.121,0.149,28.0,37.0,,False,A
+2016-12,Stn. II (East Bay),7.6,7.9,0.024,0.141,0.122,28.0,51.0,,False,B
+2016-12,Stn. IV (Central Bay),7.7,8.4,0.027,0.001,0.165,28.0,21.0,,False,A
+2016-12,Stn. V (Northern West Bay),6.8,8.4,0.012,0.039,0.181,29.0,426.0,,False,Failed
+2016-12,Stn. VIII (South Bay),7.2,8.3,0.013,0.238,0.116,28.0,125.0,,False,C
+2016-12,Stn. XV (San Pedro),9.6,9.0,0.001,0.028,0.111,29.0,141.0,,False,C
+2016-12,Stn. XVI (Sta. Rosa),8.5,8.5,0.001,0.014,0.075,28.0,268.0,,False,D
+2016-12,Stn. XVII (Sanctuary),7.7,8.8,0.013,0.089,0.013,28.0,110.0,,False,C
+2016-12,Stn. XVIII (Pagsanjan),7.6,8.4,0.001,0.248,0.113,27.0,57.0,,False,B
+2017-01,Stn. I (Central West Bay),7.9,8.4,0.001,0.223,0.087,27.0,60.0,,False,B
+2017-01,Stn. II (East Bay),7.7,8.0,0.001,0.343,0.084,25.5,116.0,,False,C
+2017-01,Stn. IV (Central Bay),8.1,8.3,0.001,0.149,0.072,25.7,32.0,,False,A
+2017-01,Stn. V (Northern West Bay),8.5,8.1,0.001,0.344,0.181,27.5,272.0,,False,D
+2017-01,Stn. VIII (South Bay),7.6,8.0,0.001,0.335,0.101,26.2,90.0,,False,B
+2017-01,Stn. XV (San Pedro),8.2,8.6,0.001,0.379,0.108,28.0,96.0,,False,B
+2017-01,Stn. XVI (Sta. Rosa),7.7,8.4,0.001,0.001,0.088,28.9,102.0,,False,C
+2017-01,Stn. XVII (Sanctuary),9.6,8.7,0.001,0.19,0.057,26.5,76.0,,False,B
+2017-01,Stn. XVIII (Pagsanjan),7.7,7.8,0.001,0.393,0.066,25.2,73.0,,False,B
+2017-02,Stn. I (Central West Bay),7.6,8.0,0.16,0.405,0.238,28.0,163.0,,False,C
+2017-02,Stn. II (East Bay),7.6,7.9,0.572,0.44,0.173,25.0,110.0,Ammonia,False,C
+2017-02,Stn. IV (Central Bay),7.3,7.9,0.091,1.412,0.161,26.0,63.0,Nitrate,False,B
+2017-02,Stn. V (Northern West Bay),9.0,8.4,0.074,2.631,0.163,28.0,214.0,Nitrate,False,D
+2017-02,Stn. VIII (South Bay),7.8,7.9,0.065,1.88,0.115,26.0,193.0,Nitrate,False,C
+2017-02,Stn. XV (San Pedro),8.8,8.4,0.034,0.509,0.131,27.0,85.0,,False,B
+2017-02,Stn. XVI (Sta. Rosa),7.8,7.9,0.001,2.136,0.165,27.0,90.0,Nitrate,False,B
+2017-02,Stn. XVII (Sanctuary),7.7,8.1,0.04,2.592,0.145,26.0,86.0,Nitrate,False,B
+2017-02,Stn. XVIII (Pagsanjan),7.8,7.9,0.033,0.54,0.16,25.0,73.0,,False,B
+2017-03,Stn. I (Central West Bay),8.9,7.9,0.009,0.267,0.069,27.0,512.0,,False,Failed
+2017-03,Stn. II (East Bay),9.4,8.4,0.1,0.197,0.049,28.0,290.0,,False,D
+2017-03,Stn. IV (Central Bay),8.4,8.0,0.033,0.372,0.088,28.0,166.0,,False,C
+2017-03,Stn. V (Northern West Bay),9.0,7.9,0.046,0.373,0.098,28.0,214.0,,False,D
+2017-03,Stn. VIII (South Bay),9.1,8.2,0.024,0.24,0.076,28.0,344.0,,False,D
+2017-03,Stn. XV (San Pedro),9.1,8.1,0.023,0.205,0.079,28.0,210.0,,False,D
+2017-03,Stn. XVI (Sta. Rosa),9.6,8.5,0.034,0.285,0.066,30.0,159.0,,False,C
+2017-03,Stn. XVII (Sanctuary),8.5,8.3,0.023,0.221,0.072,28.0,188.0,,False,C
+2017-03,Stn. XVIII (Pagsanjan),9.4,8.3,0.25,0.001,0.023,28.0,88.0,,False,B
+2017-04,Stn. I (Central West Bay),6.3,7.7,0.111,0.413,0.371,27.0,973.0,,False,Failed
+2017-04,Stn. II (East Bay),7.2,7.8,0.038,0.021,0.156,27.4,624.0,,False,Failed
+2017-04,Stn. IV (Central Bay),6.9,7.8,0.03,0.144,0.143,27.0,240.0,,False,D
+2017-04,Stn. V (Northern West Bay),6.3,7.9,0.048,0.154,0.174,28.0,214.0,,False,D
+2017-04,Stn. VIII (South Bay),7.1,7.8,0.048,0.034,0.253,27.0,552.0,,False,Failed
+2017-04,Stn. XV (San Pedro),6.9,7.8,0.062,0.09,0.263,27.0,27.0,,False,A
+2017-04,Stn. XVI (Sta. Rosa),6.9,7.8,0.047,0.094,0.236,27.0,196.0,,False,C
+2017-04,Stn. XVII (Sanctuary),7.0,7.9,0.051,0.004,0.169,27.0,272.0,,False,D
+2017-04,Stn. XVIII (Pagsanjan),7.4,7.8,0.073,0.016,0.29,27.0,151.0,,False,C
+2017-05,Stn. I (Central West Bay),7.3,8.3,0.143,0.001,0.288,36.0,586.0,Temperature,False,Failed
+2017-05,Stn. II (East Bay),7.7,6.3,0.008,0.001,0.062,36.0,1060.0,"pH, Temperature",False,Failed
+2017-05,Stn. IV (Central Bay),8.4,8.7,0.026,0.001,0.067,36.0,314.0,Temperature,False,D
+2017-05,Stn. V (Northern West Bay),5.5,7.6,0.404,0.152,0.427,38.0,586.0,"Ammonia, Temperature",False,Failed
+2017-05,Stn. VIII (South Bay),7.5,8.0,0.041,0.001,0.096,36.0,482.0,Temperature,False,Failed
+2017-05,Stn. XV (San Pedro),7.9,8.3,0.022,0.013,0.02,36.0,426.0,Temperature,False,Failed
+2017-05,Stn. XVI (Sta. Rosa),7.0,8.0,0.043,0.001,0.078,36.0,306.0,Temperature,False,D
+2017-05,Stn. XVII (Sanctuary),7.6,8.2,0.016,0.001,0.088,37.0,586.0,Temperature,False,Failed
+2017-05,Stn. XVIII (Pagsanjan),8.4,8.3,0.019,0.001,0.071,36.0,426.0,Temperature,False,Failed
+2017-06,Stn. I (Central West Bay),8.7,8.6,0.23,0.224,0.31,33.0,268.0,,False,D
+2017-06,Stn. II (East Bay),7.1,8.2,0.02,0.001,0.165,31.0,485.0,,False,Failed
+2017-06,Stn. IV (Central Bay),8.1,8.3,0.027,0.022,0.252,30.0,185.0,,False,C
+2017-06,Stn. V (Northern West Bay),9.7,8.1,0.028,0.238,0.359,32.0,268.0,,False,D
+2017-06,Stn. VIII (South Bay),8.6,8.4,0.001,0.001,0.092,33.0,482.0,,False,Failed
+2017-06,Stn. XV (San Pedro),8.7,8.3,0.025,0.001,0.151,32.0,259.0,,False,D
+2017-06,Stn. XVI (Sta. Rosa),9.0,8.4,0.003,0.001,0.143,32.0,217.0,,False,D
+2017-06,Stn. XVII (Sanctuary),10.2,8.5,0.001,0.001,0.132,33.0,303.0,,False,D
+2017-06,Stn. XVIII (Pagsanjan),8.6,9.0,0.016,0.042,0.155,33.0,352.0,,False,D
+2017-07,Stn. I (Central West Bay),8.7,8.2,0.058,0.031,0.11,31.5,163.0,,False,C
+2017-07,Stn. II (East Bay),6.9,7.9,0.07,0.52,0.17,30.5,271.0,,False,D
+2017-07,Stn. IV (Central Bay),9.0,8.6,0.053,0.032,0.31,31.0,210.0,,False,D
+2017-07,Stn. V (Northern West Bay),8.6,7.7,0.844,0.045,0.37,32.0,758.0,Ammonia,False,Failed
+2017-07,Stn. VIII (South Bay),8.1,8.1,0.047,0.015,0.06,31.5,48.0,,False,A
+2017-07,Stn. XV (San Pedro),7.4,7.9,0.056,0.019,0.1,31.5,488.0,,False,Failed
+2017-07,Stn. XVI (Sta. Rosa),8.0,8.3,0.103,0.02,0.12,31.5,467.0,,False,Failed
+2017-07,Stn. XVII (Sanctuary),8.1,8.1,0.048,0.012,0.15,32.0,343.0,,False,D
+2017-07,Stn. XVIII (Pagsanjan),9.3,8.5,0.059,0.022,0.15,31.0,245.0,,False,D
+2017-08,Stn. I (Central West Bay),9.4,8.6,0.099,0.018,0.076,31.8,163.0,,False,C
+2017-08,Stn. II (East Bay),9.6,8.6,0.089,0.184,0.105,30.0,271.0,,False,D
+2017-08,Stn. IV (Central Bay),13.1,9.1,0.047,0.016,0.098,32.0,160.0,DO,False,C
+2017-08,Stn. V (Northern West Bay),11.0,8.8,0.025,0.001,0.087,31.0,406.0,,False,Failed
+2017-08,Stn. VIII (South Bay),11.6,9.0,0.026,0.001,0.103,31.0,256.0,DO,False,D
+2017-08,Stn. XV (San Pedro),9.6,8.7,0.023,0.026,0.107,30.0,354.0,,False,D
+2017-08,Stn. XVI (Sta. Rosa),9.4,8.5,0.031,0.001,0.089,30.0,298.0,,False,D
+2017-08,Stn. XVII (Sanctuary),14.1,9.2,0.03,0.001,0.105,32.0,140.0,DO,False,C
+2017-08,Stn. XVIII (Pagsanjan),9.9,8.6,0.021,0.02,0.035,31.0,172.0,,False,C
+2017-09,Stn. I (Central West Bay),7.3,8.2,0.001,0.206,0.154,31.0,291.0,,False,D
+2017-09,Stn. II (East Bay),9.5,8.7,0.003,0.001,0.099,31.0,592.0,,False,Failed
+2017-09,Stn. IV (Central Bay),17.2,9.3,0.012,0.001,0.128,30.0,272.0,DO,False,D
+2017-09,Stn. V (Northern West Bay),7.7,7.9,0.039,0.001,0.241,31.0,1913.0,,False,Failed
+2017-09,Stn. VIII (South Bay),10.3,8.7,0.001,0.006,0.168,31.0,357.0,,False,D
+2017-09,Stn. XV (San Pedro),10.4,8.8,0.001,0.001,0.235,31.0,234.0,,False,D
+2017-09,Stn. XVI (Sta. Rosa),10.9,8.9,0.004,0.001,0.352,31.0,1460.0,BOD,False,Failed
+2017-09,Stn. XVII (Sanctuary),8.7,8.3,0.001,0.001,0.252,31.0,272.0,,False,D
+2017-09,Stn. XVIII (Pagsanjan),9.7,8.4,0.005,0.003,0.041,32.0,172.0,,False,C
+2017-10,Stn. I (Central West Bay),6.9,8.2,0.054,0.046,0.177,30.0,222.0,,False,D
+2017-10,Stn. II (East Bay),8.4,8.3,0.037,0.06,0.008,29.5,256.0,,False,D
+2017-10,Stn. IV (Central Bay),7.6,8.0,0.022,0.212,0.178,30.0,166.0,,False,C
+2017-10,Stn. V (Northern West Bay),9.1,8.4,0.032,0.231,0.218,29.0,1655.0,,False,Failed
+2017-10,Stn. VIII (South Bay),10.8,9.2,0.061,0.001,0.077,32.0,140.0,,False,C
+2017-10,Stn. XV (San Pedro),5.6,7.7,0.043,0.217,0.18,29.5,96.0,,False,B
+2017-10,Stn. XVI (Sta. Rosa),7.8,9.3,0.038,0.023,0.18,30.0,678.0,,False,Failed
+2017-10,Stn. XVII (Sanctuary),7.8,8.2,0.031,0.001,0.131,31.0,240.0,,False,D
+2017-10,Stn. XVIII (Pagsanjan),8.5,8.0,0.03,0.001,0.036,29.5,90.0,,False,B
+2017-11,Stn. I (Central West Bay),6.6,7.8,0.131,0.361,0.208,27.5,196.0,,False,C
+2017-11,Stn. II (East Bay),8.6,7.9,0.059,0.137,0.031,27.5,368.0,,False,D
+2017-11,Stn. IV (Central Bay),6.5,7.7,0.045,0.453,0.167,27.5,166.0,,False,C
+2017-11,Stn. V (Northern West Bay),5.9,7.6,0.045,0.451,0.194,26.5,1263.0,,False,Failed
+2017-11,Stn. VIII (South Bay),7.8,8.1,0.038,0.216,0.1,28.0,159.0,,False,C
+2017-11,Stn. XV (San Pedro),6.2,7.7,0.036,0.334,0.111,27.0,111.0,,False,C
+2017-11,Stn. XVI (Sta. Rosa),7.5,8.2,0.028,0.182,0.077,27.0,678.0,,False,Failed
+2017-11,Stn. XVII (Sanctuary),7.4,7.9,0.028,0.264,0.107,28.0,240.0,,False,D
+2017-11,Stn. XVIII (Pagsanjan),8.8,8.1,0.021,0.06,0.02,28.0,90.0,,False,B
+2017-12,Stn. I (Central West Bay),6.6,7.8,0.022,0.263,0.147,29.0,196.0,,False,C
+2017-12,Stn. II (East Bay),8.6,7.9,0.016,0.032,0.022,28.0,190.0,,False,C
+2017-12,Stn. IV (Central Bay),6.5,7.7,0.091,0.617,0.252,29.0,114.0,,False,C
+2017-12,Stn. V (Northern West Bay),5.9,7.6,0.017,0.132,0.116,29.0,478.0,,False,Failed
+2017-12,Stn. VIII (South Bay),7.8,8.1,0.001,0.205,0.119,30.0,140.0,,False,C
+2017-12,Stn. XV (San Pedro),6.2,7.7,0.007,0.046,0.096,29.3,242.0,,False,D
+2017-12,Stn. XVI (Sta. Rosa),7.5,8.2,0.004,0.153,0.119,28.0,240.0,,False,D
+2017-12,Stn. XVII (Sanctuary),7.4,7.9,0.023,0.062,0.104,29.3,166.0,,False,C
+2017-12,Stn. XVIII (Pagsanjan),8.8,8.1,0.008,0.006,0.026,28.5,101.0,,False,C
+2018-01,Stn. I (Central West Bay),7.8,7.9,0.221,0.666,0.175,27.2,8.0,,False,A
+2018-01,Stn. II (East Bay),8.1,7.7,0.529,0.411,0.095,26.8,23.0,Ammonia,False,A
+2018-01,Stn. IV (Central Bay),8.1,7.9,0.029,0.389,0.147,27.2,12.0,,False,A
+2018-01,Stn. V (Northern West Bay),7.4,8.0,0.027,0.478,0.172,27.6,29.0,,False,A
+2018-01,Stn. VIII (South Bay),7.6,7.7,0.011,0.44,0.197,27.0,36.0,,False,A
+2018-01,Stn. XV (San Pedro),8.6,8.0,0.006,0.396,0.133,27.2,14.0,,False,A
+2018-01,Stn. XVI (Sta. Rosa),8.6,8.3,0.027,0.402,0.153,28.0,9.0,,False,A
+2018-01,Stn. XVII (Sanctuary),8.4,8.2,0.006,0.376,0.129,26.9,22.0,,False,A
+2018-01,Stn. XVIII (Pagsanjan),8.4,8.1,0.012,0.375,0.133,27.0,9.0,,False,A
+2018-02,Stn. I (Central West Bay),8.3,8.2,0.016,0.459,0.208,27.5,5.0,,False,A
+2018-02,Stn. II (East Bay),8.5,8.0,0.043,0.392,0.132,26.0,7.0,,False,A
+2018-02,Stn. IV (Central Bay),8.3,8.1,0.011,0.513,0.205,26.5,14.0,,False,A
+2018-02,Stn. V (Northern West Bay),8.7,8.3,0.036,0.462,0.207,27.0,19.0,,False,A
+2018-02,Stn. VIII (South Bay),7.7,8.0,0.175,0.565,0.188,25.0,73.0,,False,B
+2018-02,Stn. XV (San Pedro),9.7,8.7,0.007,0.407,0.174,28.0,14.0,,False,A
+2018-02,Stn. XVI (Sta. Rosa),9.7,8.7,0.001,0.367,0.166,28.0,4.0,,False,A
+2018-02,Stn. XVII (Sanctuary),9.2,8.7,0.001,0.352,0.157,29.0,22.0,,False,A
+2018-02,Stn. XVIII (Pagsanjan),8.4,8.1,0.001,0.326,0.105,25.0,6.0,,False,A
+2018-03,Stn. I (Central West Bay),8.6,8.4,0.654,0.188,0.231,28.0,5.0,Ammonia,False,A
+2018-03,Stn. II (East Bay),8.4,8.3,0.062,0.259,0.138,28.0,7.0,,False,A
+2018-03,Stn. IV (Central Bay),8.1,8.2,0.015,0.326,0.173,28.0,10.0,,False,A
+2018-03,Stn. V (Northern West Bay),9.5,8.0,0.01,0.05,0.152,26.0,17.0,,False,A
+2018-03,Stn. VIII (South Bay),8.2,8.2,0.016,0.276,0.141,28.0,54.0,,False,B
+2018-03,Stn. XV (San Pedro),8.2,8.3,0.017,0.242,0.14,28.0,16.0,,False,A
+2018-03,Stn. XVI (Sta. Rosa),8.7,8.2,0.022,0.222,0.118,28.0,4.0,,False,A
+2018-03,Stn. XVII (Sanctuary),8.2,8.0,0.01,0.359,0.168,28.0,14.0,,False,A
+2018-03,Stn. XVIII (Pagsanjan),8.6,8.2,0.021,0.05,0.142,28.0,6.0,,False,A
+2018-04,Stn. I (Central West Bay),7.7,7.9,0.031,0.138,0.185,28.0,2.5,,False,A
+2018-04,Stn. II (East Bay),8.1,8.1,0.008,0.05,0.104,28.0,3.5,,False,A
+2018-04,Stn. IV (Central Bay),8.0,8.2,0.025,0.05,0.15,27.0,16.9,,False,A
+2018-04,Stn. V (Northern West Bay),6.8,8.4,0.285,0.258,0.268,27.0,17.3,,False,A
+2018-04,Stn. VIII (South Bay),7.9,8.1,0.035,0.05,0.153,28.0,127.2,,False,C
+2018-04,Stn. XV (San Pedro),8.4,8.6,0.025,0.05,0.149,28.0,5.6,,False,A
+2018-04,Stn. XVI (Sta. Rosa),8.6,8.5,0.008,0.05,0.138,28.0,4.4,,False,A
+2018-04,Stn. XVII (Sanctuary),7.9,8.3,0.011,0.05,0.158,27.0,4.4,,False,A
+2018-04,Stn. XVIII (Pagsanjan),8.3,8.4,0.018,0.05,0.113,27.0,7.2,,False,A
+2018-05,Stn. I (Central West Bay),8.6,8.5,0.022,0.109,0.135,30.4,2.5,,False,A
+2018-05,Stn. II (East Bay),7.5,8.1,0.045,0.05,0.104,30.5,4.2,,False,A
+2018-05,Stn. IV (Central Bay),7.0,8.1,0.06,0.05,0.184,30.0,7.6,,False,A
+2018-05,Stn. V (Northern West Bay),10.6,8.7,0.055,0.505,0.245,31.6,7.7,,False,A
+2018-05,Stn. VIII (South Bay),8.3,8.3,0.027,0.05,0.13,31.5,72.0,,False,B
+2018-05,Stn. XV (San Pedro),8.3,8.4,0.054,0.05,0.142,32.3,4.7,,False,A
+2018-05,Stn. XVI (Sta. Rosa),8.4,8.5,0.041,0.05,0.116,31.9,9.7,,False,A
+2018-05,Stn. XVII (Sanctuary),7.2,8.3,0.041,0.05,0.115,30.8,7.0,,False,A
+2018-05,Stn. XVIII (Pagsanjan),7.9,8.3,0.024,0.05,0.09,30.1,9.4,,False,A
+2018-06,Stn. I (Central West Bay),7.6,8.5,0.067,0.05,0.27,31.0,4.5,,False,A
+2018-06,Stn. II (East Bay),15.8,9.6,0.036,0.05,0.089,34.5,4.0,DO,False,A
+2018-06,Stn. IV (Central Bay),8.3,8.8,0.011,0.05,0.184,33.0,5.6,,False,A
+2018-06,Stn. V (Northern West Bay),10.0,8.8,0.062,0.05,0.203,32.0,26.4,,False,A
+2018-06,Stn. VIII (South Bay),9.3,8.9,0.016,0.235,0.123,33.0,59.2,,False,B
+2018-06,Stn. XV (San Pedro),8.2,9.7,0.008,0.177,0.144,31.5,5.0,,False,A
+2018-06,Stn. XVI (Sta. Rosa),8.2,8.7,0.005,0.05,0.14,32.5,8.5,,False,A
+2018-06,Stn. XVII (Sanctuary),8.6,8.9,0.008,0.137,0.18,35.0,5.6,,False,A
+2018-06,Stn. XVIII (Pagsanjan),16.1,9.7,0.005,0.05,0.063,34.0,12.3,DO,False,A
+2018-07,Stn. I (Central West Bay),9.0,9.7,0.043,0.05,0.111,29.9,7.1,,False,A
+2018-07,Stn. II (East Bay),8.3,9.1,0.056,0.05,0.087,29.3,5.3,,False,A
+2018-07,Stn. IV (Central Bay),9.0,9.4,0.001,0.05,0.104,29.6,1.9,,False,A
+2018-07,Stn. V (Northern West Bay),7.8,9.0,0.002,0.05,0.129,28.7,18.3,,False,A
+2018-07,Stn. VIII (South Bay),8.1,8.8,0.001,0.05,0.805,29.6,6.0,Phosphate,False,A
+2018-07,Stn. XV (San Pedro),7.9,8.5,0.001,0.05,0.09,29.8,20.4,,False,A
+2018-07,Stn. XVI (Sta. Rosa),8.1,8.8,0.001,0.05,0.082,29.4,5.5,,False,A
+2018-07,Stn. XVII (Sanctuary),8.0,8.9,0.046,0.05,0.088,29.1,3.0,,False,A
+2018-07,Stn. XVIII (Pagsanjan),9.5,9.5,0.001,0.05,0.047,29.7,4.5,,False,A
+2018-08,Stn. I (Central West Bay),5.6,7.9,0.088,0.594,0.135,28.5,16.0,,False,A
+2018-08,Stn. II (East Bay),6.8,8.7,0.036,0.057,0.102,30.5,3.3,,False,A
+2018-08,Stn. IV (Central Bay),8.5,9.1,0.061,0.004,0.19,33.0,1.8,,False,A
+2018-08,Stn. V (Northern West Bay),8.2,8.6,0.023,0.428,0.136,28.0,51.8,,False,B
+2018-08,Stn. VIII (South Bay),6.4,8.5,0.001,0.073,0.133,28.5,2.8,,False,A
+2018-08,Stn. XV (San Pedro),7.6,8.5,0.009,0.161,0.142,27.5,81.2,,False,B
+2018-08,Stn. XVI (Sta. Rosa),8.2,8.6,0.008,0.092,0.193,28.5,10.2,,False,A
+2018-08,Stn. XVII (Sanctuary),7.8,8.9,0.05,0.103,0.148,32.5,1.9,,False,A
+2018-08,Stn. XVIII (Pagsanjan),8.8,9.2,0.014,0.111,0.041,32.5,5.4,,False,A
+2018-09,Stn. I (Central West Bay),10.5,9.0,0.011,0.05,0.061,31.0,7.1,,False,A
+2018-09,Stn. II (East Bay),9.5,8.7,0.061,0.05,0.062,30.0,4.5,,False,A
+2018-09,Stn. IV (Central Bay),8.8,8.7,0.066,0.504,0.137,28.5,1.9,,False,A
+2018-09,Stn. V (Northern West Bay),8.5,8.5,0.001,1.778,0.076,30.0,21.5,Nitrate,False,A
+2018-09,Stn. VIII (South Bay),9.9,8.9,0.001,1.503,0.102,30.5,9.4,Nitrate,False,A
+2018-09,Stn. XV (San Pedro),10.6,9.0,0.003,4.434,0.078,31.0,49.8,Nitrate,False,A
+2018-09,Stn. XVI (Sta. Rosa),10.7,9.0,0.001,0.844,0.078,29.5,16.7,,False,A
+2018-09,Stn. XVII (Sanctuary),8.6,8.8,0.002,1.289,0.078,26.0,3.5,Nitrate,False,A
+2018-09,Stn. XVIII (Pagsanjan),9.1,8.8,0.014,0.05,0.025,29.0,4.1,,False,A
+2018-10,Stn. I (Central West Bay),7.1,8.7,0.05,0.05,0.107,31.3,4.5,,False,A
+2018-10,Stn. II (East Bay),7.6,8.5,0.031,0.05,0.117,30.7,3.3,,False,A
+2018-10,Stn. IV (Central Bay),6.6,8.6,0.023,0.05,0.146,30.4,1.9,,False,A
+2018-10,Stn. V (Northern West Bay),6.9,8.4,0.021,0.05,0.117,30.5,21.5,,False,A
+2018-10,Stn. VIII (South Bay),8.4,8.5,0.026,0.42,0.096,31.4,39.1,,False,A
+2018-10,Stn. XV (San Pedro),8.2,8.7,0.017,0.05,0.08,31.3,21.3,,False,A
+2018-10,Stn. XVI (Sta. Rosa),8.4,8.8,0.021,0.05,0.099,30.9,16.7,,False,A
+2018-10,Stn. XVII (Sanctuary),7.5,8.7,0.025,0.05,0.134,30.4,3.6,,False,A
+2018-10,Stn. XVIII (Pagsanjan),8.3,8.6,0.013,0.05,0.015,31.8,4.1,,False,A
+2018-11,Stn. I (Central West Bay),6.9,8.4,0.033,0.02,0.081,29.1,4.5,,False,A
+2018-11,Stn. II (East Bay),7.3,8.4,0.017,0.05,0.077,28.7,5.7,,False,A
+2018-11,Stn. IV (Central Bay),7.2,8.7,0.015,0.05,0.08,28.5,2.0,,False,A
+2018-11,Stn. V (Northern West Bay),10.0,8.9,0.015,0.05,0.039,29.9,18.1,,False,A
+2018-11,Stn. VIII (South Bay),6.3,7.9,0.038,0.073,0.12,29.2,244.7,,False,D
+2018-11,Stn. XV (San Pedro),6.8,8.5,0.011,0.112,0.079,29.5,4.5,,False,A
+2018-11,Stn. XVI (Sta. Rosa),7.2,8.3,0.001,0.05,0.083,29.3,4.0,,False,A
+2018-11,Stn. XVII (Sanctuary),6.7,8.1,0.016,0.05,0.061,27.8,8.3,,False,A
+2018-11,Stn. XVIII (Pagsanjan),7.6,8.3,0.003,0.05,0.023,28.5,6.2,,False,A
+2018-12,Stn. I (Central West Bay),8.1,8.6,0.053,0.123,0.098,27.9,4.4,,False,A
+2018-12,Stn. II (East Bay),7.7,8.5,0.011,0.054,0.079,27.8,4.2,,False,A
+2018-12,Stn. IV (Central Bay),8.1,8.4,0.028,0.53,0.075,26.7,4.2,,False,A
+2018-12,Stn. V (Northern West Bay),8.0,8.9,0.039,0.174,0.129,28.2,8.1,,False,A
+2018-12,Stn. VIII (South Bay),6.9,8.2,0.027,0.326,0.171,27.6,207.4,,False,D
+2018-12,Stn. XV (San Pedro),8.7,8.7,0.026,0.074,0.097,27.9,10.4,,False,A
+2018-12,Stn. XVI (Sta. Rosa),8.4,8.8,0.028,0.085,0.087,27.7,1.9,,False,A
+2018-12,Stn. XVII (Sanctuary),8.4,8.8,0.02,0.07,0.075,26.6,5.8,,False,A
+2018-12,Stn. XVIII (Pagsanjan),8.6,8.8,0.023,0.043,0.044,26.9,7.9,,False,A
+2019-01,Stn. I (Central West Bay),7.1,8.0,0.118,0.274,0.038,26.0,44.0,,False,A
+2019-01,Stn. II (East Bay),7.6,8.2,0.113,0.346,0.061,20.0,23.0,,False,A
+2019-01,Stn. IV (Central Bay),7.5,7.9,0.118,0.232,0.071,20.0,32.0,,False,A
+2019-01,Stn. V (Northern West Bay),7.5,8.2,0.081,0.207,0.088,27.0,42.0,,False,A
+2019-01,Stn. VIII (South Bay),7.6,8.2,0.058,0.25,0.057,27.0,33.0,,False,A
+2019-01,Stn. XV (San Pedro),7.9,8.1,0.043,0.385,0.075,26.0,100.0,,False,B
+2019-01,Stn. XVI (Sta. Rosa),8.3,8.3,0.05,0.276,0.069,26.0,47.0,,False,A
+2019-01,Stn. XVII (Sanctuary),7.1,8.3,0.095,0.241,0.05,21.0,65.0,,False,B
+2019-01,Stn. XVIII (Pagsanjan),7.4,7.7,0.04,0.497,0.034,20.0,80.0,,False,B
+2019-02,Stn. I (Central West Bay),7.3,8.0,0.158,0.153,0.087,26.6,66.0,,False,B
+2019-02,Stn. II (East Bay),7.7,8.2,0.048,0.239,0.061,25.5,23.0,,False,A
+2019-02,Stn. IV (Central Bay),7.0,8.2,0.113,0.05,0.071,26.0,32.0,,False,A
+2019-02,Stn. V (Northern West Bay),8.1,8.3,0.027,0.418,0.088,27.7,44.0,,False,A
+2019-02,Stn. VIII (South Bay),8.3,8.2,0.027,0.146,0.057,26.9,33.0,,False,A
+2019-02,Stn. XV (San Pedro),7.6,8.2,0.028,0.05,0.075,27.2,52.0,,False,B
+2019-02,Stn. XVI (Sta. Rosa),8.0,8.6,0.03,0.05,0.069,26.8,46.0,,False,A
+2019-02,Stn. XVII (Sanctuary),7.7,8.4,0.036,0.05,0.05,26.0,50.0,,False,A
+2019-02,Stn. XVIII (Pagsanjan),7.8,7.9,0.026,0.434,0.034,26.0,77.0,,False,B
+2019-03,Stn. I (Central West Bay),7.7,8.7,0.222,0.05,0.055,27.0,36.0,,False,A
+2019-03,Stn. II (East Bay),8.2,8.7,0.067,0.05,0.095,23.0,31.0,,False,A
+2019-03,Stn. IV (Central Bay),7.7,8.6,0.083,0.05,0.032,23.0,25.0,,False,A
+2019-03,Stn. V (Northern West Bay),7.5,8.8,0.078,0.05,0.065,29.0,19.0,,False,A
+2019-03,Stn. VIII (South Bay),8.2,8.7,0.034,0.05,0.032,27.0,18.0,,False,A
+2019-03,Stn. XV (San Pedro),8.2,8.8,0.04,0.05,0.046,29.0,25.0,,False,A
+2019-03,Stn. XVI (Sta. Rosa),8.6,8.7,0.055,0.05,0.05,28.0,28.0,,False,A
+2019-03,Stn. XVII (Sanctuary),7.8,8.8,0.04,0.05,0.024,22.0,30.0,,False,A
+2019-03,Stn. XVIII (Pagsanjan),8.2,8.6,0.042,0.05,0.017,22.0,29.0,,False,A
+2019-04,Stn. I (Central West Bay),7.8,8.9,0.086,0.05,0.133,27.0,4.0,,False,A
+2019-04,Stn. II (East Bay),7.5,8.4,0.018,0.05,0.051,28.7,16.0,,False,A
+2019-04,Stn. IV (Central Bay),7.3,8.2,0.017,0.05,0.093,29.0,7.0,,False,A
+2019-04,Stn. V (Northern West Bay),7.3,8.4,0.042,0.05,0.124,28.0,13.0,,False,A
+2019-04,Stn. VIII (South Bay),7.4,8.4,0.02,0.05,0.073,27.0,7.0,,False,A
+2019-04,Stn. XV (San Pedro),8.2,8.9,0.015,0.05,0.093,29.0,23.0,,False,A
+2019-04,Stn. XVI (Sta. Rosa),7.6,8.5,0.012,0.05,0.067,28.0,4.0,,False,A
+2019-04,Stn. XVII (Sanctuary),7.3,8.1,0.005,0.05,0.065,28.6,5.0,,False,A
+2019-04,Stn. XVIII (Pagsanjan),7.8,8.5,0.014,0.05,0.062,29.5,9.0,,False,A
+2019-05,Stn. I (Central West Bay),10.1,9.0,0.207,0.05,0.134,27.0,9.0,,False,A
+2019-05,Stn. II (East Bay),5.9,8.7,0.271,0.05,0.108,29.0,18.0,,False,A
+2019-05,Stn. IV (Central Bay),6.6,8.4,0.065,0.05,0.109,29.0,11.0,,False,A
+2019-05,Stn. V (Northern West Bay),8.8,8.7,0.655,0.205,0.288,28.0,25.0,Ammonia,False,A
+2019-05,Stn. VIII (South Bay),6.2,8.3,0.117,0.05,0.093,27.0,43.0,,False,A
+2019-05,Stn. XV (San Pedro),4.5,8.5,0.52,0.05,0.163,29.0,70.0,Ammonia,False,B
+2019-05,Stn. XVI (Sta. Rosa),7.4,9.0,0.11,0.05,0.085,28.0,8.0,,False,A
+2019-05,Stn. XVII (Sanctuary),6.6,8.6,0.079,0.05,0.076,29.0,11.0,,False,A
+2019-05,Stn. XVIII (Pagsanjan),7.3,9.2,0.094,0.05,0.098,30.0,8.0,,False,A
+2019-06,Stn. I (Central West Bay),10.4,9.4,0.112,0.05,0.298,33.0,19.0,,False,A
+2019-06,Stn. II (East Bay),7.2,9.1,0.073,0.05,0.195,32.0,19.0,,False,A
+2019-06,Stn. IV (Central Bay),10.6,9.2,0.044,0.05,0.252,31.0,24.0,,False,A
+2019-06,Stn. V (Northern West Bay),7.8,9.3,0.049,0.05,0.354,34.0,38.0,,False,A
+2019-06,Stn. VIII (South Bay),8.8,9.3,0.036,0.05,0.17,32.0,71.0,,False,B
+2019-06,Stn. XV (San Pedro),11.3,9.4,0.03,0.05,0.189,33.0,75.0,DO,False,B
+2019-06,Stn. XVI (Sta. Rosa),9.8,9.4,0.034,0.05,0.143,33.0,18.0,,False,A
+2019-06,Stn. XVII (Sanctuary),8.1,9.3,0.028,0.05,0.177,32.0,18.0,,False,A
+2019-06,Stn. XVIII (Pagsanjan),12.1,9.2,0.048,0.05,0.169,32.0,18.0,DO,False,A
+2019-07,Stn. I (Central West Bay),5.7,8.2,0.271,0.072,0.329,28.4,19.0,,False,A
+2019-07,Stn. II (East Bay),8.9,9.1,0.045,0.033,0.131,29.0,19.0,,False,A
+2019-07,Stn. IV (Central Bay),7.1,8.3,0.04,0.034,0.318,29.0,24.0,,False,A
+2019-07,Stn. V (Northern West Bay),7.5,7.9,1.54,0.254,0.307,28.3,81.0,Ammonia,False,B
+2019-07,Stn. VIII (South Bay),7.2,7.1,0.062,0.029,0.178,29.0,73.0,,False,B
+2019-07,Stn. XV (San Pedro),7.3,8.6,0.057,0.033,0.15,29.3,90.0,,False,B
+2019-07,Stn. XVI (Sta. Rosa),8.1,8.7,0.06,0.026,0.122,29.0,18.0,,False,A
+2019-07,Stn. XVII (Sanctuary),7.0,8.9,0.043,0.079,0.209,28.5,18.0,,False,A
+2019-07,Stn. XVIII (Pagsanjan),10.7,9.6,0.038,0.067,0.048,29.0,19.0,,False,A
+2019-08,Stn. I (Central West Bay),6.5,7.8,0.36,0.223,0.12,26.0,75.0,Ammonia,False,B
+2019-08,Stn. II (East Bay),7.8,8.3,0.077,0.05,0.088,28.2,54.0,,False,B
+2019-08,Stn. IV (Central Bay),7.3,8.3,0.071,0.05,0.189,29.7,24.0,,False,A
+2019-08,Stn. V (Northern West Bay),7.1,8.3,0.065,0.05,0.158,26.0,149.0,,False,C
+2019-08,Stn. VIII (South Bay),7.4,8.6,0.035,0.05,0.117,29.0,30.0,,False,A
+2019-08,Stn. XV (San Pedro),6.6,8.4,0.062,0.05,0.188,28.0,81.0,,False,B
+2019-08,Stn. XVI (Sta. Rosa),7.1,8.5,0.053,0.05,0.214,28.0,24.0,,False,A
+2019-08,Stn. XVII (Sanctuary),7.7,8.5,0.042,0.05,0.123,28.2,35.0,,False,A
+2019-08,Stn. XVIII (Pagsanjan),8.1,8.1,0.039,0.05,0.027,27.8,25.0,,False,A
+2019-09,Stn. I (Central West Bay),6.5,8.0,0.051,0.618,0.122,25.0,75.0,,False,B
+2019-09,Stn. II (East Bay),6.8,8.5,0.067,0.1,0.039,29.0,73.0,,False,B
+2019-09,Stn. IV (Central Bay),6.4,8.1,0.067,0.342,0.089,27.0,32.0,,False,A
+2019-09,Stn. V (Northern West Bay),7.6,8.8,0.029,0.05,0.096,33.0,187.0,,False,C
+2019-09,Stn. VIII (South Bay),8.0,8.7,0.038,0.05,0.078,24.0,30.0,,False,A
+2019-09,Stn. XV (San Pedro),6.5,8.4,0.04,0.05,0.087,25.0,62.0,,False,B
+2019-09,Stn. XVI (Sta. Rosa),8.4,9.1,0.016,0.05,0.075,25.0,24.0,,False,A
+2019-09,Stn. XVII (Sanctuary),7.4,8.9,0.05,0.05,0.064,27.0,35.0,,False,A
+2019-09,Stn. XVIII (Pagsanjan),7.7,8.6,0.037,0.05,0.019,28.5,25.0,,False,A
+2019-10,Stn. I (Central West Bay),6.6,8.5,0.143,0.334,0.101,30.2,102.0,,False,C
+2019-10,Stn. II (East Bay),7.5,8.8,0.062,0.2615,0.0448,32.0,96.0,,False,B
+2019-10,Stn. IV (Central Bay),7.9,8.5,0.051,0.196,0.0835,32.0,32.0,,False,A
+2019-10,Stn. V (Northern West Bay),7.6,8.7,0.125,0.05,0.0888,31.5,91.0,,False,B
+2019-10,Stn. VIII (South Bay),7.0,8.7,0.023,0.05,0.0725,29.6,29.0,,False,A
+2019-10,Stn. XV (San Pedro),6.7,8.5,0.067,0.05,0.0825,29.9,62.0,,False,B
+2019-10,Stn. XVI (Sta. Rosa),7.7,8.6,0.005,0.05,0.072,29.5,33.0,,False,A
+2019-10,Stn. XVII (Sanctuary),7.9,9.1,0.005,0.05,0.0688,32.0,36.0,,False,A
+2019-10,Stn. XVIII (Pagsanjan),7.5,8.6,0.005,0.05,0.0328,32.5,24.0,,False,A
+2019-11,Stn. I (Central West Bay),7.1,8.5,0.18,0.05,0.08,31.0,32.0,,False,A
+2019-11,Stn. II (East Bay),8.6,8.9,0.04,0.423,0.0505,30.5,32.0,,False,A
+2019-11,Stn. IV (Central Bay),8.8,8.8,0.209,0.05,0.078,30.5,23.0,,False,A
+2019-11,Stn. V (Northern West Bay),12.8,9.5,0.11,0.05,0.0815,34.0,30.0,DO,False,A
+2019-11,Stn. VIII (South Bay),8.0,8.7,0.052,0.05,0.067,32.0,18.0,,False,A
+2019-11,Stn. XV (San Pedro),6.6,8.2,0.135,0.05,0.078,32.0,57.0,,False,B
+2019-11,Stn. XVI (Sta. Rosa),10.0,9.2,0.014,0.05,0.069,33.0,25.0,,False,A
+2019-11,Stn. XVII (Sanctuary),8.4,8.7,0.027,0.05,0.0735,30.0,25.0,,False,A
+2019-11,Stn. XVIII (Pagsanjan),9.2,8.9,0.029,0.05,0.0465,30.0,19.0,,False,A
+2019-12,Stn. I (Central West Bay),6.9,7.8,0.012,0.185,0.059,27.0,58.0,,False,B
+2019-12,Stn. II (East Bay),6.9,7.8,0.021,0.115,0.0563,25.0,31.0,,False,A
+2019-12,Stn. IV (Central Bay),6.9,8.2,0.038,0.114,0.0725,27.0,31.0,,False,A
+2019-12,Stn. V (Northern West Bay),7.3,8.0,0.01,0.504,0.0743,27.0,44.0,,False,A
+2019-12,Stn. VIII (South Bay),7.2,8.0,0.021,0.151,0.0615,25.5,33.0,,False,A
+2019-12,Stn. XV (San Pedro),6.9,8.15,0.032,0.17,0.0735,25.5,120.0,,False,C
+2019-12,Stn. XVI (Sta. Rosa),7.2,7.8,0.021,0.178,0.066,25.0,41.0,,False,A
+2019-12,Stn. XVII (Sanctuary),7.3,8.2,0.012,0.1,0.0783,28.0,41.0,,False,A
+2019-12,Stn. XVIII (Pagsanjan),7.5,7.8,0.1,0.401,0.0603,25.0,49.0,,False,A
+2020-01,Stn. I (Central West Bay),7.1,8.0,0.118,0.274,0.038,27.0,44.0,,False,A
+2020-01,Stn. II (East Bay),7.6,8.2,0.113,0.348,0.062,26.6,23.0,,False,A
+2020-01,Stn. IV (Central Bay),7.5,7.9,0.118,0.232,0.067,26.5,32.0,,False,A
+2020-01,Stn. V (Northern West Bay),7.5,8.2,0.081,0.207,0.067,29.0,42.0,,False,A
+2020-01,Stn. VIII (South Bay),7.6,8.2,0.058,0.25,0.056,27.0,33.0,,False,A
+2020-01,Stn. XV (San Pedro),7.9,8.1,0.043,0.385,0.069,28.0,100.0,,False,B
+2020-01,Stn. XVI (Sta. Rosa),8.3,8.3,0.05,0.276,0.063,28.0,47.0,,False,A
+2020-01,Stn. XVII (Sanctuary),7.1,8.3,0.095,0.241,0.083,26.6,65.0,,False,B
+2020-01,Stn. XVIII (Pagsanjan),7.4,7.7,0.04,0.497,0.074,26.4,80.0,,False,B
+2020-02,Stn. I (Central West Bay),7.3,8.0,0.158,0.153,0.087,25.4,66.0,,False,B
+2020-02,Stn. II (East Bay),7.7,8.2,0.048,0.239,0.061,26.0,23.0,,False,A
+2020-02,Stn. IV (Central Bay),7.0,8.2,0.113,0.05,0.071,26.0,32.0,,False,A
+2020-02,Stn. V (Northern West Bay),8.1,8.3,0.027,0.418,0.088,25.9,44.0,,False,A
+2020-02,Stn. VIII (South Bay),8.3,8.2,0.027,0.146,0.057,25.8,33.0,,False,A
+2020-02,Stn. XV (San Pedro),7.6,8.2,0.028,0.05,0.075,25.4,52.0,,False,B
+2020-02,Stn. XVI (Sta. Rosa),8.0,8.6,0.03,0.05,0.069,25.4,46.0,,False,A
+2020-02,Stn. XVII (Sanctuary),7.7,8.4,0.036,0.05,0.05,26.0,50.0,,False,A
+2020-02,Stn. XVIII (Pagsanjan),7.8,7.9,0.026,0.434,0.034,26.0,77.0,,False,B
+2020-03,Stn. I (Central West Bay),7.7,8.7,0.222,0.05,0.055,27.0,36.0,,False,A
+2020-03,Stn. II (East Bay),8.2,8.7,0.067,0.05,0.095,26.0,31.0,,False,A
+2020-03,Stn. IV (Central Bay),7.7,8.6,0.083,0.05,0.032,26.0,25.0,,False,A
+2020-03,Stn. V (Northern West Bay),7.5,8.8,0.078,0.05,0.065,29.0,19.0,,False,A
+2020-03,Stn. VIII (South Bay),8.2,8.7,0.034,0.05,0.032,27.0,18.0,,False,A
+2020-03,Stn. XV (San Pedro),8.2,8.8,0.04,0.05,0.046,29.0,25.0,,False,A
+2020-03,Stn. XVI (Sta. Rosa),8.6,8.7,0.055,0.05,0.05,28.0,28.0,,False,A
+2020-03,Stn. XVII (Sanctuary),7.8,8.8,0.04,0.05,0.024,26.0,30.0,,False,A
+2020-03,Stn. XVIII (Pagsanjan),8.2,8.6,0.042,0.05,0.017,26.0,29.0,,False,A
+2020-09,Stn. I (Central West Bay),9.3,8.8,0.059,0.05,0.06,31.3,20.0,,False,A
+2020-09,Stn. II (East Bay),6.8,8.7,0.067,0.05,0.04,31.0,18.0,,False,A
+2020-09,Stn. IV (Central Bay),5.6,8.3,0.06,0.05,0.074,31.0,20.0,,False,A
+2020-09,Stn. V (Northern West Bay),11.8,9.1,0.034,0.05,0.039,31.8,18.0,DO,False,A
+2020-09,Stn. VIII (South Bay),9.3,8.8,0.014,0.05,0.037,31.2,20.0,,False,A
+2020-09,Stn. XV (San Pedro),8.3,8.2,0.005,0.05,0.043,32.3,130.0,,False,C
+2020-09,Stn. XVI (Sta. Rosa),8.2,9.0,0.005,0.05,0.03,31.2,20.0,,False,A
+2020-09,Stn. XVII (Sanctuary),9.9,8.8,0.005,0.05,0.035,31.0,45.0,,False,A
+2020-09,Stn. XVIII (Pagsanjan),6.9,8.2,0.016,0.05,0.018,30.0,18.0,,False,A
+2020-10,Stn. I (Central West Bay),7.3,8.8,0.005,0.05,0.065,31.0,20.0,,False,A
+2020-10,Stn. II (East Bay),7.0,8.5,0.019,0.05,0.049,28.0,20.0,,False,A
+2020-10,Stn. IV (Central Bay),7.8,8.8,0.025,0.781,0.097,30.0,45.0,,False,A
+2020-10,Stn. V (Northern West Bay),7.6,8.4,0.019,0.05,0.093,33.0,20.0,,False,A
+2020-10,Stn. VIII (South Bay),7.3,8.7,0.019,0.05,0.044,31.3,45.0,,False,A
+2020-10,Stn. XV (San Pedro),7.2,8.7,0.027,0.05,0.041,32.4,20.0,,False,A
+2020-10,Stn. XVI (Sta. Rosa),7.3,8.8,0.011,0.05,0.042,32.2,18.0,,False,A
+2020-10,Stn. XVII (Sanctuary),6.8,8.3,0.019,0.05,0.068,30.0,18.0,,False,A
+2020-10,Stn. XVIII (Pagsanjan),7.5,8.2,0.005,0.05,0.04,28.5,20.0,,False,A
+2020-11,Stn. I (Central West Bay),6.8,7.9,0.005,0.05,0.029,24.0,32.5,,True,A
+2020-11,Stn. II (East Bay),7.2,7.9,0.005,0.05,0.086,27.5,25.0,,True,A
+2020-11,Stn. IV (Central Bay),8.3,8.4,0.005,0.6766,0.027,29.0,45.0,,True,A
+2020-11,Stn. V (Northern West Bay),7.8,8.4,0.005,0.05,0.044,25.0,119.5,,True,C
+2020-11,Stn. VIII (South Bay),6.5,8.0,0.016,0.05,0.042,23.0,96.5,,True,B
+2020-11,Stn. XV (San Pedro),6.4,8.0,0.005,0.05,0.054,24.0,73.0,,True,B
+2020-11,Stn. XVI (Sta. Rosa),7.2,7.9,0.005,0.05,0.047,24.0,113.0,,True,C
+2020-11,Stn. XVII (Sanctuary),6.7,8.0,0.005,0.05,0.043,28.0,23.0,,True,A
+2020-11,Stn. XVIII (Pagsanjan),7.9,7.7,0.005,0.05,0.061,27.5,35.5,,True,A
+2020-12,Stn. I (Central West Bay),7.1,8.0,0.005,0.05,0.066,24.0,45.0,,False,A
+2020-12,Stn. II (East Bay),7.9,8.0,0.005,0.05,0.083,27.5,30.0,,False,A
+2020-12,Stn. IV (Central Bay),8.3,8.2,0.005,0.5722,0.064,29.0,45.0,,False,A
+2020-12,Stn. V (Northern West Bay),7.7,8.2,0.005,0.05,0.077,25.0,219.0,,False,D
+2020-12,Stn. VIII (South Bay),8.7,8.5,0.005,0.05,0.029,23.0,148.0,,False,C
+2020-12,Stn. XV (San Pedro),8.9,8.0,0.005,0.05,0.048,24.0,126.0,,False,C
+2020-12,Stn. XVI (Sta. Rosa),7.3,8.1,0.005,0.05,0.081,24.0,208.0,,False,D
+2020-12,Stn. XVII (Sanctuary),8.3,8.4,0.005,0.05,0.041,28.0,28.0,,False,A
+2020-12,Stn. XVIII (Pagsanjan),7.3,8.1,0.013,0.05,0.063,27.5,51.0,,False,B
+2021-01,Stn. I (Central West Bay),7.8,8.3,0.034,0.05,0.0676,34.0,30.0,,False,A
+2021-01,Stn. II (East Bay),8.6,8.2,0.022,0.05,0.0772,25.0,65.0,,False,B
+2021-01,Stn. IV (Central Bay),7.5,8.2,0.019,0.4678,0.0716,36.0,45.0,Temperature,False,A
+2021-01,Stn. V (Northern West Bay),7.4,8.1,0.028,0.05,0.0778,25.0,94.0,,False,B
+2021-01,Stn. VIII (South Bay),8.0,8.2,0.023,0.05,0.0334,26.0,52.0,,False,B
+2021-01,Stn. XV (San Pedro),7.9,8.3,0.022,0.05,0.05,25.0,64.0,,False,B
+2021-01,Stn. XVI (Sta. Rosa),7.9,8.4,0.028,0.05,0.0804,25.0,36.0,,False,A
+2021-01,Stn. XVII (Sanctuary),7.9,8.3,0.023,0.05,0.0416,35.0,30.0,,False,A
+2021-01,Stn. XVIII (Pagsanjan),8.5,8.0,0.024,0.05,0.0546,24.0,78.0,,False,B
+2021-02,Stn. I (Central West Bay),8.3,8.1,0.079,0.05,0.0692,27.0,26.0,,False,A
+2021-02,Stn. II (East Bay),8.1,8.0,0.043,0.05,0.0714,26.0,69.0,,False,B
+2021-02,Stn. IV (Central Bay),8.0,7.9,0.035,0.3634,0.0792,26.0,34.0,,False,A
+2021-02,Stn. V (Northern West Bay),7.2,7.7,0.034,0.05,0.0786,29.0,73.0,,False,B
+2021-02,Stn. VIII (South Bay),8.4,8.0,0.042,0.05,0.0378,26.0,36.0,,False,A
+2021-02,Stn. XV (San Pedro),8.5,8.2,0.03,0.05,0.052,26.0,44.0,,False,A
+2021-02,Stn. XVI (Sta. Rosa),8.1,8.4,0.03,0.05,0.0798,26.0,39.0,,False,A
+2021-02,Stn. XVII (Sanctuary),7.7,8.0,0.045,0.05,0.0422,25.0,35.0,,False,A
+2021-02,Stn. XVIII (Pagsanjan),8.4,8.2,0.031,0.05,0.0462,25.0,37.0,,False,A
+2021-03,Stn. I (Central West Bay),8.4,8.7,0.059,0.05,0.0708,28.0,30.0,,False,A
+2021-03,Stn. II (East Bay),8.3,8.4,0.038,0.05,0.0656,28.0,60.0,,False,B
+2021-03,Stn. IV (Central Bay),7.2,8.3,0.005,0.2589,0.0868,27.0,49.0,,False,A
+2021-03,Stn. V (Northern West Bay),7.9,8.7,0.005,0.05,0.0794,24.0,33.0,,False,A
+2021-03,Stn. VIII (South Bay),8.3,8.4,0.042,0.05,0.0422,28.0,18.0,,False,A
+2021-03,Stn. XV (San Pedro),8.2,8.1,0.005,0.05,0.054,24.0,26.0,,False,A
+2021-03,Stn. XVI (Sta. Rosa),9.6,8.5,0.014,0.05,0.0792,25.0,34.0,,False,A
+2021-03,Stn. XVII (Sanctuary),8.1,8.4,0.005,0.05,0.0428,28.0,24.0,,False,A
+2021-03,Stn. XVIII (Pagsanjan),8.2,8.6,0.005,0.05,0.0378,25.0,30.0,,False,A
+2021-04,Stn. I (Central West Bay),7.75,8.55,0.0718,0.05,0.0724,29.0,37.0,,False,A
+2021-04,Stn. II (East Bay),7.8,8.4,0.0403,0.05,0.0598,29.5,39.0,,False,A
+2021-04,Stn. IV (Central Bay),7.1,8.35,0.0138,0.1545,0.0944,28.5,51.0,,False,B
+2021-04,Stn. V (Northern West Bay),7.55,8.55,0.0198,0.05,0.0802,27.5,30.0,,False,A
+2021-04,Stn. VIII (South Bay),8.0,8.3,0.039,0.05,0.0466,30.0,18.0,,False,A
+2021-04,Stn. XV (San Pedro),7.6,8.3,0.0163,0.05,0.056,27.0,30.0,,False,A
+2021-04,Stn. XVI (Sta. Rosa),8.35,8.35,0.023,0.05,0.0786,27.5,30.0,,False,A
+2021-04,Stn. XVII (Sanctuary),7.85,8.4,0.0093,0.05,0.0434,30.0,28.0,,False,A
+2021-04,Stn. XVIII (Pagsanjan),8.0,8.3,0.0102,0.05,0.0294,27.5,19.0,,False,A
+2021-05,Stn. I (Central West Bay),7.1,8.4,0.0845,0.05,0.074,30.0,35.0,,False,A
+2021-05,Stn. II (East Bay),7.3,8.4,0.0425,0.05,0.054,31.0,19.0,,False,A
+2021-05,Stn. IV (Central Bay),7.0,8.4,0.0225,0.05,0.102,30.0,51.0,,False,B
+2021-05,Stn. V (Northern West Bay),7.2,8.4,0.0345,0.05,0.081,31.0,19.0,,False,A
+2021-05,Stn. VIII (South Bay),7.7,8.2,0.036,0.05,0.051,32.0,94.0,,False,B
+2021-05,Stn. XIII (Taytay),7.6,8.4,0.035,0.05,0.078,31.0,19.0,,False,A
+2021-05,Stn. XV (San Pedro),7.0,8.5,0.0275,0.05,0.058,30.0,28.0,,False,A
+2021-05,Stn. XVI (Sta. Rosa),7.1,8.2,0.032,0.05,0.078,30.0,118.0,,False,C
+2021-05,Stn. XVII (Sanctuary),7.6,8.4,0.0135,0.05,0.044,32.0,18.0,,False,A
+2021-05,Stn. XVIII (Pagsanjan),7.8,8.0,0.0155,0.05,0.021,30.0,19.0,,False,A
+2021-05,Stn. XIX (Muntinlupa),7.3,8.5,0.0455,0.05,0.119,30.0,30.0,,False,A
+2021-05,Stn. XX (GEMS),6.8,8.3,0.049,0.05,0.042,30.0,470.0,,False,Failed
+2021-05,Stn. XXI (Cardona),7.7,8.5,0.034,0.05,0.068,31.0,9.0,,False,A
+2021-05,Stn. XXII (Jala-jala),7.6,8.5,0.0465,0.05,0.059,32.0,19.0,,False,A
+2021-05,Stn. XXIII (Lumban),7.9,8.4,0.0455,0.05,0.005,30.0,51.0,,False,B
+2021-06,Stn. I (Central West Bay),7.7,8.7,0.0973,0.05,0.052,31.0,106.0,,False,C
+2021-06,Stn. II (East Bay),9.9,8.2,0.0448,0.05,0.034,28.0,40.0,,False,A
+2021-06,Stn. IV (Central Bay),10.2,9.0,0.0313,0.05,0.086,31.0,49.0,,False,A
+2021-06,Stn. V (Northern West Bay),11.9,9.7,0.0493,0.05,0.1,35.0,18.0,DO,False,A
+2021-06,Stn. VIII (South Bay),8.1,8.9,0.033,0.05,0.695,28.0,94.0,Phosphate,False,B
+2021-06,Stn. XIII (Taytay),14.4,9.2,0.05,0.204,0.245,36.0,30.0,"DO, Temperature",False,A
+2021-06,Stn. XV (San Pedro),10.3,9.1,0.0388,0.114,0.073,32.0,28.0,,False,A
+2021-06,Stn. XVI (Sta. Rosa),9.6,8.9,0.041,0.05,0.095,31.0,744.0,,False,Failed
+2021-06,Stn. XVII (Sanctuary),8.3,9.0,0.0177,0.05,0.078,33.0,18.0,,False,A
+2021-06,Stn. XVIII (Pagsanjan),7.7,8.9,0.0207,0.05,0.043,27.0,38.0,,False,A
+2021-06,Stn. XIX (Muntinlupa),7.5,8.1,0.0463,0.131,0.105,33.0,28.0,,False,A
+2021-06,Stn. XX (GEMS),6.1,8.3,0.062,0.252,0.105,31.0,237.0,,False,D
+2021-06,Stn. XXI (Cardona),9.1,8.9,0.0375,0.148,0.09,32.0,18.0,,False,A
+2021-06,Stn. XXII (Jala-jala),7.3,8.1,0.0438,0.05,0.023,28.0,18.0,,False,A
+2021-06,Stn. XXIII (Lumban),8.8,8.8,0.0432,0.05,0.06,27.0,43.0,,False,A
+2021-07,Stn. I (Central West Bay),8.1,8.9,0.11,0.05,0.11,30.0,59.0,,False,B
+2021-07,Stn. II (East Bay),7.9,8.9,0.047,0.05,0.069,30.0,50.0,,False,A
+2021-07,Stn. IV (Central Bay),7.1,8.5,0.04,0.124,0.151,30.0,35.0,,False,A
+2021-07,Stn. V (Northern West Bay),8.1,9.1,0.064,0.05,0.137,30.0,19.0,,False,A
+2021-07,Stn. VIII (South Bay),7.8,8.8,0.03,0.05,0.084,31.0,54.0,,False,B
+2021-07,Stn. XIII (Taytay),6.8,8.8,0.065,0.05,0.189,29.0,39.0,,False,A
+2021-07,Stn. XV (San Pedro),7.8,9.1,0.05,0.05,0.137,30.0,47.0,,False,A
+2021-07,Stn. XVI (Sta. Rosa),7.1,8.8,0.05,0.05,0.114,30.0,634.0,,False,Failed
+2021-07,Stn. XVII (Sanctuary),8.5,8.9,0.022,0.05,0.102,29.0,18.0,,False,A
+2021-07,Stn. XVIII (Pagsanjan),8.1,9.6,0.026,0.05,0.075,30.0,40.0,,False,A
+2021-07,Stn. XIX (Muntinlupa),9.6,9.2,0.047,0.05,0.111,30.0,25.0,,False,A
+2021-07,Stn. XX (GEMS),6.3,8.4,0.075,0.05,0.083,29.0,235.0,,False,D
+2021-07,Stn. XXI (Cardona),7.4,7.8,0.041,0.05,0.148,29.0,18.0,,False,A
+2021-07,Stn. XXII (Jala-jala),7.8,8.8,0.041,0.05,0.108,31.0,24.0,,False,A
+2021-07,Stn. XXIII (Lumban),6.7,8.0,0.041,0.284,0.063,29.0,85.0,,False,B
+2021-08,Stn. I (Central West Bay),7.0,8.2,0.03,1.13,0.12,28.0,268.0,,False,D
+2021-08,Stn. II (East Bay),7.2,8.2,0.03,0.57,0.04,29.0,106.0,,False,C
+2021-08,Stn. IV (Central Bay),7.2,8.9,0.03,0.31,0.13,29.0,55.0,,False,B
+2021-08,Stn. V (Northern West Bay),7.8,8.4,0.03,0.29,0.12,28.0,125.0,,False,C
+2021-08,Stn. VIII (South Bay),7.4,8.7,0.03,0.05,0.05,29.0,8.0,,False,A
+2021-08,Stn. XIII (Taytay),7.8,8.7,0.02,0.29,0.11,28.0,194.0,,False,C
+2021-08,Stn. XV (San Pedro),7.9,8.7,0.03,0.17,0.09,28.0,167.0,,False,C
+2021-08,Stn. XVI (Sta. Rosa),7.2,8.3,0.12,0.32,0.15,28.0,1006.0,,False,Failed
+2021-08,Stn. XVII (Sanctuary),8.8,9.25,0.046,0.09,0.101,30.0,18.0,,False,A
+2021-08,Stn. XVIII (Pagsanjan),8.0,7.4,0.03,0.24,0.04,29.0,122.0,,False,C
+2021-08,Stn. XIX (Muntinlupa),8.0,8.7,0.02,0.16,0.09,28.0,108.0,,False,C
+2021-08,Stn. XX (GEMS),5.6,8.0,0.05,0.76,0.13,29.0,474.0,,False,Failed
+2021-08,Stn. XXI (Cardona),7.4,8.4,0.02,0.27,0.07,29.0,24.0,,False,A
+2021-08,Stn. XXII (Jala-jala),8.2,8.9,0.03,0.07,0.05,29.0,47.0,,False,A
+2021-08,Stn. XXIII (Lumban),7.2,8.1,0.03,0.21,0.03,28.0,247.0,,False,D
+2021-09,Stn. I (Central West Bay),6.8,9.2,0.07,0.3,0.03,30.0,85.0,,False,B
+2021-09,Stn. II (East Bay),7.6,8.8,0.07,0.45,0.06,28.0,62.0,,False,B
+2021-09,Stn. IV (Central Bay),7.9,9.1,0.03,0.31,0.09,31.0,30.0,,False,A
+2021-09,Stn. V (Northern West Bay),9.3,9.0,0.02,0.21,0.12,31.0,287.0,,False,D
+2021-09,Stn. VIII (South Bay),8.0,8.9,0.03,0.27,0.08,29.0,14.0,,False,A
+2021-09,Stn. XIII (Taytay),6.9,9.4,0.03,0.17,0.18,31.0,194.0,,False,C
+2021-09,Stn. XV (San Pedro),5.4,8.3,0.11,0.31,0.15,30.0,123.0,,False,C
+2021-09,Stn. XVI (Sta. Rosa),6.9,9.0,0.04,0.24,0.1,30.0,1217.0,,False,Failed
+2021-09,Stn. XVII (Sanctuary),9.1,9.6,0.07,0.13,0.1,31.0,18.0,,False,A
+2021-09,Stn. XVIII (Pagsanjan),7.9,9.2,0.07,0.14,0.01,27.0,96.0,,False,B
+2021-09,Stn. XIX (Muntinlupa),6.0,9.1,0.04,0.05,0.16,30.0,108.0,,False,C
+2021-09,Stn. XX (GEMS),5.4,9.2,0.02,0.05,0.13,31.0,293.0,,False,D
+2021-09,Stn. XXI (Cardona),8.5,9.2,0.03,0.05,0.1,31.0,57.0,,False,B
+2021-09,Stn. XXII (Jala-jala),9.6,9.6,0.03,0.13,0.08,28.0,91.0,,False,B
+2021-09,Stn. XXIII (Lumban),7.8,9.2,0.03,0.05,0.01,27.0,504.0,,False,Failed
+2021-10,Stn. I (Central West Bay),7.4,8.1,0.35,0.05,0.17,29.0,85.0,,False,B
+2021-10,Stn. II (East Bay),7.8,7.7,0.05,0.05,0.08,28.0,114.0,,False,C
+2021-10,Stn. IV (Central Bay),7.3,7.8,0.01,0.05,0.14,30.0,31.0,,False,A
+2021-10,Stn. V (Northern West Bay),7.6,8.3,0.02,0.05,0.17,31.0,432.0,,False,Failed
+2021-10,Stn. VIII (South Bay),7.6,7.7,0.01,0.05,0.1,29.0,14.0,,False,A
+2021-10,Stn. XIII (Taytay),7.4,8.3,0.01,0.14,0.2,31.0,241.0,,False,D
+2021-10,Stn. XV (San Pedro),6.4,7.6,0.02,0.14,0.14,31.0,123.0,,False,C
+2021-10,Stn. XVI (Sta. Rosa),6.9,7.6,0.05,0.05,0.13,30.0,1458.0,,False,Failed
+2021-10,Stn. XVII (Sanctuary),7.7,8.0,0.04,0.05,0.12,30.0,19.0,,False,A
+2021-10,Stn. XVIII (Pagsanjan),7.0,7.7,0.02,0.05,0.02,28.0,115.0,,False,C
+2021-10,Stn. XIX (Muntinlupa),6.5,8.2,0.04,0.05,0.17,31.0,307.0,,False,D
+2021-10,Stn. XX (GEMS),6.0,7.9,0.02,0.005,0.16,30.0,726.0,,False,Failed
+2021-10,Stn. XXI (Cardona),6.9,7.7,0.04,0.05,0.17,30.0,134.0,,False,C
+2021-10,Stn. XXII (Jala-jala),7.1,7.9,0.02,0.05,0.13,29.0,177.0,,False,C
+2021-10,Stn. XXIII (Lumban),7.6,7.3,0.02,0.05,0.04,28.0,1107.0,,False,Failed
+2021-11,Stn. I (Central West Bay),6.8,8.1,0.07,0.05,0.18,28.0,46.0,,False,A
+2021-11,Stn. II (East Bay),7.7,7.9,0.4,0.1,0.13,26.0,54.0,Ammonia,False,B
+2021-11,Stn. IV (Central Bay),7.2,7.9,0.005,0.18,0.18,28.0,20.0,,False,A
+2021-11,Stn. V (Northern West Bay),6.9,8.2,0.005,0.05,0.16,30.0,67.0,,False,B
+2021-11,Stn. VIII (South Bay),7.5,8.1,0.005,0.05,0.15,28.0,41.0,,False,A
+2021-11,Stn. XIII (Taytay),7.2,8.5,0.005,0.05,0.18,30.0,47.0,,False,A
+2021-11,Stn. XV (San Pedro),7.3,8.3,0.005,0.05,0.16,30.0,36.0,,False,A
+2021-11,Stn. XVI (Sta. Rosa),7.3,8.2,0.005,0.18,0.17,30.0,442.0,,False,Failed
+2021-11,Stn. XVII (Sanctuary),7.2,8.0,0.005,0.27,0.18,28.0,19.0,,False,A
+2021-11,Stn. XVIII (Pagsanjan),7.7,8.0,0.005,0.05,0.08,26.0,62.0,,False,B
+2021-11,Stn. XIX (Muntinlupa),7.2,8.3,0.005,0.05,0.2,29.0,55.0,,False,B
+2021-11,Stn. XX (GEMS),6.5,8.0,0.005,0.05,0.18,27.0,392.0,,False,D
+2021-11,Stn. XXI (Cardona),7.3,8.1,0.005,0.13,0.19,28.0,98.0,,False,B
+2021-11,Stn. XXII (Jala-jala),7.4,8.1,0.06,0.15,0.17,28.0,95.0,,False,B
+2021-11,Stn. XXIII (Lumban),7.3,7.5,0.005,0.12,0.06,25.0,636.0,,False,Failed
+2021-12,Stn. I (Central West Bay),7.4,8.3,0.209,0.38,0.22,26.0,46.0,,False,A
+2021-12,Stn. II (East Bay),7.5,8.4,0.059,0.25,0.15,27.0,56.0,,False,B
+2021-12,Stn. IV (Central Bay),7.4,8.2,0.01,0.38,0.18,27.0,19.0,,False,A
+2021-12,Stn. V (Northern West Bay),7.0,8.1,0.039,0.66,0.24,28.0,30.0,,False,A
+2021-12,Stn. VIII (South Bay),7.9,8.3,0.011,0.305,0.18,28.0,24.0,,False,A
+2021-12,Stn. XIII (Taytay),7.2,8.1,0.005,0.62,0.25,27.0,54.0,,False,B
+2021-12,Stn. XV (San Pedro),7.5,8.2,0.005,0.21,0.18,28.0,36.0,,False,A
+2021-12,Stn. XVI (Sta. Rosa),7.6,8.2,0.015,0.29,0.22,26.0,107.0,,False,C
+2021-12,Stn. XVII (Sanctuary),7.3,8.1,0.012,0.34,0.19,28.0,20.0,,False,A
+2021-12,Stn. XVIII (Pagsanjan),7.7,8.2,0.01,0.13,0.12,27.0,112.0,,False,C
+2021-12,Stn. XIX (Muntinlupa),7.2,8.1,0.005,0.24,0.19,27.0,55.0,,False,B
+2021-12,Stn. XX (GEMS),7.1,8.1,0.005,0.26,0.19,27.0,633.0,,False,Failed
+2021-12,Stn. XXI (Cardona),7.5,8.2,0.011,0.28,0.2,28.0,42.0,,False,A
+2021-12,Stn. XXII (Jala-jala),7.8,8.3,0.017,0.23,0.17,28.0,51.0,,False,B
+2021-12,Stn. XXIII (Lumban),8.1,8.0,0.033,0.05,0.06,26.0,294.0,,False,D
+2022-02,Stn. I (Central West Bay),7.5,8.3,0.546,0.631,0.209,28.0,19.0,Ammonia,False,A
+2022-02,Stn. II (East Bay),7.5,8.4,0.168,0.394,0.241,25.0,51.0,,False,B
+2022-02,Stn. IV (Central Bay),7.4,8.2,0.265,0.527,0.21,28.0,18.0,,False,A
+2022-02,Stn. V (Northern West Bay),8.0,8.5,0.289,0.351,0.173,30.0,19.0,,False,A
+2022-02,Stn. VIII (South Bay),7.7,8.4,0.211,0.431,0.069,26.0,19.0,,False,A
+2022-02,Stn. XIII (Taytay),7.4,8.6,0.225,0.351,0.14,30.0,37.0,,False,A
+2022-02,Stn. XV (San Pedro),7.6,8.3,0.207,0.44,0.1,26.0,19.0,,False,A
+2022-02,Stn. XVI (Sta. Rosa),7.8,8.3,0.199,0.636,0.14,26.0,19.0,,False,A
+2022-02,Stn. XVII (Sanctuary),7.6,8.3,0.196,0.48,0.17,28.0,20.0,,False,A
+2022-02,Stn. XVIII (Pagsanjan),7.4,8.2,0.168,0.379,0.1,24.0,68.0,,False,B
+2022-02,Stn. XIX (Muntinlupa),7.5,8.1,0.171,0.512,0.16,26.0,19.0,,False,A
+2022-02,Stn. XX (GEMS),7.2,8.1,0.117,0.517,0.16,28.0,330.0,,False,D
+2022-02,Stn. XXI (Cardona),7.6,8.2,0.206,0.661,0.13,27.0,18.0,,False,A
+2022-02,Stn. XXII (Jala-jala),7.6,8.2,0.192,0.341,0.13,26.0,19.0,,False,A
+2022-02,Stn. XXIII (Lumban),7.8,8.1,0.209,0.005,0.05,24.0,39.0,,False,A
+2022-03,Stn. I (Central West Bay),6.8,7.9,0.07,0.02,0.14,27.0,35.0,,False,A
+2022-03,Stn. II (East Bay),7.6,8.2,0.02,0.03,0.1,27.0,76.0,,False,B
+2022-03,Stn. IV (Central Bay),7.0,8.0,0.04,0.01,0.14,28.0,28.0,,False,A
+2022-03,Stn. V (Northern West Bay),7.6,8.3,0.02,0.005,0.17,29.0,18.0,,False,A
+2022-03,Stn. VIII (South Bay),7.6,8.2,0.01,0.005,0.1,27.0,18.0,,False,A
+2022-03,Stn. XIII (Taytay),8.9,8.2,0.02,0.02,0.16,28.0,43.0,,False,A
+2022-03,Stn. XV (San Pedro),7.2,8.0,0.005,0.005,0.16,27.0,30.0,,False,A
+2022-03,Stn. XVI (Sta. Rosa),7.3,8.1,0.01,0.005,0.13,27.0,18.0,,False,A
+2022-03,Stn. XVII (Sanctuary),7.3,8.2,0.23,0.005,0.13,28.0,19.0,,False,A
+2022-03,Stn. XVIII (Pagsanjan),7.6,8.1,0.005,0.005,0.05,27.0,19.0,,False,A
+2022-03,Stn. XIX (Muntinlupa),7.5,8.1,0.01,0.12,0.2,27.0,20.0,,False,A
+2022-03,Stn. XX (GEMS),6.6,7.9,0.04,0.005,0.14,27.0,320.0,,False,D
+2022-03,Stn. XXI (Cardona),7.2,7.0,0.01,0.005,0.14,28.0,28.0,,False,A
+2022-03,Stn. XXII (Jala-jala),7.7,6.8,0.005,0.005,0.1,27.0,19.0,pH,False,A
+2022-03,Stn. XXIII (Lumban),7.3,7.5,0.06,0.15,0.05,27.0,39.0,,False,A
+2022-04,Stn. I (Central West Bay),7.3,8.2,0.03,0.02,0.16,28.0,28.0,,False,A
+2022-04,Stn. II (East Bay),7.8,8.1,0.02,0.04,0.11,29.0,47.0,,False,A
+2022-04,Stn. IV (Central Bay),7.3,8.3,0.02,0.05,0.15,27.0,24.0,,False,A
+2022-04,Stn. V (Northern West Bay),8.1,8.7,0.01,0.04,0.21,29.0,24.0,,False,A
+2022-04,Stn. VIII (South Bay),7.7,8.1,0.03,0.01,0.14,29.0,18.0,,False,A
+2022-04,Stn. XIII (Taytay),8.1,8.7,0.01,0.05,0.22,29.0,33.0,,False,A
+2022-04,Stn. XV (San Pedro),7.4,8.3,0.01,0.02,0.14,29.0,26.0,,False,A
+2022-04,Stn. XVI (Sta. Rosa),7.6,8.3,0.01,0.01,0.12,29.0,18.0,,False,A
+2022-04,Stn. XVII (Sanctuary),7.2,8.4,0.01,0.02,0.15,27.0,19.0,,False,A
+2022-04,Stn. XVIII (Pagsanjan),8.1,8.2,0.01,0.01,0.09,28.0,19.0,,False,A
+2022-04,Stn. XIX (Muntinlupa),7.0,8.4,0.01,0.01,0.2,29.0,25.0,,False,A
+2022-04,Stn. XX (GEMS),7.0,8.2,0.01,0.07,0.14,27.0,166.0,,False,C
+2022-04,Stn. XXI (Cardona),7.2,8.5,0.01,0.01,0.16,27.0,24.0,,False,A
+2022-04,Stn. XXII (Jala-jala),7.2,8.3,0.01,0.01,0.13,29.0,19.0,,False,A
+2022-04,Stn. XXIII (Lumban),8.0,7.8,0.04,0.01,0.055,28.0,243.0,,False,D
+2022-05,Stn. I (Central West Bay),6.8,8.2,0.01,0.03,0.14,30.0,26.0,,False,A
+2022-05,Stn. II (East Bay),7.3,8.2,0.02,0.03,0.12,29.0,47.0,,False,A
+2022-05,Stn. IV (Central Bay),7.8,8.4,0.01,0.01,0.16,31.0,52.0,,False,B
+2022-05,Stn. V (Northern West Bay),7.2,8.3,0.01,0.01,0.15,30.0,24.0,,False,A
+2022-05,Stn. VIII (South Bay),7.5,8.2,0.02,0.02,0.13,30.0,33.0,,False,A
+2022-05,Stn. XIII (Taytay),7.4,8.4,0.01,0.02,0.18,30.0,32.0,,False,A
+2022-05,Stn. XV (San Pedro),6.8,8.1,0.01,0.01,0.13,30.0,34.0,,False,A
+2022-05,Stn. XVI (Sta. Rosa),6.6,8.1,0.01,0.07,0.13,29.0,29.0,,False,A
+2022-05,Stn. XVII (Sanctuary),7.9,8.5,0.01,0.01,0.15,30.0,34.0,,False,A
+2022-05,Stn. XVIII (Pagsanjan),8.2,8.5,0.01,0.01,0.0667,29.0,28.0,,False,A
+2022-05,Stn. XIX (Muntinlupa),7.4,8.4,0.01,0.07,0.21,30.0,24.0,,False,A
+2022-05,Stn. XX (GEMS),6.7,8.2,0.01,0.02,0.13,30.0,145.0,,False,C
+2022-05,Stn. XXI (Cardona),8.0,8.5,0.01,0.02,0.16,31.0,33.0,,False,A
+2022-05,Stn. XXII (Jala-jala),7.2,8.2,0.02,0.01,0.13,30.0,43.0,,False,A
+2022-05,Stn. XXIII (Lumban),7.8,7.7,0.03,0.02,0.06,29.0,465.0,,False,Failed
+2022-06,Stn. I (Central West Bay),7.0,9.0,0.02,0.01,0.3,30.0,18.0,,False,A
+2022-06,Stn. II (East Bay),6.4,9.0,0.02,0.01,0.1,30.0,47.0,,False,A
+2022-06,Stn. IV (Central Bay),8.6,9.1,0.01,0.01,0.25,30.0,39.0,,False,A
+2022-06,Stn. V (Northern West Bay),9.0,9.0,0.03,0.01,0.4,35.0,24.0,,False,A
+2022-06,Stn. VIII (South Bay),7.9,8.8,0.01,0.22,0.2,30.0,33.0,,False,A
+2022-06,Stn. XIII (Taytay),8.5,9.0,0.02,0.01,0.44,34.0,19.0,,False,A
+2022-06,Stn. XV (San Pedro),7.8,8.9,0.01,0.01,0.17,32.0,26.0,,False,A
+2022-06,Stn. XVI (Sta. Rosa),7.2,8.9,0.01,0.01,0.2,31.0,29.0,,False,A
+2022-06,Stn. XVII (Sanctuary),9.6,9.1,0.01,0.01,0.26,28.0,34.0,,False,A
+2022-06,Stn. XVIII (Pagsanjan),8.7,9.2,0.02,0.01,0.0434,30.0,28.0,,False,A
+2022-06,Stn. XIX (Muntinlupa),7.9,9.0,0.01,0.01,0.22,32.0,23.0,,False,A
+2022-06,Stn. XX (GEMS),6.0,9.0,0.01,0.01,0.29,32.0,88.0,,False,B
+2022-06,Stn. XXI (Cardona),9.3,9.4,0.02,0.01,0.24,31.0,24.0,,False,A
+2022-06,Stn. XXII (Jala-jala),7.4,8.6,0.03,0.01,0.21,30.0,41.0,,False,A
+2022-06,Stn. XXIII (Lumban),8.4,8.5,0.03,0.04,0.045,30.0,265.0,,False,D
+2022-07,Stn. I (Central West Bay),8.8,9.4,0.09,0.005,0.28,30.0,19.0,,False,A
+2022-07,Stn. II (East Bay),10.4,9.3,0.13,0.005,0.13,31.0,47.0,,False,A
+2022-07,Stn. IV (Central Bay),10.6,9.4,0.04,0.005,0.33,32.0,64.0,,False,B
+2022-07,Stn. V (Northern West Bay),8.0,9.3,0.08,0.005,0.42,31.0,24.0,,False,A
+2022-07,Stn. VIII (South Bay),7.6,9.2,0.5,0.005,0.28,31.0,33.0,Ammonia,False,A
+2022-07,Stn. XIII (Taytay),7.1,9.2,0.03,0.005,0.46,31.0,24.0,Phosphate,False,A
+2022-07,Stn. XV (San Pedro),9.0,8.9,0.08,0.005,0.2,31.0,34.0,,False,A
+2022-07,Stn. XVI (Sta. Rosa),7.6,8.3,0.11,0.005,0.21,30.0,88.0,,False,B
+2022-07,Stn. XVII (Sanctuary),9.5,9.4,0.02,0.005,0.28,31.0,34.0,,False,A
+2022-07,Stn. XVIII (Pagsanjan),10.6,9.2,0.02,0.005,0.02,30.0,29.0,,False,A
+2022-07,Stn. XIX (Muntinlupa),8.5,8.8,0.02,0.005,0.29,31.0,18.0,,False,A
+2022-07,Stn. XX (GEMS),7.1,9.1,0.06,0.005,0.39,32.0,125.0,,False,C
+2022-07,Stn. XXI (Cardona),10.2,9.4,0.06,0.005,0.32,32.0,24.0,,False,A
+2022-07,Stn. XXII (Jala-jala),9.4,9.3,0.02,0.005,0.29,32.0,41.0,,False,A
+2022-07,Stn. XXIII (Lumban),10.2,8.5,0.04,0.005,0.03,31.0,56.0,,False,B
+2022-08,Stn. I (Central West Bay),5.6,7.9,0.16,0.05,0.73,29.0,44.0,Phosphate,False,A
+2022-08,Stn. II (East Bay),6.4,8.0,0.02,0.05,0.28,30.0,25.0,,False,A
+2022-08,Stn. IV (Central Bay),11.0,8.9,0.06,0.05,0.28,31.0,30.0,,False,A
+2022-08,Stn. V (Northern West Bay),8.3,8.5,0.23,0.05,0.26,29.0,102.0,,False,C
+2022-08,Stn. VIII (South Bay),8.1,8.8,0.02,0.1,0.22,30.0,29.0,,False,A
+2022-08,Stn. XIII (Taytay),9.1,8.6,0.27,0.1,0.24,29.0,64.0,,False,B
+2022-08,Stn. XV (San Pedro),5.4,8.2,0.38,0.1,0.28,30.0,147.0,Ammonia,False,C
+2022-08,Stn. XVI (Sta. Rosa),7.8,8.5,0.02,0.05,0.22,30.0,143.0,,False,C
+2022-08,Stn. XVII (Sanctuary),8.2,8.7,0.02,0.05,0.24,30.0,19.0,,False,A
+2022-08,Stn. XVIII (Pagsanjan),8.6,8.9,0.03,0.1,0.02,29.0,19.0,,False,A
+2022-08,Stn. XIX (Muntinlupa),6.2,8.2,0.11,0.12,0.22,30.0,18.0,,False,A
+2022-08,Stn. XX (GEMS),6.2,8.3,0.04,0.05,0.28,29.0,277.0,,False,D
+2022-08,Stn. XXI (Cardona),9.1,8.6,0.03,0.05,0.31,31.0,24.0,,False,A
+2022-08,Stn. XXII (Jala-jala),7.8,8.7,0.04,0.05,0.14,30.0,19.0,,False,A
+2022-08,Stn. XXIII (Lumban),9.0,8.6,0.02,0.1,0.02,29.0,29.0,,False,A
+2022-09,Stn. I (Central West Bay),7.1,7.9,0.07,0.61,0.14,29.0,44.0,,False,A
+2022-09,Stn. II (East Bay),8.2,8.0,0.07,0.1,0.05,29.0,39.0,,False,A
+2022-09,Stn. IV (Central Bay),6.9,7.8,0.1,0.37,0.15,30.0,40.0,,False,A
+2022-09,Stn. V (Northern West Bay),10.1,8.6,0.03,0.12,0.18,30.0,166.0,,False,C
+2022-09,Stn. VIII (South Bay),9.1,6.8,0.04,0.01,0.15,30.0,88.0,pH,False,B
+2022-09,Stn. XIII (Taytay),6.9,8.1,0.29,0.05,0.2,30.0,125.0,,False,C
+2022-09,Stn. XV (San Pedro),7.6,7.9,0.1,0.12,0.23,30.0,947.0,,False,Failed
+2022-09,Stn. XVI (Sta. Rosa),7.7,8.0,0.03,0.05,0.15,30.0,595.0,,False,Failed
+2022-09,Stn. XVII (Sanctuary),9.2,8.7,0.04,0.05,0.05,30.0,48.0,,False,A
+2022-09,Stn. XVIII (Pagsanjan),9.4,8.3,0.06,0.05,0.12,30.0,37.0,,False,A
+2022-09,Stn. XIX (Muntinlupa),7.8,8.5,0.07,0.05,0.18,30.0,18.0,,False,A
+2022-09,Stn. XX (GEMS),5.9,7.7,0.02,0.61,0.15,31.0,882.0,,False,Failed
+2022-09,Stn. XXI (Cardona),7.0,7.7,0.005,0.28,0.16,31.0,64.0,,False,B
+2022-09,Stn. XXII (Jala-jala),8.9,8.8,0.03,0.05,0.14,29.0,24.0,,False,A
+2022-09,Stn. XXIII (Lumban),8.6,8.0,0.06,0.017,0.13,29.0,87.0,,False,B
+2022-10,Stn. I (Central West Bay),5.8,7.5,0.03,1.0,0.13,29.0,282.0,,False,D
+2022-10,Stn. II (East Bay),6.6,7.6,0.02,0.2,0.09,29.0,228.0,,False,D
+2022-10,Stn. IV (Central Bay),6.3,7.7,0.005,0.58,0.15,27.0,86.0,,False,B
+2022-10,Stn. V (Northern West Bay),6.4,7.7,0.005,0.47,0.15,29.0,236.0,,False,D
+2022-10,Stn. VIII (South Bay),7.4,8.1,0.005,0.11,0.09,29.0,91.0,,False,B
+2022-10,Stn. XIII (Taytay),6.4,7.8,0.005,0.53,0.15,30.0,95.0,,False,B
+2022-10,Stn. XV (San Pedro),6.2,7.9,0.07,0.21,0.14,29.0,1138.0,,False,Failed
+2022-10,Stn. XVI (Sta. Rosa),6.8,7.7,0.005,0.06,0.1,29.0,322.0,,False,D
+2022-10,Stn. XVII (Sanctuary),6.6,7.8,0.005,0.36,0.13,28.0,93.0,,False,B
+2022-10,Stn. XVIII (Pagsanjan),7.9,7.4,0.005,0.05,0.03,28.0,70.0,,False,B
+2022-10,Stn. XIX (Muntinlupa),6.4,7.8,0.02,0.05,0.11,29.0,24.0,,False,A
+2022-10,Stn. XX (GEMS),5.9,7.7,0.03,0.2,0.11,27.0,1900.0,,False,Failed
+2022-10,Stn. XXI (Cardona),6.2,7.7,0.02,0.49,0.008,28.0,227.0,,False,D
+2022-10,Stn. XXII (Jala-jala),6.4,7.6,0.005,0.31,0.09,28.0,101.0,,False,C
+2022-10,Stn. XXIII (Lumban),8.1,7.6,0.005,0.05,0.04,29.0,131.0,,False,C
+2022-11,Stn. I (Central West Bay),6.5,7.5,0.04,0.48,0.098,28.0,220.0,,False,D
+2022-11,Stn. II (East Bay),6.9,7.3,0.18,0.47,0.09,30.0,359.0,,False,D
+2022-11,Stn. V (Northern West Bay),8.1,8.0,0.01,0.39,0.1,30.0,150.0,,False,C
+2022-11,Stn. VIII (South Bay),7.8,7.7,0.005,0.54,0.11,30.0,255.0,,False,D
+2022-11,Stn. XIII (Taytay),7.3,8.0,0.005,0.67,0.08,31.0,84.0,,False,B
+2022-11,Stn. XV (San Pedro),5.7,7.4,0.005,0.76,0.02,29.0,1138.0,,False,Failed
+2022-11,Stn. XVI (Sta. Rosa),7.2,7.6,0.02,0.64,0.13,29.0,258.0,,False,D
+2022-11,Stn. XVII (Sanctuary),8.1,8.0,0.04,0.41,0.1,29.0,93.0,,False,B
+2022-11,Stn. XVIII (Pagsanjan),7.2,7.0,0.01,0.38,0.08,30.0,123.0,,False,C
+2022-11,Stn. XIX (Muntinlupa),6.4,7.5,0.01,1.08,0.15,30.0,40.0,,False,A
+2022-11,Stn. XX (GEMS),6.3,7.6,0.01,0.54,0.1,29.0,981.0,,False,Failed
+2022-11,Stn. XXI (Cardona),7.2,7.7,0.02,0.39,0.11,29.0,273.0,,False,D
+2022-11,Stn. XXII (Jala-jala),7.0,7.6,0.05,0.46,0.1,30.0,159.0,,False,C
+2022-11,Stn. XXIII (Lumban),7.1,6.9,0.03,0.37,0.07,29.0,312.0,,False,D
+2022-12,Stn. I (Central West Bay),6.9,7.1,0.005,0.76,0.15,27.0,220.0,,False,D
+2022-12,Stn. II (East Bay),7.0,7.6,0.02,0.44,0.14,29.0,329.0,,False,D
+2022-12,Stn. IV (Central Bay),7.3,7.8,0.005,0.48,0.13,27.0,320.0,,False,D
+2022-12,Stn. V (Northern West Bay),7.2,7.3,0.05,0.57,0.16,29.0,95.0,,False,B
+2022-12,Stn. VIII (South Bay),7.1,7.1,0.005,0.45,0.14,31.0,255.0,,False,D
+2022-12,Stn. XIII (Taytay),7.8,8.0,0.005,0.54,0.14,30.0,44.0,,False,A
+2022-12,Stn. XV (San Pedro),7.1,7.8,0.005,0.58,0.15,29.0,170.0,,False,C
+2022-12,Stn. XVI (Sta. Rosa),6.6,7.6,0.02,0.54,0.14,29.0,62.0,,False,B
+2022-12,Stn. XVII (Sanctuary),7.2,7.8,0.005,1.18,0.13,28.0,36.0,,False,A
+2022-12,Stn. XVIII (Pagsanjan),7.8,7.4,0.23,0.14,0.06,30.0,147.0,,False,C
+2022-12,Stn. XIX (Muntinlupa),6.7,7.7,0.02,0.59,0.14,29.0,40.0,,False,A
+2022-12,Stn. XX (GEMS),6.9,7.3,0.005,0.47,0.12,27.0,1580.0,,False,Failed
+2022-12,Stn. XXI (Cardona),7.1,7.9,0.13,0.46,0.13,27.0,252.0,,False,D
+2022-12,Stn. XXII (Jala-jala),7.3,7.4,0.09,0.55,0.13,27.0,236.0,,False,D
+2022-12,Stn. XXIII (Lumban),7.5,7.0,0.05,0.14,0.04,28.0,274.0,,False,D
+2023-01,Stn. I (Central West Bay),7.6,7.7,0.29,0.654,0.171,26.0,33.0,,False,A
+2023-01,Stn. II (East Bay),7.8,7.8,0.005,0.636,0.155,26.0,133.0,,False,C
+2023-01,Stn. IV (Central Bay),8.1,7.8,0.005,0.808,0.188,26.0,76.0,,False,B
+2023-01,Stn. V (Northern West Bay),7.9,7.8,0.022,0.774,0.176,25.0,90.0,,False,B
+2023-01,Stn. VIII (South Bay),8.1,7.8,0.016,0.576,0.149,26.0,402.0,,False,Failed
+2023-01,Stn. XIII (Taytay),8.1,7.8,0.025,0.718,0.191,25.0,97.0,,False,B
+2023-01,Stn. XV (San Pedro),8.1,7.8,0.025,0.675,0.176,23.0,434.0,,False,Failed
+2023-01,Stn. XVI (Sta. Rosa),7.6,7.7,0.005,0.729,0.175,23.0,220.0,,False,D
+2023-01,Stn. XVII (Sanctuary),7.9,7.8,0.013,0.695,0.156,25.0,49.0,,False,A
+2023-01,Stn. XVIII (Pagsanjan),8.0,7.2,0.015,0.05,0.052,26.0,200.0,,False,C
+2023-01,Stn. XIX (Muntinlupa),7.6,7.8,0.005,0.597,0.185,25.0,150.0,,False,C
+2023-01,Stn. XX (GEMS),7.5,7.7,0.036,0.999,0.179,25.0,1939.0,,False,Failed
+2023-01,Stn. XXI (Cardona),8.0,7.9,0.028,0.729,0.403,26.0,131.0,,False,C
+2023-01,Stn. XXII (Jala-jala),7.9,7.8,0.036,0.557,0.132,26.0,200.0,,False,C
+2023-01,Stn. XXIII (Lumban),7.8,6.9,0.026,0.05,0.223,25.0,784.0,,False,Failed
+2023-02,Stn. I (Central West Bay),7.7,7.8,0.06,0.81,0.19,27.0,19.0,,False,A
+2023-02,Stn. II (East Bay),7.9,7.7,0.08,0.65,0.16,28.0,172.0,,False,C
+2023-02,Stn. IV (Central Bay),7.7,7.8,0.4,0.81,0.19,28.0,49.0,Ammonia,False,A
+2023-02,Stn. V (Northern West Bay),7.5,7.9,0.03,0.69,0.21,27.0,35.0,,False,A
+2023-02,Stn. VIII (South Bay),7.8,7.9,0.03,0.69,0.21,28.0,91.0,,False,B
+2023-02,Stn. XIII (Taytay),7.3,7.9,0.02,0.69,0.21,26.0,41.0,,False,A
+2023-02,Stn. XV (San Pedro),7.5,7.9,0.03,0.75,0.21,26.0,175.0,,False,C
+2023-02,Stn. XVI (Sta. Rosa),7.8,7.9,0.04,0.75,0.23,26.0,108.0,,False,C
+2023-02,Stn. XVII (Sanctuary),7.8,7.9,0.03,0.74,0.21,28.0,242.0,,False,D
+2023-02,Stn. XVIII (Pagsanjan),7.8,7.6,0.03,0.05,0.11,28.0,113.0,,False,C
+2023-02,Stn. XIX (Muntinlupa),7.7,7.9,0.02,0.69,0.21,26.0,150.0,,False,C
+2023-02,Stn. XX (GEMS),7.8,7.9,0.03,0.72,0.21,27.0,1554.0,,False,Failed
+2023-02,Stn. XXI (Cardona),7.8,7.9,0.03,0.75,0.2,28.0,211.0,,False,D
+2023-02,Stn. XXII (Jala-jala),7.7,8.0,0.07,1.06,0.21,28.0,167.0,,False,C
+2023-02,Stn. XXIII (Lumban),7.2,7.3,0.07,0.05,0.1,28.0,956.0,,False,Failed
+2023-03,Stn. I (Central West Bay),7.8,8.0,0.03,0.72,0.26,26.0,30.0,,False,A
+2023-03,Stn. II (East Bay),7.9,8.0,0.005,0.67,0.21,26.0,268.0,,False,D
+2023-03,Stn. IV (Central Bay),7.8,8.0,0.005,0.69,0.25,26.0,44.0,,False,A
+2023-03,Stn. V (Northern West Bay),8.6,8.3,0.005,0.66,0.25,26.0,72.0,,False,B
+2023-03,Stn. VIII (South Bay),7.6,8.0,0.005,0.69,0.26,26.0,56.0,,False,B
+2023-03,Stn. XIII (Taytay),7.4,7.9,0.02,0.97,0.31,25.0,146.0,,False,C
+2023-03,Stn. XV (San Pedro),7.6,8.0,0.005,0.69,0.25,25.0,182.0,,False,C
+2023-03,Stn. XVI (Sta. Rosa),7.8,8.0,0.02,0.64,0.24,25.0,147.0,,False,C
+2023-03,Stn. XVII (Sanctuary),7.8,8.0,0.04,0.7,0.25,26.0,251.0,,False,D
+2023-03,Stn. XVIII (Pagsanjan),7.7,7.9,0.005,0.05,0.19,25.0,67.0,,False,B
+2023-03,Stn. XIX (Muntinlupa),8.2,8.0,0.005,0.65,0.25,25.0,244.0,,False,D
+2023-03,Stn. XX (GEMS),7.6,8.0,0.02,0.62,0.26,26.0,513.0,,False,Failed
+2023-03,Stn. XXI (Cardona),7.8,8.0,0.08,0.7,0.25,26.0,141.0,,False,C
+2023-03,Stn. XXII (Jala-jala),7.7,8.0,0.005,0.56,0.23,26.0,167.0,,False,C
+2023-03,Stn. XXIII (Lumban),7.6,7.6,0.005,0.05,0.13,25.0,1090.0,,False,Failed
+2023-04,Stn. I (Central West Bay),7.2,7.9,0.005,1.0,0.28,29.0,41.0,,False,A
+2023-04,Stn. II (East Bay),7.6,8.0,0.005,1.0,0.22,28.0,187.0,,False,C
+2023-04,Stn. IV (Central Bay),7.2,7.9,0.005,1.0,0.27,29.0,97.0,,False,B
+2023-04,Stn. V (Northern West Bay),8.1,8.6,0.005,0.35,0.26,28.0,64.0,,False,B
+2023-04,Stn. VIII (South Bay),7.6,8.2,0.005,1.0,0.24,29.0,35.0,,False,A
+2023-04,Stn. XIII (Taytay),7.4,8.2,0.005,1.0,0.38,28.0,104.0,,False,C
+2023-04,Stn. XV (San Pedro),7.2,8.0,0.005,1.0,0.26,26.0,59.0,,False,B
+2023-04,Stn. XVI (Sta. Rosa),7.6,8.0,0.005,1.0,0.24,26.0,34.0,,False,A
+2023-04,Stn. XVII (Sanctuary),7.6,8.0,0.005,1.0,0.28,29.0,99.0,,False,B
+2023-04,Stn. XVIII (Pagsanjan),8.4,8.3,0.005,0.05,0.1,29.0,26.0,,False,A
+2023-04,Stn. XIX (Muntinlupa),7.2,8.0,0.005,1.0,0.27,27.0,50.0,,False,A
+2023-04,Stn. XX (GEMS),7.3,8.1,0.005,1.0,0.25,29.0,235.0,,False,D
+2023-04,Stn. XXI (Cardona),7.4,8.0,0.005,1.0,0.26,30.0,80.0,,False,B
+2023-04,Stn. XXII (Jala-jala),7.6,8.1,0.005,1.0,0.2,29.0,49.0,,False,A
+2023-04,Stn. XXIII (Lumban),7.7,8.0,0.005,0.05,0.08,28.0,169.0,,False,C
+2023-05,Stn. I (Central West Bay),7.2,8.5,0.19,0.29,0.27,30.0,40.0,,False,A
+2023-05,Stn. II (East Bay),7.8,8.1,1.04,0.66,0.24,31.0,88.0,Ammonia,False,B
+2023-05,Stn. IV (Central Bay),7.4,8.4,0.01,0.26,0.26,30.0,94.0,,False,B
+2023-05,Stn. V (Northern West Bay),8.2,8.7,0.03,0.16,0.29,31.0,62.0,,False,B
+2023-05,Stn. VIII (South Bay),9.1,8.6,0.005,0.27,0.25,32.0,34.0,,False,A
+2023-05,Stn. XIII (Taytay),7.7,8.5,0.08,0.26,0.27,30.0,189.0,,False,C
+2023-05,Stn. XV (San Pedro),7.2,8.6,0.005,0.21,0.24,30.0,25.0,,False,A
+2023-05,Stn. XVI (Sta. Rosa),8.3,8.7,0.005,0.2,0.23,30.0,34.0,,False,A
+2023-05,Stn. XVII (Sanctuary),7.8,8.3,0.01,0.31,0.26,30.0,19.0,,False,A
+2023-05,Stn. XVIII (Pagsanjan),7.8,8.2,0.005,0.05,0.11,31.0,25.0,,False,A
+2023-05,Stn. XIX (Muntinlupa),6.8,8.4,0.04,0.31,0.3,30.0,30.0,,False,A
+2023-05,Stn. XX (GEMS),6.9,8.6,0.01,0.05,0.23,30.0,462.0,,False,Failed
+2023-05,Stn. XXI (Cardona),7.6,8.2,0.005,0.41,0.28,30.0,31.0,,False,A
+2023-05,Stn. XXII (Jala-jala),8.2,8.5,0.005,0.29,0.26,32.0,36.0,,False,A
+2023-05,Stn. XXIII (Lumban),7.0,7.5,0.005,0.05,0.08,31.0,76.0,,False,B
+2023-06,Stn. I (Central West Bay),7.2,8.1,0.02,0.29,0.28,30.0,24.0,,False,A
+2023-06,Stn. II (East Bay),7.1,8.2,0.19,0.05,0.19,31.0,29.0,,False,A
+2023-06,Stn. IV (Central Bay),8.2,8.6,0.005,0.05,0.22,30.0,56.0,,False,B
+2023-06,Stn. V (Northern West Bay),9.1,8.8,0.005,0.05,0.21,31.0,30.0,,False,A
+2023-06,Stn. VIII (South Bay),7.1,8.2,0.05,0.05,0.2,31.0,44.0,,False,A
+2023-06,Stn. XIII (Taytay),8.6,8.8,0.005,0.05,0.19,31.0,93.0,,False,B
+2023-06,Stn. XV (San Pedro),7.0,8.6,0.05,0.05,0.2,31.0,86.0,,False,B
+2023-06,Stn. XVI (Sta. Rosa),7.3,8.2,0.02,0.05,0.2,30.0,59.0,,False,B
+2023-06,Stn. XVII (Sanctuary),8.0,8.8,0.005,0.05,0.19,32.0,19.0,,False,A
+2023-06,Stn. XVIII (Pagsanjan),8.2,8.3,0.005,0.05,0.09,31.0,55.0,,False,B
+2023-06,Stn. XIX (Muntinlupa),7.6,8.4,0.005,0.05,0.2,28.0,49.0,,False,A
+2023-06,Stn. XX (GEMS),8.2,7.8,0.005,0.24,0.26,30.0,895.0,,False,Failed
+2023-06,Stn. XXI (Cardona),7.8,8.7,0.005,0.05,0.21,30.0,20.0,,False,A
+2023-06,Stn. XXII (Jala-jala),7.4,8.3,0.07,0.05,0.2,31.0,25.0,,False,A
+2023-06,Stn. XXIII (Lumban),7.2,7.7,0.02,0.05,0.11,30.0,34.0,,False,A
+2023-07,Stn. I (Central West Bay),6.7,8.2,0.02,0.05,0.17,30.0,41.0,,False,A
+2023-07,Stn. II (East Bay),7.4,8.5,0.005,0.05,0.17,32.0,19.0,,False,A
+2023-07,Stn. IV (Central Bay),6.8,8.5,0.005,0.05,0.23,30.0,43.0,,False,A
+2023-07,Stn. V (Northern West Bay),6.7,8.6,0.005,0.05,0.21,32.0,19.0,,False,A
+2023-07,Stn. VIII (South Bay),6.9,8.5,0.03,0.05,0.18,33.0,42.0,,False,A
+2023-07,Stn. XIII (Taytay),7.2,8.8,0.005,0.05,0.19,32.0,57.0,,False,B
+2023-07,Stn. XV (San Pedro),6.7,8.5,0.01,0.05,0.17,31.0,148.0,,False,C
+2023-07,Stn. XVI (Sta. Rosa),7.1,8.4,0.02,0.05,0.13,30.0,44.0,,False,A
+2023-07,Stn. XVII (Sanctuary),7.5,8.7,0.005,0.05,0.21,30.0,63.0,,False,B
+2023-07,Stn. XVIII (Pagsanjan),7.4,8.3,0.005,0.05,0.06,32.0,53.0,,False,B
+2023-07,Stn. XIX (Muntinlupa),6.5,8.4,0.05,0.05,0.19,33.0,64.0,,False,B
+2023-07,Stn. XX (GEMS),6.2,8.1,0.005,0.05,0.19,29.0,1010.0,,False,Failed
+2023-07,Stn. XXI (Cardona),7.5,8.6,0.005,0.05,0.21,30.0,49.0,,False,A
+2023-07,Stn. XXII (Jala-jala),7.5,8.6,0.02,0.05,0.17,32.0,24.0,,False,A
+2023-07,Stn. XXIII (Lumban),6.6,7.7,0.04,0.05,0.09,32.0,64.0,,False,B
+2023-08,Stn. I (Central West Bay),6.4,8.1,0.1,0.21,0.3133,27.0,146.0,,False,C
+2023-08,Stn. II (East Bay),7.4,8.0,0.07,0.22,0.2467,28.0,19.0,,False,A
+2023-08,Stn. IV (Central Bay),6.8,8.2,0.01,0.6,0.32,27.0,44.0,,False,A
+2023-08,Stn. V (Northern West Bay),7.6,8.3,0.02,0.46,0.2733,30.0,26.0,,False,A
+2023-08,Stn. VIII (South Bay),7.6,8.3,0.005,0.11,0.2533,29.0,42.0,,False,A
+2023-08,Stn. XIII (Taytay),7.4,8.4,0.005,0.29,0.2933,30.0,32.0,,False,A
+2023-08,Stn. XV (San Pedro),7.9,8.5,0.005,0.25,0.28,29.0,287.0,,False,D
+2023-08,Stn. XVI (Sta. Rosa),7.8,8.5,0.005,0.13,0.1867,29.0,42.0,,False,A
+2023-08,Stn. XVII (Sanctuary),7.6,8.4,0.005,0.11,0.2733,29.0,63.0,,False,B
+2023-08,Stn. XVIII (Pagsanjan),7.5,8.1,0.02,0.28,0.1067,28.0,53.0,,False,B
+2023-08,Stn. XIX (Muntinlupa),7.2,8.0,0.01,1.3,0.26,30.0,64.0,Nitrate,False,B
+2023-08,Stn. XX (GEMS),5.8,8.0,0.005,1.06,0.2933,28.0,855.0,,False,Failed
+2023-08,Stn. XXI (Cardona),7.4,8.3,0.005,0.05,0.3067,28.0,77.0,,False,B
+2023-08,Stn. XXII (Jala-jala),7.5,8.5,0.005,0.11,0.2467,28.0,57.0,,False,B
+2023-08,Stn. XXIII (Lumban),7.3,8.1,0.005,0.05,0.16,27.0,47.0,,False,A
+2023-09,Stn. I (Central West Bay),7.6,8.5,0.08,0.5,0.4567,30.0,146.0,Phosphate,False,C
+2023-09,Stn. II (East Bay),6.5,8.0,0.005,0.1,0.3234,32.0,19.0,,False,A
+2023-09,Stn. IV (Central Bay),7.6,8.5,0.005,0.2,0.41,30.0,43.0,,False,A
+2023-09,Stn. V (Northern West Bay),7.2,8.5,0.005,0.1,0.3367,28.0,39.0,,False,A
+2023-09,Stn. VIII (South Bay),7.5,8.4,0.005,0.1,0.3267,31.0,18.0,,False,A
+2023-09,Stn. XIII (Taytay),6.8,8.3,0.01,0.1,0.3967,28.0,19.0,,False,A
+2023-09,Stn. XV (San Pedro),6.3,8.4,0.03,0.2,0.39,29.0,84.0,,False,B
+2023-09,Stn. XVI (Sta. Rosa),6.5,8.1,0.005,0.1,0.2434,29.0,47.0,,False,A
+2023-09,Stn. XVII (Sanctuary),7.3,8.4,0.005,0.1,0.3367,30.0,63.0,,False,B
+2023-09,Stn. XVIII (Pagsanjan),7.4,8.4,0.005,0.1,0.1534,32.0,18.0,,False,A
+2023-09,Stn. XIX (Muntinlupa),7.2,8.6,0.005,0.2,0.33,31.0,24.0,,False,A
+2023-09,Stn. XX (GEMS),7.0,8.5,0.02,0.4,0.3967,30.0,354.0,,False,D
+2023-09,Stn. XXI (Cardona),8.1,8.7,0.005,0.2,0.4034,31.0,126.0,,False,C
+2023-09,Stn. XXII (Jala-jala),7.8,8.4,0.005,0.1,0.3234,32.0,42.0,,False,A
+2023-09,Stn. XXIII (Lumban),7.2,8.1,0.005,0.05,0.23,32.0,47.0,,False,A
+2023-10,Stn. I (Central West Bay),7.0,8.7,0.02,0.3,0.6,28.0,237.0,Phosphate,False,D
+2023-10,Stn. II (East Bay),7.0,8.5,0.005,0.1,0.4,30.0,49.0,,False,A
+2023-10,Stn. IV (Central Bay),7.0,8.6,0.01,0.1,0.5,28.0,70.0,Phosphate,False,B
+2023-10,Stn. V (Northern West Bay),7.0,8.6,0.03,0.1,0.4,30.0,89.0,,False,B
+2023-10,Stn. VIII (South Bay),7.0,8.2,0.03,0.2,0.4,30.0,42.0,,False,A
+2023-10,Stn. XIII (Taytay),7.0,8.5,0.04,0.2,0.5,30.0,25.0,Phosphate,False,A
+2023-10,Stn. XV (San Pedro),6.0,7.8,0.51,0.4,0.5,30.0,135.0,"Ammonia, Phosphate",False,C
+2023-10,Stn. XVI (Sta. Rosa),6.0,8.1,0.04,0.2,0.3,30.0,62.0,,False,B
+2023-10,Stn. XVII (Sanctuary),7.0,8.6,0.005,0.1,0.4,28.0,27.0,,False,A
+2023-10,Stn. XVIII (Pagsanjan),7.0,8.4,0.005,0.1,0.2,30.0,18.0,,False,A
+2023-10,Stn. XIX (Muntinlupa),7.0,8.4,0.04,0.1,0.4,30.0,18.0,,False,A
+2023-10,Stn. XX (GEMS),6.0,8.8,0.02,0.02,0.5,28.0,354.0,Phosphate,False,D
+2023-10,Stn. XXI (Cardona),7.0,8.6,0.01,0.1,0.5,28.0,169.0,Phosphate,False,C
+2023-10,Stn. XXII (Jala-jala),7.0,8.6,0.005,0.1,0.4,28.0,81.0,,False,B
+2023-10,Stn. XXIII (Lumban),7.0,7.9,0.01,0.05,0.3,30.0,57.0,,False,B
+2023-11,Stn. I (Central West Bay),7.0,8.4,0.09,0.05,0.4297,29.0,67.0,,False,B
+2023-11,Stn. II (East Bay),7.0,8.1,0.1,0.4,0.2963,30.0,47.0,,False,A
+2023-11,Stn. IV (Central Bay),7.0,8.1,0.05,0.05,0.366,28.0,157.0,,False,C
+2023-11,Stn. V (Northern West Bay),7.0,8.4,0.05,0.05,0.295,31.0,66.0,,False,B
+2023-11,Stn. VIII (South Bay),8.0,8.3,0.04,0.05,0.2937,30.0,42.0,,False,A
+2023-11,Stn. XIII (Taytay),7.0,8.5,0.05,0.05,0.3733,30.0,57.0,,False,B
+2023-11,Stn. XV (San Pedro),7.0,8.2,0.05,0.05,0.36,29.0,163.0,,False,C
+2023-11,Stn. XVI (Sta. Rosa),7.0,8.2,0.02,0.05,0.23,29.0,145.0,,False,C
+2023-11,Stn. XVII (Sanctuary),7.0,8.3,0.02,0.4,0.3,29.0,63.0,,False,B
+2023-11,Stn. XVIII (Pagsanjan),7.0,8.1,0.005,0.05,0.159,29.0,75.0,,False,B
+2023-11,Stn. XIX (Muntinlupa),7.0,8.2,0.04,0.3,0.2953,29.0,38.0,,False,A
+2023-11,Stn. XX (GEMS),6.0,8.2,0.03,0.05,0.3667,28.0,265.0,,False,D
+2023-11,Stn. XXI (Cardona),7.0,8.3,0.02,0.05,0.3667,28.0,107.0,,False,C
+2023-11,Stn. XXII (Jala-jala),7.0,8.3,0.02,0.05,0.296,30.0,35.0,,False,A
+2023-11,Stn. XXIII (Lumban),7.0,7.4,0.1,0.2,0.222,29.0,201.0,,False,D
+2023-12,Stn. I (Central West Bay),8.0,8.1,0.0833,0.05,0.2594,28.0,67.0,,False,B
+2023-12,Stn. II (East Bay),8.0,8.1,0.0933,0.05,0.1926,28.0,111.0,,False,C
+2023-12,Stn. IV (Central Bay),8.0,8.2,0.08,0.05,0.232,28.0,256.0,,False,D
+2023-12,Stn. V (Northern West Bay),8.0,8.4,0.0633,0.05,0.19,28.0,98.0,,False,B
+2023-12,Stn. VIII (South Bay),8.0,8.3,0.0433,0.05,0.1874,29.0,127.0,,False,C
+2023-12,Stn. XIII (Taytay),8.0,8.6,0.0533,0.05,0.2467,28.0,128.0,,False,C
+2023-12,Stn. XV (San Pedro),8.0,8.4,0.0433,0.05,0.22,28.0,368.0,,False,D
+2023-12,Stn. XVI (Sta. Rosa),8.0,8.1,0.0233,0.05,0.16,28.0,318.0,,False,D
+2023-12,Stn. XVII (Sanctuary),9.0,8.4,0.0233,0.05,0.2,29.0,63.0,,False,B
+2023-12,Stn. XVIII (Pagsanjan),8.0,7.7,0.0167,0.05,0.118,28.0,102.0,,False,C
+2023-12,Stn. XIX (Muntinlupa),8.0,8.6,0.0467,0.05,0.1906,28.0,100.0,,False,B
+2023-12,Stn. XX (GEMS),7.0,8.2,0.0367,0.05,0.2334,28.0,330.0,,False,D
+2023-12,Stn. XXI (Cardona),8.0,8.3,0.03,0.05,0.2334,29.0,154.0,,False,C
+2023-12,Stn. XXII (Jala-jala),8.0,8.3,0.015,0.05,0.192,29.0,92.0,,False,B
+2023-12,Stn. XXIII (Lumban),8.0,7.2,0.0933,0.2,0.144,28.0,618.0,,False,Failed
+2024-01,Stn. I (Central West Bay),8.0,8.3,0.0767,0.05,0.089,27.0,29.0,,False,A
+2024-01,Stn. II (East Bay),8.0,8.1,0.0867,0.05,0.089,28.0,42.0,,False,A
+2024-01,Stn. IV (Central Bay),8.0,8.2,0.11,0.05,0.098,26.0,69.0,,False,B
+2024-01,Stn. V (Northern West Bay),8.0,8.4,0.0767,0.05,0.085,27.0,69.0,,False,B
+2024-01,Stn. VIII (South Bay),8.0,8.2,0.0466,0.05,0.081,28.0,127.0,,False,C
+2024-01,Stn. XIII (Taytay),8.0,8.5,0.0567,0.05,0.12,26.0,238.0,,False,D
+2024-01,Stn. XV (San Pedro),8.0,8.2,0.0367,0.05,0.08,26.0,230.0,,False,D
+2024-01,Stn. XVI (Sta. Rosa),7.0,7.9,0.0267,0.05,0.09,27.0,733.0,,False,Failed
+2024-01,Stn. XVII (Sanctuary),8.0,8.3,0.0267,0.05,0.1,26.0,127.0,,False,C
+2024-01,Stn. XVIII (Pagsanjan),8.0,7.8,0.0284,0.05,0.077,27.0,215.0,,False,D
+2024-01,Stn. XIX (Muntinlupa),8.0,8.3,0.0534,0.05,0.086,27.0,194.0,,False,C
+2024-01,Stn. XX (GEMS),7.0,8.1,0.0434,0.05,0.1,26.0,242.0,,False,D
+2024-01,Stn. XXI (Cardona),8.0,8.2,0.04,0.05,0.1,27.0,44.0,,False,A
+2024-01,Stn. XXII (Jala-jala),8.0,8.2,0.01,0.05,0.088,28.0,47.0,,False,A
+2024-01,Stn. XXIII (Lumban),8.0,7.2,0.0867,0.3,0.066,26.0,618.0,,False,Failed
+2024-02,Stn. I (Central West Bay),7.0,8.4,0.07,0.05,0.0927,26.0,29.0,,False,A
+2024-02,Stn. II (East Bay),8.0,8.5,0.08,0.05,0.0813,25.0,42.0,,False,A
+2024-02,Stn. IV (Central Bay),7.0,8.4,0.14,0.05,0.0953,27.0,29.0,,False,A
+2024-02,Stn. V (Northern West Bay),8.0,8.5,0.09,0.05,0.1013,27.0,71.0,,False,B
+2024-02,Stn. VIII (South Bay),8.0,8.6,0.05,0.05,0.076,26.0,127.0,,False,C
+2024-02,Stn. XIII (Taytay),7.0,8.5,0.06,0.05,0.17,27.0,134.0,,False,C
+2024-02,Stn. XV (San Pedro),8.0,8.9,0.03,0.05,0.09,26.0,134.0,,False,C
+2024-02,Stn. XVI (Sta. Rosa),8.0,8.6,0.03,0.05,0.0863,26.0,314.0,,False,D
+2024-02,Stn. XVII (Sanctuary),8.0,8.5,0.03,0.05,0.0907,28.0,54.0,,False,B
+2024-02,Stn. XVIII (Pagsanjan),8.0,8.6,0.04,0.05,0.0647,25.0,53.0,,False,B
+2024-02,Stn. XIX (Muntinlupa),8.0,8.5,0.06,0.05,0.1073,27.0,125.0,,False,C
+2024-02,Stn. XX (GEMS),7.0,8.5,0.05,0.05,0.0917,27.0,125.0,,False,C
+2024-02,Stn. XXI (Cardona),8.0,8.4,0.05,0.05,0.0933,28.0,44.0,,False,A
+2024-02,Stn. XXII (Jala-jala),8.0,8.5,0.005,0.05,0.08,25.0,47.0,,False,A
+2024-02,Stn. XXIII (Lumban),8.0,8.5,0.08,0.05,0.064,26.0,175.0,,False,C
+2024-03,Stn. I (Central West Bay),7.0,8.2,0.1,0.05,0.0964,27.0,48.0,,False,A
+2024-03,Stn. II (East Bay),8.0,8.7,0.04,0.05,0.0736,28.0,24.0,,False,A
+2024-03,Stn. IV (Central Bay),8.0,8.4,0.2,0.05,0.0927,27.0,29.0,,False,A
+2024-03,Stn. V (Northern West Bay),8.0,8.3,0.07,0.05,0.1175,28.0,59.0,,False,B
+2024-03,Stn. VIII (South Bay),8.0,8.7,0.05,0.05,0.071,29.0,69.0,,False,B
+2024-03,Stn. XIII (Taytay),7.0,8.1,0.07,0.05,0.22,28.0,110.0,,False,C
+2024-03,Stn. XV (San Pedro),8.0,8.5,0.03,0.05,0.1,27.0,78.0,,False,B
+2024-03,Stn. XVI (Sta. Rosa),8.0,8.4,0.04,0.05,0.0827,27.0,89.0,,False,B
+2024-03,Stn. XVII (Sanctuary),8.0,8.4,0.06,0.05,0.0814,28.0,105.0,,False,C
+2024-03,Stn. XVIII (Pagsanjan),8.0,8.5,0.03,0.05,0.0523,28.0,53.0,,False,B
+2024-03,Stn. XIX (Muntinlupa),8.0,8.5,0.07,0.1,0.1286,27.0,77.0,,False,B
+2024-03,Stn. XX (GEMS),7.0,8.4,0.03,0.05,0.0834,27.0,125.0,,False,C
+2024-03,Stn. XXI (Cardona),8.0,8.4,0.02,0.05,0.0867,27.0,25.0,,False,A
+2024-03,Stn. XXII (Jala-jala),8.0,8.5,0.08,0.05,0.072,29.0,29.0,,False,A
+2024-03,Stn. XXIII (Lumban),8.0,7.8,0.04,0.1,0.062,29.0,57.0,,False,B
+2024-04,Stn. I (Central West Bay),6.8,8.3,0.1,0.05,0.1,28.0,116.0,,False,C
+2024-04,Stn. II (East Bay),8.1,8.1,0.07,0.05,0.066,30.0,57.0,,False,B
+2024-04,Stn. IV (Central Bay),7.2,8.1,0.06,0.05,0.09,28.0,30.0,,False,A
+2024-04,Stn. V (Northern West Bay),10.25,8.8,0.07,0.05,0.1337,30.5,51.0,,False,B
+2024-04,Stn. VIII (South Bay),8.0,8.4,0.05,0.05,0.066,30.0,69.0,,False,B
+2024-04,Stn. XIII (Taytay),8.6,8.65,0.485,0.125,0.27,30.5,76.0,Ammonia,False,B
+2024-04,Stn. XV (San Pedro),7.1,8.6,0.05,0.05,0.11,30.0,78.0,,False,B
+2024-04,Stn. XVI (Sta. Rosa),7.4,8.6,0.04,0.05,0.079,30.0,40.0,,False,A
+2024-04,Stn. XVII (Sanctuary),7.4,8.5,0.04,0.05,0.072,28.0,81.0,,False,B
+2024-04,Stn. XVIII (Pagsanjan),8.0,8.5,0.04,0.05,0.04,30.0,26.0,,False,A
+2024-04,Stn. XIX (Muntinlupa),7.2,8.7,0.06,0.05,0.15,30.0,93.0,,False,B
+2024-04,Stn. XX (GEMS),6.8,8.4,0.04,0.05,0.075,28.0,170.0,,False,C
+2024-04,Stn. XXI (Cardona),7.4,8.6,0.07,0.05,0.08,28.0,26.0,,False,A
+2024-04,Stn. XXII (Jala-jala),7.6,8.5,0.06,0.05,0.064,30.0,29.0,,False,A
+2024-04,Stn. XXIII (Lumban),10.0,8.8,0.05,0.05,0.06,30.0,24.0,,False,A
+2024-05,Stn. I (Central West Bay),9.0,9.4,0.01,0.05,0.14,30.0,120.0,,False,C
+2024-05,Stn. II (East Bay),8.1,8.7,0.03,0.05,0.067,30.0,75.0,,False,B
+2024-05,Stn. IV (Central Bay),7.8,8.6,0.005,0.05,0.071,29.0,30.0,,False,A
+2024-05,Stn. V (Northern West Bay),12.5,9.3,0.07,0.05,0.15,33.0,48.0,DO,False,A
+2024-05,Stn. VIII (South Bay),7.7,8.6,0.03,0.05,0.071,30.0,69.0,,False,B
+2024-05,Stn. XIII (Taytay),10.2,9.2,0.9,0.2,0.32,33.0,1094.0,Ammonia,False,Failed
+2024-05,Stn. XV (San Pedro),6.8,8.7,0.02,0.05,0.13,31.0,57.0,,False,B
+2024-05,Stn. XVI (Sta. Rosa),7.3,8.5,0.01,0.05,0.081,31.0,40.0,,False,A
+2024-05,Stn. XVII (Sanctuary),7.8,8.7,0.03,0.05,0.053,30.0,81.0,,False,B
+2024-05,Stn. XVIII (Pagsanjan),7.2,9.1,0.03,0.05,0.054,30.0,25.0,,False,A
+2024-05,Stn. XIX (Muntinlupa),6.4,9.0,0.04,0.05,0.17,31.0,71.0,,False,B
+2024-05,Stn. XX (GEMS),7.4,9.0,0.03,0.05,0.11,29.0,376.0,,False,D
+2024-05,Stn. XXI (Cardona),7.3,8.5,0.02,0.05,0.066,30.0,25.0,,False,A
+2024-05,Stn. XXII (Jala-jala),8.1,8.7,0.02,0.05,0.071,30.0,29.0,,False,A
+2024-05,Stn. XXIII (Lumban),7.2,8.0,0.05,0.05,0.083,32.0,33.0,,False,A
+2024-06,Stn. I (Central West Bay),8.0,9.2,0.08,0.2,0.061,32.0,194.0,,False,C
+2024-06,Stn. II (East Bay),5.0,7.7,0.09,0.7,0.077,30.0,57.0,,False,B
+2024-06,Stn. IV (Central Bay),10.0,9.4,0.02,0.2,0.06,32.0,19.0,,False,A
+2024-06,Stn. V (Northern West Bay),7.0,9.1,0.08,0.05,0.14,33.0,64.0,,False,B
+2024-06,Stn. VIII (South Bay),7.0,8.4,0.04,0.1,0.075,30.0,44.0,,False,A
+2024-06,Stn. XIII (Taytay),9.0,9.3,0.02,0.05,0.17,32.0,1742.0,,False,Failed
+2024-06,Stn. XV (San Pedro),8.0,8.8,0.06,0.05,0.1,31.0,44.0,,False,A
+2024-06,Stn. XVI (Sta. Rosa),7.0,8.4,0.07,0.1,0.082,31.0,57.0,,False,B
+2024-06,Stn. XVII (Sanctuary),11.0,9.2,0.03,0.05,0.039,32.0,42.0,,False,A
+2024-06,Stn. XVIII (Pagsanjan),7.0,7.8,0.06,0.6,0.055,30.0,30.0,,False,A
+2024-06,Stn. XIX (Muntinlupa),7.0,9.1,0.1,0.05,0.08,31.0,102.0,,False,C
+2024-06,Stn. XX (GEMS),6.0,9.0,0.2,0.1,0.11,32.0,376.0,,False,D
+2024-06,Stn. XXI (Cardona),13.0,9.6,0.04,0.05,0.025,32.0,19.0,DO,False,A
+2024-06,Stn. XXII (Jala-jala),6.0,8.1,0.05,0.3,0.083,30.0,42.0,,False,A
+2024-06,Stn. XXIII (Lumban),7.0,7.5,0.06,0.3,0.037,32.0,57.0,,False,B
+2024-07,Stn. I (Central West Bay),6.0,9.0,0.05,0.05,0.059,31.0,49.0,,False,A
+2024-07,Stn. II (East Bay),8.0,8.8,0.005,0.05,0.1,31.0,24.0,,False,A
+2024-07,Stn. IV (Central Bay),8.0,9.1,0.005,0.05,0.14,30.0,18.0,,False,A
+2024-07,Stn. V (Northern West Bay),8.0,8.9,0.05,0.05,0.06,33.0,44.0,,False,A
+2024-07,Stn. VIII (South Bay),7.0,9.0,0.01,0.05,0.14,32.0,19.0,,False,A
+2024-07,Stn. XIII (Taytay),8.0,9.1,0.01,0.05,0.06,33.0,393.0,,False,D
+2024-07,Stn. XV (San Pedro),7.0,8.9,0.01,0.05,0.13,33.0,19.0,,False,A
+2024-07,Stn. XVI (Sta. Rosa),7.0,8.9,0.005,0.05,0.16,32.0,57.0,,False,B
+2024-07,Stn. XVII (Sanctuary),8.0,8.2,0.005,0.05,0.12,31.0,18.0,,False,A
+2024-07,Stn. XVIII (Pagsanjan),8.0,8.6,0.03,0.05,0.021,30.0,40.0,,False,A
+2024-07,Stn. XIX (Muntinlupa),6.0,8.8,0.1,0.05,0.09,32.0,102.0,,False,C
+2024-07,Stn. XX (GEMS),7.0,9.0,0.02,0.05,0.06,30.0,302.0,,False,D
+2024-07,Stn. XXI (Cardona),8.0,9.2,0.005,0.05,0.16,30.0,18.0,,False,A
+2024-07,Stn. XXII (Jala-jala),8.0,9.0,0.02,0.05,0.13,32.0,42.0,,False,A
+2024-07,Stn. XXIII (Lumban),7.0,7.6,0.1,0.1,0.041,30.0,93.0,,False,B
+2024-08,Stn. I (Central West Bay),5.0,7.6,0.1,2.0,0.74,30.0,92.0,"Nitrate, Phosphate",False,B
+2024-08,Stn. II (East Bay),6.0,7.8,0.2,0.2,0.75,26.0,19.0,Phosphate,False,A
+2024-08,Stn. IV (Central Bay),8.0,8.8,0.04,0.05,0.18,31.0,18.0,,False,A
+2024-08,Stn. V (Northern West Bay),6.0,7.8,0.05,1.0,0.61,30.0,57.0,Phosphate,False,B
+2024-08,Stn. VIII (South Bay),8.0,8.8,0.03,0.05,0.43,29.0,19.0,,False,A
+2024-08,Stn. XIII (Taytay),7.0,8.1,0.05,0.5,0.4,30.0,80.0,,False,B
+2024-08,Stn. XV (San Pedro),6.0,8.0,0.3,0.3,0.88,31.0,80.0,Phosphate,False,B
+2024-08,Stn. XVI (Sta. Rosa),7.0,8.7,0.1,0.3,0.47,31.0,57.0,Phosphate,False,B
+2024-08,Stn. XVII (Sanctuary),7.0,8.5,0.02,0.05,0.37,31.0,24.0,,False,A
+2024-08,Stn. XVIII (Pagsanjan),7.0,8.1,0.04,0.2,0.74,26.0,54.0,Phosphate,False,B
+2024-08,Stn. XIX (Muntinlupa),7.0,8.7,0.04,0.05,0.3,30.0,160.0,,False,C
+2024-08,Stn. XX (GEMS),7.0,8.6,0.03,0.6,0.33,30.0,104.0,,False,C
+2024-08,Stn. XXI (Cardona),7.0,8.9,0.02,0.05,0.39,31.0,24.0,,False,A
+2024-08,Stn. XXII (Jala-jala),8.0,8.9,0.03,0.05,0.42,29.0,42.0,,False,A
+2024-08,Stn. XXIII (Lumban),8.0,8.6,0.03,0.05,0.89,26.0,69.0,Phosphate,False,B
+2024-09,Stn. I (Central West Bay),7.0,7.7,0.002,1.0,0.05,29.0,92.0,,False,B
+2024-09,Stn. II (East Bay),10.0,8.9,0.002,0.05,0.024,30.0,29.0,,False,A
+2024-09,Stn. IV (Central Bay),9.0,8.7,0.001,0.2,0.018,30.0,18.0,,False,A
+2024-09,Stn. V (Northern West Bay),7.0,7.8,0.1,0.7,0.057,30.0,64.0,,False,B
+2024-09,Stn. VIII (South Bay),9.0,8.8,0.001,0.05,0.039,31.0,38.0,,False,A
+2024-09,Stn. XIII (Taytay),8.0,8.4,0.001,0.1,0.02,30.0,41.0,,False,A
+2024-09,Stn. XV (San Pedro),5.0,7.5,0.4,0.2,0.11,29.0,180.0,Ammonia,False,C
+2024-09,Stn. XVI (Sta. Rosa),6.0,7.6,0.4,0.05,0.1,29.0,111.0,Ammonia,False,C
+2024-09,Stn. XVII (Sanctuary),8.0,8.6,0.005,0.05,0.021,28.0,24.0,,False,A
+2024-09,Stn. XVIII (Pagsanjan),9.0,8.4,0.008,0.2,0.04,32.0,52.0,,False,B
+2024-09,Stn. XIX (Muntinlupa),6.0,7.8,0.08,0.05,0.034,29.0,93.0,,False,B
+2024-09,Stn. XX (GEMS),6.0,7.7,0.001,0.05,0.037,29.0,41.0,,False,A
+2024-09,Stn. XXI (Cardona),10.0,8.8,0.001,0.05,0.013,30.0,33.0,,False,A
+2024-09,Stn. XXII (Jala-jala),8.0,8.4,0.001,0.1,0.025,31.0,18.0,,False,A
+2024-09,Stn. XXIII (Lumban),8.0,7.6,0.01,0.05,0.033,32.0,77.0,,False,B
+2024-10,Stn. I (Central West Bay),6.0,8.0,0.2,0.3,0.014,30.0,95.0,,False,B
+2024-10,Stn. II (East Bay),8.0,8.0,0.1,0.05,0.033,30.0,29.0,,False,A
+2024-10,Stn. IV (Central Bay),6.0,7.7,0.2,0.2,0.014,30.0,18.0,,False,A
+2024-10,Stn. V (Northern West Bay),6.0,7.9,0.2,0.2,0.017,30.0,62.0,,False,B
+2024-10,Stn. VIII (South Bay),8.0,8.3,0.07,0.2,0.011,31.0,39.0,,False,A
+2024-10,Stn. XIII (Taytay),6.0,8.0,0.1,0.1,0.03,31.0,41.0,,False,A
+2024-10,Stn. XV (San Pedro),6.0,7.5,0.3,0.05,0.079,29.0,818.0,,False,Failed
+2024-10,Stn. XVI (Sta. Rosa),7.0,7.8,0.1,0.05,0.029,29.0,128.0,,False,C
+2024-10,Stn. XVII (Sanctuary),7.0,8.2,0.09,0.05,0.01,30.0,25.0,,False,A
+2024-10,Stn. XVIII (Pagsanjan),8.0,7.7,0.1,0.05,0.044,30.0,38.0,,False,A
+2024-10,Stn. XIX (Muntinlupa),6.0,7.7,0.07,0.1,0.037,31.0,65.0,,False,B
+2024-10,Stn. XX (GEMS),6.0,7.7,0.1,0.05,0.031,30.0,25.0,,False,A
+2024-10,Stn. XXI (Cardona),6.0,7.6,0.1,0.2,0.005,30.0,34.0,,False,A
+2024-10,Stn. XXII (Jala-jala),9.0,8.3,0.08,0.05,0.01,31.0,18.0,,False,A
+2024-10,Stn. XXIII (Lumban),7.0,7.1,0.2,0.05,0.046,30.0,47.0,,False,A
+2024-11,Stn. I (Central West Bay),7.0,7.8,0.09,0.7,0.021,28.0,80.0,,False,B
+2024-11,Stn. II (East Bay),7.0,7.6,0.03,0.6,0.051,27.0,30.0,,False,A
+2024-11,Stn. IV (Central Bay),6.0,7.7,0.09,0.4,0.015,28.0,18.0,,False,A
+2024-11,Stn. V (Northern West Bay),8.0,7.3,0.05,0.2,0.018,29.0,49.0,,False,A
+2024-11,Stn. VIII (South Bay),7.0,7.6,0.04,0.5,0.05,28.0,39.0,,False,A
+2024-11,Stn. XIII (Taytay),8.0,8.4,0.06,0.1,0.045,29.0,59.0,,False,B
+2024-11,Stn. XV (San Pedro),6.0,7.8,0.06,0.3,0.044,28.0,260.0,,False,D
+2024-11,Stn. XVI (Sta. Rosa),6.0,7.6,0.04,0.5,0.043,28.0,173.0,,False,C
+2024-11,Stn. XVII (Sanctuary),8.0,8.0,0.1,0.4,0.024,29.0,19.0,,False,A
+2024-11,Stn. XVIII (Pagsanjan),7.0,7.4,0.07,0.5,0.05,27.0,28.0,,False,A
+2024-11,Stn. XIX (Muntinlupa),7.0,7.8,0.06,0.5,0.026,28.0,65.0,,False,B
+2024-11,Stn. XX (GEMS),6.0,7.6,0.06,0.8,0.035,28.0,64.0,,False,B
+2024-11,Stn. XXI (Cardona),8.0,8.1,0.009,0.3,0.035,28.0,59.0,,False,B
+2024-11,Stn. XXII (Jala-jala),7.0,7.7,0.1,0.5,0.04,28.0,29.0,,False,A
+2024-11,Stn. XXIII (Lumban),7.0,7.1,0.2,0.4,0.045,27.0,92.0,,False,B
+2024-12,Stn. I (Central West Bay),7.0,7.8,0.3,0.4,0.048,27.0,59.0,,False,B
+2024-12,Stn. II (East Bay),8.0,7.4,0.1,0.3,0.031,28.0,44.0,,False,A
+2024-12,Stn. IV (Central Bay),7.0,8.1,0.2,0.05,0.022,28.0,23.0,,False,A
+2024-12,Stn. V (Northern West Bay),6.0,7.6,0.1,0.6,0.079,29.0,25.0,,False,A
+2024-12,Stn. VIII (South Bay),8.0,8.2,0.09,0.4,0.052,28.0,30.0,,False,A
+2024-12,Stn. XIII (Taytay),6.0,7.8,0.1,0.5,0.075,28.0,115.0,,False,C
+2024-12,Stn. XV (San Pedro),6.0,7.6,0.2,0.5,0.069,27.0,215.0,,False,D
+2024-12,Stn. XVI (Sta. Rosa),7.0,7.5,0.09,0.5,0.072,26.0,88.0,,False,B
+2024-12,Stn. XVII (Sanctuary),8.0,8.1,0.06,0.4,0.039,29.0,25.0,,False,A
+2024-12,Stn. XVIII (Pagsanjan),7.0,8.1,0.09,0.5,0.073,27.0,23.0,,False,A
+2024-12,Stn. XIX (Muntinlupa),8.0,8.1,0.2,0.2,0.046,27.0,112.0,,False,C
+2024-12,Stn. XX (GEMS),6.0,7.6,0.1,0.5,0.068,28.0,143.0,,False,C
+2024-12,Stn. XXI (Cardona),8.0,8.4,0.07,0.2,0.014,29.0,92.0,,False,B
+2024-12,Stn. XXII (Jala-jala),9.0,8.6,0.08,0.1,0.005,28.0,54.0,,False,B
+2024-12,Stn. XXIII (Lumban),7.0,7.4,0.06,0.4,0.054,27.0,74.0,,False,B
+2025-01,Stn. I (Central West Bay),7.0,7.7,0.07,0.4,0.055,25.0,92.0,,False,B
+2025-01,Stn. II (East Bay),8.0,7.7,0.03,0.6,0.091,25.0,44.0,,False,A
+2025-01,Stn. IV (Central Bay),8.0,7.8,0.04,0.2,0.011,24.0,24.0,,False,A
+2025-01,Stn. V (Northern West Bay),7.0,7.7,0.1,0.6,0.13,24.0,34.0,,False,A
+2025-01,Stn. VIII (South Bay),7.0,7.7,0.03,0.6,0.15,25.0,86.0,,False,B
+2025-01,Stn. XIII (Taytay),7.0,7.6,0.03,0.8,0.17,25.0,235.0,,False,D
+2025-01,Stn. XV (San Pedro),7.0,7.7,0.09,0.4,0.075,24.0,49.0,,False,A
+2025-01,Stn. XVI (Sta. Rosa),8.0,7.7,0.05,0.5,0.077,24.0,58.0,,False,B
+2025-01,Stn. XVII (Sanctuary),8.0,7.8,0.07,0.2,0.011,24.0,24.0,,False,A
+2025-01,Stn. XVIII (Pagsanjan),8.0,7.7,0.02,0.5,0.1,25.0,32.0,,False,A
+2025-01,Stn. XIX (Muntinlupa),8.0,7.8,0.05,0.4,0.04,24.0,93.0,,False,B
+2025-01,Stn. XX (GEMS),7.0,7.7,0.05,0.5,0.071,24.0,113.0,,False,C
+2025-01,Stn. XXI (Cardona),8.0,7.8,0.06,0.3,0.013,24.0,89.0,,False,B
+2025-01,Stn. XXII (Jala-jala),8.0,7.6,0.02,0.5,0.1,25.0,104.0,,False,C
+2025-01,Stn. XXIII (Lumban),8.0,7.2,0.2,0.3,0.05,25.0,172.0,,False,C
+2025-02,Stn. I (Central West Bay),7.0,7.7,0.07,0.4,0.072,26.0,92.0,,False,B
+2025-02,Stn. II (East Bay),8.0,7.8,0.002,0.3,0.063,26.0,81.0,,False,B
+2025-02,Stn. IV (Central Bay),8.0,8.0,0.06,0.1,0.028,26.4,40.0,,False,A
+2025-02,Stn. V (Northern West Bay),7.0,7.9,0.003,0.5,0.059,27.0,54.0,,False,B
+2025-02,Stn. VIII (South Bay),8.0,7.8,0.03,0.3,0.052,25.0,90.0,,False,B
+2025-02,Stn. XIII (Taytay),7.0,7.9,0.009,0.4,0.068,27.0,183.0,,False,C
+2025-02,Stn. XV (San Pedro),7.0,7.6,0.06,0.5,0.12,26.0,95.0,,False,B
+2025-02,Stn. XVI (Sta. Rosa),7.0,7.7,0.02,0.3,0.049,26.0,58.0,,False,B
+2025-02,Stn. XVII (Sanctuary),8.0,7.9,0.005,0.3,0.033,26.3,25.0,,False,A
+2025-02,Stn. XVIII (Pagsanjan),8.0,7.7,0.01,0.4,0.072,24.0,32.0,,False,A
+2025-02,Stn. XIX (Muntinlupa),8.0,7.9,0.02,0.4,0.062,27.0,110.0,,False,C
+2025-02,Stn. XX (GEMS),7.0,7.6,0.03,0.5,0.045,26.1,83.0,,False,B
+2025-02,Stn. XXI (Cardona),8.0,8.2,0.001,0.3,0.015,26.5,38.0,,False,A
+2025-02,Stn. XXII (Jala-jala),8.0,7.8,0.001,0.3,0.049,26.0,64.0,,False,B
+2025-02,Stn. XXIII (Lumban),7.0,7.1,0.05,0.4,0.07,25.0,163.0,,False,C
+2025-03,Stn. I (Central West Bay),8.0,8.4,0.4,0.4,0.049,26.4,48.0,Ammonia,False,A
+2025-03,Stn. II (East Bay),8.0,8.3,0.3,0.3,0.067,26.0,35.0,,False,A
+2025-03,Stn. IV (Central Bay),8.0,8.4,0.2,0.4,0.027,26.3,30.0,,False,A
+2025-03,Stn. V (Northern West Bay),8.0,8.3,1.0,0.4,0.14,29.0,54.0,Ammonia,False,B
+2025-03,Stn. VIII (South Bay),8.0,8.0,0.1,0.5,0.061,26.0,55.0,,False,B
+2025-03,Stn. XIII (Taytay),7.0,7.9,0.4,0.6,0.1,29.0,113.0,Ammonia,False,C
+2025-03,Stn. XV (San Pedro),7.0,8.1,0.2,0.4,0.081,27.0,67.0,,False,B
+2025-03,Stn. XVI (Sta. Rosa),7.0,7.8,0.2,0.6,0.091,27.0,49.0,,False,A
+2025-03,Stn. XVII (Sanctuary),8.0,8.3,0.08,0.4,0.033,26.7,19.0,,False,A
+2025-03,Stn. XVIII (Pagsanjan),8.0,8.3,0.07,0.2,0.058,25.0,33.0,,False,A
+2025-03,Stn. XIX (Muntinlupa),8.0,8.0,0.1,0.5,0.088,25.0,74.0,,False,B
+2025-03,Stn. XX (GEMS),7.0,8.1,0.09,0.3,0.038,26.5,84.0,,False,B
+2025-03,Stn. XXI (Cardona),8.0,8.4,0.06,0.3,0.027,26.4,18.0,,False,A
+2025-03,Stn. XXII (Jala-jala),8.0,8.6,0.05,0.3,0.025,25.0,35.0,,False,A
+2025-03,Stn. XXIII (Lumban),7.0,7.8,0.07,0.4,0.062,25.0,104.0,,False,C
+2025-04,Stn. I (Central West Bay),7.0,8.1,0.09,0.05,0.038,27.5,29.0,,False,A
+2025-04,Stn. II (East Bay),8.0,8.4,0.04,0.05,0.047,27.0,35.0,,False,A
+2025-04,Stn. IV (Central Bay),7.0,8.0,0.09,0.05,0.037,27.9,29.0,,False,A
+2025-04,Stn. V (Northern West Bay),7.0,8.6,0.07,0.05,0.052,28.0,40.0,,False,A
+2025-04,Stn. VIII (South Bay),8.0,8.8,0.04,0.1,0.031,27.0,19.0,,False,A
+2025-04,Stn. XIII (Taytay),7.0,8.3,0.05,0.05,0.066,28.0,56.0,,False,B
+2025-04,Stn. XV (San Pedro),7.0,8.1,0.06,0.2,0.1,28.0,105.0,,False,C
+2025-04,Stn. XVI (Sta. Rosa),8.0,8.7,0.02,0.05,0.043,28.0,47.0,,False,A
+2025-04,Stn. XVII (Sanctuary),8.0,8.6,0.06,0.05,0.034,28.7,19.0,,False,A
+2025-04,Stn. XVIII (Pagsanjan),8.0,8.6,0.01,0.05,0.031,27.0,25.0,,False,A
+2025-04,Stn. XIX (Muntinlupa),8.0,8.4,0.03,0.1,0.077,28.0,74.0,,False,B
+2025-04,Stn. XX (GEMS),6.0,8.0,0.1,0.05,0.05,28.0,157.0,,False,C
+2025-04,Stn. XXI (Cardona),7.0,8.2,0.06,0.05,0.048,28.8,18.0,,False,A
+2025-04,Stn. XXII (Jala-jala),8.0,8.6,0.03,0.05,0.038,27.0,18.0,,False,A
+2025-04,Stn. XXIII (Lumban),7.0,7.6,0.05,0.2,0.075,27.0,109.0,,False,C
+2025-05,Stn. I (Central West Bay),6.0,8.3,0.09,0.05,0.1,30.3,19.0,,False,A
+2025-05,Stn. II (East Bay),8.0,8.8,0.1,0.05,0.053,30.0,19.0,,False,A
+2025-05,Stn. IV (Central Bay),7.0,8.5,0.08,0.05,0.061,30.2,18.0,,False,A
+2025-05,Stn. V (Northern West Bay),7.0,8.5,0.1,0.05,0.14,31.0,33.0,,False,A
+2025-05,Stn. VIII (South Bay),8.0,8.8,0.06,0.05,0.059,31.0,29.0,,False,A
+2025-05,Stn. XIII (Taytay),7.0,8.7,0.1,0.05,0.17,32.0,56.0,,False,B
+2025-05,Stn. XV (San Pedro),5.0,8.0,0.4,0.05,0.15,31.0,77.0,Ammonia,False,B
+2025-05,Stn. XVI (Sta. Rosa),6.0,8.3,0.07,0.05,0.067,30.0,57.0,,False,B
+2025-05,Stn. XVII (Sanctuary),8.0,8.9,0.08,0.05,0.045,30.6,18.0,,False,A
+2025-05,Stn. XVIII (Pagsanjan),10.0,9.5,0.07,0.05,0.014,30.0,25.0,,False,A
+2025-05,Stn. XIX (Muntinlupa),6.0,8.4,0.04,0.05,0.15,31.0,62.0,,False,B
+2025-05,Stn. XX (GEMS),5.0,8.1,0.08,0.05,0.078,30.5,190.0,,False,C
+2025-05,Stn. XXI (Cardona),5.0,8.5,0.07,0.05,0.052,31.0,35.0,,False,A
+2025-05,Stn. XXII (Jala-jala),8.0,8.8,0.07,0.05,0.056,31.0,18.0,,False,A
+2025-05,Stn. XXIII (Lumban),10.0,8.7,0.08,0.05,0.05,30.0,126.0,,False,C
+2025-06,Stn. I (Central West Bay),6.0,8.0,0.2,0.05,0.14,29.8,30.0,,False,A
+2025-06,Stn. II (East Bay),9.0,8.9,0.06,0.05,0.05,29.0,25.0,,False,A
+2025-06,Stn. IV (Central Bay),7.0,8.4,0.05,0.05,0.065,31.3,19.0,,False,A
+2025-06,Stn. V (Northern West Bay),7.0,8.4,0.09,0.05,0.16,29.0,33.0,,False,A
+2025-06,Stn. VIII (South Bay),9.0,8.9,0.09,0.05,0.25,30.0,46.0,,False,A
+2025-06,Stn. XIII (Taytay),8.0,8.6,0.2,0.05,0.21,29.0,115.0,,False,C
+2025-06,Stn. XV (San Pedro),6.0,8.3,0.1,0.05,0.12,28.0,258.0,,False,D
+2025-06,Stn. XVI (Sta. Rosa),7.0,8.4,0.05,0.05,0.1,28.0,88.0,,False,B
+2025-06,Stn. XVII (Sanctuary),6.0,8.1,0.07,0.05,0.15,30.6,28.0,,False,A
+2025-06,Stn. XVIII (Pagsanjan),9.0,8.9,0.06,0.05,0.025,28.0,25.0,,False,A
+2025-06,Stn. XIX (Muntinlupa),6.0,8.3,0.05,0.05,0.11,28.0,77.0,,False,B
+2025-06,Stn. XX (GEMS),5.0,7.7,0.1,0.05,0.12,30.7,187.0,,False,C
+2025-06,Stn. XXI (Cardona),7.0,8.7,0.09,0.05,0.063,31.2,47.0,,False,A
+2025-06,Stn. XXII (Jala-jala),8.0,8.7,0.2,0.05,0.064,30.0,28.0,,False,A
+2025-06,Stn. XXIII (Lumban),7.0,7.3,0.1,0.4,0.082,28.0,217.0,,False,D
+2025-07,Stn. I (Central West Bay),7.0,7.6,0.04,0.05,0.16,31.5,50.0,,False,A
+2025-07,Stn. II (East Bay),7.0,9.0,0.03,0.05,0.044,27.0,25.0,,False,A
+2025-07,Stn. IV (Central Bay),7.0,8.9,0.1,0.2,0.16,34.0,19.0,,False,A
+2025-07,Stn. V (Northern West Bay),8.0,9.0,0.05,0.2,0.17,30.5,45.0,,False,A
+2025-07,Stn. VIII (South Bay),7.0,8.8,0.01,0.05,0.046,28.0,46.0,,False,A
+2025-07,Stn. XIII (Taytay),7.0,8.9,0.1,0.05,0.22,30.5,393.0,,False,D
+2025-07,Stn. XV (San Pedro),7.0,8.8,0.03,0.05,0.1,29.0,918.0,,False,Failed
+2025-07,Stn. XVI (Sta. Rosa),8.0,8.9,0.01,0.05,0.082,29.0,233.0,,False,D
+2025-07,Stn. XVII (Sanctuary),7.0,9.0,0.001,0.05,0.033,34.0,28.0,,False,A
+2025-07,Stn. XVIII (Pagsanjan),8.0,8.9,0.02,0.05,0.021,27.0,24.0,,False,A
+2025-07,Stn. XIX (Muntinlupa),8.0,9.0,0.01,0.05,0.14,30.0,88.0,,False,B
+2025-07,Stn. XX (GEMS),5.0,9.1,0.02,0.05,0.11,32.0,256.0,,False,D
+2025-07,Stn. XXI (Cardona),6.0,8.8,0.04,0.1,0.054,34.0,47.0,,False,A
+2025-07,Stn. XXII (Jala-jala),7.0,8.9,0.003,0.4,0.057,28.0,28.0,,False,A
+2025-07,Stn. XXIII (Lumban),6.0,9.0,0.1,0.1,0.077,26.0,92.0,,False,B
+2025-08,Stn. I (Central West Bay),6.0,7.9,0.1,1.0,0.2,30.0,65.0,,False,B
+2025-08,Stn. II (East Bay),8.0,8.4,0.07,0.5,0.13,31.6,33.0,,False,A
+2025-08,Stn. IV (Central Bay),8.0,8.3,0.1,0.8,0.17,31.0,19.0,,False,A
+2025-08,Stn. V (Northern West Bay),7.0,8.1,0.1,1.0,0.2,30.2,45.0,,False,A
+2025-08,Stn. VIII (South Bay),9.0,8.8,0.05,0.4,0.13,31.4,28.0,,False,A
+2025-08,Stn. XIII (Taytay),6.0,7.5,0.08,1.0,0.18,30.7,292.0,,False,D
+2025-08,Stn. XV (San Pedro),7.0,7.8,0.05,1.0,0.23,30.9,1675.0,,False,Failed
+2025-08,Stn. XVI (Sta. Rosa),7.0,7.9,0.2,0.6,0.19,30.1,504.0,,False,Failed
+2025-08,Stn. XVII (Sanctuary),7.0,8.1,0.07,0.7,0.15,31.0,38.0,,False,A
+2025-08,Stn. XVIII (Pagsanjan),9.0,8.3,0.05,0.6,0.14,31.6,24.0,,False,A
+2025-08,Stn. XIX (Muntinlupa),7.0,8.1,0.05,0.7,0.17,29.9,105.0,,False,C
+2025-08,Stn. XX (GEMS),7.0,8.0,0.1,1.0,0.2,30.0,252.0,,False,D
+2025-08,Stn. XXI (Cardona),8.0,8.2,0.09,0.7,0.15,31.0,47.0,,False,A
+2025-08,Stn. XXII (Jala-jala),8.0,8.2,0.09,0.6,0.15,33.2,38.0,,False,A
+2025-08,Stn. XXIII (Lumban),7.0,7.8,0.06,0.4,0.12,31.4,44.0,,False,A
+2025-09,Stn. I (Central West Bay),6.0,8.1,0.04,0.9,0.2,28.9,84.0,,False,B
+2025-09,Stn. II (East Bay),8.0,8.1,0.001,0.3,0.07,30.3,24.0,,False,A
+2025-09,Stn. IV (Central Bay),7.0,8.2,0.03,1.0,0.19,30.0,19.0,,False,A
+2025-09,Stn. V (Northern West Bay),7.0,8.1,0.02,0.8,0.2,31.0,45.0,,False,A
+2025-09,Stn. VIII (South Bay),6.0,7.6,0.001,0.7,0.17,30.0,19.0,,False,A
+2025-09,Stn. XIII (Taytay),7.0,8.0,0.02,0.8,0.2,30.2,140.0,,False,C
+2025-09,Stn. XV (San Pedro),4.0,7.6,0.02,1.0,0.26,28.8,1978.0,DO,False,Failed
+2025-09,Stn. XVI (Sta. Rosa),6.0,7.8,0.02,0.9,0.19,28.6,306.0,,False,D
+2025-09,Stn. XVII (Sanctuary),6.0,8.1,0.01,1.0,0.18,29.9,24.0,,False,A
+2025-09,Stn. XVIII (Pagsanjan),8.0,8.3,0.001,0.05,0.012,30.5,18.0,,False,A
+2025-09,Stn. XIX (Muntinlupa),6.0,8.0,0.02,0.7,0.17,30.8,84.0,,False,B
+2025-09,Stn. XX (GEMS),6.0,7.9,0.03,1.0,0.22,29.1,370.0,,False,D
+2025-09,Stn. XXI (Cardona),6.0,8.0,0.01,1.0,0.2,30.1,36.0,,False,A
+2025-09,Stn. XXII (Jala-jala),7.0,7.6,0.001,0.9,0.18,29.9,24.0,,False,A
+2025-09,Stn. XXIII (Lumban),8.0,7.2,0.001,0.05,0.053,29.6,30.0,,False,A
+2025-10,Stn. I (Central West Bay),7.0,8.0667,0.1,1.0,0.22,29.3,52.0,,False,B
+2025-10,Stn. II (East Bay),7.0,8.0,0.05,1.0,0.13,30.0,25.0,,False,A
+2025-10,Stn. IV (Central Bay),7.0,8.2333,0.09,0.7,0.2,29.6,30.0,,False,A
+2025-10,Stn. V (Northern West Bay),7.0,8.0,0.08,1.0,0.22,28.9,61.0,,False,B
+2025-10,Stn. VIII (South Bay),7.0,7.9,0.03,1.0,0.15,30.0,30.0,,False,A
+2025-10,Stn. XIII (Taytay),6.0,7.7,0.09,0.8,0.28,29.1,105.0,,False,C
+2025-10,Stn. XV (San Pedro),6.0,7.0,0.04,1.0,0.2,28.8,900.0,,False,Failed
+2025-10,Stn. XVI (Sta. Rosa),6.0,7.5,0.04,1.0,0.18,28.1,349.0,,False,D
+2025-10,Stn. XVII (Sanctuary),7.0,8.1333,0.06,1.0,0.18,29.7,24.0,,False,A
+2025-10,Stn. XVIII (Pagsanjan),6.0,7.6,0.03,0.4,0.052,28.0,18.0,,False,A
+2025-10,Stn. XIX (Muntinlupa),8.0,8.0,0.04,1.0,0.21,29.0,88.0,,False,B
+2025-10,Stn. XX (GEMS),7.0,7.9333,0.1,1.0,0.23,29.2,229.0,,False,D
+2025-10,Stn. XXI (Cardona),7.0,8.1667,0.06,1.0,0.21,30.1,37.0,,False,A
+2025-10,Stn. XXII (Jala-jala),7.0,7.8,0.05,1.0,0.17,30.0,25.0,,False,A
+2025-10,Stn. XXIII (Lumban),8.0,7.1,0.09,0.3,0.066,28.0,29.0,,False,A
+2025-11,Stn. I (Central West Bay),7.0,8.0334,0.1,0.8,0.23,29.2,39.0,,False,A
+2025-11,Stn. II (East Bay),8.0,8.1,0.07,0.1,0.07,25.0,19.0,,False,A
+2025-11,Stn. IV (Central Bay),7.0,8.2667,0.08,0.8,0.24,29.2,30.0,,False,A
+2025-11,Stn. V (Northern West Bay),6.0,7.8,0.1,0.8,0.23,27.5,46.0,,False,A
+2025-11,Stn. VIII (South Bay),7.0,7.6,0.1,0.7,0.19,25.0,30.0,,False,A
+2025-11,Stn. XIII (Taytay),6.0,7.9,0.1,0.8,0.24,26.6,77.0,,False,B
+2025-11,Stn. XV (San Pedro),7.0,7.5,0.1,0.8,0.22,27.7,416.0,,False,Failed
+2025-11,Stn. XVI (Sta. Rosa),7.0,7.6,0.1,0.8,0.21,27.6,191.0,,False,C
+2025-11,Stn. XVII (Sanctuary),7.0,8.1667,0.1,0.8,0.24,29.2,18.0,,False,A
+2025-11,Stn. XVIII (Pagsanjan),7.0,7.2,0.1,0.06,0.044,25.0,41.0,,False,A
+2025-11,Stn. XIX (Muntinlupa),8.0,7.9,0.1,0.8,0.22,28.2,97.0,,False,B
+2025-11,Stn. XX (GEMS),6.0,7.9667,0.1,0.8,0.24,29.2,192.0,,False,C
+2025-11,Stn. XXI (Cardona),7.0,8.3334,0.1,0.8,0.25,29.2,20.0,,False,A
+2025-11,Stn. XXII (Jala-jala),7.0,8.0,0.08,0.9,0.23,25.0,34.0,,False,A
+2025-11,Stn. XXIII (Lumban),6.0,7.2,0.2,0.2,0.071,26.6,30.0,,False,A
+2025-12,Stn. I (Central West Bay),8.0,8.0,0.09,0.6,0.21,29.0,19.0,,False,A
+2025-12,Stn. II (East Bay),8.0,8.2,0.07,0.3,0.11,29.5,19.0,,False,A
+2025-12,Stn. IV (Central Bay),8.0,8.3,0.08,0.7,0.25,31.0,68.0,,False,B
+2025-12,Stn. V (Northern West Bay),7.0,8.6,0.09,0.6,0.23,29.9,53.0,,False,B
+2025-12,Stn. VIII (South Bay),8.0,7.3,0.07,0.6,0.2,30.7,57.0,,False,B
+2025-12,Stn. XIII (Taytay),7.0,8.4,0.08,0.7,0.23,29.0,77.0,,False,B
+2025-12,Stn. XV (San Pedro),7.0,8.6,0.07,0.7,0.22,30.0,322.0,,False,D
+2025-12,Stn. XVI (Sta. Rosa),7.0,8.3,0.2,0.6,0.24,29.0,535.0,,False,Failed
+2025-12,Stn. XVII (Sanctuary),8.0,8.2,0.08,0.6,0.25,32.0,28.0,,False,A
+2025-12,Stn. XVIII (Pagsanjan),8.0,6.8,0.06,0.3,0.071,29.1,41.0,pH,False,A
+2025-12,Stn. XIX (Muntinlupa),8.0,8.8,0.07,0.5,0.18,29.4,120.0,,False,C
+2025-12,Stn. XX (GEMS),7.0,8.0,0.09,0.7,0.24,29.0,150.0,,False,C
+2025-12,Stn. XXI (Cardona),9.0,8.5,0.08,0.7,0.25,31.0,19.0,,False,A
+2025-12,Stn. XXII (Jala-jala),8.0,8.2,0.1,0.5,0.19,30.3,66.0,,False,B
+2025-12,Stn. XXIII (Lumban),7.0,7.3,0.06,0.4,0.054,29.1,19.0,,False,A

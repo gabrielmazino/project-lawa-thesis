@@ -1,0 +1,46 @@
+Station,model,n,RMSE,MAE,R2
+Stn. I (Central West Bay),MLR,22,1.778,1.262,-0.471
+Stn. I (Central West Bay),Random Forest,22,1.596,1.11,-0.185
+Stn. I (Central West Bay),XGBoost,22,1.603,1.076,-0.196
+Stn. II (East Bay),MLR,23,1.398,1.098,-0.024
+Stn. II (East Bay),Random Forest,23,1.329,0.939,0.075
+Stn. II (East Bay),XGBoost,23,1.296,0.934,0.12
+Stn. IV (Central Bay),MLR,24,1.378,1.017,0.132
+Stn. IV (Central Bay),Random Forest,24,1.352,1.014,0.165
+Stn. IV (Central Bay),XGBoost,24,1.359,0.993,0.156
+Stn. V (Northern West Bay),MLR,20,1.634,1.193,-0.045
+Stn. V (Northern West Bay),Random Forest,20,1.633,1.189,-0.043
+Stn. V (Northern West Bay),XGBoost,20,1.624,1.158,-0.031
+Stn. VIII (South Bay),MLR,24,1.077,0.877,0.261
+Stn. VIII (South Bay),Random Forest,24,1.117,0.854,0.205
+Stn. VIII (South Bay),XGBoost,24,1.082,0.829,0.254
+Stn. XIII (Taytay),MLR,21,1.613,1.233,-0.037
+Stn. XIII (Taytay),Random Forest,21,1.71,1.247,-0.166
+Stn. XIII (Taytay),XGBoost,21,1.673,1.208,-0.116
+Stn. XIX (Muntinlupa),MLR,24,1.065,0.799,-0.277
+Stn. XIX (Muntinlupa),Random Forest,24,1.077,0.796,-0.305
+Stn. XIX (Muntinlupa),XGBoost,24,1.059,0.783,-0.262
+Stn. XV (San Pedro),MLR,20,1.175,0.895,-0.12
+Stn. XV (San Pedro),Random Forest,20,1.139,0.866,-0.052
+Stn. XV (San Pedro),XGBoost,20,1.113,0.831,-0.005
+Stn. XVI (Sta. Rosa),MLR,22,1.196,0.998,-0.025
+Stn. XVI (Sta. Rosa),Random Forest,22,1.137,0.92,0.073
+Stn. XVI (Sta. Rosa),XGBoost,22,1.132,0.922,0.082
+Stn. XVII (Sanctuary),MLR,24,1.092,0.853,0.075
+Stn. XVII (Sanctuary),Random Forest,24,1.108,0.853,0.048
+Stn. XVII (Sanctuary),XGBoost,24,1.074,0.824,0.106
+Stn. XVIII (Pagsanjan),MLR,22,1.136,0.858,0.148
+Stn. XVIII (Pagsanjan),Random Forest,22,1.109,0.832,0.188
+Stn. XVIII (Pagsanjan),XGBoost,22,1.091,0.827,0.215
+Stn. XX (GEMS),MLR,24,1.353,0.958,-0.541
+Stn. XX (GEMS),Random Forest,24,1.105,0.795,-0.028
+Stn. XX (GEMS),XGBoost,24,1.116,0.8,-0.048
+Stn. XXI (Cardona),MLR,23,1.483,1.126,-0.073
+Stn. XXI (Cardona),Random Forest,23,1.468,1.028,-0.051
+Stn. XXI (Cardona),XGBoost,23,1.465,1.062,-0.046
+Stn. XXII (Jala-jala),MLR,24,1.038,0.825,0.271
+Stn. XXII (Jala-jala),Random Forest,24,1.172,0.892,0.071
+Stn. XXII (Jala-jala),XGBoost,24,1.179,0.907,0.059
+Stn. XXIII (Lumban),MLR,23,1.072,0.832,-0.026
+Stn. XXIII (Lumban),Random Forest,23,1.055,0.895,0.005
+Stn. XXIII (Lumban),XGBoost,23,1.072,0.877,-0.027

@@ -1,0 +1,5 @@
+split,model,Benchmark1_R2>=0.60,Test_R2,RMSE_reduction_vs_MLR_%,R2_gain_vs_MLR,Benchmark3_met,paired_t_p(CV folds),wilcoxon_p(CV folds)
+A,Random Forest,False,0.0425,2.13,0.0421,False,0.5796,0.625
+A,XGBoost,False,0.0588,2.97,0.0584,False,0.0344,0.0625
+B,Random Forest,False,0.2491,8.49,0.1458,False,0.0128,0.0625
+B,XGBoost,False,0.2274,7.17,0.124,False,0.0126,0.0625

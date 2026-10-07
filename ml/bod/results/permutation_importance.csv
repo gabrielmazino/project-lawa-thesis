@@ -1,0 +1,19 @@
+model,feature,importance_mean,importance_sd
+MLR,DO,-0.0069,0.0061
+MLR,pH,0.0421,0.0077
+MLR,Ammonia,0.0075,0.0052
+MLR,Nitrate,0.0269,0.011
+MLR,Phosphate,-0.0012,0.0031
+MLR,Temperature,0.0352,0.0049
+Random Forest,DO,0.0418,0.011
+Random Forest,pH,0.0438,0.0088
+Random Forest,Ammonia,-0.001,0.004
+Random Forest,Nitrate,0.024,0.0077
+Random Forest,Phosphate,0.0017,0.0043
+Random Forest,Temperature,0.0085,0.0027
+XGBoost,DO,0.0344,0.0111
+XGBoost,pH,0.0462,0.0086
+XGBoost,Ammonia,-0.0018,0.0042
+XGBoost,Nitrate,0.0315,0.0102
+XGBoost,Phosphate,-0.0018,0.0036
+XGBoost,Temperature,0.0136,0.0025
