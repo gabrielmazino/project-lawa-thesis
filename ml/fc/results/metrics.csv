@@ -1,0 +1,12 @@
+version,model,R2_log,RMSE_log,MAE_log,RMSE_MPN,MAE_MPN,within_one_class_%,class_accuracy_%,above_std_recall_%,false_alarm_%,best_params
+Baseline,Guess the average,-0.001,0.396,0.311,206.393,75.191,90.0,26.944,0.0,0.0,
+Baseline,Repeat last month,0.664,0.23,0.164,151.23,54.714,95.278,65.556,66.667,4.63,
+A: 6 readings,MLR,-0.152,0.425,0.331,202.532,80.039,79.722,36.111,2.778,1.235,
+A: 6 readings,Random Forest,-0.646,0.508,0.401,212.229,102.644,69.167,31.667,33.333,14.198,"{""max_depth"": null, ""min_samples_split"": 2, ""n_estimators"": 200}"
+A: 6 readings,XGBoost,-0.389,0.467,0.362,200.869,91.836,72.778,33.889,33.333,9.259,"{""colsample_bytree"": 0.8, ""learning_rate"": 0.03, ""max_depth"": 2, ""n_estimators"": 200, ""subsample"": 1.0}"
+B: + station + month,MLR,-0.27,0.446,0.342,230.915,101.013,76.944,38.611,36.111,10.802,
+B: + station + month,Random Forest,-0.48,0.482,0.374,246.733,109.71,74.444,34.167,33.333,11.42,"{""max_depth"": 10, ""min_samples_split"": 2, ""n_estimators"": 500}"
+B: + station + month,XGBoost,-0.319,0.455,0.35,225.058,99.412,74.722,35.278,25.0,10.185,"{""colsample_bytree"": 0.8, ""learning_rate"": 0.03, ""max_depth"": 2, ""n_estimators"": 200, ""subsample"": 1.0}"
+C: + last month's FC,MLR,0.641,0.237,0.179,146.957,54.03,93.889,61.111,69.444,3.395,
+C: + last month's FC,Random Forest,0.613,0.246,0.188,143.947,52.821,93.611,61.389,58.333,3.086,"{""max_depth"": 10, ""min_samples_split"": 2, ""n_estimators"": 500}"
+C: + last month's FC,XGBoost,0.581,0.256,0.198,146.739,56.877,93.611,53.056,63.889,5.247,"{""colsample_bytree"": 0.8, ""learning_rate"": 0.03, ""max_depth"": 2, ""n_estimators"": 500, ""subsample"": 1.0}"

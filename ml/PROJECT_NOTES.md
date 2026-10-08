@@ -1,4 +1,4 @@
-# Project LAWA: ML notes and handoff (last updated 2026-10-07)
+# Project LAWA: ML notes and handoff (last updated 2026-10-08)
 
 Thesis: *Development of a Machine Learning Model for Soft Sensing of BOD and Fecal Coliform Estimation*
 (manuscript: `thesis_manuscript/*.docx`). Data: LLDA Laguna Lake monitoring, 15 lake stations.
@@ -59,6 +59,7 @@ and copying it in with Excel: `dataset/preprocessing-v3/merge.ps1 -target <workb
 | `ml/fc_class/build_dataset.py` | builds fc_class_dataset.csv | |
 | `ml/fc_class/train_fc_class.py [beta]` | fecal coliform 5-class model | `ml/fc_class/results_beta1/` (use), `results_beta2/` |
 | `ml/fc_class/predict_one.py` | predict one reading with Improved XGBoost (edit `reading = {...}`) | prints class + probabilities |
+| `ml/fc/train_fc.py` | fecal coliform regression on log10 (Benchmark 2), versions A/B/C, grid search, holdout + rolling | `ml/fc/results/` (incl. saved version-C models) |
 
 `beta` = threshold setting: 1 = balanced (**use this**), 2 = favour catching pollution (too many false alarms).
 
@@ -91,6 +92,24 @@ The improved models use a "ladder" (go up a class when P(worse) ≥ tuned thresh
 predict a class above the most likely one (example: Stn. I Jan 2025, actual B, predicted C; San Pedro
 Oct 2024, actual Failed 818, predicted D, still flagged above standard while "same as last month" said C).
 
+**Fecal coliform regression (log10 FC)** — `ml/fc/train_fc.py`, done 2026-10-08 on the desktop PC
+(Python 3.14 / scikit-learn 1.9.1; grid search with time-ordered 5-fold CV; same rows for all versions)
+| Version | Best model | R² (log) | RMSE (log) | Above-standard caught | False alarms |
+|---|---|---|---|---|---|
+| Baseline: guess the average | – | 0.00 | 0.396 | 0% | 0% |
+| Baseline: repeat last month | – | **0.664** | **0.230** | 67% | 5% |
+| A: 6 readings | MLR | −0.15 | 0.425 | 3% | 1% |
+| B: + station + month | MLR | −0.27 | 0.446 | 36% | 11% |
+| C: + last month's FC | **MLR** | **0.641** | 0.237 | 69% | 3% |
+| C | Random Forest / XGBoost | 0.613 / 0.581 | 0.246 / 0.256 | 58% / 64% | 3% / 5% |
+- **Benchmark 2 (R² ≥ 0.55) met** on the 2024–2025 holdout by all version-C models, but only thanks to last month's FC;
+  "repeat last month" alone scores 0.664, slightly higher than every model.
+- **Benchmark 3 not met**: ensembles do not beat MLR (RF −3.9% RMSE-log vs MLR, R² −0.03; paired t-test on CV folds p = 0.075).
+- Readings alone (A/B) are worse than guessing the average (negative R²).
+- Rolling 2018–2025 (version C, mean R²): repeat last month 0.36, MLR 0.17, RF −0.09, XGB −0.09. Models collapse in
+  2018–2019 (trained on 2016–2017 only, before the ~35× drop in FC levels in 2018; likely a lab/reporting change);
+  from 2020 on, MLR ≈ or slightly above repeat-last-month (2020–2022, 2024).
+
 **Main findings:** inputs explain little of BOD; fecal coliform depends mostly on last month's level
 (consistent with the manuscript's idea that FC comes from waste discharge); the models' value is early warning.
 
@@ -98,9 +117,9 @@ Oct 2024, actual Failed 818, predicted D, still flagged above standard while "sa
 
 ## 4. TO DO: ideas to improve performance (in priority order)
 
-1. **Fecal coliform regression on log10 values** (manuscript Benchmark 2: R² ≥ 0.55 on log FC).
-   Same inputs + last month's log FC; MLR/RF/XGB; time split + rolling. Not done yet. Might reach the
-   benchmark because last month's value is a strong predictor. Compare with "repeat last month".
+1. ~~**Fecal coliform regression on log10 values**~~ **DONE 2026-10-08** (see results above, `ml/fc/`).
+   Follow-ups: try predicting the change from last month (log FC − last log FC) so models can beat persistence;
+   check whether training from 2018 onward (after the FC level drop) improves the rolling years.
 2. **Grid-search tuning** (promised in manuscript Phase 4), for BOD class, FC class, and the regressions.
    Time-ordered 5-fold CV on training years only, score = macro F1 (classes) / RMSE (regression).
    - Logistic Regression: C {0.01, 0.1, 1, 10}

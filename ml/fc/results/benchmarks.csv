@@ -1,0 +1,4 @@
+version,best_R2_log,best_model,benchmark2_met (R2_log>=0.55),best_ensemble,RMSE_cut_vs_MLR_MPN_%,RMSE_cut_vs_MLR_log_%,R2_gain_vs_MLR,benchmark3_met (>=15% RMSE cut AND >=0.10 R2),"paired_t_p (CV fold RMSE, MLR vs ensemble)",CV_RMSE_log_MLR,CV_RMSE_log_ensemble
+A: 6 readings,-0.1519,MLR,False,XGBoost,0.8212,-9.8234,-0.2374,False,0.2219,0.5933,0.6152
+B: + station + month,-0.2696,MLR,False,XGBoost,2.5364,-1.9355,-0.0496,False,0.437,0.5729,0.5921
+C: + last month's FC,0.6412,MLR,True,Random Forest,2.0482,-3.9079,-0.0286,False,0.0746,0.3467,0.4036
