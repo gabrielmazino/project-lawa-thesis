@@ -1,0 +1,11 @@
+version,model,R2_log,skill_vs_persistence,RMSE_log,MAE_log,RMSE_MPN,direction_correct_%,class_accuracy_%,above_std_recall_%,false_alarm_%,best_params
+Baseline,Repeat last month,0.6635,0.0,0.2296,0.1644,151.2302,61.9444,65.5556,66.6667,4.6296,
+C: level (for comparison),MLR,0.6412,-0.0664,0.2371,0.1793,146.9571,61.1111,61.1111,69.4444,3.3951,
+C: level (for comparison),Random Forest,0.6126,-0.1514,0.2464,0.1879,143.9471,58.6111,61.3889,58.3333,3.0864,"{""max_depth"": 10, ""min_samples_split"": 2, ""n_estimators"": 500}"
+C: level (for comparison),XGBoost,0.5809,-0.2458,0.2563,0.1984,146.739,58.8889,53.0556,63.8889,5.2469,"{""colsample_bytree"": 0.8, ""learning_rate"": 0.03, ""max_depth"": 2, ""n_estimators"": 500, ""subsample"": 1.0}"
+D1: change,MLR,0.6412,-0.0664,0.2371,0.1793,146.9571,61.1111,61.1111,69.4444,3.3951,
+D1: change,Random Forest,0.6803,0.0497,0.2238,0.1709,138.9785,58.0556,64.1667,52.7778,1.8519,"{""max_depth"": 3, ""min_samples_split"": 2, ""n_estimators"": 500}"
+D1: change,XGBoost,0.6405,-0.0684,0.2373,0.181,150.9791,58.8889,61.1111,58.3333,2.7778,"{""colsample_bytree"": 0.8, ""learning_rate"": 0.03, ""max_depth"": 2, ""n_estimators"": 200, ""subsample"": 0.8}"
+D2: change + reading changes,MLR,0.6429,-0.0615,0.2366,0.1791,149.9116,58.8889,62.2222,69.4444,3.3951,
+D2: change + reading changes,Random Forest,0.671,0.0222,0.227,0.1716,142.3509,58.6111,67.2222,63.8889,2.1605,"{""max_depth"": 3, ""min_samples_split"": 5, ""n_estimators"": 500}"
+D2: change + reading changes,XGBoost,0.6489,-0.0436,0.2345,0.1769,159.8412,58.3333,62.7778,63.8889,2.1605,"{""colsample_bytree"": 1.0, ""learning_rate"": 0.03, ""max_depth"": 2, ""n_estimators"": 200, ""subsample"": 0.8}"
