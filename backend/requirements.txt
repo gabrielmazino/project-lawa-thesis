@@ -1,0 +1,9 @@
+flask==3.1.*
+flask-cors==6.*
+pandas
+numpy
+scikit-learn==1.8.0
+joblib
+requests
+python-dotenv
+xgboost

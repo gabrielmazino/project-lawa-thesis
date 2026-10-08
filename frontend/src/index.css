@@ -20,6 +20,13 @@
   --color-muted: #5a5a5a;
   --color-faint: #aaaaaa;
 
+  /* DENR class colors, same as the LLDA quarterly report legend */
+  --color-class-a: #8ec5ea;
+  --color-class-b: #ffffff;
+  --color-class-c: #f2d64b;
+  --color-class-d: #e06666;
+  --color-class-failed: #1a1a1a;
+
   /* Fonts */
   --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, monospace;
