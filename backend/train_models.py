@@ -5,6 +5,8 @@ Chosen from the thesis experiments (see ml/PROJECT_NOTES.md):
                    On the current v4 data (outliers kept) XGBoost beat MLR (R² ~0.22 vs -0.05: the single
                    real 70 mg/L value distorts the straight-line MLR). Settings tuned here by grid search
                    with time-ordered 5-fold CV on the training years only.
+                   Training cap: BOD above 15 mg/L (Class D limit) is set to 15 for TRAINING only, so the
+                   single real 70 mg/L month cannot make the trees estimate ~60 mg/L for ordinary months.
   Fecal coliform - Random Forest predicting the CHANGE in log10 FC from last month
                    (ml/fc/train_fc_change.py, version D1: the only model that beat "repeat last month")
                    settings from its grid search: max_depth 3, min_samples_split 2, n_estimators 500
@@ -34,6 +36,7 @@ OUT = Path(__file__).resolve().parent / "models"
 OUT.mkdir(exist_ok=True)
 SEED = 42
 TEST_START = "2024-01-01"
+BOD_TRAIN_CAP = 15  # mg/L, see the BOD note above
 
 df = add_last_values(load_records())
 stations = sorted(df["Station"].unique())
@@ -70,14 +73,15 @@ grid = GridSearchCV(XGBRegressor(random_state=SEED, n_jobs=-1, verbosity=0),
                     {"learning_rate": [0.03, 0.1], "max_depth": [2, 3, 4], "n_estimators": [200, 500],
                      "subsample": [0.8, 1.0], "colsample_bytree": [0.8, 1.0]},
                     cv=TimeSeriesSplit(n_splits=5), scoring="neg_root_mean_squared_error", n_jobs=-1)
-grid.fit(X_tr, train["BOD"])
+grid.fit(X_tr, train["BOD"].clip(upper=BOD_TRAIN_CAP))
 bod_scores = scores(test["BOD"].values, grid.best_estimator_.predict(X_te), test["BOD_last"].values)
-mlr = make_pipeline(StandardScaler(), LinearRegression()).fit(X_tr, train["BOD"])
+mlr = make_pipeline(StandardScaler(), LinearRegression()).fit(X_tr, train["BOD"].clip(upper=BOD_TRAIN_CAP))
 bod_scores["mlr_r2_same_data"] = float(r2_score(test["BOD"], mlr.predict(X_te)))
 X_all = build_features(bod, stations, "BOD_last")
-bod_model = XGBRegressor(random_state=SEED, n_jobs=-1, verbosity=0, **grid.best_params_).fit(X_all, bod["BOD"])
+bod_model = XGBRegressor(random_state=SEED, n_jobs=-1, verbosity=0, **grid.best_params_).fit(X_all, bod["BOD"].clip(upper=BOD_TRAIN_CAP))
 save("bod_model", bod_model, list(X_all.columns), {
     "target": "BOD (mg/L)", "algorithm": "XGBoost (gradient boosting)", "settings": grid.best_params_,
+    "training_cap_mgL": BOD_TRAIN_CAP,
     "predicts": "level", "holdout": {"period": "trained 2016-2023, tested 2024-2025", "n_test": len(test), **bod_scores},
 })
 print(f"BOD  settings: {grid.best_params_}")

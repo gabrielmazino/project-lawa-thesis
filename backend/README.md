@@ -35,12 +35,13 @@ cd backend
 
 | Target | Model | Inputs | Test 2024–2025 (never seen) |
 |---|---|---|---|
-| BOD | XGBoost (tuned, time-ordered CV) | 6 readings + station + month + last month's BOD | R² 0.225, RMSE 1.18 mg/L, 37% better than "repeat last month" |
+| BOD | XGBoost (tuned, time-ordered CV), trained with BOD capped at 15 mg/L | 6 readings + station + month + last month's BOD | R² 0.219, RMSE 1.18 mg/L, 37% better than "repeat last month" |
 | Fecal coliform | Random Forest predicting the change in log10 FC | same + last month's FC | R² 0.679 (log), 5% better than "repeat last month" |
 
-Note: on the current v4 data (outliers kept) plain MLR scores R² −0.05 for BOD, because the single real
-70 mg/L value distorts a straight line; tree models are not affected. The saved models are refit on all
-years (2016–2025) after testing.
+Note on the BOD training cap: the dataset keeps one real 70 mg/L value (Sta. Rosa, Sep 2017). Without a cap it
+makes the tree models estimate about 60 mg/L for some ordinary months. For training only, BOD above 15 mg/L
+(the Class D limit) is set to 15; test values are never capped. The saved models are refit on all years
+(2016–2025) after testing. The same models, with every test, are in `ml/colab/` (Google Colab notebooks).
 
 ## API
 
