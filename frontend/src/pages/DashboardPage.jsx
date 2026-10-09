@@ -12,24 +12,46 @@ import { GLOSSARY } from '../lib/glossary'
 
 const RANGES = { all: 'All years', 36: 'Last 3 years', 12: 'Last 12 months' }
 
-function StatCard({ label, value, unit, note, info }) {
+function StatCard({ label, value, unit, note, info, trend }) {
   return (
     <div className="rounded-box border-[1.5px] border-line bg-canvas px-4 py-3.5">
       <div className="mb-1.5 font-mono text-[9px] uppercase tracking-[.1em] text-faint">
         {label}
         <InfoTip text={info} />
       </div>
-      <div className="font-mono text-[22px] font-semibold leading-none">{value ?? '—'}</div>
+      <div className="flex items-center gap-2">
+        <span className="font-mono text-[22px] font-semibold leading-none">{value ?? '—'}</span>
+        {trend && <TrendArrow trend={trend} />}
+      </div>
       <div className="mt-1 text-[10px] text-muted">{unit}</div>
-      {note && <div className="mt-1.5 font-mono text-[10px] text-muted">{note}</div>}
+      {(trend?.text || note) && <div className="mt-1.5 font-mono text-[10px] text-muted">{trend?.text ?? note}</div>}
     </div>
+  )
+}
+
+// For pollution measures, going up is bad: ▲ red = worse, ▼ green = better.
+function TrendArrow({ trend }) {
+  const styles = {
+    up: ['▲', 'text-[#c0392b]', 'Higher than the previous month: more pollution (worse).'],
+    down: ['▼', 'text-[#2e8b57]', 'Lower than the previous month: less pollution (better).'],
+    same: ['■', 'text-faint', 'About the same as the previous month.'],
+  }
+  const [symbol, color, tip] = styles[trend.direction]
+  return (
+    <Tip text={tip} underline={false}>
+      <span aria-label={tip} className={`text-[15px] leading-none ${color}`}>{symbol}</span>
+    </Tip>
   )
 }
 
 function change(now, before, digits = 1) {
   if (now == null || before == null) return null
   const d = now - before
-  return `${d >= 0 ? '+' : '−'}${Math.abs(d).toFixed(digits)} vs previous month`
+  const rounded = Number(Math.abs(d).toFixed(digits))
+  return {
+    direction: rounded === 0 ? 'same' : d > 0 ? 'up' : 'down',
+    text: `${d >= 0 ? '+' : '−'}${Math.abs(d).toFixed(digits)} vs previous month`,
+  }
 }
 
 function Legend({ param }) {
@@ -181,14 +203,14 @@ export default function DashboardPage() {
             label="Average BOD"
             value={s?.avg_BOD?.toFixed(2)}
             unit="mg/L · measured, all stations"
-            note={change(s?.avg_BOD, prev?.avg_BOD, 2)}
+            trend={change(s?.avg_BOD, prev?.avg_BOD, 2)}
             info={`${GLOSSARY.BOD} Shown: the average over all stations this month.`}
           />
           <StatCard
             label="Fecal coliform (geomean)"
             value={s?.geomean_FC != null ? Math.round(s.geomean_FC).toLocaleString() : null}
             unit="MPN/100 mL · measured, all stations"
-            note={change(s?.geomean_FC, prev?.geomean_FC, 0)}
+            trend={change(s?.geomean_FC, prev?.geomean_FC, 0)}
             info={`${GLOSSARY.FC} ${GLOSSARY.geomean}`}
           />
           <StatCard
