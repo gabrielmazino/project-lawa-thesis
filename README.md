@@ -27,3 +27,5 @@ docs/       Notes and diagrams
 - `main` holds working, reviewed code only.
 - Do new work on a separate branch (e.g. `feature/login`), then open a pull request to merge into `main`.
 - Never commit passwords or API keys. Put them in a `.env` file, which is ignored by git.
+SUPABASE_URL=https://dsixufsdtabxvlyqmgxb.supabase.co
+SUPABASE_PUBLISHABLE_KEY=sb_publishable_BLpKsEg6xIA4O7iDS9umzw_ezxytvRQ
