@@ -29,11 +29,11 @@ function StatCard({ label, value, unit, note, info, trend }) {
   )
 }
 
-// For pollution measures, going up is bad: ▲ red = worse, ▼ green = better.
+// Direction of change from the previous month: ▲ green = up, ▼ red = down (team's choice).
 function TrendArrow({ trend }) {
   const styles = {
-    up: ['▲', 'text-[#c0392b]', 'Higher than the previous month: more pollution (worse).'],
-    down: ['▼', 'text-[#2e8b57]', 'Lower than the previous month: less pollution (better).'],
+    up: ['▲', 'text-[#2e8b57]', 'Higher than the previous month.'],
+    down: ['▼', 'text-[#c0392b]', 'Lower than the previous month.'],
     same: ['■', 'text-faint', 'About the same as the previous month.'],
   }
   const [symbol, color, tip] = styles[trend.direction]
