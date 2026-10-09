@@ -21,3 +21,6 @@ venv/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Colab notebooks (kept locally, not in the repo)
+ml/colab/
