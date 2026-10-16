@@ -1,0 +1,207 @@
+{
+  "BOD value | MLR / Logistic Regression": {},
+  "BOD value | Random Forest": {
+    "max_depth": null,
+    "max_features": "sqrt",
+    "min_samples_leaf": 1
+  },
+  "BOD value | XGBoost": {
+    "learning_rate": 0.03,
+    "max_depth": 3,
+    "min_child_weight": 1,
+    "n_estimators": 200
+  },
+  "BOD value | SVM": {
+    "svr__C": 10,
+    "svr__epsilon": 0.3,
+    "svr__gamma": 0.01
+  },
+  "BOD value | kNN": {
+    "kneighborsregressor__n_neighbors": 11,
+    "kneighborsregressor__weights": "distance"
+  },
+  "FC value | Step 1 inputs | MLR / Logistic Regression": {},
+  "FC value | Step 1 inputs | Random Forest": {
+    "max_depth": 8,
+    "max_features": 0.5,
+    "min_samples_leaf": 3
+  },
+  "FC value | Step 1 inputs | XGBoost": {
+    "learning_rate": 0.03,
+    "max_depth": 2,
+    "min_child_weight": 5,
+    "n_estimators": 500
+  },
+  "FC value | Step 1 inputs | SVM": {
+    "svr__C": 1,
+    "svr__epsilon": 0.3,
+    "svr__gamma": 0.01
+  },
+  "FC value | Step 1 inputs | kNN": {
+    "kneighborsregressor__n_neighbors": 21,
+    "kneighborsregressor__weights": "uniform"
+  },
+  "FC value | all 6 readings | MLR / Logistic Regression": {},
+  "FC value | all 6 readings | Random Forest": {
+    "max_depth": null,
+    "max_features": 0.5,
+    "min_samples_leaf": 1
+  },
+  "FC value | all 6 readings | XGBoost": {
+    "learning_rate": 0.03,
+    "max_depth": 5,
+    "min_child_weight": 5,
+    "n_estimators": 500
+  },
+  "FC value | all 6 readings | SVM": {
+    "svr__C": 1,
+    "svr__epsilon": 0.3,
+    "svr__gamma": 0.01
+  },
+  "FC value | all 6 readings | kNN": {
+    "kneighborsregressor__n_neighbors": 31,
+    "kneighborsregressor__weights": "distance"
+  },
+  "BOD 4-class | class weights | MLR / Logistic Regression": {
+    "logisticregression__C": 0.01
+  },
+  "BOD 4-class | class weights | Random Forest": {
+    "max_depth": null,
+    "max_features": "sqrt",
+    "min_samples_leaf": 3
+  },
+  "BOD 4-class | class weights | XGBoost": {
+    "learning_rate": 0.03,
+    "max_depth": 2,
+    "min_child_weight": 1,
+    "n_estimators": 200
+  },
+  "BOD 4-class | class weights | SVM": {
+    "svc__C": 0.1,
+    "svc__gamma": 0.01
+  },
+  "BOD 4-class | class weights | kNN": {
+    "kneighborsclassifier__n_neighbors": 3,
+    "kneighborsclassifier__weights": "uniform"
+  },
+  "FC 5-class | Step 1 inputs | MLR / Logistic Regression": {
+    "logisticregression__C": 10
+  },
+  "FC 5-class | Step 1 inputs | Random Forest": {
+    "max_depth": null,
+    "max_features": 0.5,
+    "min_samples_leaf": 1
+  },
+  "FC 5-class | Step 1 inputs | XGBoost": {
+    "learning_rate": 0.1,
+    "max_depth": 2,
+    "min_child_weight": 5,
+    "n_estimators": 500
+  },
+  "FC 5-class | Step 1 inputs | SVM": {
+    "svc__C": 100,
+    "svc__gamma": 0.1
+  },
+  "FC 5-class | Step 1 inputs | kNN": {
+    "kneighborsclassifier__n_neighbors": 5,
+    "kneighborsclassifier__weights": "uniform"
+  },
+  "FC 5-class | Step 1 inputs + class weights | MLR / Logistic Regression": {
+    "logisticregression__C": 10
+  },
+  "FC 5-class | Step 1 inputs + class weights | Random Forest": {
+    "max_depth": 8,
+    "max_features": 0.5,
+    "min_samples_leaf": 1
+  },
+  "FC 5-class | Step 1 inputs + class weights | XGBoost": {
+    "learning_rate": 0.1,
+    "max_depth": 2,
+    "min_child_weight": 5,
+    "n_estimators": 200
+  },
+  "FC 5-class | Step 1 inputs + class weights | SVM": {
+    "svc__C": 100,
+    "svc__gamma": 0.01
+  },
+  "FC 5-class | Step 1 inputs + class weights | kNN": {
+    "kneighborsclassifier__n_neighbors": 15,
+    "kneighborsclassifier__weights": "uniform"
+  },
+  "FC 5-class | all 6 readings | MLR / Logistic Regression": {
+    "logisticregression__C": 10
+  },
+  "FC 5-class | all 6 readings | Random Forest": {
+    "max_depth": null,
+    "max_features": 0.5,
+    "min_samples_leaf": 1
+  },
+  "FC 5-class | all 6 readings | XGBoost": {
+    "learning_rate": 0.1,
+    "max_depth": 2,
+    "min_child_weight": 1,
+    "n_estimators": 500
+  },
+  "FC 5-class | all 6 readings | SVM": {
+    "svc__C": 10,
+    "svc__gamma": 0.1
+  },
+  "FC 5-class | all 6 readings | kNN": {
+    "kneighborsclassifier__n_neighbors": 5,
+    "kneighborsclassifier__weights": "distance"
+  },
+  "FC 5-class | all 6 readings + class weights | MLR / Logistic Regression": {
+    "logisticregression__C": 0.01
+  },
+  "FC 5-class | all 6 readings + class weights | Random Forest": {
+    "max_depth": 8,
+    "max_features": "sqrt",
+    "min_samples_leaf": 1
+  },
+  "FC 5-class | all 6 readings + class weights | XGBoost": {
+    "learning_rate": 0.03,
+    "max_depth": 2,
+    "min_child_weight": 1,
+    "n_estimators": 500
+  },
+  "FC 5-class | all 6 readings + class weights | SVM": {
+    "svc__C": 10,
+    "svc__gamma": 0.1
+  },
+  "FC 5-class | all 6 readings + class weights | kNN": {
+    "kneighborsclassifier__n_neighbors": 3,
+    "kneighborsclassifier__weights": "distance"
+  },
+  "BOD value | LSTM": {
+    "hidden": 32,
+    "L": 3
+  },
+  "FC value | Step 1 inputs | LSTM": {
+    "hidden": 16,
+    "L": 6
+  },
+  "FC value | all 6 readings | LSTM": {
+    "hidden": 32,
+    "L": 6
+  },
+  "BOD 4-class | class weights | LSTM": {
+    "hidden": 16,
+    "L": 6
+  },
+  "FC 5-class | Step 1 inputs | LSTM": {
+    "hidden": 16,
+    "L": 6
+  },
+  "FC 5-class | Step 1 inputs + class weights | LSTM": {
+    "hidden": 16,
+    "L": 6
+  },
+  "FC 5-class | all 6 readings | LSTM": {
+    "hidden": 32,
+    "L": 3
+  },
+  "FC 5-class | all 6 readings + class weights | LSTM": {
+    "hidden": 16,
+    "L": 6
+  }
+}
