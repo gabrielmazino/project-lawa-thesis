@@ -1,0 +1,5 @@
+scheme,best_by_macroF1,best_by_F2
+BOD 4-class,XGBoost + oversampling,Random Forest + weights + tuning (F2)
+BOD 2-class,Random Forest + class weights,Random Forest + weights + tuning (F2)
+FC 5-class,XGBoost + SMOTE,Random Forest + weights + tuning (F2)
+FC 2-class,Logistic Regression + none,Logistic Regression + class weights
