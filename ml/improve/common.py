@@ -70,3 +70,34 @@ def folds(df, imputed_col):
     for year in ROLLING_YEARS:
         yield "rolling", year, df[df.Month.dt.year < year], df[(df.Month.dt.year == year) & (~df[imputed_col])]
     yield "holdout", "2024-2025", df[df.Month < TRAIN_END], df[(df.Month >= TRAIN_END) & (~df[imputed_col])]
+
+
+def random_split(df, imputed_col, test_size=0.3, seed=SEED):
+    """One split drawn from the whole 2016-2025 dataset, stratified by station and year so every
+    station and year appears in both parts. Filled (imputed) values only ever go to training."""
+    from sklearn.model_selection import train_test_split
+    real = df[~df[imputed_col]]
+    strata = real["Station"] + "_" + real.Month.dt.year.astype(str)
+    tr, te = train_test_split(real.index, test_size=test_size, random_state=seed, stratify=strata)
+    train = pd.concat([df.loc[tr], df[df[imputed_col]]]).sort_values(["Month", "Station"])
+    return train, df.loc[te].sort_values(["Month", "Station"])
+
+
+def class_metrics(y, p, problem_from):
+    from sklearn.metrics import accuracy_score, balanced_accuracy_score, f1_score, fbeta_score
+    y, p = np.asarray(y), np.asarray(p)
+    prob_t, prob_p = y >= problem_from, p >= problem_from
+    return {"macro_F1": f1_score(y, p, labels=np.unique(y), average="macro", zero_division=0),
+            "balanced_accuracy": balanced_accuracy_score(y, p),
+            "accuracy": accuracy_score(y, p),
+            "problem_caught_%": 100 * (prob_p & prob_t).sum() / max(prob_t.sum(), 1),
+            "false_alarms_%": 100 * (prob_p & ~prob_t).sum() / max((~prob_t).sum(), 1),
+            "F2_problem": fbeta_score(prob_t, prob_p, beta=2, zero_division=0)}
+
+
+def reg_metrics(y, p, persist):
+    """R2, RMSE, MAE and skill against 'repeat last month' (1 = perfect, 0 = no better, < 0 = worse)."""
+    y, p, persist = (np.asarray(a, dtype=float) for a in (y, p, persist))
+    mse, mse_p = np.mean((y - p) ** 2), np.mean((y - persist) ** 2)
+    return {"R2": 1 - mse / np.var(y), "RMSE": np.sqrt(mse), "MAE": np.mean(np.abs(y - p)),
+            "skill_vs_last_month": 1 - mse / mse_p}

@@ -1,0 +1,49 @@
+task,evaluation,model,n_test,R2,RMSE,MAE,skill_vs_last_month
+BOD (mg/L),70:30 split 2016-2025,Baseline: repeat last month,386,-0.2301,1.5431,1.0845,0.0
+BOD (mg/L),70:30 split 2016-2025,Baseline: training average,386,-0.0053,1.395,1.0664,0.1828
+BOD (mg/L),70:30 split 2016-2025,MLR,386,0.2144,1.2331,0.9407,0.3614
+BOD (mg/L),70:30 split 2016-2025,Random Forest,386,0.3487,1.1228,0.8277,0.4705
+BOD (mg/L),70:30 split 2016-2025,XGBoost,386,0.2248,1.225,0.8802,0.3698
+BOD (mg/L),70:30 split 2016-2025,SVM,386,0.2646,1.1931,0.8923,0.4022
+BOD (mg/L),70:30 split 2016-2025,kNN,386,0.2241,1.2255,0.9064,0.3693
+BOD (mg/L),70:30 split 2016-2025,LSTM,386,0.2334,1.2182,0.9057,0.3768
+BOD (mg/L),rolling 2018-2025,Baseline: repeat last month,1088,-0.2616,1.4653,1.009,0.0
+BOD (mg/L),rolling 2018-2025,Baseline: training average,1088,-0.0321,1.3253,1.027,0.182
+BOD (mg/L),rolling 2018-2025,MLR,1088,0.122,1.2224,0.9027,0.3041
+BOD (mg/L),rolling 2018-2025,Random Forest,1088,0.1534,1.2004,0.8778,0.3289
+BOD (mg/L),rolling 2018-2025,XGBoost,1088,0.0839,1.2487,0.8921,0.2738
+BOD (mg/L),rolling 2018-2025,SVM,1088,0.1123,1.2291,0.8941,0.2964
+BOD (mg/L),rolling 2018-2025,kNN,1088,0.062,1.2635,0.9279,0.2565
+BOD (mg/L),rolling 2018-2025,LSTM,1088,0.1633,1.1933,0.8698,0.3368
+FC log10 level,70:30 split 2016-2025,Baseline: repeat last month,394,0.6392,0.3218,0.2319,0.0
+FC log10 level,70:30 split 2016-2025,Baseline: training average,394,-0.0,0.5357,0.4199,-1.7719
+FC log10 level,70:30 split 2016-2025,MLR,394,0.6859,0.3002,0.2212,0.1294
+FC log10 level,70:30 split 2016-2025,Random Forest,394,0.6843,0.301,0.227,0.1249
+FC log10 level,70:30 split 2016-2025,XGBoost,394,0.6988,0.294,0.2216,0.1652
+FC log10 level,70:30 split 2016-2025,SVM,394,0.6926,0.297,0.2187,0.148
+FC log10 level,70:30 split 2016-2025,kNN,394,0.5502,0.3593,0.2754,-0.2467
+FC log10 level,70:30 split 2016-2025,LSTM,394,0.7162,0.2854,0.212,0.2133
+FC log10 level,rolling 2018-2025,Baseline: repeat last month,1115,0.6246,0.3047,0.2137,0.0
+FC log10 level,rolling 2018-2025,Baseline: training average,1115,-0.53,0.6151,0.4458,-3.0755
+FC log10 level,rolling 2018-2025,MLR,1115,0.5142,0.3466,0.2487,-0.2941
+FC log10 level,rolling 2018-2025,Random Forest,1115,0.2988,0.4164,0.2866,-0.8677
+FC log10 level,rolling 2018-2025,XGBoost,1115,0.2754,0.4233,0.2893,-0.93
+FC log10 level,rolling 2018-2025,SVM,1115,0.4007,0.3849,0.2691,-0.5963
+FC log10 level,rolling 2018-2025,kNN,1115,-0.0255,0.5035,0.3499,-1.7317
+FC log10 level,rolling 2018-2025,LSTM,1115,0.0114,0.4944,0.3536,-1.6333
+FC log10 change,70:30 split 2016-2025,Baseline: repeat last month,394,0.6392,0.3218,0.2319,0.0
+FC log10 change,70:30 split 2016-2025,Baseline: training average,394,-0.0,0.5357,0.4199,-1.7719
+FC log10 change,70:30 split 2016-2025,MLR,394,0.6859,0.3002,0.2212,0.1294
+FC log10 change,70:30 split 2016-2025,Random Forest,394,0.7053,0.2908,0.2147,0.1832
+FC log10 change,70:30 split 2016-2025,XGBoost,394,0.7015,0.2927,0.2171,0.1725
+FC log10 change,70:30 split 2016-2025,SVM,394,0.6891,0.2987,0.2205,0.1383
+FC log10 change,70:30 split 2016-2025,kNN,394,0.6534,0.3154,0.2294,0.0391
+FC log10 change,70:30 split 2016-2025,LSTM,394,0.6949,0.2959,0.2213,0.1542
+FC log10 change,rolling 2018-2025,Baseline: repeat last month,1115,0.6246,0.3047,0.2137,0.0
+FC log10 change,rolling 2018-2025,Baseline: training average,1115,-0.53,0.6151,0.4458,-3.0755
+FC log10 change,rolling 2018-2025,MLR,1115,0.5142,0.3466,0.2487,-0.2941
+FC log10 change,rolling 2018-2025,Random Forest,1115,0.6197,0.3066,0.2263,-0.013
+FC log10 change,rolling 2018-2025,XGBoost,1115,0.5882,0.3191,0.235,-0.0969
+FC log10 change,rolling 2018-2025,SVM,1115,0.5789,0.3227,0.2354,-0.1216
+FC log10 change,rolling 2018-2025,kNN,1115,0.6473,0.2953,0.2125,0.0605
+FC log10 change,rolling 2018-2025,LSTM,1115,0.5504,0.3334,0.2458,-0.1975

@@ -151,7 +151,7 @@ Oct 2024, actual Failed 818, predicted D, still flagged above standard while "sa
 ## 6. Environment on a new PC
 - Python 3.12 (`winget install Python.Python.3.12`), then:
   `python -m venv ml/.venv` and
-  `ml/.venv/Scripts/python -m pip install pandas numpy scikit-learn==1.8.0 xgboost matplotlib scipy openpyxl joblib`
+  `ml/.venv/Scripts/python -m pip install pandas numpy scikit-learn==1.8.0 xgboost matplotlib scipy openpyxl joblib imbalanced-learn` (Step 3 LSTM also needs `pip install torch --index-url https://download.pytorch.org/whl/cpu`)
 - On the laptop, Windows Smart App Control blocked scikit-learn 1.9.x and the `shap` package (numba/llvmlite);
   scikit-learn 1.8.0 worked. Do not turn Smart App Control off (it cannot be turned back on without a reset).
 - Optional: Node.js (dataset/preprocessing-v3/build.js), Poppler (reading PDFs), Excel (merge.ps1).
