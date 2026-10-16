@@ -13,7 +13,6 @@ const READINGS = [
   { key: 'Temperature', label: 'Water Temperature', unit: '°C', example: '29' },
   { key: 'Ammonia', label: 'Ammonia', unit: 'mg/L', example: '0.05' },
   { key: 'Nitrate', label: 'Nitrate', unit: 'mg/L', example: '0.3' },
-  { key: 'Phosphate', label: 'Inorganic Phosphate', unit: 'mg/L', example: '0.15' },
 ]
 const EMPTY = Object.fromEntries([...READINGS.map((r) => r.key), 'BOD_last', 'FC_last'].map((k) => [k, '']))
 
@@ -56,12 +55,22 @@ function Estimate({ title, param, result, actual, unit, tip }) {
       </div>
       <div className="mt-2 flex flex-wrap items-center gap-2">
         <ClassBadge param={param} cls={result.class} />
+        {result.class_confidence != null && (
+          <Tip text={`${GLOSSARY.confidence} ${Object.entries(result.class_probabilities).map(([c, p]) => `${c}: ${Math.round(p * 100)}%`).join(' · ')}`}>
+            <span className="font-mono text-[10px] text-muted">{Math.round(result.class_confidence * 100)}% sure</span>
+          </Tip>
+        )}
         <Tip text={GLOSSARY.standard}>
           <span className={`text-[11px] ${result.above_standard ? 'font-semibold text-[#b94a4a]' : 'text-muted'}`}>
             {result.above_standard ? 'Above standard' : 'Within standard'}
           </span>
         </Tip>
       </div>
+      {result.class_from_estimate && result.class_from_estimate !== result.class && (
+        <div className="mt-1 text-[10px] text-muted">
+          <Tip text={GLOSSARY.bod_class}>Class from the classifier</Tip>; the value alone would be Class {result.class_from_estimate}.
+        </div>
+      )}
       <div className="mt-2 font-mono text-[10px] text-muted">
         <Tip text={GLOSSARY.typical_range}>Typical range</Tip>: {result.typical_range[0]} – {result.typical_range[1]} {unit}
       </div>
@@ -81,32 +90,36 @@ function Estimate({ title, param, result, actual, unit, tip }) {
   )
 }
 
-function ModelInfo({ title, info, tip, scale }) {
+function Score({ label, s, tip, pct }) {
+  const f = (v) => (pct ? `${Math.round(v * 100)}%` : v.toFixed(2))
+  return (
+    <div className="rounded-box border border-line bg-fill-light px-2 py-1.5 text-center">
+      <div className="font-mono text-[15px] font-semibold">{f(s.mean)}</div>
+      <div className="font-mono text-[9px] text-faint">± {pct ? Math.round(s.sd * 100) : s.sd.toFixed(2)}</div>
+      <div className="font-mono text-[9px] uppercase text-muted"><Tip text={tip}>{label}</Tip></div>
+    </div>
+  )
+}
+
+function ModelInfo({ title, info, classInfo, tip, scale }) {
   if (!info) return null
-  const h = info.holdout
+  const v = info.scores.random_70_30
+  // BOD class has its own classifier; the FC class comes from the FC value
+  const c = classInfo ? classInfo.scores.random_70_30 : { accuracy: v.class_accuracy, macro_f1: v.class_macro_f1 }
   return (
     <div className="mb-3 last:mb-0">
       <div className="mb-1.5 flex items-center justify-between gap-2">
         <span className="text-[12px] font-semibold">{title}</span>
         <Tip text={tip} underline={false}><Chip>{info.algorithm.split(' (')[0]}</Chip></Tip>
       </div>
-      <div className="grid grid-cols-3 gap-2">
-        {[
-          ['R²', h.r2.toFixed(2), `${GLOSSARY.r2} Tested on ${h.n_test} lab results from 2024–2025 that the model never saw${scale ? ' (log scale)' : ''}.`],
-          ['RMSE', h.rmse.toFixed(2), `${GLOSSARY.rmse}${scale ? ' Measured on the log10 scale.' : ' In mg/L.'}`],
-          [
-            'vs. last month',
-            `${h.skill_vs_repeat_last_month >= 0 ? '+' : ''}${Math.round(h.skill_vs_repeat_last_month * 100)}%`,
-            `How much smaller the model's squared error is compared with "${GLOSSARY.repeat_last_month}"`,
-          ],
-        ].map(([label, value, t]) => (
-          <div key={label} className="rounded-box border border-line bg-fill-light px-2 py-1.5 text-center">
-            <div className="font-mono text-[15px] font-semibold">{value}</div>
-            <div className="font-mono text-[9px] uppercase text-muted"><Tip text={t}>{label}</Tip></div>
-          </div>
-        ))}
+      <div className="grid grid-cols-2 gap-2 min-[600px]:grid-cols-4">
+        <Score label="R²" s={v.r2} tip={`${GLOSSARY.r2} ${GLOSSARY.evaluation}${scale ? ' Measured on the log10 scale.' : ''}`} />
+        <Score label="RMSE" s={v.rmse} tip={`${GLOSSARY.rmse}${scale ? ' Measured on the log10 scale.' : ' In mg/L.'}`} />
+        <Score label="Class accuracy" s={c.accuracy} pct
+          tip={`${GLOSSARY.accuracy}${classInfo ? ' From the separate BOD classifier.' : ' Class taken from the estimated value.'}`} />
+        <Score label="Macro F1" s={c.macro_f1} tip={GLOSSARY.macro_f1} />
       </div>
-      <p className="mt-1 font-mono text-[9px] text-faint">Trained on {info.trained_on} · {h.period}</p>
+      <p className="mt-1 font-mono text-[9px] text-faint">Inputs: {info.inputs.join(', ')} · trained on {info.trained_on}</p>
     </div>
   )
 }
@@ -180,7 +193,7 @@ export default function SoftSensorPage() {
     >
       <PageHeader
         title="Soft Sensor — Instant BOD & Fecal Coliform Estimator"
-        subtitle="Estimates from field readings · BOD: XGBoost · Fecal coliform: Random Forest"
+        subtitle="Estimates from field readings · BOD: Random Forest · Fecal coliform: Random Forest"
       />
       <ErrorBox message={error} />
 
@@ -283,13 +296,14 @@ export default function SoftSensorPage() {
         </div>
 
         <div className="flex flex-col gap-4">
-          <Card title="Model Information" info="The two models behind the estimates, and how they scored on 2024–2025 lab results they had never seen.">
+          <Card title="Model Information" info={`The models behind the estimates and how they scored on lab results they had never seen. ${GLOSSARY.evaluation}`}>
             <div id="models" className="scroll-mt-4" />
-            <ModelInfo title="BOD" info={models?.BOD} tip={GLOSSARY.bod_model} />
+            <ModelInfo title="BOD" info={models?.BOD} classInfo={models?.BOD_class} tip={GLOSSARY.bod_model} />
             <ModelInfo title="Fecal coliform" info={models?.FC} tip={GLOSSARY.fc_model} scale="log" />
             <p className="mt-2 text-[11px] leading-snug text-muted">
-              Both models use the 6 readings, the station, the month and last month&apos;s lab result.
-              BOD is hard to predict from these readings (low R²); fecal coliform depends strongly on last month&apos;s level.
+              Scores are the average of 10 random 70-30 tests (± how much they varied). BOD is hard to predict from these
+              readings (low R²); fecal coliform depends strongly on last month&apos;s level. Inorganic phosphate is not
+              needed: it did not improve either model.
             </p>
           </Card>
 

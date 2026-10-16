@@ -2,7 +2,7 @@ flask==3.1.*
 flask-cors==6.*
 pandas
 numpy
-scikit-learn==1.8.0
+scikit-learn==1.9.1
 joblib
 requests
 python-dotenv

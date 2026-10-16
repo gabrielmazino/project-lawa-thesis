@@ -21,9 +21,9 @@ export const GLOSSARY = {
   outlier:
     'Flagged as statistically unusual (beyond ±3 standard deviations). Kept on purpose: checked values turned out to be real events, such as algal blooms.',
   last_month:
-    'The station\'s most recent lab result before this month (at most 3 months earlier). Both models use it, because water quality at a station changes gradually.',
+    'The station\'s most recent lab result before this month (at most 3 months earlier). Both models use it as an input: fecal coliform cannot be estimated from the readings alone (tested: R² 0.20 without it vs 0.72 with it), and it also slightly improves BOD.',
   typical_range:
-    'The range where the true value usually falls, based on the model\'s typical error (±1 RMSE) on 2024–2025 data it had never seen. It is not a guarantee.',
+    'The range where the true value usually falls, based on the model\'s typical error (±1 RMSE) on lab results it had never seen (random 70-30 test, 10 repeats). It is not a guarantee.',
   soft_sensor:
     'A "soft sensor" estimates a value that is slow or expensive to measure (BOD, fecal coliform) from values that are quick to measure, using a machine learning model.',
   r2: 'R² (coefficient of determination): how much of the ups and downs the model explains. 1 = perfect, 0 = no better than always guessing the average.',
@@ -31,7 +31,16 @@ export const GLOSSARY = {
   repeat_last_month:
     'The simplest possible forecast: "this month will be the same as last month". A useful model should beat it.',
   bod_model:
-    'XGBoost (gradient boosting): many small decision trees built one after another, each correcting the previous ones\' errors. Inputs: the 6 readings, station, month and last month\'s BOD.',
+    'Random Forest: 300 decision trees whose answers are averaged. Two models: one estimates the BOD value (mg/L); a separate classifier, trained to catch polluted months, gives the DENR class. Inputs: DO, pH, ammonia, nitrate, temperature, station, month and last month\'s BOD.',
   fc_model:
-    'Random Forest: 500 decision trees whose answers are averaged. It predicts how much fecal coliform will change from last month, then applies that change to last month\'s value.',
+    'Random Forest: 300 decision trees whose answers are averaged. It predicts how much fecal coliform will change from last month, then applies that change to last month\'s value; the DENR class comes from the estimated value. Inputs: DO, pH, station, month and last month\'s fecal coliform.',
+  bod_class:
+    'The BOD class comes from a separate classifier (not from the BOD value), because it catches more polluted months (70% vs 65% in testing). The value and the class can therefore occasionally disagree near a class limit. Class D here means D or worse (above 7 mg/L).',
+  confidence: 'How sure the classifier is: the share of its trees that voted for each class.',
+  accuracy:
+    'Accuracy: the share of months whose class was predicted correctly. It can look high just because most months are Class A, so read it together with macro F1.',
+  macro_f1:
+    'Macro F1: how well each class is predicted, with rare classes (the polluted ones) counting as much as common ones. 1 = perfect.',
+  evaluation:
+    'Tested on lab results the model never saw: the 2016–2025 data was split 70% training / 30% testing at random, 10 times with different splits; the value shown is the average (± how much it varied).',
 }

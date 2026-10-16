@@ -39,8 +39,11 @@ VALID_RANGES = {"DO": (0, 25), "pH": (0, 14), "Ammonia": (0, 50), "Nitrate": (0,
 RECORDS = add_last_values(load_records())
 MONTHS = sorted(RECORDS["Month"].dt.strftime("%Y-%m").unique())
 STATIONS = sorted(RECORDS["Station"].unique())
-BOD_MODEL = joblib.load(HERE / "models" / "bod_model.joblib")
-FC_MODEL = joblib.load(HERE / "models" / "fc_model.joblib")
+BOD_MODEL = joblib.load(HERE / "models" / "bod_model.joblib")              # BOD value (mg/L)
+BOD_CLASS_MODEL = joblib.load(HERE / "models" / "bod_class_model.joblib")  # BOD class, separate classifier
+FC_MODEL = joblib.load(HERE / "models" / "fc_model.joblib")                # FC value; its class comes from the value
+MODEL_READINGS = sorted(set(BOD_MODEL["readings"]) | set(BOD_CLASS_MODEL["readings"]) | set(FC_MODEL["readings"]),
+                        key=READINGS.index)                                  # Phosphate is not used by any model
 
 
 # ---------------- helpers ----------------
@@ -182,13 +185,23 @@ def last_values():
     })
 
 
+def mean_scores(scores):
+    """{test: {score: {mean, sd}}} -> JSON-friendly, rounded."""
+    return {test: {k: {"mean": round(v["mean"], 4), "sd": round(v["sd"], 4)} for k, v in s.items() if isinstance(v, dict)}
+            | {"repeats": s["repeats"]} for test, s in scores.items()}
+
+
 @app.get("/api/models")
 @require_login
 def models():
-    def info(m):
-        return {k: m[k] for k in ["target", "algorithm", "predicts", "trained_on", "created", "holdout"]} | {
-            "inputs": READINGS + ["station", "month", "last month's lab value"]}
-    return jsonify({"BOD": info(BOD_MODEL), "FC": info(FC_MODEL)})
+    def info(m, last_label):
+        return {k: m[k] for k in ["target", "algorithm", "predicts", "trained_on", "created"]} | {
+            "inputs": m["readings"] + ["station", "month"] + ([last_label] if m["uses_last_month"] else []),
+            "scores": mean_scores(m["scores"])}
+    return jsonify({"BOD": info(BOD_MODEL, "last month's BOD"), "BOD_class": info(BOD_CLASS_MODEL, "last month's BOD"),
+                    "FC": info(FC_MODEL, "last month's fecal coliform"), "readings": MODEL_READINGS,
+                    "evaluation": "random 70-30 split of 2016-2025 repeated with 10 seeds (mean ± SD); "
+                                  "rolling = each year 2018-2025 predicted from earlier years"})
 
 
 @app.post("/api/predict")
@@ -205,7 +218,7 @@ def predict():
         return error("Month must look like 2026-01.")
 
     values, problems = {}, []
-    for name in READINGS + ["BOD_last", "FC_last"]:
+    for name in MODEL_READINGS + ["BOD_last", "FC_last"]:
         try:
             values[name] = float(body.get(name))
         except (TypeError, ValueError):
@@ -213,27 +226,41 @@ def predict():
     if problems:
         return error("Missing or invalid: " + ", ".join(problems))
     for name, (low, high) in VALID_RANGES.items():
-        if not low <= values[name] <= high:
+        if name in values and not low <= values[name] <= high:
             return error(f"{name} = {values[name]} is not physically possible (allowed {low}–{high}).")
     if values["BOD_last"] < 0 or values["FC_last"] <= 0:
         return error("Last month's BOD must be ≥ 0 and fecal coliform must be > 0.")
 
     warnings = [f"{name} = {values[name]} is outside the training data range "
                 f"({low:g}–{high:g}); the estimate is less reliable."
-                for name, (low, high) in BOD_MODEL["input_ranges"].items() if not low <= values[name] <= high]
+                for name, (low, high) in BOD_MODEL["input_ranges"].items()
+                if name in values and not low <= values[name] <= high]
 
     row = pd.DataFrame([{"Month": month_ts, "Station": station, **values}])
-    bod = max(float(BOD_MODEL["model"].predict(build_features(row, BOD_MODEL["stations"], "BOD_last")[BOD_MODEL["features"]])[0]), 0.0)
-    change = float(FC_MODEL["model"].predict(build_features(row, FC_MODEL["stations"], "FC_last")[FC_MODEL["features"]])[0])
+
+    def inputs(m, last_column):
+        return build_features(row, m["stations"], last_column, m["readings"])[m["features"]]
+
+    bod = max(float(BOD_MODEL["model"].predict(inputs(BOD_MODEL, "BOD_last"))[0]), 0.0)
+    proba = BOD_CLASS_MODEL["model"].predict_proba(inputs(BOD_CLASS_MODEL, "BOD_last"))[0]
+    names = [BOD_CLASS_MODEL["class_names"][int(c)] for c in BOD_CLASS_MODEL["model"].classes_]
+    best = int(np.argmax(proba))
+    change = float(FC_MODEL["model"].predict(inputs(FC_MODEL, "FC_last"))[0])
     fc = 10 ** (math.log10(values["FC_last"]) + change)
 
-    bod_err = BOD_MODEL["holdout"]["rmse"]  # typical error in mg/L
-    fc_factor = 10 ** FC_MODEL["holdout"]["rmse"]  # typical error as a multiply/divide factor
+    # typical error = median RMSE over the 10 random 70-30 splits (the median is not pulled up by the
+    # few splits that test the single 70 mg/L month)
+    bod_err = BOD_MODEL["scores"]["random_70_30"]["rmse"]["median"]            # mg/L
+    fc_factor = 10 ** FC_MODEL["scores"]["random_70_30"]["rmse"]["median"]     # multiply/divide factor
     return jsonify({
         "station": station, "month": month, "warnings": warnings,
-        "BOD": {"estimate": round(bod, 2), "class": bod_class(bod), "above_standard": above_standard("BOD", bod),
+        "BOD": {"estimate": round(bod, 2), "class": names[best], "class_confidence": round(float(proba[best]), 3),
+                "class_probabilities": {n: round(float(p), 3) for n, p in zip(names, proba)},
+                "class_from_estimate": bod_class(bod),
+                "above_standard": names[best] == "D",       # classifier's D = D or worse (above 7 mg/L)
                 "typical_range": [round(max(bod - bod_err, 0), 2), round(bod + bod_err, 2)],
-                "last_month": values["BOD_last"], "algorithm": BOD_MODEL["algorithm"]},
+                "last_month": values["BOD_last"], "algorithm": BOD_MODEL["algorithm"],
+                "class_algorithm": BOD_CLASS_MODEL["algorithm"]},
         "FC": {"estimate": round(fc, 1), "class": fc_class(fc), "above_standard": above_standard("FC", fc),
                "typical_range": [round(fc / fc_factor, 1), round(fc * fc_factor, 1)],
                "last_month": values["FC_last"], "change_percent": round((10 ** change - 1) * 100, 1),

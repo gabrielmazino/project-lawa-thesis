@@ -23,6 +23,7 @@ Thesis: *Development of a Machine Learning Model for Soft Sensing of BOD and Fec
 | Imbalance (Step 2) | BOD classes: class weights. FC classes: none. |
 | Class schemes | user keeps only **BOD 4-class** (A/B/C/D+) and **FC 5-class** (A/B/C/D/Failed) |
 | Models (Steps 3–4) | six compared (MLR/LR, RF, XGBoost, SVM, kNN, LSTM), tuned in `ml/improve/step3_results/tuned_settings.json`. **Top 3: Random Forest, XGBoost, SVM**; RF best overall. FC regression predicts the change from last month. |
+| **Final system (2026-10-16)** | Last month's lab value: user tested without it (Steps 6–7: BOD barely changes, FC collapses R² 0.72 → 0.20), then chose to **use it for both BOD and FC**. BOD value: Random Forest regression. BOD class: separate Random Forest classifier + class weights (Step 5: catches more polluted months than value → class). FC value: Random Forest on the change from last month; FC class from the value (Step 5). Ammonia kept (Step 8). Phosphate not used. Scores (70-30 × 10 seeds): BOD R² 0.28, BOD class macro F1 0.42 / 70% polluted caught; FC R² 0.72, FC class macro F1 0.53. Trained by `backend/train_models.py`. **scikit-learn must be 1.9.1** in both venvs (1.8 gives different RF-with-class-weights results). |
 | Classes | user chose official DENR classes (see below) |
 
 **BOD classes (DAO 2016-08), mg/L:** A ≤3, B >3–5, C >5–7, D >7 (the single value >15 is kept in D).
@@ -155,7 +156,7 @@ Oct 2024, actual Failed 818, predicted D, still flagged above standard while "sa
 ## 6. Environment on a new PC
 - Python 3.12 (`winget install Python.Python.3.12`), then:
   `python -m venv ml/.venv` and
-  `ml/.venv/Scripts/python -m pip install pandas numpy scikit-learn==1.8.0 xgboost matplotlib scipy openpyxl joblib imbalanced-learn` (Step 3 LSTM also needs `pip install torch --index-url https://download.pytorch.org/whl/cpu`)
+  `ml/.venv/Scripts/python -m pip install pandas numpy scikit-learn==1.9.1 xgboost matplotlib scipy openpyxl joblib imbalanced-learn` (Step 3 LSTM also needs `pip install torch --index-url https://download.pytorch.org/whl/cpu`)
 - On the laptop, Windows Smart App Control blocked scikit-learn 1.9.x and the `shap` package (numba/llvmlite);
   scikit-learn 1.8.0 worked. Do not turn Smart App Control off (it cannot be turned back on without a reset).
 - Optional: Node.js (dataset/preprocessing-v3/build.js), Poppler (reading PDFs), Excel (merge.ps1).
