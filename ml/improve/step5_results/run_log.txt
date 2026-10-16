@@ -1,0 +1,56 @@
+BOD 4-class done
+FC 5-class done
+     scheme                 test                     model                    route  accuracy_mean  macro_F1_mean  macro_F1_sd  balanced_accuracy_mean  problem_caught_%_mean  false_alarms_%_mean
+BOD 4-class         random 70-30                  Baseline same class as last month          0.760          0.315        0.018                   0.318                 46.893               13.725
+BOD 4-class         random 70-30             Random Forest     A. direct classifier          0.759          0.412        0.057                   0.447                 69.265               17.975
+BOD 4-class         random 70-30             Random Forest   B. regression -> class          0.792          0.395        0.035                   0.407                 64.720               13.465
+BOD 4-class         random 70-30                   XGBoost     A. direct classifier          0.712          0.385        0.037                   0.470                 71.788               22.189
+BOD 4-class         random 70-30                   XGBoost   B. regression -> class          0.782          0.405        0.075                   0.406                 60.941               13.744
+BOD 4-class         random 70-30                       SVM     A. direct classifier          0.707          0.328        0.023                   0.355                 65.282               23.178
+BOD 4-class         random 70-30                       SVM   B. regression -> class          0.799          0.358        0.030                   0.352                 48.356                9.604
+BOD 4-class         random 70-30 MLR / Logistic Regression     A. direct classifier          0.643          0.321        0.025                   0.395                 73.584               28.748
+BOD 4-class         random 70-30 MLR / Logistic Regression   B. regression -> class          0.750          0.362        0.029                   0.366                 58.201               17.577
+BOD 4-class rolling year-by-year                  Baseline same class as last month          0.746          0.424        0.142                   0.427                 37.964               15.210
+BOD 4-class rolling year-by-year             Random Forest     A. direct classifier          0.802          0.484        0.173                   0.483                 45.532                9.603
+BOD 4-class rolling year-by-year             Random Forest   B. regression -> class          0.788          0.477        0.136                   0.474                 36.373                9.276
+BOD 4-class rolling year-by-year                   XGBoost     A. direct classifier          0.742          0.471        0.145                   0.493                 55.562               18.202
+BOD 4-class rolling year-by-year                   XGBoost   B. regression -> class          0.796          0.472        0.150                   0.465                 34.933                8.731
+BOD 4-class rolling year-by-year                       SVM     A. direct classifier          0.720          0.440        0.163                   0.461                 46.497               17.817
+BOD 4-class rolling year-by-year                       SVM   B. regression -> class          0.808          0.400        0.127                   0.413                 23.412                3.680
+BOD 4-class rolling year-by-year MLR / Logistic Regression     A. direct classifier          0.662          0.416        0.113                   0.449                 56.713               26.181
+BOD 4-class rolling year-by-year MLR / Logistic Regression   B. regression -> class          0.785          0.440        0.122                   0.454                 35.424                9.026
+ FC 5-class         random 70-30                  Baseline same class as last month          0.604          0.510        0.022                   0.514                 70.243                6.982
+ FC 5-class         random 70-30             Random Forest     A. direct classifier          0.608          0.505        0.023                   0.499                 63.836                5.520
+ FC 5-class         random 70-30             Random Forest   B. regression -> class          0.622          0.527        0.036                   0.516                 58.377                3.493
+ FC 5-class         random 70-30                   XGBoost     A. direct classifier          0.603          0.494        0.029                   0.491                 68.407                6.234
+ FC 5-class         random 70-30                   XGBoost   B. regression -> class          0.619          0.519        0.039                   0.509                 56.913                3.278
+ FC 5-class         random 70-30                       SVM     A. direct classifier          0.592          0.477        0.024                   0.470                 65.104                5.125
+ FC 5-class         random 70-30                       SVM   B. regression -> class          0.623          0.530        0.024                   0.520                 65.116                3.462
+ FC 5-class         random 70-30 MLR / Logistic Regression     A. direct classifier          0.596          0.476        0.028                   0.474                 67.876                5.766
+ FC 5-class         random 70-30 MLR / Logistic Regression   B. regression -> class          0.619          0.521        0.021                   0.511                 62.420                3.431
+ FC 5-class rolling year-by-year                  Baseline same class as last month          0.663          0.457        0.097                   0.458                 47.520                4.131
+ FC 5-class rolling year-by-year             Random Forest     A. direct classifier          0.559          0.367        0.137                   0.443                 40.027                4.198
+ FC 5-class rolling year-by-year             Random Forest   B. regression -> class          0.653          0.447        0.090                   0.450                 34.526                2.463
+ FC 5-class rolling year-by-year                   XGBoost     A. direct classifier          0.614          0.407        0.087                   0.453                 37.364                5.415
+ FC 5-class rolling year-by-year                   XGBoost   B. regression -> class          0.641          0.450        0.091                   0.480                 34.265                2.364
+ FC 5-class rolling year-by-year                       SVM     A. direct classifier          0.598          0.380        0.089                   0.413                 38.354                6.245
+ FC 5-class rolling year-by-year                       SVM   B. regression -> class          0.663          0.486        0.087                   0.523                 45.727                2.658
+ FC 5-class rolling year-by-year MLR / Logistic Regression     A. direct classifier          0.595          0.377        0.099                   0.417                 41.586                6.042
+ FC 5-class rolling year-by-year MLR / Logistic Regression   B. regression -> class          0.667          0.487        0.094                   0.526                 46.690                2.591
+scheme       test                  model                    
+BOD 4-class  random 70-30          MLR / Logistic Regression    10.0
+                                   Random Forest                60.0
+                                   SVM                          20.0
+                                   XGBoost                      40.0
+             rolling year-by-year  MLR / Logistic Regression    38.0
+                                   Random Forest                62.0
+                                   SVM                          50.0
+                                   XGBoost                      62.0
+FC 5-class   random 70-30          MLR / Logistic Regression     0.0
+                                   Random Forest                30.0
+                                   SVM                           0.0
+                                   XGBoost                      20.0
+             rolling year-by-year  MLR / Logistic Regression    12.0
+                                   Random Forest                 0.0
+                                   SVM                          12.0
+                                   XGBoost                      12.0

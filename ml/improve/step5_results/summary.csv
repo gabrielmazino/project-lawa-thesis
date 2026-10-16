@@ -1,0 +1,37 @@
+scheme,test,model,route,accuracy_mean,macro_F1_mean,balanced_accuracy_mean,problem_caught_%_mean,false_alarms_%_mean,accuracy_sd,macro_F1_sd,balanced_accuracy_sd,problem_caught_%_sd,false_alarms_%_sd
+BOD 4-class,random 70-30,Baseline,same class as last month,0.7604,0.3149,0.3176,46.8932,13.7248,0.0182,0.018,0.0175,4.4779,1.6053
+BOD 4-class,random 70-30,Random Forest,A. direct classifier,0.7588,0.4119,0.4466,69.2648,17.9748,0.0171,0.0565,0.0676,5.2934,2.0417
+BOD 4-class,random 70-30,Random Forest,B. regression -> class,0.792,0.3951,0.4075,64.7204,13.4648,0.0179,0.0345,0.0363,4.5595,1.9284
+BOD 4-class,random 70-30,XGBoost,A. direct classifier,0.7124,0.3847,0.4698,71.7878,22.1893,0.0178,0.037,0.0893,4.2563,2.0976
+BOD 4-class,random 70-30,XGBoost,B. regression -> class,0.7824,0.4045,0.4062,60.9413,13.7435,0.0202,0.0755,0.0573,3.7187,2.1818
+BOD 4-class,random 70-30,SVM,A. direct classifier,0.707,0.3284,0.3549,65.282,23.1783,0.0163,0.0234,0.0277,3.7795,1.9685
+BOD 4-class,random 70-30,SVM,B. regression -> class,0.7995,0.3582,0.3522,48.3556,9.6042,0.0162,0.0302,0.023,6.3208,1.4499
+BOD 4-class,random 70-30,MLR / Logistic Regression,A. direct classifier,0.6427,0.3214,0.3947,73.584,28.7482,0.0121,0.0249,0.0868,4.4792,1.9399
+BOD 4-class,random 70-30,MLR / Logistic Regression,B. regression -> class,0.75,0.3615,0.3662,58.2005,17.5769,0.0202,0.0291,0.0246,7.0111,2.0852
+BOD 4-class,rolling year-by-year,Baseline,same class as last month,0.7455,0.4238,0.4273,37.9636,15.2098,0.1074,0.1417,0.1458,17.7876,6.7784
+BOD 4-class,rolling year-by-year,Random Forest,A. direct classifier,0.802,0.4842,0.4832,45.5322,9.6029,0.0932,0.1727,0.1483,18.2408,7.3661
+BOD 4-class,rolling year-by-year,Random Forest,B. regression -> class,0.7881,0.4773,0.4742,36.3733,9.2756,0.0816,0.1359,0.1368,9.9183,5.6068
+BOD 4-class,rolling year-by-year,XGBoost,A. direct classifier,0.7416,0.4713,0.4931,55.5624,18.2024,0.0983,0.1453,0.1313,17.9857,7.0143
+BOD 4-class,rolling year-by-year,XGBoost,B. regression -> class,0.7963,0.4716,0.4648,34.9334,8.7312,0.0693,0.1496,0.1321,16.946,3.5688
+BOD 4-class,rolling year-by-year,SVM,A. direct classifier,0.7202,0.4398,0.4614,46.4973,17.8165,0.0746,0.1628,0.1768,17.8812,5.4272
+BOD 4-class,rolling year-by-year,SVM,B. regression -> class,0.8078,0.4003,0.4132,23.4116,3.6805,0.0653,0.1271,0.1256,14.2319,4.0067
+BOD 4-class,rolling year-by-year,MLR / Logistic Regression,A. direct classifier,0.6621,0.4164,0.449,56.7131,26.1812,0.0654,0.1125,0.127,15.4269,5.6781
+BOD 4-class,rolling year-by-year,MLR / Logistic Regression,B. regression -> class,0.7845,0.4398,0.4541,35.4245,9.0259,0.0437,0.1216,0.1304,16.0697,4.0709
+FC 5-class,random 70-30,Baseline,same class as last month,0.6038,0.5101,0.5137,70.2426,6.9819,0.0167,0.022,0.0212,3.9766,1.153
+FC 5-class,random 70-30,Random Forest,A. direct classifier,0.6084,0.5047,0.4988,63.8362,5.5204,0.02,0.0231,0.0227,3.9298,1.4939
+FC 5-class,random 70-30,Random Forest,B. regression -> class,0.6223,0.5273,0.5156,58.3771,3.4934,0.0243,0.0356,0.0343,4.1236,0.9425
+FC 5-class,random 70-30,XGBoost,A. direct classifier,0.6028,0.4942,0.4908,68.4072,6.2344,0.0221,0.0291,0.0286,4.5251,1.0782
+FC 5-class,random 70-30,XGBoost,B. regression -> class,0.6185,0.5187,0.5089,56.913,3.2777,0.0248,0.0389,0.0368,5.331,0.8116
+FC 5-class,random 70-30,SVM,A. direct classifier,0.5921,0.4771,0.4696,65.1042,5.1253,0.0245,0.0244,0.0214,4.1665,1.3499
+FC 5-class,random 70-30,SVM,B. regression -> class,0.6231,0.5299,0.5202,65.1159,3.4624,0.0193,0.0241,0.0242,2.6663,0.9472
+FC 5-class,random 70-30,MLR / Logistic Regression,A. direct classifier,0.5957,0.4759,0.4744,67.8764,5.7661,0.028,0.0282,0.0286,4.683,1.3811
+FC 5-class,random 70-30,MLR / Logistic Regression,B. regression -> class,0.6185,0.5214,0.5114,62.4203,3.4306,0.0203,0.021,0.0208,2.7124,1.0664
+FC 5-class,rolling year-by-year,Baseline,same class as last month,0.6626,0.4573,0.4581,47.5204,4.1314,0.1147,0.0968,0.0929,30.1318,3.1062
+FC 5-class,rolling year-by-year,Random Forest,A. direct classifier,0.5591,0.3673,0.4433,40.0272,4.1983,0.2179,0.1369,0.1098,33.9346,4.1939
+FC 5-class,rolling year-by-year,Random Forest,B. regression -> class,0.6532,0.4468,0.4495,34.5256,2.4629,0.1141,0.0897,0.085,30.3341,1.8223
+FC 5-class,rolling year-by-year,XGBoost,A. direct classifier,0.6145,0.4074,0.4532,37.3641,5.4152,0.112,0.0874,0.126,32.584,4.2798
+FC 5-class,rolling year-by-year,XGBoost,B. regression -> class,0.6407,0.4495,0.4798,34.2652,2.3636,0.1021,0.0906,0.0825,29.9629,1.554
+FC 5-class,rolling year-by-year,SVM,A. direct classifier,0.5976,0.3801,0.4126,38.3537,6.245,0.1319,0.0895,0.051,32.5216,3.4876
+FC 5-class,rolling year-by-year,SVM,B. regression -> class,0.6628,0.4862,0.5232,45.7269,2.6575,0.1073,0.0869,0.1059,29.2026,1.9349
+FC 5-class,rolling year-by-year,MLR / Logistic Regression,A. direct classifier,0.5949,0.3772,0.4169,41.5863,6.0423,0.1497,0.0992,0.0597,34.5209,3.9536
+FC 5-class,rolling year-by-year,MLR / Logistic Regression,B. regression -> class,0.6666,0.487,0.5263,46.6904,2.5908,0.1157,0.0941,0.1093,29.9414,1.9089
