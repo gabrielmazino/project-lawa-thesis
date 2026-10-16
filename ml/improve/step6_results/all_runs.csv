@@ -1,0 +1,577 @@
+test,rep,task,model,inputs,R2,RMSE,MAE,skill_vs_last_month,macro_F1,balanced_accuracy,accuracy,problem_caught_%,false_alarms_%,F2_problem
+random 70-30,0,BOD value,baseline,training average (no lab value),-0.0053,1.395,1.0664,0.1828,,,,,,
+random 70-30,0,BOD value,baseline,repeat last month,-0.2301,1.5431,1.0845,0.0,,,,,,
+random 70-30,0,BOD 4-class,baseline,always most common class (no lab value),,,,,0.2255,0.25,0.8212,0.0,0.0,0.0
+random 70-30,0,BOD 4-class,baseline,same class as last month,,,,,0.3149,0.3192,0.7565,47.8261,13.8801,0.4674
+random 70-30,0,BOD value,Random Forest,with last month,0.3487,1.1228,0.8277,0.4705,,,,,,
+random 70-30,0,BOD 4-class,Random Forest,with last month,,,,,0.3677,0.3883,0.7591,69.5652,17.9811,0.6299
+random 70-30,0,BOD value,Random Forest,without last month,0.3185,1.1485,0.8506,0.446,,,,,,
+random 70-30,0,BOD 4-class,Random Forest,without last month,,,,,0.3552,0.3829,0.728,66.6667,22.082,0.5867
+random 70-30,0,BOD value,XGBoost,with last month,0.234,1.2176,0.8798,0.3773,,,,,,
+random 70-30,0,BOD 4-class,XGBoost,with last month,,,,,0.3681,0.3986,0.728,69.5652,20.8202,0.6154
+random 70-30,0,BOD value,XGBoost,without last month,0.196,1.2475,0.9176,0.3464,,,,,,
+random 70-30,0,BOD 4-class,XGBoost,without last month,,,,,0.345,0.3767,0.7047,65.2174,23.3438,0.5696
+random 70-30,0,BOD value,SVM,with last month,0.2646,1.1931,0.8923,0.4022,,,,,,
+random 70-30,0,BOD 4-class,SVM,with last month,,,,,0.3141,0.3513,0.6865,71.0145,26.4984,0.599
+random 70-30,0,BOD value,SVM,without last month,0.2237,1.2258,0.9229,0.3689,,,,,,
+random 70-30,0,BOD 4-class,SVM,without last month,,,,,0.308,0.342,0.6477,69.5652,30.5994,0.5701
+random 70-30,0,FC value (log10),baseline,training average (no lab value),-0.0006,0.5278,0.4217,-1.7637,,,,,,
+random 70-30,0,FC value (log10),baseline,repeat last month,0.6379,0.3175,0.2211,0.0,,,,,,
+random 70-30,0,FC 5-class,baseline,always most common class (no lab value),,,,,0.1319,0.2,0.4922,0.0,0.0,0.0
+random 70-30,0,FC 5-class,baseline,same class as last month,,,,,0.5376,0.5473,0.6347,70.1493,6.8966,0.6973
+random 70-30,0,FC value (log10),Random Forest,with last month,0.7206,0.2789,0.2039,0.2282,,,,,,
+random 70-30,0,FC 5-class,Random Forest,with last month,,,,,0.5462,0.5324,0.6399,59.7015,3.7618,0.625
+random 70-30,0,FC value (log10),Random Forest,without last month,0.1753,0.4792,0.3689,-1.2778,,,,,,
+random 70-30,0,FC 5-class,Random Forest,without last month,,,,,0.2818,0.2919,0.4637,16.4179,1.8809,0.193
+random 70-30,0,FC value (log10),XGBoost,with last month,0.7097,0.2843,0.2073,0.1983,,,,,,
+random 70-30,0,FC 5-class,XGBoost,with last month,,,,,0.5279,0.5133,0.6244,58.209,3.7618,0.6113
+random 70-30,0,FC value (log10),XGBoost,without last month,0.1764,0.4789,0.371,-1.2749,,,,,,
+random 70-30,0,FC 5-class,XGBoost,without last month,,,,,0.2306,0.2511,0.4249,11.9403,1.5674,0.1423
+random 70-30,0,FC value (log10),SVM,with last month,0.6944,0.2917,0.2129,0.1559,,,,,,
+random 70-30,0,FC 5-class,SVM,with last month,,,,,0.511,0.4948,0.6114,61.194,4.0752,0.6366
+random 70-30,0,FC value (log10),SVM,without last month,0.1612,0.4833,0.3674,-1.3167,,,,,,
+random 70-30,0,FC 5-class,SVM,without last month,,,,,0.249,0.271,0.4482,13.4328,1.8809,0.159
+random 70-30,1,BOD value,baseline,training average (no lab value),-0.0004,3.6572,1.1708,0.4731,,,,,,
+random 70-30,1,BOD value,baseline,repeat last month,-0.8988,5.0385,1.3592,0.0,,,,,,
+random 70-30,1,BOD 4-class,baseline,always most common class (no lab value),,,,,0.2262,0.25,0.8264,0.0,0.0,0.0
+random 70-30,1,BOD 4-class,baseline,same class as last month,,,,,0.3027,0.3099,0.7642,41.791,13.7931,0.4118
+random 70-30,1,BOD value,Random Forest,with last month,0.1223,3.4257,0.9425,0.5377,,,,,,
+random 70-30,1,BOD 4-class,Random Forest,with last month,,,,,0.4903,0.5162,0.7876,71.6418,15.9875,0.654
+random 70-30,1,BOD value,Random Forest,without last month,0.1223,3.4256,0.9303,0.5378,,,,,,
+random 70-30,1,BOD 4-class,Random Forest,without last month,,,,,0.5172,0.5445,0.7876,70.1493,15.674,0.6438
+random 70-30,1,BOD value,XGBoost,with last month,0.1349,3.401,0.9393,0.5444,,,,,,
+random 70-30,1,BOD 4-class,XGBoost,with last month,,,,,0.4418,0.5218,0.7098,70.1493,22.5705,0.6072
+random 70-30,1,BOD value,XGBoost,without last month,0.1411,3.3887,0.9343,0.5477,,,,,,
+random 70-30,1,BOD 4-class,XGBoost,without last month,,,,,0.4172,0.5368,0.6943,77.6119,26.0188,0.6452
+random 70-30,1,BOD value,SVM,with last month,0.0513,3.5614,0.9737,0.5004,,,,,,
+random 70-30,1,BOD 4-class,SVM,with last month,,,,,0.3025,0.3249,0.7098,65.6716,22.884,0.5714
+random 70-30,1,BOD value,SVM,without last month,0.0535,3.5574,0.9903,0.5015,,,,,,
+random 70-30,1,BOD 4-class,SVM,without last month,,,,,0.319,0.3666,0.6503,76.1194,32.2884,0.6043
+random 70-30,1,FC value (log10),baseline,training average (no lab value),-0.0013,0.5347,0.4105,-1.9838,,,,,,
+random 70-30,1,FC value (log10),baseline,repeat last month,0.6644,0.3096,0.2183,0.0,,,,,,
+random 70-30,1,FC 5-class,baseline,always most common class (no lab value),,,,,0.1291,0.2,0.4767,0.0,0.0,0.0
+random 70-30,1,FC 5-class,baseline,same class as last month,,,,,0.5201,0.5297,0.6166,73.1343,6.8966,0.7227
+random 70-30,1,FC value (log10),Random Forest,with last month,0.7235,0.281,0.2058,0.1761,,,,,,
+random 70-30,1,FC 5-class,Random Forest,with last month,,,,,0.5125,0.4985,0.601,61.194,3.4483,0.6406
+random 70-30,1,FC value (log10),Random Forest,without last month,0.1601,0.4897,0.3705,-1.5028,,,,,,
+random 70-30,1,FC 5-class,Random Forest,without last month,,,,,0.2641,0.2748,0.4275,16.4179,1.8809,0.193
+random 70-30,1,FC value (log10),XGBoost,with last month,0.7264,0.2795,0.205,0.1847,,,,,,
+random 70-30,1,FC 5-class,XGBoost,with last month,,,,,0.5296,0.5134,0.6114,59.7015,2.8213,0.6309
+random 70-30,1,FC value (log10),XGBoost,without last month,0.1798,0.4839,0.3714,-1.4441,,,,,,
+random 70-30,1,FC 5-class,XGBoost,without last month,,,,,0.2506,0.2653,0.386,16.4179,1.8809,0.193
+random 70-30,1,FC value (log10),SVM,with last month,0.7169,0.2843,0.2114,0.1563,,,,,,
+random 70-30,1,FC 5-class,SVM,with last month,,,,,0.5235,0.5091,0.6114,64.1791,3.1348,0.6698
+random 70-30,1,FC value (log10),SVM,without last month,0.1851,0.4824,0.3709,-1.4286,,,,,,
+random 70-30,1,FC 5-class,SVM,without last month,,,,,0.2638,0.2684,0.4093,14.9254,1.2539,0.1773
+random 70-30,2,BOD value,baseline,training average (no lab value),-0.0138,1.2795,1.0165,0.8798,,,,,,
+random 70-30,2,BOD value,baseline,repeat last month,-7.4375,3.6911,1.2431,0.0,,,,,,
+random 70-30,2,BOD 4-class,baseline,always most common class (no lab value),,,,,0.2255,0.25,0.8212,0.0,0.0,0.0
+random 70-30,2,BOD 4-class,baseline,same class as last month,,,,,0.3307,0.3357,0.7591,47.8261,15.142,0.4622
+random 70-30,2,BOD value,Random Forest,with last month,0.2908,1.0701,0.801,0.9159,,,,,,
+random 70-30,2,BOD 4-class,Random Forest,with last month,,,,,0.3864,0.4292,0.7435,69.5652,20.8202,0.6154
+random 70-30,2,BOD value,Random Forest,without last month,0.2599,1.0932,0.8025,0.9123,,,,,,
+random 70-30,2,BOD 4-class,Random Forest,without last month,,,,,0.3317,0.364,0.6839,59.4203,25.5521,0.5151
+random 70-30,2,BOD value,XGBoost,with last month,0.2492,1.101,0.824,0.911,,,,,,
+random 70-30,2,BOD 4-class,XGBoost,with last month,,,,,0.3249,0.3535,0.7098,72.4638,22.3975,0.6297
+random 70-30,2,BOD value,XGBoost,without last month,0.2435,1.1052,0.8337,0.9103,,,,,,
+random 70-30,2,BOD 4-class,XGBoost,without last month,,,,,0.2829,0.3058,0.6477,60.8696,27.4448,0.5185
+random 70-30,2,BOD value,SVM,with last month,0.2652,1.0893,0.8415,0.9129,,,,,,
+random 70-30,2,BOD 4-class,SVM,with last month,,,,,0.3427,0.3823,0.7098,69.5652,24.9211,0.5955
+random 70-30,2,BOD value,SVM,without last month,0.2303,1.1148,0.8555,0.9088,,,,,,
+random 70-30,2,BOD 4-class,SVM,without last month,,,,,0.3185,0.3359,0.7124,57.971,22.082,0.5181
+random 70-30,2,FC value (log10),baseline,training average (no lab value),-0.0019,0.5419,0.4341,-2.0248,,,,,,
+random 70-30,2,FC value (log10),baseline,repeat last month,0.6688,0.3116,0.2186,0.0,,,,,,
+random 70-30,2,FC 5-class,baseline,always most common class (no lab value),,,,,0.1272,0.2,0.4663,0.0,0.0,0.0
+random 70-30,2,FC 5-class,baseline,same class as last month,,,,,0.4994,0.5034,0.601,62.5,8.5987,0.625
+random 70-30,2,FC value (log10),Random Forest,with last month,0.7361,0.2781,0.2127,0.2033,,,,,,
+random 70-30,2,FC 5-class,Random Forest,with last month,,,,,0.4945,0.4798,0.5984,54.1667,5.414,0.5669
+random 70-30,2,FC value (log10),Random Forest,without last month,0.1632,0.4952,0.3848,-1.5264,,,,,,
+random 70-30,2,FC 5-class,Random Forest,without last month,,,,,0.2712,0.2836,0.4585,12.5,2.8662,0.1471
+random 70-30,2,FC value (log10),XGBoost,with last month,0.7286,0.282,0.2137,0.1805,,,,,,
+random 70-30,2,FC 5-class,XGBoost,with last month,,,,,0.5254,0.5116,0.6269,52.7778,5.0955,0.5556
+random 70-30,2,FC value (log10),XGBoost,without last month,0.1708,0.493,0.3833,-1.5036,,,,,,
+random 70-30,2,FC 5-class,XGBoost,without last month,,,,,0.2804,0.2826,0.4223,13.8889,2.8662,0.1629
+random 70-30,2,FC value (log10),SVM,with last month,0.717,0.288,0.216,0.1456,,,,,,
+random 70-30,2,FC 5-class,SVM,with last month,,,,,0.5018,0.4904,0.5959,55.5556,5.414,0.5797
+random 70-30,2,FC value (log10),SVM,without last month,0.1907,0.487,0.3759,-1.4434,,,,,,
+random 70-30,2,FC 5-class,SVM,without last month,,,,,0.281,0.2947,0.4585,12.5,1.9108,0.1485
+random 70-30,3,BOD value,baseline,training average (no lab value),-0.0021,3.6821,1.214,0.4738,,,,,,
+random 70-30,3,BOD value,baseline,repeat last month,-0.9046,5.0761,1.3988,0.0,,,,,,
+random 70-30,3,BOD 4-class,baseline,always most common class (no lab value),,,,,0.2207,0.25,0.7902,0.0,0.0,0.0
+random 70-30,3,BOD 4-class,baseline,same class as last month,,,,,0.3334,0.3371,0.7617,54.321,14.4262,0.534
+random 70-30,3,BOD value,Random Forest,with last month,0.1412,3.4086,0.9403,0.5491,,,,,,
+random 70-30,3,BOD 4-class,Random Forest,with last month,,,,,0.4788,0.5165,0.7591,77.7778,19.6721,0.7047
+random 70-30,3,BOD value,Random Forest,without last month,0.1194,3.4517,0.9761,0.5376,,,,,,
+random 70-30,3,BOD 4-class,Random Forest,without last month,,,,,0.5117,0.5236,0.7306,71.6049,22.9508,0.6416
+random 70-30,3,BOD value,XGBoost,with last month,0.1631,3.365,0.9651,0.5606,,,,,,
+random 70-30,3,BOD 4-class,XGBoost,with last month,,,,,0.4062,0.476,0.7047,76.5432,23.9344,0.6754
+random 70-30,3,BOD value,XGBoost,without last month,0.1446,3.402,0.9931,0.5508,,,,,,
+random 70-30,3,BOD 4-class,XGBoost,without last month,,,,,0.3766,0.4496,0.658,72.8395,28.5246,0.6277
+random 70-30,3,BOD value,SVM,with last month,0.0509,3.5835,1.0116,0.5016,,,,,,
+random 70-30,3,BOD 4-class,SVM,with last month,,,,,0.3282,0.3418,0.7073,67.9012,21.6393,0.618
+random 70-30,3,BOD value,SVM,without last month,0.0515,3.5823,1.0311,0.502,,,,,,
+random 70-30,3,BOD 4-class,SVM,without last month,,,,,0.3153,0.3249,0.7047,67.9012,22.2951,0.6152
+random 70-30,3,FC value (log10),baseline,training average (no lab value),-0.0001,0.5466,0.4394,-2.0129,,,,,,
+random 70-30,3,FC value (log10),baseline,repeat last month,0.6681,0.3149,0.2195,0.0,,,,,,
+random 70-30,3,FC 5-class,baseline,always most common class (no lab value),,,,,0.1347,0.2,0.5078,0.0,0.0,0.0
+random 70-30,3,FC 5-class,baseline,same class as last month,,,,,0.5408,0.5573,0.6425,72.1519,5.8632,0.7289
+random 70-30,3,FC value (log10),Random Forest,with last month,0.726,0.2861,0.214,0.1745,,,,,,
+random 70-30,3,FC 5-class,Random Forest,with last month,,,,,0.549,0.5419,0.6451,55.6962,2.6059,0.5978
+random 70-30,3,FC value (log10),Random Forest,without last month,0.1623,0.5003,0.3899,-1.5238,,,,,,
+random 70-30,3,FC 5-class,Random Forest,without last month,,,,,0.2412,0.2589,0.4041,12.6582,1.6287,0.1511
+random 70-30,3,FC value (log10),XGBoost,with last month,0.7136,0.2925,0.2173,0.1371,,,,,,
+random 70-30,3,FC 5-class,XGBoost,with last month,,,,,0.5236,0.5127,0.6218,55.6962,2.2801,0.5995
+random 70-30,3,FC value (log10),XGBoost,without last month,0.1955,0.4903,0.3806,-1.4237,,,,,,
+random 70-30,3,FC 5-class,XGBoost,without last month,,,,,0.2524,0.2713,0.3964,16.4557,0.9772,0.1958
+random 70-30,3,FC value (log10),SVM,with last month,0.7129,0.2929,0.2185,0.1352,,,,,,
+random 70-30,3,FC 5-class,SVM,with last month,,,,,0.562,0.553,0.6451,67.0886,2.9316,0.7011
+random 70-30,3,FC value (log10),SVM,without last month,0.2128,0.485,0.372,-1.3716,,,,,,
+random 70-30,3,FC 5-class,SVM,without last month,,,,,0.2671,0.2832,0.4456,16.4557,0.9772,0.1958
+random 70-30,4,BOD value,baseline,training average (no lab value),-0.0,1.3186,1.0106,0.8734,,,,,,
+random 70-30,4,BOD value,baseline,repeat last month,-6.898,3.7058,1.2297,0.0,,,,,,
+random 70-30,4,BOD 4-class,baseline,always most common class (no lab value),,,,,0.2219,0.25,0.7979,0.0,0.0,0.0
+random 70-30,4,BOD 4-class,baseline,same class as last month,,,,,0.3093,0.3104,0.7487,47.4359,14.2857,0.4707
+random 70-30,4,BOD value,Random Forest,with last month,0.3456,1.0667,0.7637,0.9171,,,,,,
+random 70-30,4,BOD 4-class,Random Forest,with last month,,,,,0.3853,0.4194,0.7487,73.0769,19.1558,0.6659
+random 70-30,4,BOD value,Random Forest,without last month,0.318,1.0889,0.7993,0.9137,,,,,,
+random 70-30,4,BOD 4-class,Random Forest,without last month,,,,,0.3655,0.4,0.7254,66.6667,20.7792,0.6075
+random 70-30,4,BOD value,XGBoost,with last month,0.3298,1.0795,0.7725,0.9151,,,,,,
+random 70-30,4,BOD 4-class,XGBoost,with last month,,,,,0.3828,0.4612,0.6865,73.0769,25.0,0.639
+random 70-30,4,BOD value,XGBoost,without last month,0.3011,1.1024,0.8009,0.9115,,,,,,
+random 70-30,4,BOD 4-class,XGBoost,without last month,,,,,0.4027,0.5051,0.6917,70.5128,24.3506,0.6222
+random 70-30,4,BOD value,SVM,with last month,0.295,1.1072,0.8138,0.9107,,,,,,
+random 70-30,4,BOD 4-class,SVM,with last month,,,,,0.3357,0.3583,0.7176,64.1026,22.0779,0.5814
+random 70-30,4,BOD value,SVM,without last month,0.2779,1.1205,0.8217,0.9086,,,,,,
+random 70-30,4,BOD 4-class,SVM,without last month,,,,,0.3402,0.3843,0.6658,60.2564,28.5714,0.5257
+random 70-30,4,FC value (log10),baseline,training average (no lab value),-0.0008,0.5216,0.4143,-1.7841,,,,,,
+random 70-30,4,FC value (log10),baseline,repeat last month,0.6405,0.3126,0.2226,0.0,,,,,,
+random 70-30,4,FC 5-class,baseline,always most common class (no lab value),,,,,0.1329,0.2,0.4974,0.0,0.0,0.0
+random 70-30,4,FC 5-class,baseline,same class as last month,,,,,0.5112,0.5073,0.614,69.5652,5.0473,0.7059
+random 70-30,4,FC value (log10),Random Forest,with last month,0.6994,0.2859,0.2136,0.1637,,,,,,
+random 70-30,4,FC 5-class,Random Forest,with last month,,,,,0.5016,0.4939,0.6218,50.7246,2.2082,0.5503
+random 70-30,4,FC value (log10),Random Forest,without last month,0.1153,0.4905,0.3769,-1.4611,,,,,,
+random 70-30,4,FC 5-class,Random Forest,without last month,,,,,0.2231,0.2369,0.4119,10.1449,1.5773,0.1215
+random 70-30,4,FC value (log10),XGBoost,with last month,0.6891,0.2907,0.2136,0.1351,,,,,,
+random 70-30,4,FC 5-class,XGBoost,with last month,,,,,0.4857,0.484,0.6244,52.1739,2.5237,0.5625
+random 70-30,4,FC value (log10),XGBoost,without last month,0.1489,0.481,0.3707,-1.3675,,,,,,
+random 70-30,4,FC 5-class,XGBoost,without last month,,,,,0.2183,0.2392,0.4093,8.6957,0.9464,0.1053
+random 70-30,4,FC value (log10),SVM,with last month,0.6873,0.2916,0.2186,0.1301,,,,,,
+random 70-30,4,FC 5-class,SVM,with last month,,,,,0.4963,0.4943,0.6192,63.7681,2.8391,0.6687
+random 70-30,4,FC value (log10),SVM,without last month,0.1604,0.4778,0.3608,-1.3356,,,,,,
+random 70-30,4,FC 5-class,SVM,without last month,,,,,0.2756,0.2913,0.4663,13.0435,1.8927,0.1546
+random 70-30,5,BOD value,baseline,training average (no lab value),-0.0015,1.2787,0.9923,0.2568,,,,,,
+random 70-30,5,BOD value,baseline,repeat last month,-0.3474,1.4832,0.9934,0.0,,,,,,
+random 70-30,5,BOD 4-class,baseline,always most common class (no lab value),,,,,0.2235,0.25,0.8083,0.0,0.0,0.0
+random 70-30,5,BOD 4-class,baseline,same class as last month,,,,,0.3165,0.3188,0.7642,50.0,13.4615,0.4933
+random 70-30,5,BOD value,Random Forest,with last month,0.3276,1.0478,0.7539,0.5009,,,,,,
+random 70-30,5,BOD 4-class,Random Forest,with last month,,,,,0.3693,0.3811,0.7617,66.2162,16.6667,0.6171
+random 70-30,5,BOD value,Random Forest,without last month,0.2749,1.0881,0.7989,0.4618,,,,,,
+random 70-30,5,BOD 4-class,Random Forest,without last month,,,,,0.3585,0.3649,0.7306,60.8108,19.8718,0.5583
+random 70-30,5,BOD value,XGBoost,with last month,0.2565,1.1018,0.7856,0.4482,,,,,,
+random 70-30,5,BOD 4-class,XGBoost,with last month,,,,,0.4202,0.6595,0.715,70.2703,22.1154,0.6235
+random 70-30,5,BOD value,XGBoost,without last month,0.2047,1.1395,0.82,0.4098,,,,,,
+random 70-30,5,BOD 4-class,XGBoost,without last month,,,,,0.3415,0.38,0.6917,56.7568,22.4359,0.5147
+random 70-30,5,BOD value,SVM,with last month,0.3131,1.059,0.7882,0.4902,,,,,,
+random 70-30,5,BOD 4-class,SVM,with last month,,,,,0.3672,0.3987,0.6995,66.2162,24.6795,0.5806
+random 70-30,5,BOD value,SVM,without last month,0.2775,1.0861,0.8117,0.4638,,,,,,
+random 70-30,5,BOD 4-class,SVM,without last month,,,,,0.318,0.3432,0.671,64.8649,26.9231,0.5607
+random 70-30,5,FC value (log10),baseline,training average (no lab value),-0.0022,0.5192,0.4062,-1.9317,,,,,,
+random 70-30,5,FC value (log10),baseline,repeat last month,0.6582,0.3032,0.2155,0.0,,,,,,
+random 70-30,5,FC 5-class,baseline,always most common class (no lab value),,,,,0.1253,0.2,0.456,0.0,0.0,0.0
+random 70-30,5,FC 5-class,baseline,same class as last month,,,,,0.5065,0.515,0.5984,65.7143,6.962,0.6609
+random 70-30,5,FC value (log10),Random Forest,with last month,0.7297,0.2696,0.2019,0.2094,,,,,,
+random 70-30,5,FC 5-class,Random Forest,with last month,,,,,0.5526,0.5395,0.6192,61.4286,3.481,0.6437
+random 70-30,5,FC value (log10),Random Forest,without last month,0.1359,0.4821,0.3713,-1.5279,,,,,,
+random 70-30,5,FC 5-class,Random Forest,without last month,,,,,0.2579,0.2716,0.4326,12.8571,2.2152,0.152
+random 70-30,5,FC value (log10),XGBoost,with last month,0.7191,0.2748,0.2046,0.1784,,,,,,
+random 70-30,5,FC 5-class,XGBoost,with last month,,,,,0.5435,0.5376,0.6192,57.1429,2.8481,0.6079
+random 70-30,5,FC value (log10),XGBoost,without last month,0.1689,0.4728,0.3649,-1.4312,,,,,,
+random 70-30,5,FC 5-class,XGBoost,without last month,,,,,0.2792,0.2855,0.4223,17.1429,3.1646,0.1987
+random 70-30,5,FC value (log10),SVM,with last month,0.6954,0.2862,0.2133,0.109,,,,,,
+random 70-30,5,FC 5-class,SVM,with last month,,,,,0.5199,0.5148,0.5933,58.5714,4.1139,0.6138
+random 70-30,5,FC value (log10),SVM,without last month,0.1598,0.4754,0.3638,-1.4579,,,,,,
+random 70-30,5,FC 5-class,SVM,without last month,,,,,0.2884,0.2926,0.4378,14.2857,2.5316,0.1678
+random 70-30,6,BOD value,baseline,training average (no lab value),-0.0059,1.348,1.0646,0.2493,,,,,,
+random 70-30,6,BOD value,baseline,repeat last month,-0.34,1.5558,1.1045,0.0,,,,,,
+random 70-30,6,BOD 4-class,baseline,always most common class (no lab value),,,,,0.2215,0.25,0.7953,0.0,0.0,0.0
+random 70-30,6,BOD 4-class,baseline,same class as last month,,,,,0.2872,0.2882,0.7202,37.9747,16.6124,0.3778
+random 70-30,6,BOD value,Random Forest,with last month,0.3676,1.0688,0.8016,0.528,,,,,,
+random 70-30,6,BOD 4-class,Random Forest,with last month,,,,,0.4757,0.5551,0.7409,74.6835,20.5212,0.6735
+random 70-30,6,BOD value,Random Forest,without last month,0.3223,1.1065,0.8311,0.4942,,,,,,
+random 70-30,6,BOD 4-class,Random Forest,without last month,,,,,0.439,0.5326,0.7228,67.0886,20.8469,0.612
+random 70-30,6,BOD value,XGBoost,with last month,0.3135,1.1136,0.8314,0.4877,,,,,,
+random 70-30,6,BOD 4-class,XGBoost,with last month,,,,,0.4145,0.54,0.6943,68.3544,23.127,0.6122
+random 70-30,6,BOD value,XGBoost,without last month,0.2549,1.1601,0.8665,0.444,,,,,,
+random 70-30,6,BOD 4-class,XGBoost,without last month,,,,,0.3843,0.5087,0.6736,69.6203,26.0586,0.6098
+random 70-30,6,BOD value,SVM,with last month,0.2804,1.1401,0.874,0.463,,,,,,
+random 70-30,6,BOD 4-class,SVM,with last month,,,,,0.3552,0.3848,0.7176,58.2278,21.8241,0.5361
+random 70-30,6,BOD value,SVM,without last month,0.2527,1.1619,0.8927,0.4423,,,,,,
+random 70-30,6,BOD 4-class,SVM,without last month,,,,,0.3246,0.351,0.6891,63.2911,25.7329,0.5618
+random 70-30,6,FC value (log10),baseline,training average (no lab value),-0.0033,0.5378,0.4262,-1.6546,,,,,,
+random 70-30,6,FC value (log10),baseline,repeat last month,0.622,0.3301,0.2272,0.0,,,,,,
+random 70-30,6,FC 5-class,baseline,always most common class (no lab value),,,,,0.1365,0.2,0.5181,0.0,0.0,0.0
+random 70-30,6,FC 5-class,baseline,same class as last month,,,,,0.5391,0.5383,0.6503,68.1159,5.9937,0.6871
+random 70-30,6,FC value (log10),Random Forest,with last month,0.6924,0.2978,0.2178,0.1863,,,,,,
+random 70-30,6,FC 5-class,Random Forest,with last month,,,,,0.5409,0.5311,0.6503,62.3188,2.5237,0.6575
+random 70-30,6,FC value (log10),Random Forest,without last month,0.1802,0.4861,0.3836,-1.1691,,,,,,
+random 70-30,6,FC 5-class,Random Forest,without last month,,,,,0.2161,0.2338,0.3808,15.942,2.8391,0.1858
+random 70-30,6,FC value (log10),XGBoost,with last month,0.6899,0.299,0.2192,0.1795,,,,,,
+random 70-30,6,FC 5-class,XGBoost,with last month,,,,,0.5268,0.5165,0.6451,60.8696,2.8391,0.6422
+random 70-30,6,FC value (log10),XGBoost,without last month,0.1992,0.4805,0.3764,-1.1189,,,,,,
+random 70-30,6,FC 5-class,XGBoost,without last month,,,,,0.2459,0.2541,0.3886,14.4928,2.5237,0.1701
+random 70-30,6,FC value (log10),SVM,with last month,0.6718,0.3076,0.2242,0.1318,,,,,,
+random 70-30,6,FC 5-class,SVM,with last month,,,,,0.5532,0.5452,0.6554,66.6667,2.5237,0.697
+random 70-30,6,FC value (log10),SVM,without last month,0.168,0.4897,0.379,-1.2013,,,,,,
+random 70-30,6,FC 5-class,SVM,without last month,,,,,0.2269,0.2412,0.4041,14.4928,2.5237,0.1701
+random 70-30,7,BOD value,baseline,training average (no lab value),-0.0013,1.2965,0.9737,0.1827,,,,,,
+random 70-30,7,BOD value,baseline,repeat last month,-0.2251,1.4341,0.9521,0.0,,,,,,
+random 70-30,7,BOD 4-class,baseline,always most common class (no lab value),,,,,0.2266,0.25,0.829,0.0,0.0,0.0
+random 70-30,7,BOD 4-class,baseline,same class as last month,,,,,0.3397,0.3373,0.7902,45.4545,10.9375,0.4559
+random 70-30,7,BOD value,Random Forest,with last month,0.3232,1.066,0.761,0.4475,,,,,,
+random 70-30,7,BOD 4-class,Random Forest,with last month,,,,,0.3471,0.3639,0.7591,62.1212,15.9375,0.5758
+random 70-30,7,BOD value,Random Forest,without last month,0.2676,1.1088,0.8016,0.4022,,,,,,
+random 70-30,7,BOD 4-class,Random Forest,without last month,,,,,0.3103,0.3256,0.7254,57.5758,19.375,0.522
+random 70-30,7,BOD value,XGBoost,with last month,0.3148,1.0726,0.7642,0.4407,,,,,,
+random 70-30,7,BOD 4-class,XGBoost,with last month,,,,,0.3454,0.3851,0.7358,65.1515,19.375,0.5827
+random 70-30,7,BOD value,XGBoost,without last month,0.2476,1.1239,0.8181,0.3859,,,,,,
+random 70-30,7,BOD 4-class,XGBoost,without last month,,,,,0.313,0.3624,0.6606,62.1212,28.4375,0.5177
+random 70-30,7,BOD value,SVM,with last month,0.2806,1.099,0.7945,0.4128,,,,,,
+random 70-30,7,BOD 4-class,SVM,with last month,,,,,0.3019,0.3211,0.7124,63.6364,22.5,0.5556
+random 70-30,7,BOD value,SVM,without last month,0.2421,1.128,0.8167,0.3814,,,,,,
+random 70-30,7,BOD 4-class,SVM,without last month,,,,,0.2723,0.2842,0.6554,57.5758,27.8125,0.4859
+random 70-30,7,FC value (log10),baseline,training average (no lab value),-0.0035,0.5298,0.4157,-1.8176,,,,,,
+random 70-30,7,FC value (log10),baseline,repeat last month,0.6438,0.3156,0.2146,0.0,,,,,,
+random 70-30,7,FC 5-class,baseline,always most common class (no lab value),,,,,0.1329,0.2,0.4974,0.0,0.0,0.0
+random 70-30,7,FC 5-class,baseline,same class as last month,,,,,0.5216,0.5207,0.6295,69.863,7.6677,0.6948
+random 70-30,7,FC value (log10),Random Forest,with last month,0.7077,0.2859,0.2059,0.1793,,,,,,
+random 70-30,7,FC 5-class,Random Forest,with last month,,,,,0.5086,0.4957,0.6244,60.274,3.8339,0.6322
+random 70-30,7,FC value (log10),Random Forest,without last month,0.1536,0.4865,0.3738,-1.3766,,,,,,
+random 70-30,7,FC 5-class,Random Forest,without last month,,,,,0.2446,0.2634,0.4482,15.0685,2.5559,0.1768
+random 70-30,7,FC value (log10),XGBoost,with last month,0.7034,0.288,0.2086,0.1674,,,,,,
+random 70-30,7,FC 5-class,XGBoost,with last month,,,,,0.499,0.4884,0.6218,61.6438,4.1534,0.6429
+random 70-30,7,FC value (log10),XGBoost,without last month,0.165,0.4833,0.3755,-1.3446,,,,,,
+random 70-30,7,FC 5-class,XGBoost,without last month,,,,,0.2429,0.2576,0.4223,10.9589,1.9169,0.1307
+random 70-30,7,FC value (log10),SVM,with last month,0.6965,0.2914,0.2107,0.1478,,,,,,
+random 70-30,7,FC 5-class,SVM,with last month,,,,,0.5349,0.5228,0.6399,65.7534,4.4728,0.678
+random 70-30,7,FC value (log10),SVM,without last month,0.1823,0.4782,0.3647,-1.2959,,,,,,
+random 70-30,7,FC 5-class,SVM,without last month,,,,,0.2593,0.2781,0.4326,15.0685,1.5974,0.1786
+random 70-30,8,BOD value,baseline,training average (no lab value),-0.0009,3.6707,1.1675,0.4677,,,,,,
+random 70-30,8,BOD value,baseline,repeat last month,-0.8805,5.0314,1.3224,0.0,,,,,,
+random 70-30,8,BOD 4-class,baseline,always most common class (no lab value),,,,,0.2266,0.25,0.829,0.0,0.0,0.0
+random 70-30,8,BOD 4-class,baseline,same class as last month,,,,,0.2895,0.293,0.7617,46.9697,12.8125,0.4613
+random 70-30,8,BOD value,Random Forest,with last month,0.1253,3.4316,0.9045,0.5348,,,,,,
+random 70-30,8,BOD 4-class,Random Forest,with last month,,,,,0.4576,0.4935,0.7876,66.6667,15.0,0.618
+random 70-30,8,BOD value,Random Forest,without last month,0.1191,3.4437,0.9498,0.5315,,,,,,
+random 70-30,8,BOD 4-class,Random Forest,without last month,,,,,0.4478,0.4885,0.785,63.6364,15.0,0.5932
+random 70-30,8,BOD value,XGBoost,with last month,0.158,3.3668,0.907,0.5522,,,,,,
+random 70-30,8,BOD 4-class,XGBoost,with last month,,,,,0.39,0.4784,0.7409,80.303,18.4375,0.7048
+random 70-30,8,BOD value,XGBoost,without last month,0.1444,3.3939,0.9663,0.545,,,,,,
+random 70-30,8,BOD 4-class,XGBoost,without last month,,,,,0.372,0.451,0.7254,69.697,19.6875,0.6166
+random 70-30,8,BOD value,SVM,with last month,0.0508,3.5746,0.9528,0.4952,,,,,,
+random 70-30,8,BOD 4-class,SVM,with last month,,,,,0.3369,0.3635,0.7332,65.1515,20.0,0.5795
+random 70-30,8,BOD value,SVM,without last month,0.0521,3.5723,0.9904,0.4959,,,,,,
+random 70-30,8,BOD 4-class,SVM,without last month,,,,,0.3175,0.3539,0.6684,66.6667,27.5,0.5556
+random 70-30,8,FC value (log10),baseline,training average (no lab value),-0.0001,0.521,0.413,-1.7973,,,,,,
+random 70-30,8,FC value (log10),baseline,repeat last month,0.6425,0.3115,0.2181,0.0,,,,,,
+random 70-30,8,FC 5-class,baseline,always most common class (no lab value),,,,,0.1319,0.2,0.4922,0.0,0.0,0.0
+random 70-30,8,FC 5-class,baseline,same class as last month,,,,,0.5229,0.5311,0.6192,72.0588,5.6604,0.7227
+random 70-30,8,FC value (log10),Random Forest,with last month,0.7294,0.271,0.198,0.243,,,,,,
+random 70-30,8,FC 5-class,Random Forest,with last month,,,,,0.548,0.5445,0.6269,57.3529,2.2013,0.6132
+random 70-30,8,FC value (log10),Random Forest,without last month,0.1699,0.4746,0.3639,-1.322,,,,,,
+random 70-30,8,FC 5-class,Random Forest,without last month,,,,,0.2673,0.2773,0.443,14.7059,1.8868,0.1736
+random 70-30,8,FC value (log10),XGBoost,with last month,0.7241,0.2736,0.2,0.2283,,,,,,
+random 70-30,8,FC 5-class,XGBoost,with last month,,,,,0.5501,0.5417,0.6269,58.8235,2.5157,0.625
+random 70-30,8,FC value (log10),XGBoost,without last month,0.2009,0.4657,0.3606,-1.235,,,,,,
+random 70-30,8,FC 5-class,XGBoost,without last month,,,,,0.2616,0.2761,0.4093,14.7059,0.9434,0.1754
+random 70-30,8,FC value (log10),SVM,with last month,0.7086,0.2812,0.2072,0.1849,,,,,,
+random 70-30,8,FC 5-class,SVM,with last month,,,,,0.5563,0.5465,0.6321,66.1765,3.4591,0.686
+random 70-30,8,FC value (log10),SVM,without last month,0.2295,0.4573,0.3529,-1.1553,,,,,,
+random 70-30,8,FC 5-class,SVM,without last month,,,,,0.2771,0.2935,0.4404,17.6471,2.2013,0.2062
+random 70-30,9,BOD value,baseline,training average (no lab value),-0.0001,1.3922,1.04,0.1447,,,,,,
+random 70-30,9,BOD value,baseline,repeat last month,-0.1692,1.5053,0.9915,0.0,,,,,,
+random 70-30,9,BOD 4-class,baseline,always most common class (no lab value),,,,,0.2231,0.25,0.8057,0.0,0.0,0.0
+random 70-30,9,BOD 4-class,baseline,same class as last month,,,,,0.3256,0.3268,0.7772,49.3333,11.8971,0.4947
+random 70-30,9,BOD value,Random Forest,with last month,0.3734,1.102,0.809,0.4641,,,,,,
+random 70-30,9,BOD 4-class,Random Forest,with last month,,,,,0.3605,0.4031,0.7409,61.3333,18.0064,0.5721
+random 70-30,9,BOD value,Random Forest,without last month,0.3183,1.1494,0.8365,0.4169,,,,,,
+random 70-30,9,BOD 4-class,Random Forest,without last month,,,,,0.3661,0.4169,0.7306,57.3333,18.6495,0.5362
+random 70-30,9,BOD value,XGBoost,with last month,0.3473,1.1247,0.8082,0.4417,,,,,,
+random 70-30,9,BOD 4-class,XGBoost,with last month,,,,,0.3527,0.4238,0.6995,72.0,24.1158,0.6294
+random 70-30,9,BOD value,XGBoost,without last month,0.2957,1.1683,0.8506,0.3976,,,,,,
+random 70-30,9,BOD 4-class,XGBoost,without last month,,,,,0.3276,0.396,0.6632,64.0,27.0096,0.5556
+random 70-30,9,BOD value,SVM,with last month,0.3086,1.1576,0.8647,0.4086,,,,,,
+random 70-30,9,BOD 4-class,SVM,with last month,,,,,0.3002,0.3224,0.6762,61.3333,24.7588,0.5437
+random 70-30,9,BOD value,SVM,without last month,0.2548,1.2018,0.8876,0.3626,,,,,,
+random 70-30,9,BOD 4-class,SVM,without last month,,,,,0.3205,0.3666,0.6658,60.0,26.045,0.5282
+random 70-30,9,FC value (log10),baseline,training average (no lab value),-0.0002,0.5393,0.421,-2.2748,,,,,,
+random 70-30,9,FC value (log10),baseline,repeat last month,0.6946,0.298,0.2163,0.0,,,,,,
+random 70-30,9,FC 5-class,baseline,always most common class (no lab value),,,,,0.1315,0.2,0.4896,0.0,0.0,0.0
+random 70-30,9,FC 5-class,baseline,same class as last month,,,,,0.5376,0.5412,0.6295,69.697,6.25,0.697
+random 70-30,9,FC value (log10),Random Forest,with last month,0.757,0.2659,0.2046,0.2043,,,,,,
+random 70-30,9,FC 5-class,Random Forest,with last month,,,,,0.5561,0.5352,0.6192,65.1515,3.125,0.6782
+random 70-30,9,FC value (log10),Random Forest,without last month,0.1894,0.4855,0.3718,-1.654,,,,,,
+random 70-30,9,FC 5-class,Random Forest,without last month,,,,,0.2709,0.2845,0.4378,16.6667,1.25,0.1971
+random 70-30,9,FC value (log10),XGBoost,with last month,0.7494,0.27,0.2081,0.1795,,,,,,
+random 70-30,9,FC 5-class,XGBoost,with last month,,,,,0.5494,0.5256,0.6166,60.6061,3.4375,0.6349
+random 70-30,9,FC value (log10),XGBoost,without last month,0.2084,0.4798,0.3674,-1.5919,,,,,,
+random 70-30,9,FC 5-class,XGBoost,without last month,,,,,0.2657,0.2758,0.4197,13.6364,0.9375,0.163
+random 70-30,9,FC value (log10),SVM,with last month,0.7467,0.2714,0.2079,0.1706,,,,,,
+random 70-30,9,FC 5-class,SVM,with last month,,,,,0.5161,0.5037,0.6088,62.1212,3.4375,0.6487
+random 70-30,9,FC value (log10),SVM,without last month,0.1995,0.4825,0.3664,-1.621,,,,,,
+random 70-30,9,FC 5-class,SVM,without last month,,,,,0.2956,0.3083,0.4637,16.6667,0.625,0.1986
+rolling year-by-year,2018,BOD value,baseline,training average (no lab value),-0.1233,1.6253,1.2611,0.3082,,,,,,
+rolling year-by-year,2018,BOD value,baseline,repeat last month,-0.6237,1.9541,1.2639,0.0,,,,,,
+rolling year-by-year,2018,BOD 4-class,baseline,always most common class (no lab value),,,,,0.2366,0.25,0.8981,0.0,0.0,0.0
+rolling year-by-year,2018,BOD 4-class,baseline,same class as last month,,,,,0.2685,0.2685,0.8241,18.1818,9.2784,0.1818
+rolling year-by-year,2018,BOD value,Random Forest,with last month,0.0697,1.4791,1.0184,0.427,,,,,,
+rolling year-by-year,2018,BOD 4-class,Random Forest,with last month,,,,,0.3502,0.4012,0.8611,36.3636,6.1856,0.3704
+rolling year-by-year,2018,BOD value,Random Forest,without last month,-0.0082,1.5398,1.0433,0.3791,,,,,,
+rolling year-by-year,2018,BOD 4-class,Random Forest,without last month,,,,,0.2292,0.2268,0.8148,36.3636,9.2784,0.3509
+rolling year-by-year,2018,BOD value,XGBoost,with last month,-0.3101,1.7553,1.1243,0.1931,,,,,,
+rolling year-by-year,2018,BOD 4-class,XGBoost,with last month,,,,,0.3405,0.396,0.8426,36.3636,8.2474,0.3571
+rolling year-by-year,2018,BOD value,XGBoost,without last month,-0.3756,1.7986,1.1301,0.1528,,,,,,
+rolling year-by-year,2018,BOD 4-class,XGBoost,without last month,,,,,0.3411,0.3935,0.8333,27.2727,9.2784,0.2679
+rolling year-by-year,2018,BOD value,SVM,with last month,0.2345,1.3417,0.8801,0.5286,,,,,,
+rolling year-by-year,2018,BOD 4-class,SVM,with last month,,,,,0.3412,0.3729,0.7593,27.2727,17.5258,0.2344
+rolling year-by-year,2018,BOD value,SVM,without last month,0.228,1.3474,0.8867,0.5245,,,,,,
+rolling year-by-year,2018,BOD 4-class,SVM,without last month,,,,,0.3549,0.3625,0.7222,27.2727,21.6495,0.2206
+rolling year-by-year,2018,FC value (log10),baseline,training average (no lab value),-9.588,1.4465,1.3777,-10.3756,,,,,,
+rolling year-by-year,2018,FC value (log10),baseline,repeat last month,0.0692,0.4289,0.2942,0.0,,,,,,
+rolling year-by-year,2018,FC 5-class,baseline,always most common class (no lab value),,,,,0.0091,0.25,0.0185,100.0,100.0,0.0862
+rolling year-by-year,2018,FC 5-class,baseline,same class as last month,,,,,0.4123,0.428,0.8333,50.0,2.8302,0.4167
+rolling year-by-year,2018,FC value (log10),Random Forest,with last month,-0.1443,0.4756,0.3704,-0.2294,,,,,,
+rolling year-by-year,2018,FC 5-class,Random Forest,with last month,,,,,0.3069,0.3005,0.8148,0.0,0.9434,0.0
+rolling year-by-year,2018,FC value (log10),Random Forest,without last month,-9.2961,1.4265,1.3548,-10.0619,,,,,,
+rolling year-by-year,2018,FC 5-class,Random Forest,without last month,,,,,0.0,0.0,0.0,0.0,51.8868,0.0
+rolling year-by-year,2018,FC value (log10),XGBoost,with last month,-0.4886,0.5424,0.4432,-0.5993,,,,,,
+rolling year-by-year,2018,FC 5-class,XGBoost,with last month,,,,,0.3411,0.577,0.7778,0.0,0.9434,0.0
+rolling year-by-year,2018,FC value (log10),XGBoost,without last month,-9.3419,1.4296,1.363,-10.1111,,,,,,
+rolling year-by-year,2018,FC 5-class,XGBoost,without last month,,,,,0.0,0.0,0.0,0.0,53.7736,0.0
+rolling year-by-year,2018,FC value (log10),SVM,with last month,-0.9774,0.6251,0.5511,-1.1245,,,,,,
+rolling year-by-year,2018,FC 5-class,SVM,with last month,,,,,0.412,0.6944,0.7593,50.0,2.8302,0.4167
+rolling year-by-year,2018,FC value (log10),SVM,without last month,-9.1733,1.4179,1.3517,-9.93,,,,,,
+rolling year-by-year,2018,FC 5-class,SVM,without last month,,,,,0.0114,0.125,0.0093,50.0,50.9434,0.0794
+rolling year-by-year,2019,BOD value,baseline,training average (no lab value),-0.3508,1.6292,1.1401,0.2678,,,,,,
+rolling year-by-year,2019,BOD value,baseline,repeat last month,-0.8447,1.9039,1.3611,0.0,,,,,,
+rolling year-by-year,2019,BOD 4-class,baseline,always most common class (no lab value),,,,,0.2033,0.25,0.6852,0.0,0.0,0.0
+rolling year-by-year,2019,BOD 4-class,baseline,same class as last month,,,,,0.2667,0.2661,0.5926,41.1765,24.3243,0.4167
+rolling year-by-year,2019,BOD value,Random Forest,with last month,-0.3896,1.6525,1.278,0.2467,,,,,,
+rolling year-by-year,2019,BOD 4-class,Random Forest,with last month,,,,,0.2962,0.2976,0.713,41.1765,4.0541,0.4575
+rolling year-by-year,2019,BOD value,Random Forest,without last month,-0.4797,1.7052,1.3373,0.1979,,,,,,
+rolling year-by-year,2019,BOD 4-class,Random Forest,without last month,,,,,0.2744,0.2817,0.7037,38.2353,2.7027,0.4305
+rolling year-by-year,2019,BOD value,XGBoost,with last month,-0.5398,1.7395,1.3668,0.1653,,,,,,
+rolling year-by-year,2019,BOD 4-class,XGBoost,with last month,,,,,0.3101,0.3623,0.5926,61.7647,24.3243,0.6
+rolling year-by-year,2019,BOD value,XGBoost,without last month,-0.5897,1.7674,1.4041,0.1383,,,,,,
+rolling year-by-year,2019,BOD 4-class,XGBoost,without last month,,,,,0.3118,0.3375,0.6296,55.8824,17.5676,0.5655
+rolling year-by-year,2019,BOD value,SVM,with last month,-0.741,1.8496,1.4693,0.0562,,,,,,
+rolling year-by-year,2019,BOD 4-class,SVM,with last month,,,,,0.2915,0.2969,0.6574,35.2941,9.4595,0.3871
+rolling year-by-year,2019,BOD value,SVM,without last month,-0.7818,1.8712,1.4883,0.0341,,,,,,
+rolling year-by-year,2019,BOD 4-class,SVM,without last month,,,,,0.307,0.3093,0.6574,41.1765,12.1622,0.4403
+rolling year-by-year,2019,FC value (log10),baseline,training average (no lab value),-1.1776,0.4737,0.3872,-0.4372,,,,,,
+rolling year-by-year,2019,FC value (log10),baseline,repeat last month,-0.5151,0.3952,0.2693,0.0,,,,,,
+rolling year-by-year,2019,FC 5-class,baseline,always most common class (no lab value),,,,,0.2857,0.3333,0.75,0.0,0.0,0.0
+rolling year-by-year,2019,FC 5-class,baseline,same class as last month,,,,,0.5675,0.5535,0.787,0.0,0.9259,0.0
+rolling year-by-year,2019,FC value (log10),Random Forest,with last month,-0.6664,0.4144,0.2904,-0.0998,,,,,,
+rolling year-by-year,2019,FC 5-class,Random Forest,with last month,,,,,0.4573,0.477,0.7315,0.0,0.9259,0.0
+rolling year-by-year,2019,FC value (log10),Random Forest,without last month,-1.0087,0.455,0.3635,-0.3257,,,,,,
+rolling year-by-year,2019,FC 5-class,Random Forest,without last month,,,,,0.3665,0.4576,0.463,0.0,2.7778,0.0
+rolling year-by-year,2019,FC value (log10),XGBoost,with last month,-0.8027,0.431,0.3124,-0.1898,,,,,,
+rolling year-by-year,2019,FC 5-class,XGBoost,with last month,,,,,0.4695,0.4916,0.6944,0.0,0.9259,0.0
+rolling year-by-year,2019,FC value (log10),XGBoost,without last month,-1.2691,0.4836,0.3808,-0.4976,,,,,,
+rolling year-by-year,2019,FC 5-class,XGBoost,without last month,,,,,0.4106,0.5533,0.5,0.0,4.6296,0.0
+rolling year-by-year,2019,FC value (log10),SVM,with last month,-0.3249,0.3695,0.2551,0.1256,,,,,,
+rolling year-by-year,2019,FC 5-class,SVM,with last month,,,,,0.6152,0.6347,0.8148,0.0,0.0,0.0
+rolling year-by-year,2019,FC value (log10),SVM,without last month,-2.6119,0.6101,0.5163,-1.3839,,,,,,
+rolling year-by-year,2019,FC 5-class,SVM,without last month,,,,,0.179,0.259,0.1944,0.0,7.4074,0.0
+rolling year-by-year,2020,BOD value,baseline,training average (no lab value),-0.0034,0.8488,0.685,0.3245,,,,,,
+rolling year-by-year,2020,BOD value,baseline,repeat last month,-0.4856,1.0328,0.6889,0.0,,,,,,
+rolling year-by-year,2020,BOD 4-class,baseline,always most common class (no lab value),,,,,0.4578,0.5,0.8444,0.0,0.0,0.0
+rolling year-by-year,2020,BOD 4-class,baseline,same class as last month,,,,,0.6011,0.6222,0.7556,42.8571,18.4211,0.3947
+rolling year-by-year,2020,BOD value,Random Forest,with last month,0.3326,0.6923,0.5336,0.5507,,,,,,
+rolling year-by-year,2020,BOD 4-class,Random Forest,with last month,,,,,0.775,0.7143,0.9111,42.8571,0.0,0.4839
+rolling year-by-year,2020,BOD value,Random Forest,without last month,0.2808,0.7186,0.5486,0.5159,,,,,,
+rolling year-by-year,2020,BOD 4-class,Random Forest,without last month,,,,,0.8446,0.7857,0.9333,57.1429,0.0,0.625
+rolling year-by-year,2020,BOD value,XGBoost,with last month,0.133,0.789,0.6301,0.4164,,,,,,
+rolling year-by-year,2020,BOD 4-class,XGBoost,with last month,,,,,0.6974,0.6617,0.8222,42.8571,10.5263,0.4286
+rolling year-by-year,2020,BOD value,XGBoost,without last month,-0.0469,0.867,0.7115,0.2953,,,,,,
+rolling year-by-year,2020,BOD 4-class,XGBoost,without last month,,,,,0.5884,0.5714,0.8667,14.2857,0.0,0.1724
+rolling year-by-year,2020,BOD value,SVM,with last month,-0.92,1.1741,0.9365,-0.2924,,,,,,
+rolling year-by-year,2020,BOD 4-class,SVM,with last month,,,,,0.7448,0.7782,0.8222,85.7143,15.7895,0.75
+rolling year-by-year,2020,BOD value,SVM,without last month,-1.057,1.2153,0.9663,-0.3846,,,,,,
+rolling year-by-year,2020,BOD 4-class,SVM,without last month,,,,,0.7448,0.7782,0.8222,85.7143,15.7895,0.75
+rolling year-by-year,2020,FC value (log10),baseline,training average (no lab value),-0.3208,0.3144,0.2703,-0.9401,,,,,,
+rolling year-by-year,2020,FC value (log10),baseline,repeat last month,0.3192,0.2257,0.1617,0.0,,,,,,
+rolling year-by-year,2020,FC 5-class,baseline,always most common class (no lab value),,,,,0.2152,0.25,0.7556,0.0,0.0,0.0
+rolling year-by-year,2020,FC 5-class,baseline,same class as last month,,,,,0.2746,0.2773,0.6667,0.0,0.0,0.0
+rolling year-by-year,2020,FC value (log10),Random Forest,with last month,0.3928,0.2132,0.1483,0.1081,,,,,,
+rolling year-by-year,2020,FC 5-class,Random Forest,with last month,,,,,0.3413,0.3845,0.7333,0.0,0.0,0.0
+rolling year-by-year,2020,FC value (log10),Random Forest,without last month,0.2117,0.2429,0.1905,-0.1579,,,,,,
+rolling year-by-year,2020,FC 5-class,Random Forest,without last month,,,,,0.3237,0.3981,0.6889,0.0,0.0,0.0
+rolling year-by-year,2020,FC value (log10),XGBoost,with last month,0.4304,0.2065,0.1405,0.1633,,,,,,
+rolling year-by-year,2020,FC 5-class,XGBoost,with last month,,,,,0.2911,0.313,0.6889,0.0,0.0,0.0
+rolling year-by-year,2020,FC value (log10),XGBoost,without last month,0.1793,0.2479,0.203,-0.2056,,,,,,
+rolling year-by-year,2020,FC 5-class,XGBoost,without last month,,,,,0.4583,0.5021,0.7333,0.0,0.0,0.0
+rolling year-by-year,2020,FC value (log10),SVM,with last month,0.428,0.2069,0.1502,0.1598,,,,,,
+rolling year-by-year,2020,FC 5-class,SVM,with last month,,,,,0.3308,0.3561,0.7333,0.0,0.0,0.0
+rolling year-by-year,2020,FC value (log10),SVM,without last month,-0.1088,0.2881,0.2308,-0.6288,,,,,,
+rolling year-by-year,2020,FC 5-class,SVM,without last month,,,,,0.366,0.4286,0.5111,0.0,0.0,0.0
+rolling year-by-year,2021,BOD value,baseline,training average (no lab value),-0.0373,1.1156,0.9287,0.4084,,,,,,
+rolling year-by-year,2021,BOD value,baseline,repeat last month,-0.7533,1.4505,1.0547,0.0,,,,,,
+rolling year-by-year,2021,BOD 4-class,baseline,always most common class (no lab value),,,,,0.4541,0.5,0.832,0.0,0.0,0.0
+rolling year-by-year,2021,BOD 4-class,baseline,same class as last month,,,,,0.5421,0.5421,0.744,23.8095,15.3846,0.2381
+rolling year-by-year,2021,BOD value,Random Forest,with last month,0.0826,1.0492,0.8116,0.4768,,,,,,
+rolling year-by-year,2021,BOD 4-class,Random Forest,with last month,,,,,0.6602,0.6234,0.816,38.0952,8.6538,0.396
+rolling year-by-year,2021,BOD value,Random Forest,without last month,0.1233,1.0256,0.7587,0.5,,,,,,
+rolling year-by-year,2021,BOD 4-class,Random Forest,without last month,,,,,0.632,0.5946,0.768,38.0952,14.4231,0.3738
+rolling year-by-year,2021,BOD value,XGBoost,with last month,0.0578,1.0633,0.8333,0.4626,,,,,,
+rolling year-by-year,2021,BOD 4-class,XGBoost,with last month,,,,,0.6335,0.6181,0.744,52.381,19.2308,0.4783
+rolling year-by-year,2021,BOD value,XGBoost,without last month,0.152,1.0087,0.7594,0.5163,,,,,,
+rolling year-by-year,2021,BOD 4-class,XGBoost,without last month,,,,,0.5667,0.5559,0.672,52.381,26.9231,0.4472
+rolling year-by-year,2021,BOD value,SVM,with last month,0.0619,1.061,0.7866,0.4649,,,,,,
+rolling year-by-year,2021,BOD 4-class,SVM,with last month,,,,,0.6068,0.5991,0.744,38.0952,18.2692,0.3604
+rolling year-by-year,2021,BOD value,SVM,without last month,0.0577,1.0634,0.7851,0.4626,,,,,,
+rolling year-by-year,2021,BOD 4-class,SVM,without last month,,,,,0.6337,0.6087,0.76,42.8571,16.3462,0.4091
+rolling year-by-year,2021,FC value (log10),baseline,training average (no lab value),-0.0168,0.4667,0.3515,-1.0949,,,,,,
+rolling year-by-year,2021,FC value (log10),baseline,repeat last month,0.5146,0.3224,0.2353,0.0,,,,,,
+rolling year-by-year,2021,FC 5-class,baseline,always most common class (no lab value),,,,,0.1368,0.2,0.52,0.0,0.0,0.0
+rolling year-by-year,2021,FC 5-class,baseline,same class as last month,,,,,0.3889,0.392,0.568,73.6842,5.6604,0.7292
+rolling year-by-year,2021,FC value (log10),Random Forest,with last month,0.6166,0.2866,0.2242,0.2101,,,,,,
+rolling year-by-year,2021,FC 5-class,Random Forest,with last month,,,,,0.4609,0.4532,0.608,73.6842,2.8302,0.7527
+rolling year-by-year,2021,FC value (log10),Random Forest,without last month,0.0216,0.4578,0.3482,-1.0157,,,,,,
+rolling year-by-year,2021,FC 5-class,Random Forest,without last month,,,,,0.2255,0.2477,0.432,0.0,0.9434,0.0
+rolling year-by-year,2021,FC value (log10),XGBoost,with last month,0.6096,0.2892,0.2247,0.1957,,,,,,
+rolling year-by-year,2021,FC 5-class,XGBoost,with last month,,,,,0.4765,0.4717,0.632,73.6842,2.8302,0.7527
+rolling year-by-year,2021,FC value (log10),XGBoost,without last month,-0.0024,0.4633,0.3524,-1.0651,,,,,,
+rolling year-by-year,2021,FC 5-class,XGBoost,without last month,,,,,0.2743,0.3062,0.48,0.0,1.8868,0.0
+rolling year-by-year,2021,FC value (log10),SVM,with last month,0.6173,0.2863,0.2179,0.2115,,,,,,
+rolling year-by-year,2021,FC 5-class,SVM,with last month,,,,,0.4334,0.4249,0.6,73.6842,2.8302,0.7527
+rolling year-by-year,2021,FC value (log10),SVM,without last month,0.0548,0.4499,0.3477,-0.9472,,,,,,
+rolling year-by-year,2021,FC 5-class,SVM,without last month,,,,,0.2411,0.2744,0.4,10.5263,3.7736,0.122
+rolling year-by-year,2022,BOD value,baseline,training average (no lab value),-0.0991,1.3564,1.0304,-0.0624,,,,,,
+rolling year-by-year,2022,BOD value,baseline,repeat last month,-0.0346,1.3159,0.939,0.0,,,,,,
+rolling year-by-year,2022,BOD 4-class,baseline,always most common class (no lab value),,,,,0.2061,0.25,0.7012,0.0,0.0,0.0
+rolling year-by-year,2022,BOD 4-class,baseline,same class as last month,,,,,0.3259,0.3264,0.7012,59.1837,18.2609,0.5894
+rolling year-by-year,2022,BOD value,Random Forest,with last month,0.2125,1.1481,0.8434,0.2389,,,,,,
+rolling year-by-year,2022,BOD 4-class,Random Forest,with last month,,,,,0.3322,0.3374,0.7012,63.2653,20.8696,0.6175
+rolling year-by-year,2022,BOD value,Random Forest,without last month,0.1047,1.2242,0.895,0.1346,,,,,,
+rolling year-by-year,2022,BOD 4-class,Random Forest,without last month,,,,,0.343,0.3409,0.7622,51.0204,7.8261,0.5435
+rolling year-by-year,2022,BOD value,XGBoost,with last month,0.1928,1.1624,0.8412,0.2198,,,,,,
+rolling year-by-year,2022,BOD 4-class,XGBoost,with last month,,,,,0.3503,0.3563,0.7134,81.6327,22.6087,0.7634
+rolling year-by-year,2022,BOD value,XGBoost,without last month,0.1104,1.2202,0.8903,0.1402,,,,,,
+rolling year-by-year,2022,BOD 4-class,XGBoost,without last month,,,,,0.3201,0.3141,0.6768,73.4694,20.8696,0.7031
+rolling year-by-year,2022,BOD value,SVM,with last month,0.1087,1.2214,0.9015,0.1385,,,,,,
+rolling year-by-year,2022,BOD 4-class,SVM,with last month,,,,,0.3179,0.3148,0.689,55.102,18.2609,0.5533
+rolling year-by-year,2022,BOD value,SVM,without last month,0.0642,1.2515,0.9178,0.0955,,,,,,
+rolling year-by-year,2022,BOD 4-class,SVM,without last month,,,,,0.2957,0.2923,0.6463,55.102,22.6087,0.5422
+rolling year-by-year,2022,FC value (log10),baseline,training average (no lab value),-0.0034,0.4909,0.4046,-1.7698,,,,,,
+rolling year-by-year,2022,FC value (log10),baseline,repeat last month,0.6377,0.295,0.2063,0.0,,,,,,
+rolling year-by-year,2022,FC 5-class,baseline,always most common class (no lab value),,,,,0.1477,0.2,0.5854,0.0,0.0,0.0
+rolling year-by-year,2022,FC 5-class,baseline,same class as last month,,,,,0.4813,0.474,0.6585,62.5,4.5455,0.6494
+rolling year-by-year,2022,FC value (log10),Random Forest,with last month,0.7097,0.264,0.2007,0.1986,,,,,,
+rolling year-by-year,2022,FC 5-class,Random Forest,with last month,,,,,0.474,0.4707,0.628,46.875,3.0303,0.5102
+rolling year-by-year,2022,FC value (log10),Random Forest,without last month,0.3294,0.4013,0.3208,-0.8512,,,,,,
+rolling year-by-year,2022,FC 5-class,Random Forest,without last month,,,,,0.2771,0.3135,0.4573,21.875,6.0606,0.2448
+rolling year-by-year,2022,FC value (log10),XGBoost,with last month,0.7246,0.2572,0.1939,0.2398,,,,,,
+rolling year-by-year,2022,FC 5-class,XGBoost,with last month,,,,,0.521,0.5145,0.6585,53.125,3.7879,0.5667
+rolling year-by-year,2022,FC value (log10),XGBoost,without last month,0.3472,0.396,0.3143,-0.802,,,,,,
+rolling year-by-year,2022,FC 5-class,XGBoost,without last month,,,,,0.361,0.3815,0.4329,50.0,9.8485,0.5096
+rolling year-by-year,2022,FC value (log10),SVM,with last month,0.7257,0.2567,0.1894,0.2428,,,,,,
+rolling year-by-year,2022,FC 5-class,SVM,with last month,,,,,0.534,0.5357,0.6707,62.5,4.5455,0.6494
+rolling year-by-year,2022,FC value (log10),SVM,without last month,0.4053,0.3779,0.3104,-0.6416,,,,,,
+rolling year-by-year,2022,FC 5-class,SVM,without last month,,,,,0.3803,0.4127,0.4207,46.875,9.0909,0.4839
+rolling year-by-year,2023,BOD value,baseline,training average (no lab value),-1.2453,1.0551,0.9318,-0.3678,,,,,,
+rolling year-by-year,2023,BOD value,baseline,repeat last month,-0.6415,0.9022,0.6111,0.0,,,,,,
+rolling year-by-year,2023,BOD 4-class,baseline,always most common class (no lab value),,,,,0.493,0.5,0.9722,0.0,0.0,0.0
+rolling year-by-year,2023,BOD 4-class,baseline,same class as last month,,,,,0.5886,0.5886,0.9556,20.0,2.2857,0.2
+rolling year-by-year,2023,BOD value,Random Forest,with last month,-0.4176,0.8384,0.6665,0.1364,,,,,,
+rolling year-by-year,2023,BOD 4-class,Random Forest,with last month,,,,,0.5526,0.5743,0.9278,20.0,5.1429,0.1667
+rolling year-by-year,2023,BOD value,Random Forest,without last month,-0.5891,0.8876,0.704,0.0319,,,,,,
+rolling year-by-year,2023,BOD 4-class,Random Forest,without last month,,,,,0.4883,0.5229,0.8278,20.0,15.4286,0.1042
+rolling year-by-year,2023,BOD value,XGBoost,with last month,-0.4446,0.8463,0.6661,0.12,,,,,,
+rolling year-by-year,2023,BOD 4-class,XGBoost,with last month,,,,,0.5488,0.6429,0.8722,40.0,11.4286,0.2381
+rolling year-by-year,2023,BOD value,XGBoost,without last month,-0.6693,0.9098,0.7187,-0.0169,,,,,,
+rolling year-by-year,2023,BOD 4-class,XGBoost,without last month,,,,,0.523,0.6229,0.8333,40.0,15.4286,0.2041
+rolling year-by-year,2023,BOD value,SVM,with last month,-0.4925,0.8602,0.6771,0.0908,,,,,,
+rolling year-by-year,2023,BOD 4-class,SVM,with last month,,,,,0.4964,0.6057,0.8,40.0,18.8571,0.1818
+rolling year-by-year,2023,BOD value,SVM,without last month,-0.6063,0.8925,0.7133,0.0214,,,,,,
+rolling year-by-year,2023,BOD 4-class,SVM,without last month,,,,,0.4705,0.5743,0.7389,40.0,25.1429,0.1515
+rolling year-by-year,2023,FC value (log10),baseline,training average (no lab value),-0.1367,0.4581,0.3449,-1.199,,,,,,
+rolling year-by-year,2023,FC value (log10),baseline,repeat last month,0.4831,0.3089,0.2438,0.0,,,,,,
+rolling year-by-year,2023,FC 5-class,baseline,always most common class (no lab value),,,,,0.1085,0.2,0.3722,0.0,0.0,0.0
+rolling year-by-year,2023,FC 5-class,baseline,same class as last month,,,,,0.4502,0.4509,0.4778,60.0,10.0,0.5882
+rolling year-by-year,2023,FC value (log10),Random Forest,with last month,0.504,0.3026,0.2463,0.0404,,,,,,
+rolling year-by-year,2023,FC 5-class,Random Forest,with last month,,,,,0.4655,0.4482,0.4611,46.6667,5.3333,0.493
+rolling year-by-year,2023,FC value (log10),Random Forest,without last month,0.1298,0.4008,0.3282,-0.6834,,,,,,
+rolling year-by-year,2023,FC 5-class,Random Forest,without last month,,,,,0.1958,0.2101,0.3111,10.0,0.6667,0.121
+rolling year-by-year,2023,FC value (log10),XGBoost,with last month,0.4822,0.3092,0.249,-0.0018,,,,,,
+rolling year-by-year,2023,FC 5-class,XGBoost,with last month,,,,,0.4693,0.4451,0.4611,43.3333,3.3333,0.471
+rolling year-by-year,2023,FC value (log10),XGBoost,without last month,0.1658,0.3924,0.3246,-0.6138,,,,,,
+rolling year-by-year,2023,FC 5-class,XGBoost,without last month,,,,,0.2506,0.2473,0.3167,33.3333,2.6667,0.3731
+rolling year-by-year,2023,FC value (log10),SVM,with last month,0.5098,0.3008,0.2504,0.0516,,,,,,
+rolling year-by-year,2023,FC 5-class,SVM,with last month,,,,,0.4806,0.4673,0.4778,50.0,5.3333,0.5245
+rolling year-by-year,2023,FC value (log10),SVM,without last month,0.1921,0.3862,0.3171,-0.5629,,,,,,
+rolling year-by-year,2023,FC 5-class,SVM,without last month,,,,,0.2982,0.2838,0.3389,46.6667,0.0,0.5224
+rolling year-by-year,2024,BOD value,baseline,training average (no lab value),-0.0131,1.22,0.944,0.2521,,,,,,
+rolling year-by-year,2024,BOD value,baseline,repeat last month,-0.3546,1.4107,0.9691,0.0,,,,,,
+rolling year-by-year,2024,BOD 4-class,baseline,always most common class (no lab value),,,,,0.2911,0.3333,0.7753,0.0,0.0,0.0
+rolling year-by-year,2024,BOD 4-class,baseline,same class as last month,,,,,0.3345,0.3355,0.691,32.5,14.4928,0.3368
+rolling year-by-year,2024,BOD value,Random Forest,with last month,0.2328,1.0617,0.7523,0.4336,,,,,,
+rolling year-by-year,2024,BOD 4-class,Random Forest,with last month,,,,,0.3816,0.3917,0.6966,42.5,18.8406,0.4187
+rolling year-by-year,2024,BOD value,Random Forest,without last month,0.2091,1.0779,0.7935,0.4162,,,,,,
+rolling year-by-year,2024,BOD 4-class,Random Forest,without last month,,,,,0.3429,0.3465,0.6629,32.5,20.2899,0.3234
+rolling year-by-year,2024,BOD value,XGBoost,with last month,0.2477,1.0513,0.745,0.4447,,,,,,
+rolling year-by-year,2024,BOD 4-class,XGBoost,with last month,,,,,0.3934,0.3998,0.6461,47.5,24.6377,0.446
+rolling year-by-year,2024,BOD value,XGBoost,without last month,0.1949,1.0876,0.8135,0.4057,,,,,,
+rolling year-by-year,2024,BOD 4-class,XGBoost,without last month,,,,,0.4056,0.4095,0.6685,47.5,21.7391,0.4545
+rolling year-by-year,2024,BOD value,SVM,with last month,0.2376,1.0584,0.7679,0.4372,,,,,,
+rolling year-by-year,2024,BOD 4-class,SVM,with last month,,,,,0.3273,0.3276,0.6011,42.5,28.9855,0.3917
+rolling year-by-year,2024,BOD value,SVM,without last month,0.177,1.0996,0.8089,0.3924,,,,,,
+rolling year-by-year,2024,BOD 4-class,SVM,without last month,,,,,0.3267,0.3333,0.5787,45.0,33.3333,0.4018
+rolling year-by-year,2024,FC value (log10),baseline,training average (no lab value),-0.0,0.3773,0.2913,-1.117,,,,,,
+rolling year-by-year,2024,FC value (log10),baseline,repeat last month,0.5276,0.2594,0.1849,0.0,,,,,,
+rolling year-by-year,2024,FC 5-class,baseline,always most common class (no lab value),,,,,0.1251,0.2,0.4551,0.0,0.0,0.0
+rolling year-by-year,2024,FC 5-class,baseline,same class as last month,,,,,0.5028,0.5178,0.6124,68.75,5.5556,0.6548
+rolling year-by-year,2024,FC value (log10),Random Forest,with last month,0.485,0.2708,0.2036,-0.0902,,,,,,
+rolling year-by-year,2024,FC 5-class,Random Forest,with last month,,,,,0.4708,0.4666,0.5506,43.75,3.7037,0.4545
+rolling year-by-year,2024,FC value (log10),Random Forest,without last month,-0.4872,0.4602,0.3505,-2.1482,,,,,,
+rolling year-by-year,2024,FC 5-class,Random Forest,without last month,,,,,0.2207,0.2314,0.3539,25.0,8.0247,0.2469
+rolling year-by-year,2024,FC value (log10),XGBoost,with last month,0.4577,0.2779,0.2096,-0.1479,,,,,,
+rolling year-by-year,2024,FC 5-class,XGBoost,with last month,,,,,0.4446,0.4457,0.5225,43.75,4.321,0.4487
+rolling year-by-year,2024,FC value (log10),XGBoost,without last month,-0.5717,0.4731,0.3565,-2.3271,,,,,,
+rolling year-by-year,2024,FC 5-class,XGBoost,without last month,,,,,0.2524,0.262,0.382,31.25,10.4938,0.2907
+rolling year-by-year,2024,FC value (log10),SVM,with last month,0.5491,0.2534,0.1874,0.0454,,,,,,
+rolling year-by-year,2024,FC 5-class,SVM,with last month,,,,,0.5099,0.5042,0.5843,68.75,2.4691,0.6962
+rolling year-by-year,2024,FC value (log10),SVM,without last month,-0.4819,0.4594,0.3468,-2.1371,,,,,,
+rolling year-by-year,2024,FC 5-class,SVM,without last month,,,,,0.1914,0.1901,0.3596,18.75,9.2593,0.1829
+rolling year-by-year,2025,BOD value,baseline,training average (no lab value),-0.022,1.4606,1.1466,0.1202,,,,,,
+rolling year-by-year,2025,BOD value,baseline,repeat last month,-0.1617,1.5572,1.1944,0.0,,,,,,
+rolling year-by-year,2025,BOD 4-class,baseline,always most common class (no lab value),,,,,0.2796,0.3333,0.7222,0.0,0.0,0.0
+rolling year-by-year,2025,BOD 4-class,baseline,same class as last month,,,,,0.463,0.4689,0.7,66.0,19.2308,0.6395
+rolling year-by-year,2025,BOD value,Random Forest,with last month,0.1111,1.3622,1.0519,0.2348,,,,,,
+rolling year-by-year,2025,BOD 4-class,Random Forest,with last month,,,,,0.5252,0.5255,0.7889,80.0,13.0769,0.7782
+rolling year-by-year,2025,BOD value,Random Forest,without last month,0.0046,1.4415,1.0894,0.1431,,,,,,
+rolling year-by-year,2025,BOD 4-class,Random Forest,without last month,,,,,0.4152,0.4036,0.7056,44.0,13.0769,0.4603
+rolling year-by-year,2025,BOD value,XGBoost,with last month,0.15,1.332,0.9977,0.2683,,,,,,
+rolling year-by-year,2025,BOD 4-class,XGBoost,with last month,,,,,0.4965,0.5078,0.7,82.0,24.6154,0.7509
+rolling year-by-year,2025,BOD value,XGBoost,without last month,0.0214,1.4292,1.0632,0.1577,,,,,,
+rolling year-by-year,2025,BOD 4-class,XGBoost,without last month,,,,,0.4932,0.4907,0.7111,74.0,20.0,0.7034
+rolling year-by-year,2025,BOD value,SVM,with last month,0.202,1.2906,0.9564,0.3131,,,,,,
+rolling year-by-year,2025,BOD 4-class,SVM,with last month,,,,,0.3924,0.3959,0.6889,48.0,15.3846,0.4918
+rolling year-by-year,2025,BOD value,SVM,without last month,0.0919,1.3768,1.0013,0.2184,,,,,,
+rolling year-by-year,2025,BOD 4-class,SVM,without last month,,,,,0.3825,0.3856,0.6667,46.0,18.4615,0.4656
+rolling year-by-year,2025,FC value (log10),baseline,training average (no lab value),-0.004,0.4157,0.3337,-3.4603,,,,,,
+rolling year-by-year,2025,FC value (log10),baseline,repeat last month,0.7749,0.1969,0.1447,0.0,,,,,,
+rolling year-by-year,2025,FC 5-class,baseline,always most common class (no lab value),,,,,0.1401,0.2,0.5389,0.0,0.0,0.0
+rolling year-by-year,2025,FC 5-class,baseline,same class as last month,,,,,0.5686,0.5619,0.7,65.0,3.75,0.6566
+rolling year-by-year,2025,FC value (log10),Random Forest,with last month,0.7668,0.2004,0.1546,-0.0361,,,,,,
+rolling year-by-year,2025,FC 5-class,Random Forest,with last month,,,,,0.601,0.5999,0.7,65.0,1.875,0.6771
+rolling year-by-year,2025,FC value (log10),Random Forest,without last month,0.1231,0.3885,0.304,-2.8958,,,,,,
+rolling year-by-year,2025,FC 5-class,Random Forest,without last month,,,,,0.2606,0.2686,0.4056,25.0,5.625,0.266
+rolling year-by-year,2025,FC value (log10),XGBoost,with last month,0.7553,0.2052,0.1593,-0.087,,,,,,
+rolling year-by-year,2025,FC 5-class,XGBoost,with last month,,,,,0.5597,0.5613,0.6889,60.0,2.5,0.625
+rolling year-by-year,2025,FC value (log10),XGBoost,without last month,0.2132,0.368,0.2872,-2.4956,,,,,,
+rolling year-by-year,2025,FC 5-class,XGBoost,without last month,,,,,0.3031,0.3104,0.4556,30.0,6.25,0.3125
+rolling year-by-year,2025,FC value (log10),SVM,with last month,0.7644,0.2014,0.1544,-0.0466,,,,,,
+rolling year-by-year,2025,FC 5-class,SVM,with last month,,,,,0.5433,0.5405,0.65,65.0,3.75,0.6566
+rolling year-by-year,2025,FC value (log10),SVM,without last month,0.2557,0.358,0.2714,-2.3067,,,,,,
+rolling year-by-year,2025,FC 5-class,SVM,without last month,,,,,0.2516,0.271,0.4722,25.0,7.5,0.2577

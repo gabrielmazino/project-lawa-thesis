@@ -1,0 +1,190 @@
+BOD 4-class: rolling 2018 done
+BOD 4-class: rolling 2019 done
+BOD 4-class: rolling 2020 done
+BOD 4-class: rolling 2021 done
+BOD 4-class: rolling 2022 done
+BOD 4-class: rolling 2023 done
+BOD 4-class: rolling 2024 done
+BOD 4-class: rolling 2025 done
+BOD 4-class: holdout 2024-2025 done
+BOD 2-class: rolling 2018 done
+BOD 2-class: rolling 2019 done
+BOD 2-class: rolling 2020 done
+BOD 2-class: rolling 2021 done
+BOD 2-class: rolling 2022 done
+BOD 2-class: rolling 2023 done
+BOD 2-class: rolling 2024 done
+BOD 2-class: rolling 2025 done
+BOD 2-class: holdout 2024-2025 done
+FC 5-class: rolling 2018 done
+FC 5-class: rolling 2019 done
+FC 5-class: rolling 2020 done
+FC 5-class: rolling 2021 done
+FC 5-class: rolling 2022 done
+FC 5-class: rolling 2023 done
+FC 5-class: rolling 2024 done
+FC 5-class: rolling 2025 done
+FC 5-class: holdout 2024-2025 done
+FC 2-class: rolling 2018 done
+FC 2-class: rolling 2019 done
+FC 2-class: rolling 2020 done
+FC 2-class: rolling 2021 done
+FC 2-class: rolling 2022 done
+FC 2-class: rolling 2023 done
+FC 2-class: rolling 2024 done
+FC 2-class: rolling 2025 done
+FC 2-class: holdout 2024-2025 done
+
+===== BOD 4-class · rolling 2018-2025 (n=1088) =====
+              model                technique  macro_F1  balanced_accuracy  accuracy  problem_caught_%  false_alarms_%  F2_problem
+            XGBoost             oversampling     0.372              0.375     0.776            47.926          12.055       0.483
+            XGBoost            class weights     0.367              0.375     0.785            51.613          11.366       0.519
+            XGBoost    weights + tuning (F1)     0.363              0.377     0.754            58.525          16.533       0.558
+      Random Forest            class weights     0.360              0.374     0.767            54.839          13.433       0.539
+      Random Forest    weights + tuning (F1)     0.357              0.373     0.762            55.300          14.122       0.540
+      Random Forest             oversampling     0.353              0.349     0.819            32.258           3.330       0.362
+            XGBoost                     none     0.336              0.330     0.815            19.816           1.837       0.232
+            XGBoost          decision tuning     0.336              0.341     0.800            31.336           5.511       0.346
+      Random Forest          decision tuning     0.330              0.344     0.790            37.327           6.544       0.403
+            XGBoost                    SMOTE     0.324              0.338     0.770            40.553           9.874       0.422
+Logistic Regression             oversampling     0.323              0.351     0.665            65.438          26.406       0.573
+Logistic Regression    weights + tuning (F1)     0.319              0.355     0.662            64.055          26.406       0.562
+Logistic Regression            class weights     0.319              0.355     0.662            64.055          26.406       0.562
+Logistic Regression                     none     0.316              0.316     0.806            16.590           1.837       0.196
+Logistic Regression          decision tuning     0.315              0.327     0.783            29.954           6.659       0.328
+           Baseline same class as last month     0.312              0.312     0.750            46.083          13.777       0.460
+      Random Forest                    SMOTE     0.311              0.328     0.771            35.945           8.611       0.382
+Logistic Regression                    SMOTE     0.297              0.313     0.770            28.111           7.233       0.307
+      Random Forest    weights + tuning (F2)     0.293              0.398     0.557            76.498          40.184       0.600
+            XGBoost    weights + tuning (F2)     0.284              0.346     0.526            76.037          46.269       0.575
+      Random Forest                     none     0.247              0.262     0.809             7.373           0.000       0.090
+Logistic Regression    weights + tuning (F2)     0.227              0.340     0.379            82.949          64.179       0.560
+           Baseline always most common class     0.222              0.250     0.801             0.000           0.000       0.000
+
+===== BOD 4-class · holdout 2024-2025 (n=358) =====
+              model             technique  macro_F1  balanced_accuracy  accuracy  problem_caught_%  false_alarms_%  F2_problem
+      Random Forest       decision tuning     0.456              0.438     0.771            43.333           5.970       0.470
+      Random Forest         class weights     0.448              0.456     0.760            55.556          11.940       0.566
+      Random Forest weights + tuning (F1)     0.448              0.456     0.760            55.556          11.940       0.566
+            XGBoost          oversampling     0.439              0.427     0.740            40.000          10.448       0.425
+Logistic Regression          oversampling     0.436              0.438     0.684            64.444          20.149       0.614
+      Random Forest weights + tuning (F2)     0.432              0.455     0.598            74.444          32.463       0.652
+Logistic Regression weights + tuning (F2)     0.429              0.481     0.603            72.222          32.463       0.635
+Logistic Regression weights + tuning (F1)     0.429              0.431     0.682            62.222          19.776       0.597
+
+===== BOD 2-class · rolling 2018-2025 (n=1088) =====
+              model                technique  macro_F1  balanced_accuracy  accuracy  problem_caught_%  false_alarms_%  F2_problem
+      Random Forest            class weights     0.714              0.701     0.829            48.848           8.611       0.505
+            XGBoost            class weights     0.700              0.694     0.814            49.309          10.563       0.501
+            XGBoost             oversampling     0.689              0.678     0.814            45.161           9.529       0.467
+            XGBoost    weights + tuning (F1)     0.689              0.698     0.793            53.917          14.351       0.527
+      Random Forest             oversampling     0.688              0.661     0.836            36.866           4.707       0.404
+      Random Forest    weights + tuning (F1)     0.675              0.682     0.785            51.152          14.696       0.501
+      Random Forest          decision tuning     0.671              0.686     0.772            54.378          17.107       0.520
+            XGBoost          decision tuning     0.670              0.670     0.790            47.005          13.088       0.470
+            XGBoost                    SMOTE     0.669              0.662     0.797            43.779          11.366       0.447
+      Random Forest                    SMOTE     0.662              0.646     0.810            37.327           8.152       0.397
+           Baseline same class as last month     0.661              0.662     0.782            46.083          13.777       0.460
+Logistic Regression            class weights     0.660              0.684     0.756            56.221          19.518       0.526
+Logistic Regression             oversampling     0.653              0.675     0.751            54.839          19.862       0.513
+            XGBoost                     none     0.631              0.608     0.832            23.502           1.952       0.272
+Logistic Regression                    SMOTE     0.630              0.612     0.806            29.032           6.544       0.319
+Logistic Regression          decision tuning     0.624              0.662     0.709            58.525          26.062       0.520
+Logistic Regression    weights + tuning (F1)     0.613              0.661     0.690            61.290          29.047       0.530
+Logistic Regression                     none     0.601              0.586     0.823            19.355           2.067       0.226
+      Random Forest                     none     0.587              0.578     0.831            15.668           0.115       0.188
+Logistic Regression    weights + tuning (F2)     0.538              0.643     0.572            76.037          47.532       0.570
+      Random Forest    weights + tuning (F2)     0.502              0.633     0.520            82.028          55.454       0.582
+            XGBoost    weights + tuning (F2)     0.463              0.603     0.475            81.567          60.964       0.562
+           Baseline always most common class     0.445              0.500     0.801             0.000           0.000       0.000
+
+===== BOD 2-class · holdout 2024-2025 (n=358) =====
+              model                technique  macro_F1  balanced_accuracy  accuracy  problem_caught_%  false_alarms_%  F2_problem
+Logistic Regression             oversampling     0.715              0.718     0.782            58.889          15.299       0.584
+Logistic Regression            class weights     0.712              0.716     0.779            58.889          15.672       0.582
+      Random Forest            class weights     0.702              0.687     0.796            46.667           9.328       0.492
+      Random Forest    weights + tuning (F1)     0.687              0.696     0.754            57.778          18.657       0.563
+      Random Forest          decision tuning     0.686              0.679     0.774            48.889          13.060       0.501
+Logistic Regression          decision tuning     0.680              0.707     0.732            65.556          24.254       0.610
+      Random Forest                    SMOTE     0.673              0.655     0.788            38.889           7.836       0.421
+           Baseline same class as last month     0.671              0.672     0.751            51.111          16.791       0.510
+
+===== FC 5-class · rolling 2018-2025 (n=1115) =====
+              model                technique  macro_F1  balanced_accuracy  accuracy  problem_caught_%  false_alarms_%  F2_problem
+           Baseline same class as last month     0.499              0.502     0.646              64.0           4.747       0.638
+            XGBoost                    SMOTE     0.428              0.458     0.543              59.2           7.879       0.567
+Logistic Regression             oversampling     0.425              0.451     0.507              68.0           7.475       0.645
+            XGBoost          decision tuning     0.421              0.436     0.582              56.0           7.980       0.539
+            XGBoost                     none     0.420              0.435     0.583              55.2           7.879       0.533
+Logistic Regression            class weights     0.415              0.441     0.494              68.0           8.384       0.636
+Logistic Regression    weights + tuning (F1)     0.411              0.438     0.483              68.0           8.384       0.636
+Logistic Regression          decision tuning     0.407              0.417     0.576              65.6           6.970       0.630
+            XGBoost            class weights     0.406              0.431     0.531              60.0           8.586       0.568
+            XGBoost             oversampling     0.405              0.429     0.531              60.0           8.485       0.569
+            XGBoost    weights + tuning (F1)     0.403              0.434     0.510              60.8           8.384       0.577
+Logistic Regression                     none     0.402              0.413     0.572              65.6           6.869       0.631
+Logistic Regression                    SMOTE     0.402              0.422     0.543              64.8           7.273       0.620
+      Random Forest            class weights     0.401              0.449     0.551              69.6           9.293       0.641
+      Random Forest    weights + tuning (F1)     0.400              0.447     0.540              69.6           8.889       0.644
+      Random Forest          decision tuning     0.399              0.419     0.590              64.8           6.869       0.624
+      Random Forest             oversampling     0.395              0.435     0.551              67.2           9.697       0.618
+            XGBoost    weights + tuning (F2)     0.390              0.430     0.472              63.2           8.889       0.592
+Logistic Regression    weights + tuning (F2)     0.383              0.423     0.426              68.8           8.990       0.637
+      Random Forest                    SMOTE     0.383              0.414     0.552              63.2           8.990       0.591
+      Random Forest    weights + tuning (F2)     0.379              0.436     0.488              70.4           9.293       0.647
+      Random Forest                     none     0.374              0.399     0.545              64.0           7.475       0.612
+           Baseline always most common class     0.134              0.174     0.480               1.6          10.707       0.016
+
+===== FC 5-class · holdout 2024-2025 (n=360) =====
+              model                technique  macro_F1  balanced_accuracy  accuracy  problem_caught_%  false_alarms_%  F2_problem
+           Baseline same class as last month     0.539              0.543     0.656            66.667           4.630       0.656
+            XGBoost                     none     0.450              0.475     0.561            58.333          10.494       0.528
+            XGBoost          decision tuning     0.450              0.478     0.564            63.889          11.111       0.567
+            XGBoost             oversampling     0.431              0.464     0.500            69.444          10.185       0.619
+Logistic Regression            class weights     0.415              0.456     0.508            72.222          10.802       0.634
+      Random Forest            class weights     0.413              0.465     0.539            75.000          13.889       0.625
+      Random Forest    weights + tuning (F2)     0.413              0.465     0.539            75.000          13.889       0.625
+      Random Forest    weights + tuning (F1)     0.413              0.465     0.539            75.000          13.889       0.625
+
+===== FC 2-class · rolling 2018-2025 (n=1115) =====
+              model                technique  macro_F1  balanced_accuracy  accuracy  problem_caught_%  false_alarms_%  F2_problem
+           Baseline same class as last month     0.794              0.796     0.917              64.0           4.747       0.638
+Logistic Regression                     none     0.779              0.779     0.912              60.8           4.949       0.608
+Logistic Regression          decision tuning     0.778              0.794     0.907              64.8           6.061       0.632
+      Random Forest                     none     0.778              0.776     0.912              60.0           4.848       0.602
+      Random Forest          decision tuning     0.771              0.765     0.911              57.6           4.646       0.583
+      Random Forest                    SMOTE     0.769              0.826     0.890              74.4           9.192       0.680
+      Random Forest             oversampling     0.764              0.824     0.886              74.4           9.596       0.676
+Logistic Regression                    SMOTE     0.763              0.815     0.888              72.0           9.091       0.662
+Logistic Regression    weights + tuning (F1)     0.759              0.796     0.891              67.2           8.081       0.633
+      Random Forest    weights + tuning (F1)     0.759              0.822     0.883              74.4          10.000       0.672
+            XGBoost                    SMOTE     0.754              0.802     0.884              69.6           9.192       0.642
+Logistic Regression            class weights     0.749              0.832     0.870              78.4          11.919       0.684
+      Random Forest            class weights     0.749              0.826     0.872              76.8          11.515       0.676
+            XGBoost            class weights     0.746              0.810     0.874              72.8          10.707       0.653
+Logistic Regression             oversampling     0.746              0.831     0.867              78.4          12.222       0.682
+            XGBoost                     none     0.744              0.752     0.895              56.8           6.364       0.560
+            XGBoost             oversampling     0.744              0.815     0.871              74.4          11.313       0.660
+            XGBoost    weights + tuning (F1)     0.732              0.767     0.878              62.4           8.990       0.585
+Logistic Regression    weights + tuning (F2)     0.678              0.827     0.793              87.2          21.717       0.661
+      Random Forest    weights + tuning (F2)     0.676              0.818     0.795              84.8          21.212       0.650
+            XGBoost          decision tuning     0.665              0.683     0.853              46.4           9.798       0.443
+            XGBoost    weights + tuning (F2)     0.661              0.803     0.780              83.2          22.626       0.628
+           Baseline always most common class     0.451              0.454     0.795               1.6          10.707       0.016
+
+===== FC 2-class · holdout 2024-2025 (n=360) =====
+              model                technique  macro_F1  balanced_accuracy  accuracy  problem_caught_%  false_alarms_%  F2_problem
+           Baseline same class as last month     0.799              0.810     0.925            66.667           4.630       0.656
+Logistic Regression          decision tuning     0.789              0.829     0.914            72.222           6.481       0.681
+Logistic Regression                    SMOTE     0.776              0.835     0.903            75.000           8.025       0.685
+Logistic Regression                     none     0.775              0.792     0.914            63.889           5.556       0.622
+      Random Forest          decision tuning     0.774              0.781     0.917            61.111           4.938       0.604
+      Random Forest                     none     0.765              0.789     0.908            63.889           6.173       0.615
+      Random Forest    weights + tuning (F1)     0.749              0.846     0.878            80.556          11.420       0.690
+Logistic Regression    weights + tuning (F1)     0.749              0.846     0.878            80.556          11.420       0.690
+
+      scheme               best_by_macroF1                            best_by_F2
+BOD 4-class        XGBoost + oversampling Random Forest + weights + tuning (F2)
+BOD 2-class Random Forest + class weights Random Forest + weights + tuning (F2)
+ FC 5-class               XGBoost + SMOTE Random Forest + weights + tuning (F2)
+ FC 2-class    Logistic Regression + none   Logistic Regression + class weights

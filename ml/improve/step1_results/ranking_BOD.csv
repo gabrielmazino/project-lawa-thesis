@@ -1,0 +1,10 @@
+input,pearson_r,pearson_p,spearman_rho,spearman_p,mutual_info,rf_importance,composite_score,VIF,rule_A_keep,rule_B_keep
+pH,0.324,0.0,0.2629,0.0,0.1206,-0.0066,0.75,1.815,True,True
+month,0.3129,,0.3037,,0.099,-0.0125,0.75,1.6148,True,True
+Nitrate,-0.206,0.0,-0.2963,0.0,0.1188,-0.0127,0.7188,1.1354,True,True
+Temperature,0.2474,0.0,0.2453,0.0,0.0528,0.0149,0.5625,1.6353,True,True
+DO,0.3301,0.0,0.1098,0.0008,0.0694,0.0052,0.5312,1.4744,True,True
+BOD_last,0.1913,0.0,0.3778,0.0,0.0615,-0.0007,0.4688,1.0608,False,True
+station,0.19,,0.2052,,0.0754,-0.0006,0.3125,,False,True
+Phosphate,0.0651,0.0474,-0.0236,0.4723,0.0181,0.0361,0.25,1.1177,False,False
+Ammonia,0.1237,0.0002,0.1093,0.0009,0.0413,0.0038,0.1562,1.0252,False,True

@@ -38,12 +38,13 @@ def add_last_values(df):
     return df
 
 
-def build_features(df, stations, last_column):
-    """Model inputs: 6 readings + station (one-hot) + month (sine/cosine) + last month's value.
+def build_features(df, stations, last_column=None, readings=READINGS):
+    """Model inputs: readings + station (one-hot) + month (sine/cosine) [+ last month's value].
 
-    last_column: "BOD_last" (used as is) or "FC_last" (converted to log10).
+    readings:    which of the 6 readings the model uses.
+    last_column: None (parameters only), "BOD_last" (used as is) or "FC_last" (converted to log10).
     """
-    X = df[READINGS].astype(float).copy()
+    X = df[list(readings)].astype(float).copy()
     for s in stations:
         X[f"stn_{s}"] = (df["Station"] == s).astype(float)
     month = pd.to_datetime(df["Month"]).dt.month
@@ -51,6 +52,6 @@ def build_features(df, stations, last_column):
     X["month_cos"] = np.cos(2 * np.pi * month / 12)
     if last_column == "FC_last":
         X["logFC_last"] = np.log10(df["FC_last"].astype(float))
-    else:
+    elif last_column == "BOD_last":
         X["BOD_last"] = df["BOD_last"].astype(float)
     return X
