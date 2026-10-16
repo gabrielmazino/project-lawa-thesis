@@ -1,0 +1,66 @@
+{
+  "BOD": {
+    "SVR": {
+      "kernel": "rbf",
+      "C": 0.1,
+      "epsilon": 0.05,
+      "time_cv_MAE": 1.0272478560163996
+    },
+    "BiLSTM_3m": {
+      "lookback_months": 3,
+      "hidden_size": 16,
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "best_epoch": 47,
+      "validation_MAE": 0.9598884582519531
+    },
+    "BiLSTM_6m": {
+      "lookback_months": 6,
+      "hidden_size": 16,
+      "dropout": 0.1,
+      "learning_rate": 0.003,
+      "best_epoch": 6,
+      "validation_MAE": 0.8950822353363037
+    },
+    "BiLSTM_12m": {
+      "lookback_months": 12,
+      "hidden_size": 8,
+      "dropout": 0.1,
+      "learning_rate": 0.001,
+      "best_epoch": 36,
+      "validation_MAE": 1.007849097251892
+    }
+  },
+  "FC": {
+    "SVR": {
+      "kernel": "rbf",
+      "C": 1.0,
+      "epsilon": 0.2,
+      "time_cv_MAE": 0.653164490118559
+    },
+    "BiLSTM_3m": {
+      "lookback_months": 3,
+      "hidden_size": 16,
+      "dropout": 0.1,
+      "learning_rate": 0.003,
+      "best_epoch": 5,
+      "validation_MAE": 0.3827492594718933
+    },
+    "BiLSTM_6m": {
+      "lookback_months": 6,
+      "hidden_size": 16,
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "best_epoch": 29,
+      "validation_MAE": 0.5016309022903442
+    },
+    "BiLSTM_12m": {
+      "lookback_months": 12,
+      "hidden_size": 8,
+      "dropout": 0.1,
+      "learning_rate": 0.001,
+      "best_epoch": 28,
+      "validation_MAE": 0.7527481913566589
+    }
+  }
+}

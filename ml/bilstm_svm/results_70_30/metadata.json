@@ -1,0 +1,31 @@
+{
+  "rows": 1346,
+  "stations": 15,
+  "months": 113,
+  "split_month": "2023-03",
+  "bod_imputed_targets": 36,
+  "fc_imputed_targets": 9,
+  "predictor_imputed_cells": 358,
+  "feature_count_per_month": 29,
+  "train_fraction_by_month": 0.7,
+  "seed": 42,
+  "train_month_end": "2023-02",
+  "test_month_start": "2023-03",
+  "target_rows_scored": {
+    "BOD": 500,
+    "FC": 502
+  },
+  "tolerances": {
+    "BOD_within_mgL": 1.0,
+    "FC_within_fold_factor": 2.0
+  },
+  "features": [
+    "DO",
+    "pH",
+    "Ammonia",
+    "Nitrate",
+    "Phosphate",
+    "Temperature"
+  ],
+  "notes": "Sensor predictor imputations are retained with per-feature imputation indicators; imputed target rows are excluded from training and scoring."
+}
