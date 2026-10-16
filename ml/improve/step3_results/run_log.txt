@@ -1,0 +1,204 @@
+[     0s] BOD (mg/L): MLR tuned {}
+[    18s] BOD (mg/L): Random Forest tuned {'max_depth': None, 'max_features': 0.5, 'min_samples_leaf': 1}
+[    22s] BOD (mg/L): XGBoost tuned {'learning_rate': 0.03, 'max_depth': 5, 'min_child_weight': 1, 'n_estimators': 200}
+[    23s] BOD (mg/L): SVM tuned {'svr__C': 1, 'svr__epsilon': 0.3, 'svr__gamma': 0.01}
+[    23s] BOD (mg/L): kNN tuned {'kneighborsregressor__n_neighbors': 11, 'kneighborsregressor__weights': 'distance'}
+[    27s] BOD (mg/L): LSTM tuned {'hidden': 16, 'L': 3}
+[    34s] BOD (mg/L): rolling done
+[    34s] FC log10 level: MLR tuned {}
+[    45s] FC log10 level: Random Forest tuned {'max_depth': 5, 'max_features': 1.0, 'min_samples_leaf': 5}
+[    48s] FC log10 level: XGBoost tuned {'learning_rate': 0.03, 'max_depth': 3, 'min_child_weight': 5, 'n_estimators': 200}
+[    50s] FC log10 level: SVM tuned {'svr__C': 1, 'svr__epsilon': 0.1, 'svr__gamma': 0.01}
+[    50s] FC log10 level: kNN tuned {'kneighborsregressor__n_neighbors': 7, 'kneighborsregressor__weights': 'distance'}
+[    54s] FC log10 level: LSTM tuned {'hidden': 32, 'L': 6}
+[    68s] FC log10 level: rolling done
+[    68s] FC log10 change: MLR tuned {}
+[    77s] FC log10 change: Random Forest tuned {'max_depth': None, 'max_features': 0.5, 'min_samples_leaf': 5}
+[    80s] FC log10 change: XGBoost tuned {'learning_rate': 0.03, 'max_depth': 3, 'min_child_weight': 5, 'n_estimators': 200}
+[    81s] FC log10 change: SVM tuned {'svr__C': 1, 'svr__epsilon': 0.1, 'svr__gamma': 0.01}
+[    81s] FC log10 change: kNN tuned {'kneighborsregressor__n_neighbors': 21, 'kneighborsregressor__weights': 'distance'}
+[    84s] FC log10 change: LSTM tuned {'hidden': 32, 'L': 3}
+[    91s] FC log10 change: rolling done
+[    91s] BOD 4-class: Logistic Regression tuned {'logisticregression__C': 0.1}
+[    98s] BOD 4-class: Random Forest tuned {'max_depth': 8, 'max_features': 0.5, 'min_samples_leaf': 1}
+[   103s] BOD 4-class: XGBoost tuned {'learning_rate': 0.03, 'max_depth': 2, 'min_child_weight': 5, 'n_estimators': 200}
+[   104s] BOD 4-class: SVM tuned {'svc__C': 100, 'svc__gamma': 0.01}
+[   104s] BOD 4-class: kNN tuned {'kneighborsclassifier__n_neighbors': 15, 'kneighborsclassifier__weights': 'distance'}
+[   106s] BOD 4-class: LSTM tuned {'hidden': 32, 'L': 3}
+[   114s] BOD 4-class: rolling done
+[   115s] BOD 2-class: Logistic Regression tuned {'logisticregression__C': 10}
+[   121s] BOD 2-class: Random Forest tuned {'max_depth': 8, 'max_features': 'sqrt', 'min_samples_leaf': 1}
+[   124s] BOD 2-class: XGBoost tuned {'learning_rate': 0.1, 'max_depth': 2, 'min_child_weight': 1, 'n_estimators': 200}
+[   125s] BOD 2-class: SVM tuned {'svc__C': 1, 'svc__gamma': 0.01}
+[   125s] BOD 2-class: kNN tuned {'kneighborsclassifier__n_neighbors': 21, 'kneighborsclassifier__weights': 'distance'}
+[   127s] BOD 2-class: LSTM tuned {'hidden': 16, 'L': 6}
+[   133s] BOD 2-class: rolling done
+[   134s] FC 5-class: Logistic Regression tuned {'logisticregression__C': 10}
+[   142s] FC 5-class: Random Forest tuned {'max_depth': 8, 'max_features': 0.5, 'min_samples_leaf': 10}
+[   149s] FC 5-class: XGBoost tuned {'learning_rate': 0.03, 'max_depth': 2, 'min_child_weight': 5, 'n_estimators': 500}
+[   149s] FC 5-class: SVM tuned {'svc__C': 10, 'svc__gamma': 0.01}
+[   150s] FC 5-class: kNN tuned {'kneighborsclassifier__n_neighbors': 7, 'kneighborsclassifier__weights': 'distance'}
+[   153s] FC 5-class: LSTM tuned {'hidden': 32, 'L': 3}
+[   164s] FC 5-class: rolling done
+[   165s] FC 2-class: Logistic Regression tuned {'logisticregression__C': 1}
+[   172s] FC 2-class: Random Forest tuned {'max_depth': 5, 'max_features': 0.5, 'min_samples_leaf': 1}
+[   176s] FC 2-class: XGBoost tuned {'learning_rate': 0.1, 'max_depth': 5, 'min_child_weight': 5, 'n_estimators': 200}
+[   176s] FC 2-class: SVM tuned {'svc__C': 10, 'svc__gamma': 0.01}
+[   176s] FC 2-class: kNN tuned {'kneighborsclassifier__n_neighbors': 3, 'kneighborsclassifier__weights': 'uniform'}
+[   180s] FC 2-class: LSTM tuned {'hidden': 32, 'L': 6}
+[   190s] FC 2-class: rolling done
+
+===== BOD (mg/L) · 70:30 split 2016-2025 (n=386) =====
+                      model     R2  RMSE   MAE  skill_vs_last_month
+              Random Forest  0.349 1.123 0.828                0.471
+                        SVM  0.265 1.193 0.892                0.402
+                       LSTM  0.233 1.218 0.906                0.377
+                    XGBoost  0.225 1.225 0.880                0.370
+                        kNN  0.224 1.225 0.906                0.369
+                        MLR  0.214 1.233 0.941                0.361
+ Baseline: training average -0.005 1.395 1.066                0.183
+Baseline: repeat last month -0.230 1.543 1.084                0.000
+
+===== BOD (mg/L) · rolling 2018-2025 (n=1088) =====
+                      model     R2  RMSE   MAE  skill_vs_last_month
+                       LSTM  0.163 1.193 0.870                0.337
+              Random Forest  0.153 1.200 0.878                0.329
+                        MLR  0.122 1.222 0.903                0.304
+                        SVM  0.112 1.229 0.894                0.296
+                    XGBoost  0.084 1.249 0.892                0.274
+                        kNN  0.062 1.263 0.928                0.257
+ Baseline: training average -0.032 1.325 1.027                0.182
+Baseline: repeat last month -0.262 1.465 1.009                0.000
+
+===== FC log10 level · 70:30 split 2016-2025 (n=394) =====
+                      model     R2  RMSE   MAE  skill_vs_last_month
+                       LSTM  0.716 0.285 0.212                0.213
+                    XGBoost  0.699 0.294 0.222                0.165
+                        SVM  0.693 0.297 0.219                0.148
+                        MLR  0.686 0.300 0.221                0.129
+              Random Forest  0.684 0.301 0.227                0.125
+Baseline: repeat last month  0.639 0.322 0.232                0.000
+                        kNN  0.550 0.359 0.275               -0.247
+ Baseline: training average -0.000 0.536 0.420               -1.772
+
+===== FC log10 level · rolling 2018-2025 (n=1115) =====
+                      model     R2  RMSE   MAE  skill_vs_last_month
+Baseline: repeat last month  0.625 0.305 0.214                0.000
+                        MLR  0.514 0.347 0.249               -0.294
+                        SVM  0.401 0.385 0.269               -0.596
+              Random Forest  0.299 0.416 0.287               -0.868
+                    XGBoost  0.275 0.423 0.289               -0.930
+                       LSTM  0.011 0.494 0.354               -1.633
+                        kNN -0.026 0.504 0.350               -1.732
+ Baseline: training average -0.530 0.615 0.446               -3.075
+
+===== FC log10 change · 70:30 split 2016-2025 (n=394) =====
+                      model     R2  RMSE   MAE  skill_vs_last_month
+              Random Forest  0.705 0.291 0.215                0.183
+                    XGBoost  0.701 0.293 0.217                0.173
+                       LSTM  0.695 0.296 0.221                0.154
+                        SVM  0.689 0.299 0.221                0.138
+                        MLR  0.686 0.300 0.221                0.129
+                        kNN  0.653 0.315 0.229                0.039
+Baseline: repeat last month  0.639 0.322 0.232                0.000
+ Baseline: training average -0.000 0.536 0.420               -1.772
+
+===== FC log10 change · rolling 2018-2025 (n=1115) =====
+                      model     R2  RMSE   MAE  skill_vs_last_month
+                        kNN  0.647 0.295 0.213                0.061
+Baseline: repeat last month  0.625 0.305 0.214                0.000
+              Random Forest  0.620 0.307 0.226               -0.013
+                    XGBoost  0.588 0.319 0.235               -0.097
+                        SVM  0.579 0.323 0.235               -0.122
+                       LSTM  0.550 0.333 0.246               -0.198
+                        MLR  0.514 0.347 0.249               -0.294
+ Baseline: training average -0.530 0.615 0.446               -3.075
+
+===== BOD 4-class · 70:30 split 2016-2025 (n=386) =====
+                             model  macro_F1  balanced_accuracy  accuracy  problem_caught_%  false_alarms_%  F2_problem
+                     Random Forest     0.368              0.388     0.759            69.565          17.981       0.630
+                           XGBoost     0.354              0.385     0.710            66.667          22.397       0.585
+Baseline: same class as last month     0.315              0.319     0.756            47.826          13.880       0.467
+                               SVM     0.314              0.351     0.687            71.014          26.498       0.599
+               Logistic Regression     0.302              0.320     0.663            71.014          25.868       0.602
+                               kNN     0.300              0.344     0.606            68.116          35.962       0.538
+                              LSTM     0.279              0.296     0.601            68.116          32.177       0.553
+Baseline: always most common class     0.225              0.250     0.821             0.000           0.000       0.000
+
+===== BOD 4-class · rolling 2018-2025 (n=1088) =====
+                             model  macro_F1  balanced_accuracy  accuracy  problem_caught_%  false_alarms_%  F2_problem
+                     Random Forest     0.380              0.379     0.791            54.378          10.792       0.546
+                           XGBoost     0.364              0.395     0.733            64.516          18.714       0.598
+                               SVM     0.324              0.337     0.709            45.622          18.714       0.438
+               Logistic Regression     0.317              0.358     0.661            63.594          26.177       0.559
+                              LSTM     0.314              0.351     0.679            59.908          24.799       0.535
+Baseline: same class as last month     0.312              0.312     0.750            46.083          13.777       0.460
+                               kNN     0.280              0.310     0.586            64.516          37.084       0.526
+Baseline: always most common class     0.222              0.250     0.801             0.000           0.000       0.000
+
+===== BOD 2-class · 70:30 split 2016-2025 (n=386) =====
+                             model  macro_F1  balanced_accuracy  accuracy  problem_caught_%  false_alarms_%  F2_problem
+                     Random Forest     0.703              0.741     0.798            65.217          17.035       0.600
+                           XGBoost     0.693              0.751     0.777            71.014          20.820       0.627
+               Logistic Regression     0.667              0.738     0.746            72.464          24.921       0.617
+                               SVM     0.663              0.730     0.744            71.014          24.921       0.606
+Baseline: same class as last month     0.662              0.670     0.793            47.826          13.880       0.467
+                              LSTM     0.636              0.703     0.718            68.116          27.445       0.573
+                               kNN     0.612              0.690     0.687            69.565          31.546       0.566
+Baseline: always most common class     0.451              0.500     0.821             0.000           0.000       0.000
+
+===== BOD 2-class · rolling 2018-2025 (n=1088) =====
+                             model  macro_F1  balanced_accuracy  accuracy  problem_caught_%  false_alarms_%  F2_problem
+                     Random Forest     0.710              0.691     0.833            45.622           7.348       0.480
+                           XGBoost     0.700              0.699     0.809            51.613          11.825       0.517
+               Logistic Regression     0.661              0.684     0.757            56.221          19.403       0.526
+Baseline: same class as last month     0.661              0.662     0.782            46.083          13.777       0.460
+                               SVM     0.633              0.656     0.733            52.995          21.699       0.491
+                              LSTM     0.619              0.643     0.720            51.613          22.962       0.475
+                               kNN     0.591              0.628     0.678            54.378          28.817       0.477
+Baseline: always most common class     0.445              0.500     0.801             0.000           0.000       0.000
+
+===== FC 5-class · 70:30 split 2016-2025 (n=394) =====
+                             model  macro_F1  balanced_accuracy  accuracy  problem_caught_%  false_alarms_%  F2_problem
+                     Random Forest     0.523              0.518     0.624            67.188           6.970       0.668
+                               SVM     0.504              0.492     0.612            68.750           4.545       0.698
+Baseline: same class as last month     0.486              0.485     0.589            68.750           8.182       0.673
+                           XGBoost     0.478              0.481     0.591            73.438           7.879       0.714
+               Logistic Regression     0.475              0.475     0.591            70.312           6.970       0.694
+                              LSTM     0.458              0.463     0.584            71.875           6.061       0.714
+                               kNN     0.455              0.439     0.571            53.125           4.848       0.556
+Baseline: always most common class     0.130              0.200     0.480             0.000           0.000       0.000
+
+===== FC 5-class · rolling 2018-2025 (n=1115) =====
+                             model  macro_F1  balanced_accuracy  accuracy  problem_caught_%  false_alarms_%  F2_problem
+Baseline: same class as last month     0.499              0.502     0.646              64.0           4.747       0.638
+                           XGBoost     0.427              0.440     0.588              56.0           6.263       0.554
+               Logistic Regression     0.417              0.426     0.574              64.8           6.768       0.625
+                     Random Forest     0.402              0.423     0.553              60.0           4.848       0.602
+                               SVM     0.397              0.400     0.570              59.2           6.768       0.577
+                               kNN     0.297              0.311     0.482              51.2          12.020       0.469
+                              LSTM     0.273              0.291     0.464              63.2          11.313       0.572
+Baseline: always most common class     0.134              0.174     0.480               1.6          10.707       0.016
+
+===== FC 2-class · 70:30 split 2016-2025 (n=394) =====
+                             model  macro_F1  balanced_accuracy  accuracy  problem_caught_%  false_alarms_%  F2_problem
+               Logistic Regression     0.827              0.808     0.911            65.625           3.939       0.675
+                              LSTM     0.812              0.787     0.906            60.938           3.636       0.635
+                     Random Forest     0.809              0.801     0.898            65.625           5.455       0.665
+                               SVM     0.808              0.785     0.904            60.938           3.939       0.633
+Baseline: same class as last month     0.790              0.803     0.881            68.750           8.182       0.673
+                           XGBoost     0.777              0.767     0.883            59.375           6.061       0.605
+                               kNN     0.771              0.740     0.891            51.562           3.636       0.548
+Baseline: always most common class     0.456              0.500     0.838             0.000           0.000       0.000
+
+===== FC 2-class · rolling 2018-2025 (n=1115) =====
+                             model  macro_F1  balanced_accuracy  accuracy  problem_caught_%  false_alarms_%  F2_problem
+Baseline: same class as last month     0.794              0.796     0.917              64.0           4.747       0.638
+                     Random Forest     0.785              0.775     0.917              59.2           4.141       0.602
+               Logistic Regression     0.779              0.779     0.912              60.8           4.949       0.608
+                           XGBoost     0.771              0.762     0.912              56.8           4.444       0.577
+                               SVM     0.750              0.746     0.902              54.4           5.253       0.548
+                              LSTM     0.681              0.696     0.863              48.0           8.889       0.463
+                               kNN     0.671              0.691     0.855              48.0           9.798       0.457
+Baseline: always most common class     0.451              0.454     0.795               1.6          10.707       0.016
+[   191s] done

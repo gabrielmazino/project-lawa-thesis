@@ -1,0 +1,181 @@
+{
+  "BOD (mg/L) | MLR": {},
+  "BOD (mg/L) | Random Forest": {
+    "max_depth": null,
+    "max_features": 0.5,
+    "min_samples_leaf": 1
+  },
+  "BOD (mg/L) | XGBoost": {
+    "learning_rate": 0.03,
+    "max_depth": 5,
+    "min_child_weight": 1,
+    "n_estimators": 200
+  },
+  "BOD (mg/L) | SVM": {
+    "svr__C": 1,
+    "svr__epsilon": 0.3,
+    "svr__gamma": 0.01
+  },
+  "BOD (mg/L) | kNN": {
+    "kneighborsregressor__n_neighbors": 11,
+    "kneighborsregressor__weights": "distance"
+  },
+  "BOD (mg/L) | LSTM": {
+    "hidden": 16,
+    "L": 3
+  },
+  "FC log10 level | MLR": {},
+  "FC log10 level | Random Forest": {
+    "max_depth": 5,
+    "max_features": 1.0,
+    "min_samples_leaf": 5
+  },
+  "FC log10 level | XGBoost": {
+    "learning_rate": 0.03,
+    "max_depth": 3,
+    "min_child_weight": 5,
+    "n_estimators": 200
+  },
+  "FC log10 level | SVM": {
+    "svr__C": 1,
+    "svr__epsilon": 0.1,
+    "svr__gamma": 0.01
+  },
+  "FC log10 level | kNN": {
+    "kneighborsregressor__n_neighbors": 7,
+    "kneighborsregressor__weights": "distance"
+  },
+  "FC log10 level | LSTM": {
+    "hidden": 32,
+    "L": 6
+  },
+  "FC log10 change | MLR": {},
+  "FC log10 change | Random Forest": {
+    "max_depth": null,
+    "max_features": 0.5,
+    "min_samples_leaf": 5
+  },
+  "FC log10 change | XGBoost": {
+    "learning_rate": 0.03,
+    "max_depth": 3,
+    "min_child_weight": 5,
+    "n_estimators": 200
+  },
+  "FC log10 change | SVM": {
+    "svr__C": 1,
+    "svr__epsilon": 0.1,
+    "svr__gamma": 0.01
+  },
+  "FC log10 change | kNN": {
+    "kneighborsregressor__n_neighbors": 21,
+    "kneighborsregressor__weights": "distance"
+  },
+  "FC log10 change | LSTM": {
+    "hidden": 32,
+    "L": 3
+  },
+  "BOD 4-class | Logistic Regression": {
+    "logisticregression__C": 0.1
+  },
+  "BOD 4-class | Random Forest": {
+    "max_depth": 8,
+    "max_features": 0.5,
+    "min_samples_leaf": 1
+  },
+  "BOD 4-class | XGBoost": {
+    "learning_rate": 0.03,
+    "max_depth": 2,
+    "min_child_weight": 5,
+    "n_estimators": 200
+  },
+  "BOD 4-class | SVM": {
+    "svc__C": 100,
+    "svc__gamma": 0.01
+  },
+  "BOD 4-class | kNN": {
+    "kneighborsclassifier__n_neighbors": 15,
+    "kneighborsclassifier__weights": "distance"
+  },
+  "BOD 4-class | LSTM": {
+    "hidden": 32,
+    "L": 3
+  },
+  "BOD 2-class | Logistic Regression": {
+    "logisticregression__C": 10
+  },
+  "BOD 2-class | Random Forest": {
+    "max_depth": 8,
+    "max_features": "sqrt",
+    "min_samples_leaf": 1
+  },
+  "BOD 2-class | XGBoost": {
+    "learning_rate": 0.1,
+    "max_depth": 2,
+    "min_child_weight": 1,
+    "n_estimators": 200
+  },
+  "BOD 2-class | SVM": {
+    "svc__C": 1,
+    "svc__gamma": 0.01
+  },
+  "BOD 2-class | kNN": {
+    "kneighborsclassifier__n_neighbors": 21,
+    "kneighborsclassifier__weights": "distance"
+  },
+  "BOD 2-class | LSTM": {
+    "hidden": 16,
+    "L": 6
+  },
+  "FC 5-class | Logistic Regression": {
+    "logisticregression__C": 10
+  },
+  "FC 5-class | Random Forest": {
+    "max_depth": 8,
+    "max_features": 0.5,
+    "min_samples_leaf": 10
+  },
+  "FC 5-class | XGBoost": {
+    "learning_rate": 0.03,
+    "max_depth": 2,
+    "min_child_weight": 5,
+    "n_estimators": 500
+  },
+  "FC 5-class | SVM": {
+    "svc__C": 10,
+    "svc__gamma": 0.01
+  },
+  "FC 5-class | kNN": {
+    "kneighborsclassifier__n_neighbors": 7,
+    "kneighborsclassifier__weights": "distance"
+  },
+  "FC 5-class | LSTM": {
+    "hidden": 32,
+    "L": 3
+  },
+  "FC 2-class | Logistic Regression": {
+    "logisticregression__C": 1
+  },
+  "FC 2-class | Random Forest": {
+    "max_depth": 5,
+    "max_features": 0.5,
+    "min_samples_leaf": 1
+  },
+  "FC 2-class | XGBoost": {
+    "learning_rate": 0.1,
+    "max_depth": 5,
+    "min_child_weight": 5,
+    "n_estimators": 200
+  },
+  "FC 2-class | SVM": {
+    "svc__C": 10,
+    "svc__gamma": 0.01
+  },
+  "FC 2-class | kNN": {
+    "kneighborsclassifier__n_neighbors": 3,
+    "kneighborsclassifier__weights": "uniform"
+  },
+  "FC 2-class | LSTM": {
+    "hidden": 32,
+    "L": 6
+  }
+}

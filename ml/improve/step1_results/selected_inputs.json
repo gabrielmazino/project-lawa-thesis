@@ -1,0 +1,60 @@
+{
+  "BOD": {
+    "all": [
+      "DO",
+      "pH",
+      "Ammonia",
+      "Nitrate",
+      "Phosphate",
+      "Temperature",
+      "BOD_last",
+      "month",
+      "station"
+    ],
+    "rule_A": [
+      "pH",
+      "month",
+      "Nitrate",
+      "Temperature",
+      "DO"
+    ],
+    "rule_B": [
+      "pH",
+      "month",
+      "Nitrate",
+      "Temperature",
+      "DO",
+      "BOD_last",
+      "station",
+      "Ammonia"
+    ]
+  },
+  "FC": {
+    "all": [
+      "DO",
+      "pH",
+      "Ammonia",
+      "Nitrate",
+      "Phosphate",
+      "Temperature",
+      "logFC_last",
+      "month",
+      "station"
+    ],
+    "rule_A": [
+      "logFC_last",
+      "pH",
+      "station",
+      "DO",
+      "month"
+    ],
+    "rule_B": [
+      "logFC_last",
+      "pH",
+      "station",
+      "DO",
+      "month",
+      "Nitrate"
+    ]
+  }
+}

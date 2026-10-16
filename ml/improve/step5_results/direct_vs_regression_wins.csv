@@ -1,0 +1,17 @@
+scheme,test,model,A wins (% of repeats)
+BOD 4-class,random 70-30,MLR / Logistic Regression,10.0
+BOD 4-class,random 70-30,Random Forest,60.0
+BOD 4-class,random 70-30,SVM,20.0
+BOD 4-class,random 70-30,XGBoost,40.0
+BOD 4-class,rolling year-by-year,MLR / Logistic Regression,38.0
+BOD 4-class,rolling year-by-year,Random Forest,62.0
+BOD 4-class,rolling year-by-year,SVM,50.0
+BOD 4-class,rolling year-by-year,XGBoost,62.0
+FC 5-class,random 70-30,MLR / Logistic Regression,0.0
+FC 5-class,random 70-30,Random Forest,30.0
+FC 5-class,random 70-30,SVM,0.0
+FC 5-class,random 70-30,XGBoost,20.0
+FC 5-class,rolling year-by-year,MLR / Logistic Regression,12.0
+FC 5-class,rolling year-by-year,Random Forest,0.0
+FC 5-class,rolling year-by-year,SVM,12.0
+FC 5-class,rolling year-by-year,XGBoost,12.0

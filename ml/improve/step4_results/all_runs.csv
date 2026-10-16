@@ -1,0 +1,1633 @@
+task,method,rep,model,n_train,n_test,R2,RMSE,MAE,skill_vs_last_month,macro_F1,balanced_accuracy,accuracy,problem_caught_%,false_alarms_%,F2_problem
+BOD (mg/L),random 60-40,0,Baseline: repeat last month,807,515,-0.3209,1.5547,1.074,0.0,,,,,,
+BOD (mg/L),random 60-40,0,Baseline: training average,807,515,-0.0172,1.3643,1.0561,0.2299,,,,,,
+BOD (mg/L),random 60-40,0,MLR / Logistic Regression,807,515,0.255,1.1676,0.8907,0.436,,,,,,
+BOD (mg/L),random 60-40,0,Random Forest,807,515,0.3839,1.0618,0.791,0.5336,,,,,,
+BOD (mg/L),random 60-40,0,XGBoost,807,515,0.264,1.1605,0.8402,0.4428,,,,,,
+BOD (mg/L),random 60-40,0,SVM,807,515,0.2967,1.1344,0.8499,0.4676,,,,,,
+BOD (mg/L),random 60-40,0,kNN,807,515,0.2475,1.1734,0.8792,0.4303,,,,,,
+BOD (mg/L),random 60-40,0,LSTM,807,515,0.2684,1.1571,0.8586,0.4461,,,,,,
+BOD (mg/L),random 60-40,1,Baseline: repeat last month,807,515,-0.8544,4.4087,1.2323,0.0,,,,,,
+BOD (mg/L),random 60-40,1,Baseline: training average,807,515,-0.0,3.2375,1.1523,0.4608,,,,,,
+BOD (mg/L),random 60-40,1,MLR / Logistic Regression,807,515,0.0345,3.1811,0.9941,0.4794,,,,,,
+BOD (mg/L),random 60-40,1,Random Forest,807,515,0.1274,3.0242,0.9125,0.5294,,,,,,
+BOD (mg/L),random 60-40,1,XGBoost,807,515,0.1465,2.9909,0.9124,0.5397,,,,,,
+BOD (mg/L),random 60-40,1,SVM,807,515,0.0626,3.1345,0.9369,0.4945,,,,,,
+BOD (mg/L),random 60-40,1,kNN,807,515,0.0507,3.1544,0.978,0.4881,,,,,,
+BOD (mg/L),random 60-40,1,LSTM,807,515,0.0676,3.1262,0.9542,0.4972,,,,,,
+BOD (mg/L),random 60-40,2,Baseline: repeat last month,807,515,-5.3773,3.2721,1.1832,0.0,,,,,,
+BOD (mg/L),random 60-40,2,Baseline: training average,807,515,-0.0103,1.3024,1.034,0.8416,,,,,,
+BOD (mg/L),random 60-40,2,MLR / Logistic Regression,807,515,-0.0012,1.2965,0.9019,0.843,,,,,,
+BOD (mg/L),random 60-40,2,Random Forest,807,515,0.2948,1.0881,0.8062,0.8894,,,,,,
+BOD (mg/L),random 60-40,2,XGBoost,807,515,0.2542,1.119,0.8283,0.8831,,,,,,
+BOD (mg/L),random 60-40,2,SVM,807,515,0.2509,1.1215,0.8479,0.8825,,,,,,
+BOD (mg/L),random 60-40,2,kNN,807,515,0.179,1.174,0.8724,0.8713,,,,,,
+BOD (mg/L),random 60-40,2,LSTM,807,515,0.2833,1.0969,0.83,0.8876,,,,,,
+BOD (mg/L),random 60-40,3,Baseline: repeat last month,807,515,-0.8371,4.4079,1.2406,0.0,,,,,,
+BOD (mg/L),random 60-40,3,Baseline: training average,807,515,-0.0014,3.2543,1.1582,0.4549,,,,,,
+BOD (mg/L),random 60-40,3,MLR / Logistic Regression,807,515,0.0391,3.1878,1.0171,0.477,,,,,,
+BOD (mg/L),random 60-40,3,Random Forest,807,515,0.144,3.0088,0.9155,0.5341,,,,,,
+BOD (mg/L),random 60-40,3,XGBoost,807,515,0.1536,2.9919,0.9421,0.5393,,,,,,
+BOD (mg/L),random 60-40,3,SVM,807,515,0.0637,3.1467,0.9666,0.4904,,,,,,
+BOD (mg/L),random 60-40,3,kNN,807,515,0.0355,3.1938,1.0011,0.475,,,,,,
+BOD (mg/L),random 60-40,3,LSTM,807,515,0.0783,3.1222,0.972,0.4983,,,,,,
+BOD (mg/L),random 60-40,4,Baseline: repeat last month,807,515,-5.3493,3.2909,1.1702,0.0,,,,,,
+BOD (mg/L),random 60-40,4,Baseline: training average,807,515,-0.0002,1.3062,1.008,0.8425,,,,,,
+BOD (mg/L),random 60-40,4,MLR / Logistic Regression,807,515,-0.0696,1.3507,0.8842,0.8315,,,,,,
+BOD (mg/L),random 60-40,4,Random Forest,807,515,0.3146,1.0812,0.7792,0.8921,,,,,,
+BOD (mg/L),random 60-40,4,XGBoost,807,515,0.3238,1.074,0.7846,0.8935,,,,,,
+BOD (mg/L),random 60-40,4,SVM,807,515,0.2847,1.1046,0.8187,0.8873,,,,,,
+BOD (mg/L),random 60-40,4,kNN,807,515,0.226,1.149,0.8497,0.8781,,,,,,
+BOD (mg/L),random 60-40,4,LSTM,807,515,0.2723,1.1141,0.8346,0.8854,,,,,,
+BOD (mg/L),random 60-40,5,Baseline: repeat last month,807,515,-0.4009,1.5175,0.997,0.0,,,,,,
+BOD (mg/L),random 60-40,5,Baseline: training average,807,515,-0.0156,1.2921,0.9965,0.275,,,,,,
+BOD (mg/L),random 60-40,5,MLR / Logistic Regression,807,515,0.2536,1.1076,0.8456,0.4672,,,,,,
+BOD (mg/L),random 60-40,5,Random Forest,807,515,0.329,1.0502,0.7542,0.521,,,,,,
+BOD (mg/L),random 60-40,5,XGBoost,807,515,0.303,1.0704,0.7752,0.5025,,,,,,
+BOD (mg/L),random 60-40,5,SVM,807,515,0.2932,1.0778,0.8041,0.4955,,,,,,
+BOD (mg/L),random 60-40,5,kNN,807,515,0.2316,1.1239,0.8391,0.4515,,,,,,
+BOD (mg/L),random 60-40,5,LSTM,807,515,0.3062,1.068,0.7968,0.5047,,,,,,
+BOD (mg/L),random 60-40,6,Baseline: repeat last month,807,515,-5.0783,3.2723,1.1772,0.0,,,,,,
+BOD (mg/L),random 60-40,6,Baseline: training average,807,515,-0.0103,1.3341,1.0513,0.8338,,,,,,
+BOD (mg/L),random 60-40,6,MLR / Logistic Regression,807,515,-0.004,1.3299,0.92,0.8348,,,,,,
+BOD (mg/L),random 60-40,6,Random Forest,807,515,0.3573,1.0641,0.7887,0.8943,,,,,,
+BOD (mg/L),random 60-40,6,XGBoost,807,515,0.3083,1.1039,0.8231,0.8862,,,,,,
+BOD (mg/L),random 60-40,6,SVM,807,515,0.2757,1.1296,0.8544,0.8808,,,,,,
+BOD (mg/L),random 60-40,6,kNN,807,515,0.2179,1.1738,0.8765,0.8713,,,,,,
+BOD (mg/L),random 60-40,6,LSTM,807,515,0.291,1.1176,0.8435,0.8834,,,,,,
+BOD (mg/L),random 60-40,7,Baseline: repeat last month,807,515,-0.3606,1.5146,1.0029,0.0,,,,,,
+BOD (mg/L),random 60-40,7,Baseline: training average,807,515,-0.0045,1.3014,1.0012,0.2618,,,,,,
+BOD (mg/L),random 60-40,7,MLR / Logistic Regression,807,515,0.2402,1.1318,0.866,0.4416,,,,,,
+BOD (mg/L),random 60-40,7,Random Forest,807,515,0.338,1.0564,0.7784,0.5135,,,,,,
+BOD (mg/L),random 60-40,7,XGBoost,807,515,0.3463,1.0498,0.7754,0.5195,,,,,,
+BOD (mg/L),random 60-40,7,SVM,807,515,0.2823,1.1,0.8116,0.4725,,,,,,
+BOD (mg/L),random 60-40,7,kNN,807,515,0.1809,1.1751,0.855,0.398,,,,,,
+BOD (mg/L),random 60-40,7,LSTM,807,515,0.2734,1.1068,0.8284,0.4659,,,,,,
+BOD (mg/L),random 60-40,8,Baseline: repeat last month,807,515,-0.8764,4.427,1.2742,0.0,,,,,,
+BOD (mg/L),random 60-40,8,Baseline: training average,807,515,-0.0,3.2319,1.1322,0.467,,,,,,
+BOD (mg/L),random 60-40,8,MLR / Logistic Regression,807,515,0.0268,3.1883,0.9831,0.4813,,,,,,
+BOD (mg/L),random 60-40,8,Random Forest,807,515,0.1234,3.0259,0.8981,0.5328,,,,,,
+BOD (mg/L),random 60-40,8,XGBoost,807,515,0.1408,2.9958,0.8996,0.5421,,,,,,
+BOD (mg/L),random 60-40,8,SVM,807,515,0.0607,3.1323,0.9337,0.4994,,,,,,
+BOD (mg/L),random 60-40,8,kNN,807,515,0.0401,3.1664,0.974,0.4884,,,,,,
+BOD (mg/L),random 60-40,8,LSTM,807,515,0.0606,3.1324,0.9276,0.4993,,,,,,
+BOD (mg/L),random 60-40,9,Baseline: repeat last month,807,515,-0.8857,4.4415,1.3209,0.0,,,,,,
+BOD (mg/L),random 60-40,9,Baseline: training average,807,515,-0.0008,3.2356,1.1399,0.4693,,,,,,
+BOD (mg/L),random 60-40,9,MLR / Logistic Regression,807,515,0.0104,3.2175,1.005,0.4752,,,,,,
+BOD (mg/L),random 60-40,9,Random Forest,807,515,0.0984,3.0711,0.905,0.5219,,,,,,
+BOD (mg/L),random 60-40,9,XGBoost,807,515,0.1101,3.0512,0.901,0.5281,,,,,,
+BOD (mg/L),random 60-40,9,SVM,807,515,0.0544,3.1452,0.9554,0.4985,,,,,,
+BOD (mg/L),random 60-40,9,kNN,807,515,0.0372,3.1737,0.9827,0.4894,,,,,,
+BOD (mg/L),random 60-40,9,LSTM,807,515,0.0626,3.1315,0.9464,0.5029,,,,,,
+BOD (mg/L),random 70-30,0,Baseline: repeat last month,936,386,-0.2301,1.5431,1.0845,0.0,,,,,,
+BOD (mg/L),random 70-30,0,Baseline: training average,936,386,-0.0053,1.395,1.0664,0.1828,,,,,,
+BOD (mg/L),random 70-30,0,MLR / Logistic Regression,936,386,0.2144,1.2331,0.9407,0.3614,,,,,,
+BOD (mg/L),random 70-30,0,Random Forest,936,386,0.3487,1.1228,0.8277,0.4705,,,,,,
+BOD (mg/L),random 70-30,0,XGBoost,936,386,0.234,1.2176,0.8798,0.3773,,,,,,
+BOD (mg/L),random 70-30,0,SVM,936,386,0.2646,1.1931,0.8923,0.4022,,,,,,
+BOD (mg/L),random 70-30,0,kNN,936,386,0.2241,1.2255,0.9064,0.3693,,,,,,
+BOD (mg/L),random 70-30,0,LSTM,936,386,0.2334,1.2182,0.9057,0.3768,,,,,,
+BOD (mg/L),random 70-30,1,Baseline: repeat last month,936,386,-0.8988,5.0385,1.3592,0.0,,,,,,
+BOD (mg/L),random 70-30,1,Baseline: training average,936,386,-0.0004,3.6572,1.1708,0.4731,,,,,,
+BOD (mg/L),random 70-30,1,MLR / Logistic Regression,936,386,0.0089,3.6401,1.0492,0.4781,,,,,,
+BOD (mg/L),random 70-30,1,Random Forest,936,386,0.1223,3.4257,0.9425,0.5377,,,,,,
+BOD (mg/L),random 70-30,1,XGBoost,936,386,0.1349,3.401,0.9393,0.5444,,,,,,
+BOD (mg/L),random 70-30,1,SVM,936,386,0.0513,3.5614,0.9737,0.5004,,,,,,
+BOD (mg/L),random 70-30,1,kNN,936,386,0.045,3.5734,1.0097,0.497,,,,,,
+BOD (mg/L),random 70-30,1,LSTM,936,386,0.0633,3.539,0.9717,0.5067,,,,,,
+BOD (mg/L),random 70-30,2,Baseline: repeat last month,936,386,-7.4375,3.6911,1.2431,0.0,,,,,,
+BOD (mg/L),random 70-30,2,Baseline: training average,936,386,-0.0138,1.2795,1.0165,0.8798,,,,,,
+BOD (mg/L),random 70-30,2,MLR / Logistic Regression,936,386,-0.2122,1.399,0.9114,0.8563,,,,,,
+BOD (mg/L),random 70-30,2,Random Forest,936,386,0.2908,1.0701,0.801,0.9159,,,,,,
+BOD (mg/L),random 70-30,2,XGBoost,936,386,0.2492,1.101,0.824,0.911,,,,,,
+BOD (mg/L),random 70-30,2,SVM,936,386,0.2652,1.0893,0.8415,0.9129,,,,,,
+BOD (mg/L),random 70-30,2,kNN,936,386,0.2166,1.1247,0.8422,0.9072,,,,,,
+BOD (mg/L),random 70-30,2,LSTM,936,386,0.2957,1.0664,0.8143,0.9165,,,,,,
+BOD (mg/L),random 70-30,3,Baseline: repeat last month,936,386,-0.9046,5.0761,1.3988,0.0,,,,,,
+BOD (mg/L),random 70-30,3,Baseline: training average,936,386,-0.0021,3.6821,1.214,0.4738,,,,,,
+BOD (mg/L),random 70-30,3,MLR / Logistic Regression,936,386,-0.001,3.68,1.074,0.4744,,,,,,
+BOD (mg/L),random 70-30,3,Random Forest,936,386,0.1412,3.4086,0.9403,0.5491,,,,,,
+BOD (mg/L),random 70-30,3,XGBoost,936,386,0.1631,3.365,0.9651,0.5606,,,,,,
+BOD (mg/L),random 70-30,3,SVM,936,386,0.0509,3.5835,1.0116,0.5016,,,,,,
+BOD (mg/L),random 70-30,3,kNN,936,386,0.0448,3.595,1.0325,0.4984,,,,,,
+BOD (mg/L),random 70-30,3,LSTM,936,386,0.0546,3.5764,1.0136,0.5036,,,,,,
+BOD (mg/L),random 70-30,4,Baseline: repeat last month,936,386,-6.898,3.7058,1.2297,0.0,,,,,,
+BOD (mg/L),random 70-30,4,Baseline: training average,936,386,-0.0,1.3186,1.0106,0.8734,,,,,,
+BOD (mg/L),random 70-30,4,MLR / Logistic Regression,936,386,-0.1809,1.4329,0.8883,0.8505,,,,,,
+BOD (mg/L),random 70-30,4,Random Forest,936,386,0.3456,1.0667,0.7637,0.9171,,,,,,
+BOD (mg/L),random 70-30,4,XGBoost,936,386,0.3298,1.0795,0.7725,0.9151,,,,,,
+BOD (mg/L),random 70-30,4,SVM,936,386,0.295,1.1072,0.8138,0.9107,,,,,,
+BOD (mg/L),random 70-30,4,kNN,936,386,0.2292,1.1577,0.8557,0.9024,,,,,,
+BOD (mg/L),random 70-30,4,LSTM,936,386,0.2922,1.1093,0.8174,0.9104,,,,,,
+BOD (mg/L),random 70-30,5,Baseline: repeat last month,936,386,-0.3474,1.4832,0.9934,0.0,,,,,,
+BOD (mg/L),random 70-30,5,Baseline: training average,936,386,-0.0015,1.2787,0.9923,0.2568,,,,,,
+BOD (mg/L),random 70-30,5,MLR / Logistic Regression,936,386,0.2637,1.0964,0.8425,0.4536,,,,,,
+BOD (mg/L),random 70-30,5,Random Forest,936,386,0.3276,1.0478,0.7539,0.5009,,,,,,
+BOD (mg/L),random 70-30,5,XGBoost,936,386,0.2565,1.1018,0.7856,0.4482,,,,,,
+BOD (mg/L),random 70-30,5,SVM,936,386,0.3131,1.059,0.7882,0.4902,,,,,,
+BOD (mg/L),random 70-30,5,kNN,936,386,0.2141,1.1327,0.8392,0.4168,,,,,,
+BOD (mg/L),random 70-30,5,LSTM,936,386,0.3195,1.0541,0.7865,0.4949,,,,,,
+BOD (mg/L),random 70-30,6,Baseline: repeat last month,936,386,-0.34,1.5558,1.1045,0.0,,,,,,
+BOD (mg/L),random 70-30,6,Baseline: training average,936,386,-0.0059,1.348,1.0646,0.2493,,,,,,
+BOD (mg/L),random 70-30,6,MLR / Logistic Regression,936,386,0.2569,1.1586,0.9069,0.4454,,,,,,
+BOD (mg/L),random 70-30,6,Random Forest,936,386,0.3676,1.0688,0.8016,0.528,,,,,,
+BOD (mg/L),random 70-30,6,XGBoost,936,386,0.3135,1.1136,0.8314,0.4877,,,,,,
+BOD (mg/L),random 70-30,6,SVM,936,386,0.2804,1.1401,0.874,0.463,,,,,,
+BOD (mg/L),random 70-30,6,kNN,936,386,0.1895,1.21,0.9096,0.3952,,,,,,
+BOD (mg/L),random 70-30,6,LSTM,936,386,0.2721,1.1467,0.8694,0.4568,,,,,,
+BOD (mg/L),random 70-30,7,Baseline: repeat last month,936,386,-0.2251,1.4341,0.9521,0.0,,,,,,
+BOD (mg/L),random 70-30,7,Baseline: training average,936,386,-0.0013,1.2965,0.9737,0.1827,,,,,,
+BOD (mg/L),random 70-30,7,MLR / Logistic Regression,936,386,0.2583,1.1159,0.8427,0.3946,,,,,,
+BOD (mg/L),random 70-30,7,Random Forest,936,386,0.3232,1.066,0.761,0.4475,,,,,,
+BOD (mg/L),random 70-30,7,XGBoost,936,386,0.3148,1.0726,0.7642,0.4407,,,,,,
+BOD (mg/L),random 70-30,7,SVM,936,386,0.2806,1.099,0.7945,0.4128,,,,,,
+BOD (mg/L),random 70-30,7,kNN,936,386,0.1777,1.175,0.8375,0.3288,,,,,,
+BOD (mg/L),random 70-30,7,LSTM,936,386,0.2775,1.1013,0.7887,0.4103,,,,,,
+BOD (mg/L),random 70-30,8,Baseline: repeat last month,936,386,-0.8805,5.0314,1.3224,0.0,,,,,,
+BOD (mg/L),random 70-30,8,Baseline: training average,936,386,-0.0009,3.6707,1.1675,0.4677,,,,,,
+BOD (mg/L),random 70-30,8,MLR / Logistic Regression,936,386,0.015,3.6415,1.024,0.4762,,,,,,
+BOD (mg/L),random 70-30,8,Random Forest,936,386,0.1253,3.4316,0.9045,0.5348,,,,,,
+BOD (mg/L),random 70-30,8,XGBoost,936,386,0.158,3.3668,0.907,0.5522,,,,,,
+BOD (mg/L),random 70-30,8,SVM,936,386,0.0508,3.5746,0.9528,0.4952,,,,,,
+BOD (mg/L),random 70-30,8,kNN,936,386,0.0325,3.609,1.0097,0.4855,,,,,,
+BOD (mg/L),random 70-30,8,LSTM,936,386,0.0582,3.5607,0.9545,0.4992,,,,,,
+BOD (mg/L),random 70-30,9,Baseline: repeat last month,936,386,-0.1692,1.5053,0.9915,0.0,,,,,,
+BOD (mg/L),random 70-30,9,Baseline: training average,936,386,-0.0001,1.3922,1.04,0.1447,,,,,,
+BOD (mg/L),random 70-30,9,MLR / Logistic Regression,936,386,0.2407,1.2131,0.916,0.3506,,,,,,
+BOD (mg/L),random 70-30,9,Random Forest,936,386,0.3734,1.102,0.809,0.4641,,,,,,
+BOD (mg/L),random 70-30,9,XGBoost,936,386,0.3473,1.1247,0.8082,0.4417,,,,,,
+BOD (mg/L),random 70-30,9,SVM,936,386,0.3086,1.1576,0.8647,0.4086,,,,,,
+BOD (mg/L),random 70-30,9,kNN,936,386,0.2395,1.2141,0.8804,0.3495,,,,,,
+BOD (mg/L),random 70-30,9,LSTM,936,386,0.3068,1.1591,0.8613,0.4071,,,,,,
+BOD (mg/L),random 80-20,0,Baseline: repeat last month,1064,258,-0.1519,1.519,1.0663,0.0,,,,,,
+BOD (mg/L),random 80-20,0,Baseline: training average,1064,258,-0.0035,1.4178,1.0537,0.1289,,,,,,
+BOD (mg/L),random 80-20,0,MLR / Logistic Regression,1064,258,0.2673,1.2115,0.9213,0.3639,,,,,,
+BOD (mg/L),random 80-20,0,Random Forest,1064,258,0.3969,1.0992,0.8119,0.4764,,,,,,
+BOD (mg/L),random 80-20,0,XGBoost,1064,258,0.3189,1.1681,0.8489,0.4087,,,,,,
+BOD (mg/L),random 80-20,0,SVM,1064,258,0.2941,1.1891,0.886,0.3872,,,,,,
+BOD (mg/L),random 80-20,0,kNN,1064,258,0.231,1.2412,0.9088,0.3324,,,,,,
+BOD (mg/L),random 80-20,0,LSTM,1064,258,0.2515,1.2245,0.9045,0.3502,,,,,,
+BOD (mg/L),random 80-20,1,Baseline: repeat last month,1064,258,-0.9234,6.0656,1.5126,0.0,,,,,,
+BOD (mg/L),random 80-20,1,Baseline: training average,1064,258,-0.0018,4.3776,1.2383,0.4791,,,,,,
+BOD (mg/L),random 80-20,1,MLR / Logistic Regression,1064,258,0.0016,4.3701,1.1246,0.4809,,,,,,
+BOD (mg/L),random 80-20,1,Random Forest,1064,258,0.1108,4.1243,0.9943,0.5377,,,,,,
+BOD (mg/L),random 80-20,1,XGBoost,1064,258,0.1192,4.1047,1.0031,0.5421,,,,,,
+BOD (mg/L),random 80-20,1,SVM,1064,258,0.0375,4.2908,1.0342,0.4996,,,,,,
+BOD (mg/L),random 80-20,1,kNN,1064,258,0.0213,4.3267,1.0798,0.4912,,,,,,
+BOD (mg/L),random 80-20,1,LSTM,1064,258,0.0426,4.2795,1.0347,0.5022,,,,,,
+BOD (mg/L),random 80-20,2,Baseline: repeat last month,1064,258,-10.5642,4.4132,1.356,0.0,,,,,,
+BOD (mg/L),random 80-20,2,Baseline: training average,1064,258,-0.0115,1.3052,1.0074,0.9125,,,,,,
+BOD (mg/L),random 80-20,2,MLR / Logistic Regression,1064,258,-0.4515,1.5635,0.9551,0.8745,,,,,,
+BOD (mg/L),random 80-20,2,Random Forest,1064,258,0.2729,1.1066,0.7949,0.9371,,,,,,
+BOD (mg/L),random 80-20,2,XGBoost,1064,258,0.2359,1.1344,0.8262,0.9339,,,,,,
+BOD (mg/L),random 80-20,2,SVM,1064,258,0.2083,1.1547,0.8553,0.9315,,,,,,
+BOD (mg/L),random 80-20,2,kNN,1064,258,0.109,1.225,0.8927,0.9229,,,,,,
+BOD (mg/L),random 80-20,2,LSTM,1064,258,0.2416,1.1302,0.8417,0.9344,,,,,,
+BOD (mg/L),random 80-20,3,Baseline: repeat last month,1064,258,-0.0182,4.4413,1.2106,0.0,,,,,,
+BOD (mg/L),random 80-20,3,Baseline: training average,1064,258,-0.0034,4.409,1.3001,0.0145,,,,,,
+BOD (mg/L),random 80-20,3,MLR / Logistic Regression,1064,258,0.0502,4.2895,1.1447,0.0672,,,,,,
+BOD (mg/L),random 80-20,3,Random Forest,1064,258,0.1045,4.1652,1.062,0.1205,,,,,,
+BOD (mg/L),random 80-20,3,XGBoost,1064,258,0.1085,4.1557,1.0913,0.1245,,,,,,
+BOD (mg/L),random 80-20,3,SVM,1064,258,0.0369,4.3196,1.1314,0.0541,,,,,,
+BOD (mg/L),random 80-20,3,kNN,1064,258,0.0309,4.333,1.1493,0.0482,,,,,,
+BOD (mg/L),random 80-20,3,LSTM,1064,258,0.0381,4.3168,1.1361,0.0553,,,,,,
+BOD (mg/L),random 80-20,4,Baseline: repeat last month,1064,258,-0.3605,1.5785,1.0578,0.0,,,,,,
+BOD (mg/L),random 80-20,4,Baseline: training average,1064,258,-0.0008,1.3538,1.0125,0.2644,,,,,,
+BOD (mg/L),random 80-20,4,MLR / Logistic Regression,1064,258,0.3575,1.0847,0.8117,0.5278,,,,,,
+BOD (mg/L),random 80-20,4,Random Forest,1064,258,0.3844,1.0618,0.7503,0.5475,,,,,,
+BOD (mg/L),random 80-20,4,XGBoost,1064,258,0.3847,1.0615,0.7512,0.5477,,,,,,
+BOD (mg/L),random 80-20,4,SVM,1064,258,0.3399,1.0995,0.8005,0.5148,,,,,,
+BOD (mg/L),random 80-20,4,kNN,1064,258,0.2828,1.1461,0.8339,0.4728,,,,,,
+BOD (mg/L),random 80-20,4,LSTM,1064,258,0.3554,1.0865,0.7911,0.5262,,,,,,
+BOD (mg/L),random 80-20,5,Baseline: repeat last month,1064,258,-0.1756,1.4157,0.9276,0.0,,,,,,
+BOD (mg/L),random 80-20,5,Baseline: training average,1064,258,-0.0006,1.3061,0.9934,0.1489,,,,,,
+BOD (mg/L),random 80-20,5,MLR / Logistic Regression,1064,258,0.2391,1.139,0.8485,0.3528,,,,,,
+BOD (mg/L),random 80-20,5,Random Forest,1064,258,0.384,1.0248,0.7361,0.476,,,,,,
+BOD (mg/L),random 80-20,5,XGBoost,1064,258,0.3358,1.0641,0.7613,0.435,,,,,,
+BOD (mg/L),random 80-20,5,SVM,1064,258,0.2805,1.1075,0.8125,0.388,,,,,,
+BOD (mg/L),random 80-20,5,kNN,1064,258,0.2059,1.1635,0.8343,0.3245,,,,,,
+BOD (mg/L),random 80-20,5,LSTM,1064,258,0.3002,1.0923,0.787,0.4047,,,,,,
+BOD (mg/L),random 80-20,6,Baseline: repeat last month,1064,258,-0.337,1.6031,1.1308,0.0,,,,,,
+BOD (mg/L),random 80-20,6,Baseline: training average,1064,258,-0.0016,1.3875,1.0846,0.2509,,,,,,
+BOD (mg/L),random 80-20,6,MLR / Logistic Regression,1064,258,0.2857,1.1718,0.9121,0.4658,,,,,,
+BOD (mg/L),random 80-20,6,Random Forest,1064,258,0.3623,1.1071,0.8182,0.5231,,,,,,
+BOD (mg/L),random 80-20,6,XGBoost,1064,258,0.3184,1.1446,0.8398,0.4902,,,,,,
+BOD (mg/L),random 80-20,6,SVM,1064,258,0.2952,1.1639,0.8828,0.4729,,,,,,
+BOD (mg/L),random 80-20,6,kNN,1064,258,0.1988,1.241,0.9109,0.4007,,,,,,
+BOD (mg/L),random 80-20,6,LSTM,1064,258,0.2963,1.1631,0.8812,0.4737,,,,,,
+BOD (mg/L),random 80-20,7,Baseline: repeat last month,1064,258,-0.2602,1.5114,0.969,0.0,,,,,,
+BOD (mg/L),random 80-20,7,Baseline: training average,1064,258,-0.0025,1.348,0.9838,0.2045,,,,,,
+BOD (mg/L),random 80-20,7,MLR / Logistic Regression,1064,258,0.308,1.1199,0.8233,0.4509,,,,,,
+BOD (mg/L),random 80-20,7,Random Forest,1064,258,0.4547,0.9942,0.7003,0.5673,,,,,,
+BOD (mg/L),random 80-20,7,XGBoost,1064,258,0.3726,1.0664,0.7374,0.5022,,,,,,
+BOD (mg/L),random 80-20,7,SVM,1064,258,0.3119,1.1168,0.7799,0.454,,,,,,
+BOD (mg/L),random 80-20,7,kNN,1064,258,0.227,1.1837,0.8341,0.3866,,,,,,
+BOD (mg/L),random 80-20,7,LSTM,1064,258,0.333,1.0995,0.7862,0.4708,,,,,,
+BOD (mg/L),random 80-20,8,Baseline: repeat last month,1064,258,-0.939,6.0762,1.5226,0.0,,,,,,
+BOD (mg/L),random 80-20,8,Baseline: training average,1064,258,-0.001,4.3658,1.2155,0.4837,,,,,,
+BOD (mg/L),random 80-20,8,MLR / Logistic Regression,1064,258,-0.0103,4.3861,1.1314,0.4789,,,,,,
+BOD (mg/L),random 80-20,8,Random Forest,1064,258,0.0929,4.1561,1.0037,0.5322,,,,,,
+BOD (mg/L),random 80-20,8,XGBoost,1064,258,0.1301,4.0698,1.01,0.5514,,,,,,
+BOD (mg/L),random 80-20,8,SVM,1064,258,0.0321,4.2929,1.0454,0.5008,,,,,,
+BOD (mg/L),random 80-20,8,kNN,1064,258,0.0191,4.3217,1.055,0.4941,,,,,,
+BOD (mg/L),random 80-20,8,LSTM,1064,258,0.0473,4.2592,1.0102,0.5087,,,,,,
+BOD (mg/L),random 80-20,9,Baseline: repeat last month,1064,258,-0.0667,4.5133,1.3566,0.0,,,,,,
+BOD (mg/L),random 80-20,9,Baseline: training average,1064,258,-0.0022,4.3747,1.2252,0.0605,,,,,,
+BOD (mg/L),random 80-20,9,MLR / Logistic Regression,1064,258,0.0423,4.2764,1.0997,0.1022,,,,,,
+BOD (mg/L),random 80-20,9,Random Forest,1064,258,0.1036,4.1374,1.0555,0.1596,,,,,,
+BOD (mg/L),random 80-20,9,XGBoost,1064,258,0.12,4.0994,1.0576,0.175,,,,,,
+BOD (mg/L),random 80-20,9,SVM,1064,258,0.0332,4.2968,1.0823,0.0936,,,,,,
+BOD (mg/L),random 80-20,9,kNN,1064,258,0.02,4.326,1.115,0.0813,,,,,,
+BOD (mg/L),random 80-20,9,LSTM,1064,258,0.0344,4.2941,1.0935,0.0948,,,,,,
+BOD (mg/L),10-fold CV,0,Baseline: repeat last month,1193,129,-0.3579,1.5064,0.9806,0.0,,,,,,
+BOD (mg/L),10-fold CV,0,Baseline: training average,1193,129,-0.0081,1.298,0.992,0.2576,,,,,,
+BOD (mg/L),10-fold CV,0,MLR / Logistic Regression,1193,129,0.2941,1.0862,0.791,0.4801,,,,,,
+BOD (mg/L),10-fold CV,0,Random Forest,1193,129,0.3913,1.0086,0.6834,0.5517,,,,,,
+BOD (mg/L),10-fold CV,0,XGBoost,1193,129,0.3745,1.0224,0.7081,0.5394,,,,,,
+BOD (mg/L),10-fold CV,0,SVM,1193,129,0.3213,1.065,0.7583,0.5002,,,,,,
+BOD (mg/L),10-fold CV,0,kNN,1193,129,0.2275,1.1362,0.8059,0.4311,,,,,,
+BOD (mg/L),10-fold CV,0,LSTM,1193,129,0.389,1.0105,0.7568,0.5501,,,,,,
+BOD (mg/L),10-fold CV,1,Baseline: repeat last month,1193,129,0.2306,1.2769,0.8516,0.0,,,,,,
+BOD (mg/L),10-fold CV,1,Baseline: training average,1193,129,-0.0028,1.4578,1.0285,-0.3035,,,,,,
+BOD (mg/L),10-fold CV,1,MLR / Logistic Regression,1193,129,0.3581,1.1663,0.8123,0.1656,,,,,,
+BOD (mg/L),10-fold CV,1,Random Forest,1193,129,0.4387,1.0907,0.7477,0.2704,,,,,,
+BOD (mg/L),10-fold CV,1,XGBoost,1193,129,0.4563,1.0734,0.7168,0.2933,,,,,,
+BOD (mg/L),10-fold CV,1,SVM,1193,129,0.3324,1.1895,0.7897,0.1322,,,,,,
+BOD (mg/L),10-fold CV,1,kNN,1193,129,0.2845,1.2314,0.8071,0.07,,,,,,
+BOD (mg/L),10-fold CV,1,LSTM,1193,129,0.4813,1.0485,0.7162,0.3258,,,,,,
+BOD (mg/L),10-fold CV,2,Baseline: repeat last month,1193,129,-0.0335,6.1448,1.5136,0.0,,,,,,
+BOD (mg/L),10-fold CV,2,Baseline: training average,1193,129,-0.0096,6.0733,1.4993,0.0231,,,,,,
+BOD (mg/L),10-fold CV,2,MLR / Logistic Regression,1193,129,0.034,5.9407,1.3384,0.0653,,,,,,
+BOD (mg/L),10-fold CV,2,Random Forest,1193,129,0.0851,5.7814,1.1745,0.1148,,,,,,
+BOD (mg/L),10-fold CV,2,XGBoost,1193,129,0.1038,5.7221,1.2069,0.1328,,,,,,
+BOD (mg/L),10-fold CV,2,SVM,1193,129,0.0243,5.9703,1.3005,0.056,,,,,,
+BOD (mg/L),10-fold CV,2,kNN,1193,129,0.0169,5.9931,1.3292,0.0488,,,,,,
+BOD (mg/L),10-fold CV,2,LSTM,1193,129,0.0325,5.9454,1.2726,0.0638,,,,,,
+BOD (mg/L),10-fold CV,3,Baseline: repeat last month,1193,129,-0.5163,1.5109,1.031,0.0,,,,,,
+BOD (mg/L),10-fold CV,3,Baseline: training average,1193,129,-0.0021,1.2283,0.9597,0.3391,,,,,,
+BOD (mg/L),10-fold CV,3,MLR / Logistic Regression,1193,129,0.1702,1.1178,0.8792,0.4527,,,,,,
+BOD (mg/L),10-fold CV,3,Random Forest,1193,129,0.309,1.02,0.7852,0.5443,,,,,,
+BOD (mg/L),10-fold CV,3,XGBoost,1193,129,0.3078,1.0209,0.795,0.5435,,,,,,
+BOD (mg/L),10-fold CV,3,SVM,1193,129,0.2471,1.0647,0.8252,0.5035,,,,,,
+BOD (mg/L),10-fold CV,3,kNN,1193,129,0.2666,1.0508,0.8254,0.5163,,,,,,
+BOD (mg/L),10-fold CV,3,LSTM,1193,129,0.3183,1.0131,0.7923,0.5504,,,,,,
+BOD (mg/L),10-fold CV,4,Baseline: repeat last month,1193,129,-0.267,1.6959,1.0775,0.0,,,,,,
+BOD (mg/L),10-fold CV,4,Baseline: training average,1193,129,-0.0055,1.5107,1.1168,0.2064,,,,,,
+BOD (mg/L),10-fold CV,4,MLR / Logistic Regression,1193,129,0.2687,1.2884,0.9309,0.4228,,,,,,
+BOD (mg/L),10-fold CV,4,Random Forest,1193,129,0.3988,1.1682,0.8566,0.5255,,,,,,
+BOD (mg/L),10-fold CV,4,XGBoost,1193,129,0.3895,1.1772,0.8667,0.5181,,,,,,
+BOD (mg/L),10-fold CV,4,SVM,1193,129,0.3121,1.2496,0.8961,0.4571,,,,,,
+BOD (mg/L),10-fold CV,4,kNN,1193,129,0.2358,1.317,0.9381,0.3969,,,,,,
+BOD (mg/L),10-fold CV,4,LSTM,1193,129,0.265,1.2916,0.9207,0.4199,,,,,,
+BOD (mg/L),10-fold CV,5,Baseline: repeat last month,1193,129,-0.3265,1.4581,1.0736,0.0,,,,,,
+BOD (mg/L),10-fold CV,5,Baseline: training average,1193,129,-0.0158,1.2759,1.0519,0.2342,,,,,,
+BOD (mg/L),10-fold CV,5,MLR / Logistic Regression,1193,129,0.264,1.0861,0.8946,0.4452,,,,,,
+BOD (mg/L),10-fold CV,5,Random Forest,1193,129,0.4876,0.9062,0.7266,0.6137,,,,,,
+BOD (mg/L),10-fold CV,5,XGBoost,1193,129,0.4606,0.9298,0.7589,0.5933,,,,,,
+BOD (mg/L),10-fold CV,5,SVM,1193,129,0.3166,1.0466,0.8526,0.4848,,,,,,
+BOD (mg/L),10-fold CV,5,kNN,1193,129,0.2556,1.0923,0.88,0.4388,,,,,,
+BOD (mg/L),10-fold CV,5,LSTM,1193,129,0.3161,1.0469,0.8388,0.4844,,,,,,
+BOD (mg/L),10-fold CV,6,Baseline: repeat last month,1194,128,-0.1289,1.4206,0.9523,0.0,,,,,,
+BOD (mg/L),10-fold CV,6,Baseline: training average,1194,128,-0.0001,1.337,1.0942,0.1142,,,,,,
+BOD (mg/L),10-fold CV,6,MLR / Logistic Regression,1194,128,0.2982,1.12,0.8889,0.3784,,,,,,
+BOD (mg/L),10-fold CV,6,Random Forest,1194,128,0.4049,1.0314,0.7861,0.4729,,,,,,
+BOD (mg/L),10-fold CV,6,XGBoost,1194,128,0.3102,1.1104,0.836,0.389,,,,,,
+BOD (mg/L),10-fold CV,6,SVM,1194,128,0.3286,1.0955,0.8556,0.4053,,,,,,
+BOD (mg/L),10-fold CV,6,kNN,1194,128,0.286,1.1297,0.8548,0.3676,,,,,,
+BOD (mg/L),10-fold CV,6,LSTM,1194,128,0.2989,1.1195,0.8583,0.3789,,,,,,
+BOD (mg/L),10-fold CV,7,Baseline: repeat last month,1194,128,-20.7389,6.0401,1.5664,0.0,,,,,,
+BOD (mg/L),10-fold CV,7,Baseline: training average,1194,128,-0.0048,1.2986,1.0106,0.9538,,,,,,
+BOD (mg/L),10-fold CV,7,MLR / Logistic Regression,1194,128,-1.041,1.8508,1.033,0.9061,,,,,,
+BOD (mg/L),10-fold CV,7,Random Forest,1194,128,0.4333,0.9752,0.703,0.9739,,,,,,
+BOD (mg/L),10-fold CV,7,XGBoost,1194,128,0.375,1.0242,0.753,0.9712,,,,,,
+BOD (mg/L),10-fold CV,7,SVM,1194,128,0.2363,1.1321,0.8471,0.9649,,,,,,
+BOD (mg/L),10-fold CV,7,kNN,1194,128,0.1918,1.1646,0.8654,0.9628,,,,,,
+BOD (mg/L),10-fold CV,7,LSTM,1194,128,0.227,1.139,0.8594,0.9644,,,,,,
+BOD (mg/L),10-fold CV,8,Baseline: repeat last month,1194,128,-0.402,1.4485,1.0117,0.0,,,,,,
+BOD (mg/L),10-fold CV,8,Baseline: training average,1194,128,-0.0003,1.2235,0.9684,0.2866,,,,,,
+BOD (mg/L),10-fold CV,8,MLR / Logistic Regression,1194,128,0.231,1.0728,0.8413,0.4515,,,,,,
+BOD (mg/L),10-fold CV,8,Random Forest,1194,128,0.2606,1.0519,0.7552,0.4726,,,,,,
+BOD (mg/L),10-fold CV,8,XGBoost,1194,128,0.2531,1.0572,0.7587,0.4673,,,,,,
+BOD (mg/L),10-fold CV,8,SVM,1194,128,0.2493,1.06,0.7909,0.4645,,,,,,
+BOD (mg/L),10-fold CV,8,kNN,1194,128,0.1153,1.1507,0.8535,0.369,,,,,,
+BOD (mg/L),10-fold CV,8,LSTM,1194,128,0.3058,1.0192,0.7809,0.5049,,,,,,
+BOD (mg/L),10-fold CV,9,Baseline: repeat last month,1194,128,-0.6792,1.6773,1.1667,0.0,,,,,,
+BOD (mg/L),10-fold CV,9,Baseline: training average,1194,128,-0.006,1.2983,1.0294,0.4009,,,,,,
+BOD (mg/L),10-fold CV,9,MLR / Logistic Regression,1194,128,0.2404,1.1281,0.8268,0.5476,,,,,,
+BOD (mg/L),10-fold CV,9,Random Forest,1194,128,0.1552,1.1897,0.8343,0.4969,,,,,,
+BOD (mg/L),10-fold CV,9,XGBoost,1194,128,0.1132,1.2189,0.8526,0.4719,,,,,,
+BOD (mg/L),10-fold CV,9,SVM,1194,128,0.1821,1.1706,0.8472,0.5129,,,,,,
+BOD (mg/L),10-fold CV,9,kNN,1194,128,0.0884,1.2359,0.8904,0.4571,,,,,,
+BOD (mg/L),10-fold CV,9,LSTM,1194,128,0.1903,1.1647,0.8454,0.5178,,,,,,
+BOD (mg/L),chronological 60-40,2023-02,Baseline: repeat last month,812,508,-0.1676,1.3452,0.9518,0.0,,,,,,
+BOD (mg/L),chronological 60-40,2023-02,Baseline: training average,812,508,-0.017,1.2554,1.009,0.129,,,,,,
+BOD (mg/L),chronological 60-40,2023-02,MLR / Logistic Regression,812,508,0.1927,1.1185,0.8485,0.3086,,,,,,
+BOD (mg/L),chronological 60-40,2023-02,Random Forest,812,508,0.2182,1.1008,0.8243,0.3304,,,,,,
+BOD (mg/L),chronological 60-40,2023-02,XGBoost,812,508,0.2102,1.1064,0.8361,0.3236,,,,,,
+BOD (mg/L),chronological 60-40,2023-02,SVM,812,508,0.2222,1.0979,0.8225,0.3338,,,,,,
+BOD (mg/L),chronological 60-40,2023-02,kNN,812,508,0.1606,1.1406,0.8605,0.2811,,,,,,
+BOD (mg/L),chronological 60-40,2023-02,LSTM,812,508,0.2424,1.0836,0.8074,0.3512,,,,,,
+BOD (mg/L),chronological 70-30,2023-11,Baseline: repeat last month,947,373,-0.2132,1.4615,1.055,0.0,,,,,,
+BOD (mg/L),chronological 70-30,2023-11,Baseline: training average,947,373,-0.0102,1.3336,1.0388,0.1674,,,,,,
+BOD (mg/L),chronological 70-30,2023-11,MLR / Logistic Regression,947,373,0.1838,1.1987,0.8764,0.3273,,,,,,
+BOD (mg/L),chronological 70-30,2023-11,Random Forest,947,373,0.215,1.1756,0.861,0.3529,,,,,,
+BOD (mg/L),chronological 70-30,2023-11,XGBoost,947,373,0.2183,1.1731,0.862,0.3557,,,,,,
+BOD (mg/L),chronological 70-30,2023-11,SVM,947,373,0.2147,1.1758,0.8585,0.3527,,,,,,
+BOD (mg/L),chronological 70-30,2023-11,kNN,947,373,0.1566,1.2185,0.8901,0.3049,,,,,,
+BOD (mg/L),chronological 70-30,2023-11,LSTM,947,373,0.2404,1.1564,0.8449,0.3739,,,,,,
+BOD (mg/L),chronological 80-20,2024-07,Baseline: repeat last month,1067,255,-0.3358,1.5256,1.1608,0.0,,,,,,
+BOD (mg/L),chronological 80-20,2024-07,Baseline: training average,1067,255,-0.0431,1.3481,1.0433,0.2191,,,,,,
+BOD (mg/L),chronological 80-20,2024-07,MLR / Logistic Regression,1067,255,0.0768,1.2683,0.9297,0.3089,,,,,,
+BOD (mg/L),chronological 80-20,2024-07,Random Forest,1067,255,0.0561,1.2824,0.9762,0.2934,,,,,,
+BOD (mg/L),chronological 80-20,2024-07,XGBoost,1067,255,0.0975,1.254,0.9503,0.3244,,,,,,
+BOD (mg/L),chronological 80-20,2024-07,SVM,1067,255,0.1048,1.2489,0.9235,0.3299,,,,,,
+BOD (mg/L),chronological 80-20,2024-07,kNN,1067,255,0.0404,1.2931,0.947,0.2816,,,,,,
+BOD (mg/L),chronological 80-20,2024-07,LSTM,1067,255,0.1176,1.24,0.9028,0.3394,,,,,,
+BOD (mg/L),rolling year-by-year,2018,Baseline: repeat last month,198,108,-0.6237,1.9541,1.2639,0.0,,,,,,
+BOD (mg/L),rolling year-by-year,2018,Baseline: training average,198,108,-0.1233,1.6253,1.2611,0.3082,,,,,,
+BOD (mg/L),rolling year-by-year,2018,MLR / Logistic Regression,198,108,0.2221,1.3525,0.9346,0.5209,,,,,,
+BOD (mg/L),rolling year-by-year,2018,Random Forest,198,108,0.0697,1.4791,1.0184,0.427,,,,,,
+BOD (mg/L),rolling year-by-year,2018,XGBoost,198,108,-0.3101,1.7553,1.1243,0.1931,,,,,,
+BOD (mg/L),rolling year-by-year,2018,SVM,198,108,0.2345,1.3417,0.8801,0.5286,,,,,,
+BOD (mg/L),rolling year-by-year,2018,kNN,198,108,0.1118,1.4452,0.9936,0.453,,,,,,
+BOD (mg/L),rolling year-by-year,2018,LSTM,198,108,0.1809,1.3879,0.9837,0.4955,,,,,,
+BOD (mg/L),rolling year-by-year,2019,Baseline: repeat last month,306,108,-0.8447,1.9039,1.3611,0.0,,,,,,
+BOD (mg/L),rolling year-by-year,2019,Baseline: training average,306,108,-0.3508,1.6292,1.1401,0.2678,,,,,,
+BOD (mg/L),rolling year-by-year,2019,MLR / Logistic Regression,306,108,-0.5405,1.7399,1.3812,0.1649,,,,,,
+BOD (mg/L),rolling year-by-year,2019,Random Forest,306,108,-0.3896,1.6525,1.278,0.2467,,,,,,
+BOD (mg/L),rolling year-by-year,2019,XGBoost,306,108,-0.5398,1.7395,1.3668,0.1653,,,,,,
+BOD (mg/L),rolling year-by-year,2019,SVM,306,108,-0.741,1.8496,1.4693,0.0562,,,,,,
+BOD (mg/L),rolling year-by-year,2019,kNN,306,108,-0.4795,1.7051,1.3482,0.198,,,,,,
+BOD (mg/L),rolling year-by-year,2019,LSTM,306,108,-0.4148,1.6674,1.3035,0.2331,,,,,,
+BOD (mg/L),rolling year-by-year,2020,Baseline: repeat last month,414,45,-0.4856,1.0328,0.6889,0.0,,,,,,
+BOD (mg/L),rolling year-by-year,2020,Baseline: training average,414,45,-0.0034,0.8488,0.685,0.3245,,,,,,
+BOD (mg/L),rolling year-by-year,2020,MLR / Logistic Regression,414,45,-0.9689,1.189,0.933,-0.3253,,,,,,
+BOD (mg/L),rolling year-by-year,2020,Random Forest,414,45,0.3326,0.6923,0.5336,0.5507,,,,,,
+BOD (mg/L),rolling year-by-year,2020,XGBoost,414,45,0.133,0.789,0.6301,0.4164,,,,,,
+BOD (mg/L),rolling year-by-year,2020,SVM,414,45,-0.92,1.1741,0.9365,-0.2924,,,,,,
+BOD (mg/L),rolling year-by-year,2020,kNN,414,45,-0.3194,0.9733,0.6903,0.1118,,,,,,
+BOD (mg/L),rolling year-by-year,2020,LSTM,414,45,-0.5924,1.0693,0.8584,-0.0719,,,,,,
+BOD (mg/L),rolling year-by-year,2021,Baseline: repeat last month,468,125,-0.7533,1.4505,1.0547,0.0,,,,,,
+BOD (mg/L),rolling year-by-year,2021,Baseline: training average,468,125,-0.0373,1.1156,0.9287,0.4084,,,,,,
+BOD (mg/L),rolling year-by-year,2021,MLR / Logistic Regression,468,125,0.0894,1.0453,0.7771,0.4806,,,,,,
+BOD (mg/L),rolling year-by-year,2021,Random Forest,468,125,0.0826,1.0492,0.8116,0.4768,,,,,,
+BOD (mg/L),rolling year-by-year,2021,XGBoost,468,125,0.0578,1.0633,0.8333,0.4626,,,,,,
+BOD (mg/L),rolling year-by-year,2021,SVM,468,125,0.0619,1.061,0.7866,0.4649,,,,,,
+BOD (mg/L),rolling year-by-year,2021,kNN,468,125,0.0215,1.0836,0.8055,0.4419,,,,,,
+BOD (mg/L),rolling year-by-year,2021,LSTM,468,125,-0.0074,1.0995,0.7951,0.4254,,,,,,
+BOD (mg/L),rolling year-by-year,2022,Baseline: repeat last month,618,164,-0.0346,1.3159,0.939,0.0,,,,,,
+BOD (mg/L),rolling year-by-year,2022,Baseline: training average,618,164,-0.0991,1.3564,1.0304,-0.0624,,,,,,
+BOD (mg/L),rolling year-by-year,2022,MLR / Logistic Regression,618,164,0.1521,1.1913,0.8907,0.1804,,,,,,
+BOD (mg/L),rolling year-by-year,2022,Random Forest,618,164,0.2125,1.1481,0.8434,0.2389,,,,,,
+BOD (mg/L),rolling year-by-year,2022,XGBoost,618,164,0.1928,1.1624,0.8412,0.2198,,,,,,
+BOD (mg/L),rolling year-by-year,2022,SVM,618,164,0.1087,1.2214,0.9015,0.1385,,,,,,
+BOD (mg/L),rolling year-by-year,2022,kNN,618,164,-0.0266,1.3109,0.9559,0.0077,,,,,,
+BOD (mg/L),rolling year-by-year,2022,LSTM,618,164,0.1707,1.1782,0.8597,0.1984,,,,,,
+BOD (mg/L),rolling year-by-year,2023,Baseline: repeat last month,782,180,-0.6415,0.9022,0.6111,0.0,,,,,,
+BOD (mg/L),rolling year-by-year,2023,Baseline: training average,782,180,-1.2453,1.0551,0.9318,-0.3678,,,,,,
+BOD (mg/L),rolling year-by-year,2023,MLR / Logistic Regression,782,180,-0.7492,0.9313,0.7551,-0.0656,,,,,,
+BOD (mg/L),rolling year-by-year,2023,Random Forest,782,180,-0.4176,0.8384,0.6665,0.1364,,,,,,
+BOD (mg/L),rolling year-by-year,2023,XGBoost,782,180,-0.4446,0.8463,0.6661,0.12,,,,,,
+BOD (mg/L),rolling year-by-year,2023,SVM,782,180,-0.4925,0.8602,0.6771,0.0908,,,,,,
+BOD (mg/L),rolling year-by-year,2023,kNN,782,180,-0.9593,0.9856,0.7977,-0.1936,,,,,,
+BOD (mg/L),rolling year-by-year,2023,LSTM,782,180,-0.4219,0.8397,0.6545,0.1338,,,,,,
+BOD (mg/L),rolling year-by-year,2024,Baseline: repeat last month,962,178,-0.3546,1.4107,0.9691,0.0,,,,,,
+BOD (mg/L),rolling year-by-year,2024,Baseline: training average,962,178,-0.0131,1.22,0.944,0.2521,,,,,,
+BOD (mg/L),rolling year-by-year,2024,MLR / Logistic Regression,962,178,0.2463,1.0523,0.7763,0.4436,,,,,,
+BOD (mg/L),rolling year-by-year,2024,Random Forest,962,178,0.2328,1.0617,0.7523,0.4336,,,,,,
+BOD (mg/L),rolling year-by-year,2024,XGBoost,962,178,0.2477,1.0513,0.745,0.4447,,,,,,
+BOD (mg/L),rolling year-by-year,2024,SVM,962,178,0.2376,1.0584,0.7679,0.4372,,,,,,
+BOD (mg/L),rolling year-by-year,2024,kNN,962,178,0.1872,1.0928,0.784,0.4,,,,,,
+BOD (mg/L),rolling year-by-year,2024,LSTM,962,178,0.2093,1.0778,0.7742,0.4163,,,,,,
+BOD (mg/L),rolling year-by-year,2025,Baseline: repeat last month,1142,180,-0.1617,1.5572,1.1944,0.0,,,,,,
+BOD (mg/L),rolling year-by-year,2025,Baseline: training average,1142,180,-0.022,1.4606,1.1466,0.1202,,,,,,
+BOD (mg/L),rolling year-by-year,2025,MLR / Logistic Regression,1142,180,0.1613,1.3232,0.9598,0.278,,,,,,
+BOD (mg/L),rolling year-by-year,2025,Random Forest,1142,180,0.1111,1.3622,1.0519,0.2348,,,,,,
+BOD (mg/L),rolling year-by-year,2025,XGBoost,1142,180,0.15,1.332,0.9977,0.2683,,,,,,
+BOD (mg/L),rolling year-by-year,2025,SVM,1142,180,0.202,1.2906,0.9564,0.3131,,,,,,
+BOD (mg/L),rolling year-by-year,2025,kNN,1142,180,0.0986,1.3717,1.0275,0.2241,,,,,,
+BOD (mg/L),rolling year-by-year,2025,LSTM,1142,180,0.2627,1.2406,0.9148,0.3653,,,,,,
+FC log10 (change model),random 60-40,0,Baseline: repeat last month,796,526,0.6539,0.3262,0.2292,0.0,,,,,,
+FC log10 (change model),random 60-40,0,Baseline: training average,796,526,-0.0025,0.5551,0.4376,-1.8967,,,,,,
+FC log10 (change model),random 60-40,0,MLR / Logistic Regression,796,526,0.6977,0.3048,0.2237,0.1264,,,,,,
+FC log10 (change model),random 60-40,0,Random Forest,796,526,0.7001,0.3036,0.2241,0.1334,,,,,,
+FC log10 (change model),random 60-40,0,XGBoost,796,526,0.6931,0.3072,0.2251,0.1131,,,,,,
+FC log10 (change model),random 60-40,0,SVM,796,526,0.6977,0.3048,0.2229,0.1266,,,,,,
+FC log10 (change model),random 60-40,0,kNN,796,526,0.6693,0.3188,0.23,0.0444,,,,,,
+FC log10 (change model),random 60-40,0,LSTM,796,526,0.7038,0.3018,0.2231,0.1441,,,,,,
+FC log10 (change model),random 60-40,1,Baseline: repeat last month,796,526,0.6747,0.3044,0.2164,0.0,,,,,,
+FC log10 (change model),random 60-40,1,Baseline: training average,796,526,-0.0008,0.5339,0.4215,-2.0769,,,,,,
+FC log10 (change model),random 60-40,1,MLR / Logistic Regression,796,526,0.723,0.2809,0.2092,0.1484,,,,,,
+FC log10 (change model),random 60-40,1,Random Forest,796,526,0.7392,0.2726,0.2041,0.198,,,,,,
+FC log10 (change model),random 60-40,1,XGBoost,796,526,0.7298,0.2774,0.2053,0.1693,,,,,,
+FC log10 (change model),random 60-40,1,SVM,796,526,0.7248,0.2799,0.2077,0.154,,,,,,
+FC log10 (change model),random 60-40,1,kNN,796,526,0.7053,0.2897,0.2115,0.0938,,,,,,
+FC log10 (change model),random 60-40,1,LSTM,796,526,0.712,0.2864,0.2149,0.1146,,,,,,
+FC log10 (change model),random 60-40,2,Baseline: repeat last month,796,526,0.7018,0.3008,0.2129,0.0,,,,,,
+FC log10 (change model),random 60-40,2,Baseline: training average,796,526,-0.0009,0.5512,0.4382,-2.3571,,,,,,
+FC log10 (change model),random 60-40,2,MLR / Logistic Regression,796,526,0.7433,0.2791,0.2079,0.1391,,,,,,
+FC log10 (change model),random 60-40,2,Random Forest,796,526,0.7576,0.2712,0.2033,0.1871,,,,,,
+FC log10 (change model),random 60-40,2,XGBoost,796,526,0.7526,0.274,0.2029,0.1702,,,,,,
+FC log10 (change model),random 60-40,2,SVM,796,526,0.7448,0.2783,0.2071,0.1441,,,,,,
+FC log10 (change model),random 60-40,2,kNN,796,526,0.7284,0.2871,0.2083,0.0891,,,,,,
+FC log10 (change model),random 60-40,2,LSTM,796,526,0.7411,0.2803,0.2094,0.1316,,,,,,
+FC log10 (change model),random 60-40,3,Baseline: repeat last month,796,526,0.7108,0.2841,0.2117,0.0,,,,,,
+FC log10 (change model),random 60-40,3,Baseline: training average,796,526,-0.0008,0.5285,0.4206,-2.4601,,,,,,
+FC log10 (change model),random 60-40,3,MLR / Logistic Regression,796,526,0.7349,0.272,0.209,0.0836,,,,,,
+FC log10 (change model),random 60-40,3,Random Forest,796,526,0.759,0.2594,0.1971,0.1666,,,,,,
+FC log10 (change model),random 60-40,3,XGBoost,796,526,0.757,0.2605,0.1988,0.1597,,,,,,
+FC log10 (change model),random 60-40,3,SVM,796,526,0.7373,0.2708,0.2082,0.0918,,,,,,
+FC log10 (change model),random 60-40,3,kNN,796,526,0.7271,0.276,0.2099,0.0564,,,,,,
+FC log10 (change model),random 60-40,3,LSTM,796,526,0.7377,0.2706,0.2082,0.093,,,,,,
+FC log10 (change model),random 60-40,4,Baseline: repeat last month,796,526,0.646,0.3165,0.223,0.0,,,,,,
+FC log10 (change model),random 60-40,4,Baseline: training average,796,526,-0.0,0.5319,0.4222,-1.8247,,,,,,
+FC log10 (change model),random 60-40,4,MLR / Logistic Regression,796,526,0.6847,0.2987,0.2181,0.1093,,,,,,
+FC log10 (change model),random 60-40,4,Random Forest,796,526,0.7073,0.2878,0.2122,0.1733,,,,,,
+FC log10 (change model),random 60-40,4,XGBoost,796,526,0.6969,0.2929,0.2137,0.1438,,,,,,
+FC log10 (change model),random 60-40,4,SVM,796,526,0.6967,0.293,0.2134,0.1433,,,,,,
+FC log10 (change model),random 60-40,4,kNN,796,526,0.6628,0.3089,0.2251,0.0476,,,,,,
+FC log10 (change model),random 60-40,4,LSTM,796,526,0.6869,0.2976,0.2242,0.1157,,,,,,
+FC log10 (change model),random 60-40,5,Baseline: repeat last month,796,526,0.6922,0.2975,0.214,0.0,,,,,,
+FC log10 (change model),random 60-40,5,Baseline: training average,796,526,-0.001,0.5364,0.4257,-2.2516,,,,,,
+FC log10 (change model),random 60-40,5,MLR / Logistic Regression,796,526,0.7298,0.2787,0.2099,0.1223,,,,,,
+FC log10 (change model),random 60-40,5,Random Forest,796,526,0.7406,0.2731,0.2092,0.1573,,,,,,
+FC log10 (change model),random 60-40,5,XGBoost,796,526,0.7341,0.2765,0.2112,0.1364,,,,,,
+FC log10 (change model),random 60-40,5,SVM,796,526,0.7319,0.2776,0.2095,0.1292,,,,,,
+FC log10 (change model),random 60-40,5,kNN,796,526,0.7133,0.2871,0.212,0.0686,,,,,,
+FC log10 (change model),random 60-40,5,LSTM,796,526,0.7245,0.2814,0.2173,0.1052,,,,,,
+FC log10 (change model),random 60-40,6,Baseline: repeat last month,796,526,0.6999,0.3063,0.2109,0.0,,,,,,
+FC log10 (change model),random 60-40,6,Baseline: training average,796,526,-0.0,0.5592,0.4409,-2.3328,,,,,,
+FC log10 (change model),random 60-40,6,MLR / Logistic Regression,796,526,0.7361,0.2873,0.2106,0.1206,,,,,,
+FC log10 (change model),random 60-40,6,Random Forest,796,526,0.7544,0.2771,0.2045,0.1814,,,,,,
+FC log10 (change model),random 60-40,6,XGBoost,796,526,0.7481,0.2806,0.2083,0.1606,,,,,,
+FC log10 (change model),random 60-40,6,SVM,796,526,0.7398,0.2853,0.2092,0.1327,,,,,,
+FC log10 (change model),random 60-40,6,kNN,796,526,0.7235,0.2941,0.2087,0.0784,,,,,,
+FC log10 (change model),random 60-40,6,LSTM,796,526,0.7402,0.285,0.2106,0.134,,,,,,
+FC log10 (change model),random 60-40,7,Baseline: repeat last month,796,526,0.6584,0.3072,0.2132,0.0,,,,,,
+FC log10 (change model),random 60-40,7,Baseline: training average,796,526,-0.0024,0.5262,0.4142,-1.9344,,,,,,
+FC log10 (change model),random 60-40,7,MLR / Logistic Regression,796,526,0.7056,0.2852,0.2092,0.1383,,,,,,
+FC log10 (change model),random 60-40,7,Random Forest,796,526,0.7221,0.2771,0.2061,0.1864,,,,,,
+FC log10 (change model),random 60-40,7,XGBoost,796,526,0.7189,0.2787,0.2071,0.177,,,,,,
+FC log10 (change model),random 60-40,7,SVM,796,526,0.7115,0.2823,0.2094,0.1556,,,,,,
+FC log10 (change model),random 60-40,7,kNN,796,526,0.6779,0.2983,0.2148,0.0572,,,,,,
+FC log10 (change model),random 60-40,7,LSTM,796,526,0.7042,0.2858,0.2163,0.1342,,,,,,
+FC log10 (change model),random 60-40,8,Baseline: repeat last month,796,526,0.6978,0.2963,0.2077,0.0,,,,,,
+FC log10 (change model),random 60-40,8,Baseline: training average,796,526,-0.0001,0.539,0.4294,-2.3097,,,,,,
+FC log10 (change model),random 60-40,8,MLR / Logistic Regression,796,526,0.7267,0.2818,0.2111,0.0956,,,,,,
+FC log10 (change model),random 60-40,8,Random Forest,796,526,0.7555,0.2665,0.2013,0.1908,,,,,,
+FC log10 (change model),random 60-40,8,XGBoost,796,526,0.7523,0.2682,0.2027,0.1804,,,,,,
+FC log10 (change model),random 60-40,8,SVM,796,526,0.7378,0.276,0.2087,0.1321,,,,,,
+FC log10 (change model),random 60-40,8,kNN,796,526,0.7197,0.2853,0.2074,0.0725,,,,,,
+FC log10 (change model),random 60-40,8,LSTM,796,526,0.7332,0.2784,0.2085,0.1172,,,,,,
+FC log10 (change model),random 60-40,9,Baseline: repeat last month,796,526,0.6698,0.3026,0.2144,0.0,,,,,,
+FC log10 (change model),random 60-40,9,Baseline: training average,796,526,-0.0006,0.5268,0.4122,-2.0306,,,,,,
+FC log10 (change model),random 60-40,9,MLR / Logistic Regression,796,526,0.7162,0.2806,0.2093,0.1405,,,,,,
+FC log10 (change model),random 60-40,9,Random Forest,796,526,0.7219,0.2777,0.2052,0.1577,,,,,,
+FC log10 (change model),random 60-40,9,XGBoost,796,526,0.7186,0.2794,0.2065,0.1478,,,,,,
+FC log10 (change model),random 60-40,9,SVM,796,526,0.7125,0.2824,0.2103,0.1293,,,,,,
+FC log10 (change model),random 60-40,9,kNN,796,526,0.6826,0.2967,0.2182,0.0385,,,,,,
+FC log10 (change model),random 60-40,9,LSTM,796,526,0.7021,0.2875,0.2128,0.0977,,,,,,
+FC log10 (change model),random 70-30,0,Baseline: repeat last month,928,394,0.6392,0.3218,0.2319,0.0,,,,,,
+FC log10 (change model),random 70-30,0,Baseline: training average,928,394,-0.0,0.5357,0.4199,-1.7719,,,,,,
+FC log10 (change model),random 70-30,0,MLR / Logistic Regression,928,394,0.6859,0.3002,0.2212,0.1294,,,,,,
+FC log10 (change model),random 70-30,0,Random Forest,928,394,0.7053,0.2908,0.2147,0.1832,,,,,,
+FC log10 (change model),random 70-30,0,XGBoost,928,394,0.7018,0.2925,0.2171,0.1735,,,,,,
+FC log10 (change model),random 70-30,0,SVM,928,394,0.6891,0.2987,0.2205,0.1383,,,,,,
+FC log10 (change model),random 70-30,0,kNN,928,394,0.6534,0.3154,0.2294,0.0391,,,,,,
+FC log10 (change model),random 70-30,0,LSTM,928,394,0.6949,0.2959,0.2213,0.1542,,,,,,
+FC log10 (change model),random 70-30,1,Baseline: repeat last month,928,394,0.6056,0.3197,0.2267,0.0,,,,,,
+FC log10 (change model),random 70-30,1,Baseline: training average,928,394,-0.0012,0.5094,0.3959,-1.5382,,,,,,
+FC log10 (change model),random 70-30,1,MLR / Logistic Regression,928,394,0.6664,0.294,0.2151,0.1544,,,,,,
+FC log10 (change model),random 70-30,1,Random Forest,928,394,0.688,0.2844,0.2106,0.2089,,,,,,
+FC log10 (change model),random 70-30,1,XGBoost,928,394,0.6801,0.2879,0.2133,0.189,,,,,,
+FC log10 (change model),random 70-30,1,SVM,928,394,0.6662,0.2941,0.2166,0.1537,,,,,,
+FC log10 (change model),random 70-30,1,kNN,928,394,0.633,0.3084,0.2203,0.0695,,,,,,
+FC log10 (change model),random 70-30,1,LSTM,928,394,0.6701,0.2924,0.2139,0.1637,,,,,,
+FC log10 (change model),random 70-30,2,Baseline: repeat last month,928,394,0.6548,0.3266,0.2289,0.0,,,,,,
+FC log10 (change model),random 70-30,2,Baseline: training average,928,394,-0.0001,0.5559,0.4383,-1.8968,,,,,,
+FC log10 (change model),random 70-30,2,MLR / Logistic Regression,928,394,0.6964,0.3063,0.2235,0.1205,,,,,,
+FC log10 (change model),random 70-30,2,Random Forest,928,394,0.7122,0.2982,0.217,0.1663,,,,,,
+FC log10 (change model),random 70-30,2,XGBoost,928,394,0.7072,0.3008,0.2175,0.1517,,,,,,
+FC log10 (change model),random 70-30,2,SVM,928,394,0.7031,0.3029,0.2224,0.1401,,,,,,
+FC log10 (change model),random 70-30,2,kNN,928,394,0.6756,0.3166,0.2259,0.0604,,,,,,
+FC log10 (change model),random 70-30,2,LSTM,928,394,0.6946,0.3072,0.2241,0.1154,,,,,,
+FC log10 (change model),random 70-30,3,Baseline: repeat last month,928,394,0.6654,0.3112,0.2223,0.0,,,,,,
+FC log10 (change model),random 70-30,3,Baseline: training average,928,394,-0.0068,0.5399,0.4252,-2.0089,,,,,,
+FC log10 (change model),random 70-30,3,MLR / Logistic Regression,928,394,0.7053,0.2921,0.2194,0.1191,,,,,,
+FC log10 (change model),random 70-30,3,Random Forest,928,394,0.7191,0.2851,0.2117,0.1606,,,,,,
+FC log10 (change model),random 70-30,3,XGBoost,928,394,0.7048,0.2923,0.2184,0.1177,,,,,,
+FC log10 (change model),random 70-30,3,SVM,928,394,0.707,0.2912,0.2169,0.1244,,,,,,
+FC log10 (change model),random 70-30,3,kNN,928,394,0.6874,0.3008,0.2186,0.0659,,,,,,
+FC log10 (change model),random 70-30,3,LSTM,928,394,0.7087,0.2904,0.2166,0.1294,,,,,,
+FC log10 (change model),random 70-30,4,Baseline: repeat last month,928,394,0.6473,0.3217,0.2352,0.0,,,,,,
+FC log10 (change model),random 70-30,4,Baseline: training average,928,394,-0.0,0.5417,0.4274,-1.8352,,,,,,
+FC log10 (change model),random 70-30,4,MLR / Logistic Regression,928,394,0.6995,0.297,0.225,0.1479,,,,,,
+FC log10 (change model),random 70-30,4,Random Forest,928,394,0.7133,0.2901,0.2232,0.1871,,,,,,
+FC log10 (change model),random 70-30,4,XGBoost,928,394,0.7071,0.2932,0.2256,0.1696,,,,,,
+FC log10 (change model),random 70-30,4,SVM,928,394,0.6978,0.2978,0.2246,0.1432,,,,,,
+FC log10 (change model),random 70-30,4,kNN,928,394,0.6764,0.3082,0.2286,0.0825,,,,,,
+FC log10 (change model),random 70-30,4,LSTM,928,394,0.7128,0.2903,0.2233,0.1857,,,,,,
+FC log10 (change model),random 70-30,5,Baseline: repeat last month,928,394,0.6335,0.3231,0.2282,0.0,,,,,,
+FC log10 (change model),random 70-30,5,Baseline: training average,928,394,-0.0003,0.5338,0.4231,-1.7293,,,,,,
+FC log10 (change model),random 70-30,5,MLR / Logistic Regression,928,394,0.6928,0.2958,0.2191,0.1618,,,,,,
+FC log10 (change model),random 70-30,5,Random Forest,928,394,0.7115,0.2867,0.2154,0.2129,,,,,,
+FC log10 (change model),random 70-30,5,XGBoost,928,394,0.7046,0.2901,0.2174,0.1941,,,,,,
+FC log10 (change model),random 70-30,5,SVM,928,394,0.697,0.2938,0.2162,0.1731,,,,,,
+FC log10 (change model),random 70-30,5,kNN,928,394,0.6634,0.3097,0.2238,0.0815,,,,,,
+FC log10 (change model),random 70-30,5,LSTM,928,394,0.7018,0.2914,0.2161,0.1864,,,,,,
+FC log10 (change model),random 70-30,6,Baseline: repeat last month,928,394,0.6763,0.2994,0.2072,0.0,,,,,,
+FC log10 (change model),random 70-30,6,Baseline: training average,928,394,-0.0001,0.5263,0.4146,-2.0896,,,,,,
+FC log10 (change model),random 70-30,6,MLR / Logistic Regression,928,394,0.7163,0.2803,0.2058,0.1237,,,,,,
+FC log10 (change model),random 70-30,6,Random Forest,928,394,0.742,0.2673,0.196,0.2031,,,,,,
+FC log10 (change model),random 70-30,6,XGBoost,928,394,0.7302,0.2733,0.2004,0.1665,,,,,,
+FC log10 (change model),random 70-30,6,SVM,928,394,0.7235,0.2767,0.2027,0.1459,,,,,,
+FC log10 (change model),random 70-30,6,kNN,928,394,0.6909,0.2926,0.2098,0.0451,,,,,,
+FC log10 (change model),random 70-30,6,LSTM,928,394,0.7241,0.2764,0.208,0.1478,,,,,,
+FC log10 (change model),random 70-30,7,Baseline: repeat last month,928,394,0.6577,0.3103,0.2163,0.0,,,,,,
+FC log10 (change model),random 70-30,7,Baseline: training average,928,394,-0.0001,0.5304,0.4193,-1.9216,,,,,,
+FC log10 (change model),random 70-30,7,MLR / Logistic Regression,928,394,0.713,0.2842,0.2092,0.1614,,,,,,
+FC log10 (change model),random 70-30,7,Random Forest,928,394,0.7216,0.2799,0.2068,0.1867,,,,,,
+FC log10 (change model),random 70-30,7,XGBoost,928,394,0.714,0.2837,0.2097,0.1645,,,,,,
+FC log10 (change model),random 70-30,7,SVM,928,394,0.7154,0.283,0.2089,0.1685,,,,,,
+FC log10 (change model),random 70-30,7,kNN,928,394,0.6757,0.302,0.2142,0.0527,,,,,,
+FC log10 (change model),random 70-30,7,LSTM,928,394,0.7096,0.2858,0.2119,0.1517,,,,,,
+FC log10 (change model),random 70-30,8,Baseline: repeat last month,928,394,0.6209,0.3204,0.2232,0.0,,,,,,
+FC log10 (change model),random 70-30,8,Baseline: training average,928,394,-0.0004,0.5204,0.413,-1.6387,,,,,,
+FC log10 (change model),random 70-30,8,MLR / Logistic Regression,928,394,0.6739,0.2971,0.2189,0.1399,,,,,,
+FC log10 (change model),random 70-30,8,Random Forest,928,394,0.7064,0.2819,0.2071,0.2257,,,,,,
+FC log10 (change model),random 70-30,8,XGBoost,928,394,0.6984,0.2857,0.2114,0.2044,,,,,,
+FC log10 (change model),random 70-30,8,SVM,928,394,0.6825,0.2932,0.2152,0.1626,,,,,,
+FC log10 (change model),random 70-30,8,kNN,928,394,0.6459,0.3096,0.2206,0.066,,,,,,
+FC log10 (change model),random 70-30,8,LSTM,928,394,0.6551,0.3056,0.2274,0.0902,,,,,,
+FC log10 (change model),random 70-30,9,Baseline: repeat last month,928,394,0.7054,0.2966,0.2173,0.0,,,,,,
+FC log10 (change model),random 70-30,9,Baseline: training average,928,394,-0.0025,0.5471,0.4339,-2.4028,,,,,,
+FC log10 (change model),random 70-30,9,MLR / Logistic Regression,928,394,0.7379,0.2798,0.2123,0.1103,,,,,,
+FC log10 (change model),random 70-30,9,Random Forest,928,394,0.7513,0.2725,0.2086,0.1557,,,,,,
+FC log10 (change model),random 70-30,9,XGBoost,928,394,0.742,0.2775,0.2116,0.1244,,,,,,
+FC log10 (change model),random 70-30,9,SVM,928,394,0.7435,0.2768,0.21,0.1293,,,,,,
+FC log10 (change model),random 70-30,9,kNN,928,394,0.7245,0.2868,0.2148,0.0649,,,,,,
+FC log10 (change model),random 70-30,9,LSTM,928,394,0.7444,0.2763,0.2117,0.1323,,,,,,
+FC log10 (change model),random 80-20,0,Baseline: repeat last month,1059,263,0.5897,0.3403,0.2346,0.0,,,,,,
+FC log10 (change model),random 80-20,0,Baseline: training average,1059,263,-0.0006,0.5314,0.4143,-1.439,,,,,,
+FC log10 (change model),random 80-20,0,MLR / Logistic Regression,1059,263,0.6577,0.3108,0.2253,0.1656,,,,,,
+FC log10 (change model),random 80-20,0,Random Forest,1059,263,0.6713,0.3046,0.2233,0.1987,,,,,,
+FC log10 (change model),random 80-20,0,XGBoost,1059,263,0.6645,0.3077,0.2241,0.1822,,,,,,
+FC log10 (change model),random 80-20,0,SVM,1059,263,0.659,0.3102,0.2253,0.1689,,,,,,
+FC log10 (change model),random 80-20,0,kNN,1059,263,0.6213,0.3269,0.2319,0.077,,,,,,
+FC log10 (change model),random 80-20,0,LSTM,1059,263,0.6577,0.3108,0.2241,0.1656,,,,,,
+FC log10 (change model),random 80-20,1,Baseline: repeat last month,1059,263,0.628,0.3046,0.2214,0.0,,,,,,
+FC log10 (change model),random 80-20,1,Baseline: training average,1059,263,-0.0,0.4995,0.3917,-1.6883,,,,,,
+FC log10 (change model),random 80-20,1,MLR / Logistic Regression,1059,263,0.6879,0.279,0.2074,0.1611,,,,,,
+FC log10 (change model),random 80-20,1,Random Forest,1059,263,0.722,0.2634,0.196,0.2527,,,,,,
+FC log10 (change model),random 80-20,1,XGBoost,1059,263,0.6965,0.2752,0.2037,0.184,,,,,,
+FC log10 (change model),random 80-20,1,SVM,1059,263,0.6909,0.2777,0.2075,0.1691,,,,,,
+FC log10 (change model),random 80-20,1,kNN,1059,263,0.6586,0.2918,0.219,0.0822,,,,,,
+FC log10 (change model),random 80-20,1,LSTM,1059,263,0.6773,0.2837,0.213,0.1325,,,,,,
+FC log10 (change model),random 80-20,2,Baseline: repeat last month,1059,263,0.7135,0.3079,0.2187,0.0,,,,,,
+FC log10 (change model),random 80-20,2,Baseline: training average,1059,263,-0.0009,0.5755,0.4605,-2.4934,,,,,,
+FC log10 (change model),random 80-20,2,MLR / Logistic Regression,1059,263,0.7513,0.2869,0.2174,0.132,,,,,,
+FC log10 (change model),random 80-20,2,Random Forest,1059,263,0.7655,0.2786,0.213,0.1814,,,,,,
+FC log10 (change model),random 80-20,2,XGBoost,1059,263,0.7595,0.2821,0.2128,0.1606,,,,,,
+FC log10 (change model),random 80-20,2,SVM,1059,263,0.7512,0.2869,0.2172,0.1315,,,,,,
+FC log10 (change model),random 80-20,2,kNN,1059,263,0.7342,0.2965,0.2173,0.0724,,,,,,
+FC log10 (change model),random 80-20,2,LSTM,1059,263,0.7466,0.2896,0.2233,0.1154,,,,,,
+FC log10 (change model),random 80-20,3,Baseline: repeat last month,1059,263,0.7404,0.2842,0.2169,0.0,,,,,,
+FC log10 (change model),random 80-20,3,Baseline: training average,1059,263,-0.0025,0.5584,0.4457,-2.8621,,,,,,
+FC log10 (change model),random 80-20,3,MLR / Logistic Regression,1059,263,0.7603,0.273,0.2149,0.0766,,,,,,
+FC log10 (change model),random 80-20,3,Random Forest,1059,263,0.7772,0.2632,0.2072,0.1418,,,,,,
+FC log10 (change model),random 80-20,3,XGBoost,1059,263,0.7696,0.2677,0.2098,0.1126,,,,,,
+FC log10 (change model),random 80-20,3,SVM,1059,263,0.766,0.2698,0.2126,0.0987,,,,,,
+FC log10 (change model),random 80-20,3,kNN,1059,263,0.7498,0.279,0.2172,0.036,,,,,,
+FC log10 (change model),random 80-20,3,LSTM,1059,263,0.7617,0.2723,0.2134,0.082,,,,,,
+FC log10 (change model),random 80-20,4,Baseline: repeat last month,1059,263,0.6259,0.3188,0.2244,0.0,,,,,,
+FC log10 (change model),random 80-20,4,Baseline: training average,1059,263,-0.0,0.5213,0.4199,-1.6731,,,,,,
+FC log10 (change model),random 80-20,4,MLR / Logistic Regression,1059,263,0.6719,0.2986,0.2199,0.1229,,,,,,
+FC log10 (change model),random 80-20,4,Random Forest,1059,263,0.7035,0.2838,0.2117,0.2075,,,,,,
+FC log10 (change model),random 80-20,4,XGBoost,1059,263,0.6898,0.2903,0.2135,0.1709,,,,,,
+FC log10 (change model),random 80-20,4,SVM,1059,263,0.6773,0.2961,0.2148,0.1374,,,,,,
+FC log10 (change model),random 80-20,4,kNN,1059,263,0.6421,0.3119,0.2296,0.0433,,,,,,
+FC log10 (change model),random 80-20,4,LSTM,1059,263,0.6767,0.2964,0.2221,0.1358,,,,,,
+FC log10 (change model),random 80-20,5,Baseline: repeat last month,1059,263,0.6974,0.299,0.2184,0.0,,,,,,
+FC log10 (change model),random 80-20,5,Baseline: training average,1059,263,-0.0018,0.544,0.4312,-2.3108,,,,,,
+FC log10 (change model),random 80-20,5,MLR / Logistic Regression,1059,263,0.7377,0.2783,0.2123,0.1332,,,,,,
+FC log10 (change model),random 80-20,5,Random Forest,1059,263,0.7562,0.2683,0.2101,0.1944,,,,,,
+FC log10 (change model),random 80-20,5,XGBoost,1059,263,0.7401,0.2771,0.2137,0.1412,,,,,,
+FC log10 (change model),random 80-20,5,SVM,1059,263,0.7368,0.2788,0.2129,0.1303,,,,,,
+FC log10 (change model),random 80-20,5,kNN,1059,263,0.7013,0.2971,0.2248,0.0127,,,,,,
+FC log10 (change model),random 80-20,5,LSTM,1059,263,0.7295,0.2827,0.2193,0.1059,,,,,,
+FC log10 (change model),random 80-20,6,Baseline: repeat last month,1059,263,0.7183,0.3028,0.2096,0.0,,,,,,
+FC log10 (change model),random 80-20,6,Baseline: training average,1059,263,-0.0,0.5705,0.4506,-2.5503,,,,,,
+FC log10 (change model),random 80-20,6,MLR / Logistic Regression,1059,263,0.754,0.283,0.2103,0.1266,,,,,,
+FC log10 (change model),random 80-20,6,Random Forest,1059,263,0.7633,0.2776,0.2066,0.1598,,,,,,
+FC log10 (change model),random 80-20,6,XGBoost,1059,263,0.757,0.2812,0.2101,0.1373,,,,,,
+FC log10 (change model),random 80-20,6,SVM,1059,263,0.7572,0.2811,0.2094,0.1379,,,,,,
+FC log10 (change model),random 80-20,6,kNN,1059,263,0.7294,0.2968,0.2108,0.0392,,,,,,
+FC log10 (change model),random 80-20,6,LSTM,1059,263,0.7491,0.2858,0.2162,0.1091,,,,,,
+FC log10 (change model),random 80-20,7,Baseline: repeat last month,1059,263,0.6917,0.2956,0.2079,0.0,,,,,,
+FC log10 (change model),random 80-20,7,Baseline: training average,1059,263,-0.0036,0.5333,0.4163,-2.2557,,,,,,
+FC log10 (change model),random 80-20,7,MLR / Logistic Regression,1059,263,0.7347,0.2742,0.2017,0.1395,,,,,,
+FC log10 (change model),random 80-20,7,Random Forest,1059,263,0.7434,0.2697,0.2016,0.1675,,,,,,
+FC log10 (change model),random 80-20,7,XGBoost,1059,263,0.7401,0.2714,0.2029,0.1568,,,,,,
+FC log10 (change model),random 80-20,7,SVM,1059,263,0.7406,0.2711,0.1987,0.1586,,,,,,
+FC log10 (change model),random 80-20,7,kNN,1059,263,0.7236,0.2798,0.1984,0.1035,,,,,,
+FC log10 (change model),random 80-20,7,LSTM,1059,263,0.7302,0.2765,0.2063,0.1246,,,,,,
+FC log10 (change model),random 80-20,8,Baseline: repeat last month,1059,263,0.6741,0.3052,0.2088,0.0,,,,,,
+FC log10 (change model),random 80-20,8,Baseline: training average,1059,263,-0.0003,0.5346,0.4255,-2.0694,,,,,,
+FC log10 (change model),random 80-20,8,MLR / Logistic Regression,1059,263,0.7142,0.2858,0.2113,0.1231,,,,,,
+FC log10 (change model),random 80-20,8,Random Forest,1059,263,0.7504,0.267,0.1984,0.2342,,,,,,
+FC log10 (change model),random 80-20,8,XGBoost,1059,263,0.7376,0.2738,0.2034,0.1947,,,,,,
+FC log10 (change model),random 80-20,8,SVM,1059,263,0.7278,0.2789,0.206,0.1646,,,,,,
+FC log10 (change model),random 80-20,8,kNN,1059,263,0.7042,0.2907,0.2106,0.0924,,,,,,
+FC log10 (change model),random 80-20,8,LSTM,1059,263,0.7302,0.2777,0.2082,0.1721,,,,,,
+FC log10 (change model),random 80-20,9,Baseline: repeat last month,1059,263,0.6538,0.3109,0.2172,0.0,,,,,,
+FC log10 (change model),random 80-20,9,Baseline: training average,1059,263,-0.0,0.5284,0.4136,-1.8882,,,,,,
+FC log10 (change model),random 80-20,9,MLR / Logistic Regression,1059,263,0.7099,0.2846,0.2115,0.1622,,,,,,
+FC log10 (change model),random 80-20,9,Random Forest,1059,263,0.724,0.2776,0.2063,0.2028,,,,,,
+FC log10 (change model),random 80-20,9,XGBoost,1059,263,0.722,0.2786,0.2053,0.1972,,,,,,
+FC log10 (change model),random 80-20,9,SVM,1059,263,0.7073,0.2859,0.2127,0.1547,,,,,,
+FC log10 (change model),random 80-20,9,kNN,1059,263,0.6589,0.3086,0.2245,0.015,,,,,,
+FC log10 (change model),random 80-20,9,LSTM,1059,263,0.6917,0.2934,0.2149,0.1096,,,,,,
+FC log10 (change model),10-fold CV,0,Baseline: repeat last month,1190,132,0.6991,0.2967,0.2161,0.0,,,,,,
+FC log10 (change model),10-fold CV,0,Baseline: training average,1190,132,-0.0002,0.541,0.4311,-2.3239,,,,,,
+FC log10 (change model),10-fold CV,0,MLR / Logistic Regression,1190,132,0.7127,0.29,0.2204,0.0451,,,,,,
+FC log10 (change model),10-fold CV,0,Random Forest,1190,132,0.7205,0.286,0.2121,0.0713,,,,,,
+FC log10 (change model),10-fold CV,0,XGBoost,1190,132,0.7168,0.2879,0.2118,0.0589,,,,,,
+FC log10 (change model),10-fold CV,0,SVM,1190,132,0.7148,0.2889,0.2185,0.0523,,,,,,
+FC log10 (change model),10-fold CV,0,kNN,1190,132,0.6923,0.3001,0.2228,-0.0227,,,,,,
+FC log10 (change model),10-fold CV,0,LSTM,1190,132,0.7104,0.2911,0.2266,0.0375,,,,,,
+FC log10 (change model),10-fold CV,1,Baseline: repeat last month,1190,132,0.6858,0.3105,0.2352,0.0,,,,,,
+FC log10 (change model),10-fold CV,1,Baseline: training average,1190,132,-0.0066,0.5558,0.4514,-2.2035,,,,,,
+FC log10 (change model),10-fold CV,1,MLR / Logistic Regression,1190,132,0.7235,0.2913,0.2236,0.1201,,,,,,
+FC log10 (change model),10-fold CV,1,Random Forest,1190,132,0.7213,0.2924,0.2191,0.1132,,,,,,
+FC log10 (change model),10-fold CV,1,XGBoost,1190,132,0.7162,0.2951,0.2248,0.0969,,,,,,
+FC log10 (change model),10-fold CV,1,SVM,1190,132,0.7298,0.288,0.2182,0.1401,,,,,,
+FC log10 (change model),10-fold CV,1,kNN,1190,132,0.7112,0.2977,0.2301,0.0808,,,,,,
+FC log10 (change model),10-fold CV,1,LSTM,1190,132,0.7526,0.2755,0.2078,0.2127,,,,,,
+FC log10 (change model),10-fold CV,2,Baseline: repeat last month,1190,132,0.7264,0.2819,0.1914,0.0,,,,,,
+FC log10 (change model),10-fold CV,2,Baseline: training average,1190,132,-0.0344,0.5481,0.446,-2.7805,,,,,,
+FC log10 (change model),10-fold CV,2,MLR / Logistic Regression,1190,132,0.767,0.2602,0.1902,0.1483,,,,,,
+FC log10 (change model),10-fold CV,2,Random Forest,1190,132,0.7886,0.2478,0.1821,0.2272,,,,,,
+FC log10 (change model),10-fold CV,2,XGBoost,1190,132,0.772,0.2573,0.1867,0.1667,,,,,,
+FC log10 (change model),10-fold CV,2,SVM,1190,132,0.7646,0.2615,0.1915,0.1395,,,,,,
+FC log10 (change model),10-fold CV,2,kNN,1190,132,0.7454,0.2719,0.1879,0.0695,,,,,,
+FC log10 (change model),10-fold CV,2,LSTM,1190,132,0.7713,0.2577,0.1929,0.1639,,,,,,
+FC log10 (change model),10-fold CV,3,Baseline: repeat last month,1191,131,0.5346,0.3545,0.259,0.0,,,,,,
+FC log10 (change model),10-fold CV,3,Baseline: training average,1191,131,-0.0,0.5196,0.3951,-1.1486,,,,,,
+FC log10 (change model),10-fold CV,3,MLR / Logistic Regression,1191,131,0.6421,0.3109,0.2373,0.231,,,,,,
+FC log10 (change model),10-fold CV,3,Random Forest,1191,131,0.6898,0.2894,0.2279,0.3335,,,,,,
+FC log10 (change model),10-fold CV,3,XGBoost,1191,131,0.6637,0.3014,0.2346,0.2773,,,,,,
+FC log10 (change model),10-fold CV,3,SVM,1191,131,0.6424,0.3108,0.2376,0.2316,,,,,,
+FC log10 (change model),10-fold CV,3,kNN,1191,131,0.5878,0.3336,0.2517,0.1144,,,,,,
+FC log10 (change model),10-fold CV,3,LSTM,1191,131,0.6568,0.3044,0.233,0.2627,,,,,,
+FC log10 (change model),10-fold CV,4,Baseline: repeat last month,1191,131,0.6572,0.2933,0.2043,0.0,,,,,,
+FC log10 (change model),10-fold CV,4,Baseline: training average,1191,131,-0.0004,0.5011,0.4036,-1.9179,,,,,,
+FC log10 (change model),10-fold CV,4,MLR / Logistic Regression,1191,131,0.6882,0.2797,0.2009,0.0906,,,,,,
+FC log10 (change model),10-fold CV,4,Random Forest,1191,131,0.6919,0.2781,0.1956,0.1012,,,,,,
+FC log10 (change model),10-fold CV,4,XGBoost,1191,131,0.6874,0.2801,0.1978,0.0882,,,,,,
+FC log10 (change model),10-fold CV,4,SVM,1191,131,0.6837,0.2817,0.2038,0.0774,,,,,,
+FC log10 (change model),10-fold CV,4,kNN,1191,131,0.6751,0.2856,0.2009,0.0523,,,,,,
+FC log10 (change model),10-fold CV,4,LSTM,1191,131,0.6665,0.2893,0.2077,0.0272,,,,,,
+FC log10 (change model),10-fold CV,5,Baseline: repeat last month,1191,131,0.4814,0.3391,0.2307,0.0,,,,,,
+FC log10 (change model),10-fold CV,5,Baseline: training average,1191,131,-0.0084,0.4728,0.3956,-0.9442,,,,,,
+FC log10 (change model),10-fold CV,5,MLR / Logistic Regression,1191,131,0.5624,0.3115,0.2238,0.1562,,,,,,
+FC log10 (change model),10-fold CV,5,Random Forest,1191,131,0.6265,0.2878,0.2199,0.2798,,,,,,
+FC log10 (change model),10-fold CV,5,XGBoost,1191,131,0.5981,0.2985,0.2235,0.225,,,,,,
+FC log10 (change model),10-fold CV,5,SVM,1191,131,0.5724,0.3079,0.2227,0.1756,,,,,,
+FC log10 (change model),10-fold CV,5,kNN,1191,131,0.5297,0.3229,0.2266,0.0932,,,,,,
+FC log10 (change model),10-fold CV,5,LSTM,1191,131,0.574,0.3073,0.2198,0.1786,,,,,,
+FC log10 (change model),10-fold CV,6,Baseline: repeat last month,1191,131,0.7417,0.2856,0.1926,0.0,,,,,,
+FC log10 (change model),10-fold CV,6,Baseline: training average,1191,131,-0.0008,0.5621,0.4382,-2.8752,,,,,,
+FC log10 (change model),10-fold CV,6,MLR / Logistic Regression,1191,131,0.7852,0.2604,0.1894,0.1684,,,,,,
+FC log10 (change model),10-fold CV,6,Random Forest,1191,131,0.7959,0.2539,0.1836,0.2097,,,,,,
+FC log10 (change model),10-fold CV,6,XGBoost,1191,131,0.7884,0.2585,0.1885,0.1808,,,,,,
+FC log10 (change model),10-fold CV,6,SVM,1191,131,0.7919,0.2563,0.1855,0.1941,,,,,,
+FC log10 (change model),10-fold CV,6,kNN,1191,131,0.7583,0.2762,0.194,0.0642,,,,,,
+FC log10 (change model),10-fold CV,6,LSTM,1191,131,0.7868,0.2594,0.1923,0.1746,,,,,,
+FC log10 (change model),10-fold CV,7,Baseline: repeat last month,1191,131,0.6496,0.3076,0.214,0.0,,,,,,
+FC log10 (change model),10-fold CV,7,Baseline: training average,1191,131,-0.0175,0.5241,0.4114,-1.9039,,,,,,
+FC log10 (change model),10-fold CV,7,MLR / Logistic Regression,1191,131,0.7105,0.2796,0.1965,0.1738,,,,,,
+FC log10 (change model),10-fold CV,7,Random Forest,1191,131,0.752,0.2587,0.1889,0.2922,,,,,,
+FC log10 (change model),10-fold CV,7,XGBoost,1191,131,0.7394,0.2652,0.1919,0.2563,,,,,,
+FC log10 (change model),10-fold CV,7,SVM,1191,131,0.7268,0.2716,0.1947,0.2202,,,,,,
+FC log10 (change model),10-fold CV,7,kNN,1191,131,0.727,0.2715,0.1893,0.2209,,,,,,
+FC log10 (change model),10-fold CV,7,LSTM,1191,131,0.74,0.2649,0.1944,0.258,,,,,,
+FC log10 (change model),10-fold CV,8,Baseline: repeat last month,1191,131,0.7881,0.2655,0.2052,0.0,,,,,,
+FC log10 (change model),10-fold CV,8,Baseline: training average,1191,131,-0.0034,0.5777,0.4552,-3.7343,,,,,,
+FC log10 (change model),10-fold CV,8,MLR / Logistic Regression,1191,131,0.803,0.256,0.206,0.0704,,,,,,
+FC log10 (change model),10-fold CV,8,Random Forest,1191,131,0.7982,0.2591,0.209,0.0479,,,,,,
+FC log10 (change model),10-fold CV,8,XGBoost,1191,131,0.8043,0.2551,0.2074,0.0768,,,,,,
+FC log10 (change model),10-fold CV,8,SVM,1191,131,0.8028,0.2561,0.2061,0.0696,,,,,,
+FC log10 (change model),10-fold CV,8,kNN,1191,131,0.7765,0.2726,0.2187,-0.0543,,,,,,
+FC log10 (change model),10-fold CV,8,LSTM,1191,131,0.7808,0.27,0.2164,-0.0344,,,,,,
+FC log10 (change model),10-fold CV,9,Baseline: repeat last month,1191,131,0.6771,0.2975,0.2155,0.0,,,,,,
+FC log10 (change model),10-fold CV,9,Baseline: training average,1191,131,-0.0007,0.5238,0.3966,-2.0988,,,,,,
+FC log10 (change model),10-fold CV,9,MLR / Logistic Regression,1191,131,0.7169,0.2786,0.2095,0.1234,,,,,,
+FC log10 (change model),10-fold CV,9,Random Forest,1191,131,0.7374,0.2683,0.2051,0.1867,,,,,,
+FC log10 (change model),10-fold CV,9,XGBoost,1191,131,0.7195,0.2773,0.2123,0.1315,,,,,,
+FC log10 (change model),10-fold CV,9,SVM,1191,131,0.7116,0.2812,0.2105,0.107,,,,,,
+FC log10 (change model),10-fold CV,9,kNN,1191,131,0.6843,0.2942,0.2197,0.0224,,,,,,
+FC log10 (change model),10-fold CV,9,LSTM,1191,131,0.7063,0.2837,0.2187,0.0907,,,,,,
+FC log10 (change model),chronological 60-40,2023-01,Baseline: repeat last month,797,525,0.6098,0.2531,0.1866,0.0,,,,,,
+FC log10 (change model),chronological 60-40,2023-01,Baseline: training average,797,525,-0.0106,0.4073,0.3139,-1.59,,,,,,
+FC log10 (change model),chronological 60-40,2023-01,MLR / Logistic Regression,797,525,0.5906,0.2593,0.2024,-0.0492,,,,,,
+FC log10 (change model),chronological 60-40,2023-01,Random Forest,797,525,0.587,0.2604,0.2033,-0.0584,,,,,,
+FC log10 (change model),chronological 60-40,2023-01,XGBoost,797,525,0.5622,0.2681,0.2111,-0.1221,,,,,,
+FC log10 (change model),chronological 60-40,2023-01,SVM,797,525,0.6024,0.2555,0.1995,-0.0189,,,,,,
+FC log10 (change model),chronological 60-40,2023-01,kNN,797,525,0.6224,0.249,0.1904,0.0323,,,,,,
+FC log10 (change model),chronological 60-40,2023-01,LSTM,797,525,0.5315,0.2774,0.216,-0.2008,,,,,,
+FC log10 (change model),chronological 70-30,2023-10,Baseline: repeat last month,932,390,0.6381,0.2389,0.1733,0.0,,,,,,
+FC log10 (change model),chronological 70-30,2023-10,Baseline: training average,932,390,-0.0017,0.3974,0.3112,-1.7679,,,,,,
+FC log10 (change model),chronological 70-30,2023-10,MLR / Logistic Regression,932,390,0.6163,0.246,0.1864,-0.0603,,,,,,
+FC log10 (change model),chronological 70-30,2023-10,Random Forest,932,390,0.5985,0.2516,0.1924,-0.1095,,,,,,
+FC log10 (change model),chronological 70-30,2023-10,XGBoost,932,390,0.5747,0.2589,0.1995,-0.1751,,,,,,
+FC log10 (change model),chronological 70-30,2023-10,SVM,932,390,0.6304,0.2414,0.1837,-0.0214,,,,,,
+FC log10 (change model),chronological 70-30,2023-10,kNN,932,390,0.6524,0.2341,0.1771,0.0396,,,,,,
+FC log10 (change model),chronological 70-30,2023-10,LSTM,932,390,0.5332,0.2713,0.2114,-0.2898,,,,,,
+FC log10 (change model),chronological 80-20,2024-07,Baseline: repeat last month,1067,255,0.7192,0.2074,0.1506,0.0,,,,,,
+FC log10 (change model),chronological 80-20,2024-07,Baseline: training average,1067,255,-0.0134,0.394,0.3158,-2.6094,,,,,,
+FC log10 (change model),chronological 80-20,2024-07,MLR / Logistic Regression,1067,255,0.6641,0.2268,0.174,-0.1962,,,,,,
+FC log10 (change model),chronological 80-20,2024-07,Random Forest,1067,255,0.6386,0.2353,0.1828,-0.2871,,,,,,
+FC log10 (change model),chronological 80-20,2024-07,XGBoost,1067,255,0.6033,0.2465,0.1895,-0.413,,,,,,
+FC log10 (change model),chronological 80-20,2024-07,SVM,1067,255,0.6665,0.226,0.1726,-0.1876,,,,,,
+FC log10 (change model),chronological 80-20,2024-07,kNN,1067,255,0.7205,0.2069,0.1594,0.0045,,,,,,
+FC log10 (change model),chronological 80-20,2024-07,LSTM,1067,255,0.5868,0.2515,0.1967,-0.4715,,,,,,
+FC log10 (change model),rolling year-by-year,2018,Baseline: repeat last month,198,108,0.0692,0.4289,0.2942,0.0,,,,,,
+FC log10 (change model),rolling year-by-year,2018,Baseline: training average,198,108,-9.588,1.4465,1.3777,-10.3756,,,,,,
+FC log10 (change model),rolling year-by-year,2018,MLR / Logistic Regression,198,108,-1.8272,0.7475,0.6879,-2.0375,,,,,,
+FC log10 (change model),rolling year-by-year,2018,Random Forest,198,108,-0.1443,0.4756,0.3704,-0.2294,,,,,,
+FC log10 (change model),rolling year-by-year,2018,XGBoost,198,108,-0.4886,0.5424,0.4432,-0.5993,,,,,,
+FC log10 (change model),rolling year-by-year,2018,SVM,198,108,-0.9774,0.6251,0.5511,-1.1245,,,,,,
+FC log10 (change model),rolling year-by-year,2018,kNN,198,108,0.0723,0.4282,0.3091,0.0033,,,,,,
+FC log10 (change model),rolling year-by-year,2018,LSTM,198,108,-1.0804,0.6412,0.5659,-1.2351,,,,,,
+FC log10 (change model),rolling year-by-year,2019,Baseline: repeat last month,306,108,-0.5151,0.3952,0.2693,0.0,,,,,,
+FC log10 (change model),rolling year-by-year,2019,Baseline: training average,306,108,-1.1776,0.4737,0.3872,-0.4372,,,,,,
+FC log10 (change model),rolling year-by-year,2019,MLR / Logistic Regression,306,108,-0.3682,0.3755,0.2571,0.097,,,,,,
+FC log10 (change model),rolling year-by-year,2019,Random Forest,306,108,-0.6664,0.4144,0.2904,-0.0998,,,,,,
+FC log10 (change model),rolling year-by-year,2019,XGBoost,306,108,-0.8027,0.431,0.3124,-0.1898,,,,,,
+FC log10 (change model),rolling year-by-year,2019,SVM,306,108,-0.3249,0.3695,0.2551,0.1256,,,,,,
+FC log10 (change model),rolling year-by-year,2019,kNN,306,108,-0.5812,0.4037,0.2783,-0.0436,,,,,,
+FC log10 (change model),rolling year-by-year,2019,LSTM,306,108,-0.3985,0.3797,0.2639,0.077,,,,,,
+FC log10 (change model),rolling year-by-year,2020,Baseline: repeat last month,414,45,0.3192,0.2257,0.1617,0.0,,,,,,
+FC log10 (change model),rolling year-by-year,2020,Baseline: training average,414,45,-0.3208,0.3144,0.2703,-0.9401,,,,,,
+FC log10 (change model),rolling year-by-year,2020,MLR / Logistic Regression,414,45,0.4083,0.2104,0.1555,0.1309,,,,,,
+FC log10 (change model),rolling year-by-year,2020,Random Forest,414,45,0.3928,0.2132,0.1483,0.1081,,,,,,
+FC log10 (change model),rolling year-by-year,2020,XGBoost,414,45,0.4304,0.2065,0.1405,0.1633,,,,,,
+FC log10 (change model),rolling year-by-year,2020,SVM,414,45,0.428,0.2069,0.1502,0.1598,,,,,,
+FC log10 (change model),rolling year-by-year,2020,kNN,414,45,0.4819,0.1969,0.1085,0.2389,,,,,,
+FC log10 (change model),rolling year-by-year,2020,LSTM,414,45,0.4376,0.2052,0.1559,0.1739,,,,,,
+FC log10 (change model),rolling year-by-year,2021,Baseline: repeat last month,468,150,0.5717,0.3061,0.2215,0.0,,,,,,
+FC log10 (change model),rolling year-by-year,2021,Baseline: training average,468,150,-0.0168,0.4716,0.3586,-1.374,,,,,,
+FC log10 (change model),rolling year-by-year,2021,MLR / Logistic Regression,468,150,0.6659,0.2703,0.2086,0.2199,,,,,,
+FC log10 (change model),rolling year-by-year,2021,Random Forest,468,150,0.6456,0.2784,0.2194,0.1726,,,,,,
+FC log10 (change model),rolling year-by-year,2021,XGBoost,468,150,0.6446,0.2788,0.217,0.1701,,,,,,
+FC log10 (change model),rolling year-by-year,2021,SVM,468,150,0.6531,0.2754,0.2088,0.1901,,,,,,
+FC log10 (change model),rolling year-by-year,2021,kNN,468,150,0.6551,0.2747,0.2059,0.1947,,,,,,
+FC log10 (change model),rolling year-by-year,2021,LSTM,468,150,0.6381,0.2813,0.214,0.1551,,,,,,
+FC log10 (change model),rolling year-by-year,2022,Baseline: repeat last month,618,164,0.6377,0.295,0.2063,0.0,,,,,,
+FC log10 (change model),rolling year-by-year,2022,Baseline: training average,618,164,-0.0034,0.4909,0.4046,-1.7698,,,,,,
+FC log10 (change model),rolling year-by-year,2022,MLR / Logistic Regression,618,164,0.7511,0.2445,0.1791,0.313,,,,,,
+FC log10 (change model),rolling year-by-year,2022,Random Forest,618,164,0.7097,0.264,0.2007,0.1986,,,,,,
+FC log10 (change model),rolling year-by-year,2022,XGBoost,618,164,0.7246,0.2572,0.1939,0.2398,,,,,,
+FC log10 (change model),rolling year-by-year,2022,SVM,618,164,0.7257,0.2567,0.1894,0.2428,,,,,,
+FC log10 (change model),rolling year-by-year,2022,kNN,618,164,0.6978,0.2694,0.1994,0.1657,,,,,,
+FC log10 (change model),rolling year-by-year,2022,LSTM,618,164,0.7228,0.258,0.2004,0.2347,,,,,,
+FC log10 (change model),rolling year-by-year,2023,Baseline: repeat last month,782,180,0.4831,0.3089,0.2438,0.0,,,,,,
+FC log10 (change model),rolling year-by-year,2023,Baseline: training average,782,180,-0.1367,0.4581,0.3449,-1.199,,,,,,
+FC log10 (change model),rolling year-by-year,2023,MLR / Logistic Regression,782,180,0.5157,0.299,0.2502,0.0632,,,,,,
+FC log10 (change model),rolling year-by-year,2023,Random Forest,782,180,0.504,0.3026,0.2463,0.0404,,,,,,
+FC log10 (change model),rolling year-by-year,2023,XGBoost,782,180,0.4822,0.3092,0.249,-0.0018,,,,,,
+FC log10 (change model),rolling year-by-year,2023,SVM,782,180,0.5098,0.3008,0.2504,0.0516,,,,,,
+FC log10 (change model),rolling year-by-year,2023,kNN,782,180,0.487,0.3077,0.2503,0.0075,,,,,,
+FC log10 (change model),rolling year-by-year,2023,LSTM,782,180,0.4374,0.3222,0.2604,-0.0884,,,,,,
+FC log10 (change model),rolling year-by-year,2024,Baseline: repeat last month,962,180,0.5267,0.2582,0.1841,0.0,,,,,,
+FC log10 (change model),rolling year-by-year,2024,Baseline: training average,962,180,-0.0,0.3754,0.2891,-1.113,,,,,,
+FC log10 (change model),rolling year-by-year,2024,MLR / Logistic Regression,962,180,0.527,0.2581,0.1902,0.0006,,,,,,
+FC log10 (change model),rolling year-by-year,2024,Random Forest,962,180,0.4851,0.2693,0.2018,-0.0879,,,,,,
+FC log10 (change model),rolling year-by-year,2024,XGBoost,962,180,0.4578,0.2764,0.2079,-0.1457,,,,,,
+FC log10 (change model),rolling year-by-year,2024,SVM,962,180,0.5492,0.252,0.1858,0.0474,,,,,,
+FC log10 (change model),rolling year-by-year,2024,kNN,962,180,0.5661,0.2473,0.1821,0.0831,,,,,,
+FC log10 (change model),rolling year-by-year,2024,LSTM,962,180,0.489,0.2683,0.2038,-0.0797,,,,,,
+FC log10 (change model),rolling year-by-year,2025,Baseline: repeat last month,1142,180,0.7749,0.1969,0.1447,0.0,,,,,,
+FC log10 (change model),rolling year-by-year,2025,Baseline: training average,1142,180,-0.004,0.4157,0.3337,-3.4603,,,,,,
+FC log10 (change model),rolling year-by-year,2025,MLR / Logistic Regression,1142,180,0.7575,0.2043,0.1572,-0.0774,,,,,,
+FC log10 (change model),rolling year-by-year,2025,Random Forest,1142,180,0.7668,0.2004,0.1546,-0.0361,,,,,,
+FC log10 (change model),rolling year-by-year,2025,XGBoost,1142,180,0.7553,0.2052,0.1593,-0.087,,,,,,
+FC log10 (change model),rolling year-by-year,2025,SVM,1142,180,0.7644,0.2014,0.1544,-0.0466,,,,,,
+FC log10 (change model),rolling year-by-year,2025,kNN,1142,180,0.7801,0.1946,0.151,0.0228,,,,,,
+FC log10 (change model),rolling year-by-year,2025,LSTM,1142,180,0.7536,0.2059,0.1604,-0.0945,,,,,,
+BOD 4-class,random 60-40,0,Baseline: same class as last month,807,515,,,,,0.3158,0.3201,0.765,44.3182,13.5831,0.4343
+BOD 4-class,random 60-40,0,Baseline: always most common class,807,515,,,,,0.2266,0.25,0.8291,0.0,0.0,0.0
+BOD 4-class,random 60-40,0,MLR / Logistic Regression,807,515,,,,,0.3465,0.4309,0.6913,69.3182,23.6534,0.5934
+BOD 4-class,random 60-40,0,Random Forest,807,515,,,,,0.3824,0.3968,0.7767,71.5909,16.1593,0.6508
+BOD 4-class,random 60-40,0,XGBoost,807,515,,,,,0.3633,0.3878,0.7379,68.1818,19.6721,0.6048
+BOD 4-class,random 60-40,0,SVM,807,515,,,,,0.306,0.3375,0.6951,69.3182,24.8244,0.5877
+BOD 4-class,random 60-40,0,kNN,807,515,,,,,0.3094,0.355,0.6291,65.9091,32.7869,0.5273
+BOD 4-class,random 60-40,0,LSTM,807,515,,,,,0.3128,0.399,0.6485,67.0455,28.103,0.5556
+BOD 4-class,random 60-40,1,Baseline: same class as last month,807,515,,,,,0.334,0.3361,0.7786,47.8261,12.5296,0.4731
+BOD 4-class,random 60-40,1,Baseline: always most common class,807,515,,,,,0.2255,0.25,0.8214,0.0,0.0,0.0
+BOD 4-class,random 60-40,1,MLR / Logistic Regression,807,515,,,,,0.3039,0.3438,0.6369,77.1739,30.26,0.6261
+BOD 4-class,random 60-40,1,Random Forest,807,515,,,,,0.4625,0.5202,0.7981,70.6522,13.948,0.6606
+BOD 4-class,random 60-40,1,XGBoost,807,515,,,,,0.3963,0.5014,0.7456,78.2609,19.1489,0.691
+BOD 4-class,random 60-40,1,SVM,807,515,,,,,0.3378,0.3643,0.7223,65.2174,22.2222,0.5747
+BOD 4-class,random 60-40,1,kNN,807,515,,,,,0.2993,0.3305,0.6485,72.8261,30.26,0.595
+BOD 4-class,random 60-40,1,LSTM,807,515,,,,,0.3012,0.4413,0.6699,63.0435,22.4586,0.5566
+BOD 4-class,random 60-40,2,Baseline: same class as last month,807,515,,,,,0.3282,0.3294,0.7631,51.5152,13.4615,0.507
+BOD 4-class,random 60-40,2,Baseline: always most common class,807,515,,,,,0.2234,0.25,0.8078,0.0,0.0,0.0
+BOD 4-class,random 60-40,2,MLR / Logistic Regression,807,515,,,,,0.3236,0.3668,0.6583,78.7879,29.3269,0.6544
+BOD 4-class,random 60-40,2,Random Forest,807,515,,,,,0.3901,0.4049,0.7786,67.6768,15.8654,0.6333
+BOD 4-class,random 60-40,2,XGBoost,807,515,,,,,0.3447,0.3776,0.7087,68.6869,22.5962,0.6093
+BOD 4-class,random 60-40,2,SVM,807,515,,,,,0.3025,0.3152,0.699,64.6465,23.3173,0.5745
+BOD 4-class,random 60-40,2,kNN,807,515,,,,,0.3013,0.3269,0.6408,69.697,30.7692,0.5818
+BOD 4-class,random 60-40,2,LSTM,807,515,,,,,0.3074,0.3353,0.6602,63.6364,24.5192,0.5615
+BOD 4-class,random 60-40,3,Baseline: same class as last month,807,515,,,,,0.3254,0.3277,0.7767,50.0,12.2892,0.499
+BOD 4-class,random 60-40,3,Baseline: always most common class,807,515,,,,,0.2231,0.25,0.8058,0.0,0.0,0.0
+BOD 4-class,random 60-40,3,MLR / Logistic Regression,807,515,,,,,0.3284,0.4033,0.635,77.0,29.3976,0.6427
+BOD 4-class,random 60-40,3,Random Forest,807,515,,,,,0.4626,0.5038,0.7282,72.0,23.3735,0.6327
+BOD 4-class,random 60-40,3,XGBoost,807,515,,,,,0.4461,0.5152,0.7146,72.0,23.3735,0.6327
+BOD 4-class,random 60-40,3,SVM,807,515,,,,,0.3137,0.3295,0.7068,59.0,21.6867,0.5373
+BOD 4-class,random 60-40,3,kNN,807,515,,,,,0.2936,0.3258,0.6272,72.0,32.0482,0.595
+BOD 4-class,random 60-40,3,LSTM,807,515,,,,,0.2548,0.3322,0.5146,76.0,40.9639,0.5882
+BOD 4-class,random 60-40,4,Baseline: same class as last month,807,515,,,,,0.3154,0.3143,0.7592,46.6667,13.1707,0.4685
+BOD 4-class,random 60-40,4,Baseline: always most common class,807,515,,,,,0.2216,0.25,0.7961,0.0,0.0,0.0
+BOD 4-class,random 60-40,4,MLR / Logistic Regression,807,515,,,,,0.3412,0.4438,0.633,63.8095,30.2439,0.5483
+BOD 4-class,random 60-40,4,Random Forest,807,515,,,,,0.4019,0.4434,0.7631,67.619,17.0732,0.6328
+BOD 4-class,random 60-40,4,XGBoost,807,515,,,,,0.3626,0.4282,0.7146,71.4286,23.1707,0.6356
+BOD 4-class,random 60-40,4,SVM,807,515,,,,,0.3469,0.3766,0.7262,61.9048,20.4878,0.5712
+BOD 4-class,random 60-40,4,kNN,807,515,,,,,0.3041,0.3442,0.6369,66.6667,31.2195,0.5663
+BOD 4-class,random 60-40,4,LSTM,807,515,,,,,0.2827,0.3707,0.6019,65.7143,29.5122,0.5656
+BOD 4-class,random 60-40,5,Baseline: same class as last month,807,515,,,,,0.3265,0.3342,0.7689,45.8824,14.6512,0.4412
+BOD 4-class,random 60-40,5,Baseline: always most common class,807,515,,,,,0.2275,0.25,0.835,0.0,0.0,0.0
+BOD 4-class,random 60-40,5,MLR / Logistic Regression,807,515,,,,,0.3272,0.4294,0.6583,69.4118,28.3721,0.5662
+BOD 4-class,random 60-40,5,Random Forest,807,515,,,,,0.341,0.3714,0.732,71.7647,21.6279,0.6174
+BOD 4-class,random 60-40,5,XGBoost,807,515,,,,,0.3256,0.3695,0.699,71.7647,25.1163,0.5992
+BOD 4-class,random 60-40,5,SVM,807,515,,,,,0.3228,0.3493,0.7204,63.5294,21.6279,0.5544
+BOD 4-class,random 60-40,5,kNN,807,515,,,,,0.3096,0.3616,0.6563,70.5882,29.5349,0.5693
+BOD 4-class,random 60-40,5,LSTM,807,515,,,,,0.3196,0.4045,0.6757,67.0588,27.2093,0.5545
+BOD 4-class,random 60-40,6,Baseline: same class as last month,807,515,,,,,0.2987,0.3002,0.7534,43.8776,13.6691,0.437
+BOD 4-class,random 60-40,6,Baseline: always most common class,807,515,,,,,0.2237,0.25,0.8097,0.0,0.0,0.0
+BOD 4-class,random 60-40,6,MLR / Logistic Regression,807,515,,,,,0.3266,0.546,0.6544,71.4286,25.8993,0.614
+BOD 4-class,random 60-40,6,Random Forest,807,515,,,,,0.4195,0.5227,0.7495,78.5714,19.4245,0.7
+BOD 4-class,random 60-40,6,XGBoost,807,515,,,,,0.3785,0.5034,0.7049,70.4082,22.7818,0.6205
+BOD 4-class,random 60-40,6,SVM,807,515,,,,,0.3106,0.3249,0.6951,56.1224,23.5012,0.5046
+BOD 4-class,random 60-40,6,kNN,807,515,,,,,0.2957,0.3352,0.6233,68.3673,32.3741,0.564
+BOD 4-class,random 60-40,6,LSTM,807,515,,,,,0.2918,0.3051,0.633,70.4082,29.4964,0.5908
+BOD 4-class,random 60-40,7,Baseline: same class as last month,807,515,,,,,0.3328,0.3357,0.7748,45.6522,13.0024,0.4516
+BOD 4-class,random 60-40,7,Baseline: always most common class,807,515,,,,,0.2255,0.25,0.8214,0.0,0.0,0.0
+BOD 4-class,random 60-40,7,MLR / Logistic Regression,807,515,,,,,0.3123,0.3777,0.6466,72.8261,29.5508,0.5982
+BOD 4-class,random 60-40,7,Random Forest,807,515,,,,,0.36,0.3871,0.7495,66.3043,18.2033,0.6028
+BOD 4-class,random 60-40,7,XGBoost,807,515,,,,,0.3975,0.5302,0.7165,70.6522,22.4586,0.6155
+BOD 4-class,random 60-40,7,SVM,807,515,,,,,0.3457,0.3819,0.7204,69.5652,23.6407,0.6015
+BOD 4-class,random 60-40,7,kNN,807,515,,,,,0.296,0.3531,0.6117,72.8261,35.6974,0.5717
+BOD 4-class,random 60-40,7,LSTM,807,515,,,,,0.305,0.3709,0.633,68.4783,30.9693,0.5605
+BOD 4-class,random 60-40,8,Baseline: same class as last month,807,515,,,,,0.2802,0.2812,0.7573,40.9091,12.8806,0.4063
+BOD 4-class,random 60-40,8,Baseline: always most common class,807,515,,,,,0.2266,0.25,0.8291,0.0,0.0,0.0
+BOD 4-class,random 60-40,8,MLR / Logistic Regression,807,515,,,,,0.2911,0.2932,0.6563,65.9091,27.4005,0.5503
+BOD 4-class,random 60-40,8,Random Forest,807,515,,,,,0.5062,0.5149,0.7845,61.3636,14.7541,0.5757
+BOD 4-class,random 60-40,8,XGBoost,807,515,,,,,0.388,0.4682,0.7126,62.5,20.3747,0.5567
+BOD 4-class,random 60-40,8,SVM,807,515,,,,,0.3007,0.3135,0.7379,53.4091,18.267,0.4927
+BOD 4-class,random 60-40,8,kNN,807,515,,,,,0.3359,0.4127,0.635,67.0455,31.3817,0.5413
+BOD 4-class,random 60-40,8,LSTM,807,515,,,,,0.2307,0.2457,0.4796,76.1364,47.0726,0.5403
+BOD 4-class,random 60-40,9,Baseline: same class as last month,807,515,,,,,0.306,0.3029,0.7592,42.5743,12.5604,0.4309
+BOD 4-class,random 60-40,9,Baseline: always most common class,807,515,,,,,0.2228,0.25,0.8039,0.0,0.0,0.0
+BOD 4-class,random 60-40,9,MLR / Logistic Regression,807,515,,,,,0.2898,0.3139,0.6524,67.3267,26.3285,0.5852
+BOD 4-class,random 60-40,9,Random Forest,807,515,,,,,0.4024,0.4304,0.7883,65.3465,13.0435,0.6298
+BOD 4-class,random 60-40,9,XGBoost,807,515,,,,,0.3336,0.371,0.7204,68.3168,19.5652,0.6227
+BOD 4-class,random 60-40,9,SVM,807,515,,,,,0.3415,0.3652,0.7359,59.4059,18.599,0.5545
+BOD 4-class,random 60-40,9,kNN,807,515,,,,,0.2998,0.3356,0.6408,65.3465,30.4348,0.5537
+BOD 4-class,random 60-40,9,LSTM,807,515,,,,,0.2598,0.2897,0.6291,56.4356,25.3623,0.5035
+BOD 4-class,random 70-30,0,Baseline: same class as last month,936,386,,,,,0.3149,0.3192,0.7565,47.8261,13.8801,0.4674
+BOD 4-class,random 70-30,0,Baseline: always most common class,936,386,,,,,0.2255,0.25,0.8212,0.0,0.0,0.0
+BOD 4-class,random 70-30,0,MLR / Logistic Regression,936,386,,,,,0.3018,0.3204,0.6632,71.0145,25.8675,0.602
+BOD 4-class,random 70-30,0,Random Forest,936,386,,,,,0.3677,0.3883,0.7591,69.5652,17.9811,0.6299
+BOD 4-class,random 70-30,0,XGBoost,936,386,,,,,0.3681,0.3986,0.728,69.5652,20.8202,0.6154
+BOD 4-class,random 70-30,0,SVM,936,386,,,,,0.3141,0.3513,0.6865,71.0145,26.4984,0.599
+BOD 4-class,random 70-30,0,kNN,936,386,,,,,0.2999,0.3442,0.6062,68.1159,35.9621,0.5378
+BOD 4-class,random 70-30,0,LSTM,936,386,,,,,0.2793,0.2958,0.601,68.1159,32.1767,0.5529
+BOD 4-class,random 70-30,1,Baseline: same class as last month,936,386,,,,,0.3027,0.3099,0.7642,41.791,13.7931,0.4118
+BOD 4-class,random 70-30,1,Baseline: always most common class,936,386,,,,,0.2262,0.25,0.8264,0.0,0.0,0.0
+BOD 4-class,random 70-30,1,MLR / Logistic Regression,936,386,,,,,0.3126,0.3709,0.6477,74.6269,29.1536,0.6083
+BOD 4-class,random 70-30,1,Random Forest,936,386,,,,,0.4903,0.5162,0.7876,71.6418,15.9875,0.654
+BOD 4-class,random 70-30,1,XGBoost,936,386,,,,,0.4418,0.5218,0.7098,70.1493,22.5705,0.6072
+BOD 4-class,random 70-30,1,SVM,936,386,,,,,0.3025,0.3249,0.7098,65.6716,22.884,0.5714
+BOD 4-class,random 70-30,1,kNN,936,386,,,,,0.3005,0.3375,0.6451,73.1343,30.721,0.5904
+BOD 4-class,random 70-30,1,LSTM,936,386,,,,,0.3467,0.4924,0.6528,70.1493,29.7806,0.5732
+BOD 4-class,random 70-30,2,Baseline: same class as last month,936,386,,,,,0.3307,0.3357,0.7591,47.8261,15.142,0.4622
+BOD 4-class,random 70-30,2,Baseline: always most common class,936,386,,,,,0.2255,0.25,0.8212,0.0,0.0,0.0
+BOD 4-class,random 70-30,2,MLR / Logistic Regression,936,386,,,,,0.297,0.3234,0.6347,81.1594,30.9148,0.6512
+BOD 4-class,random 70-30,2,Random Forest,936,386,,,,,0.3864,0.4292,0.7435,69.5652,20.8202,0.6154
+BOD 4-class,random 70-30,2,XGBoost,936,386,,,,,0.3249,0.3535,0.7098,72.4638,22.3975,0.6297
+BOD 4-class,random 70-30,2,SVM,936,386,,,,,0.3427,0.3823,0.7098,69.5652,24.9211,0.5955
+BOD 4-class,random 70-30,2,kNN,936,386,,,,,0.3292,0.3768,0.6788,72.4638,27.4448,0.6053
+BOD 4-class,random 70-30,2,LSTM,936,386,,,,,0.3585,0.6077,0.6554,81.1594,31.2303,0.6497
+BOD 4-class,random 70-30,3,Baseline: same class as last month,936,386,,,,,0.3334,0.3371,0.7617,54.321,14.4262,0.534
+BOD 4-class,random 70-30,3,Baseline: always most common class,936,386,,,,,0.2207,0.25,0.7902,0.0,0.0,0.0
+BOD 4-class,random 70-30,3,MLR / Logistic Regression,936,386,,,,,0.3471,0.5134,0.6399,77.7778,27.541,0.6688
+BOD 4-class,random 70-30,3,Random Forest,936,386,,,,,0.4788,0.5165,0.7591,77.7778,19.6721,0.7047
+BOD 4-class,random 70-30,3,XGBoost,936,386,,,,,0.4062,0.476,0.7047,76.5432,23.9344,0.6754
+BOD 4-class,random 70-30,3,SVM,936,386,,,,,0.3282,0.3418,0.7073,67.9012,21.6393,0.618
+BOD 4-class,random 70-30,3,kNN,936,386,,,,,0.3087,0.3365,0.6399,72.8395,29.8361,0.6224
+BOD 4-class,random 70-30,3,LSTM,936,386,,,,,0.2492,0.4142,0.5155,74.0741,38.6885,0.5976
+BOD 4-class,random 70-30,4,Baseline: same class as last month,936,386,,,,,0.3093,0.3104,0.7487,47.4359,14.2857,0.4707
+BOD 4-class,random 70-30,4,Baseline: always most common class,936,386,,,,,0.2219,0.25,0.7979,0.0,0.0,0.0
+BOD 4-class,random 70-30,4,MLR / Logistic Regression,936,386,,,,,0.336,0.438,0.6321,65.3846,28.8961,0.5642
+BOD 4-class,random 70-30,4,Random Forest,936,386,,,,,0.3853,0.4194,0.7487,73.0769,19.1558,0.6659
+BOD 4-class,random 70-30,4,XGBoost,936,386,,,,,0.3828,0.4612,0.6865,73.0769,25.0,0.639
+BOD 4-class,random 70-30,4,SVM,936,386,,,,,0.3357,0.3583,0.7176,64.1026,22.0779,0.5814
+BOD 4-class,random 70-30,4,kNN,936,386,,,,,0.3516,0.3992,0.614,73.0769,34.4156,0.6
+BOD 4-class,random 70-30,4,LSTM,936,386,,,,,0.327,0.4751,0.6347,73.0769,27.9221,0.6264
+BOD 4-class,random 70-30,5,Baseline: same class as last month,936,386,,,,,0.3165,0.3188,0.7642,50.0,13.4615,0.4933
+BOD 4-class,random 70-30,5,Baseline: always most common class,936,386,,,,,0.2235,0.25,0.8083,0.0,0.0,0.0
+BOD 4-class,random 70-30,5,MLR / Logistic Regression,936,386,,,,,0.3198,0.357,0.6606,74.3243,26.6026,0.6336
+BOD 4-class,random 70-30,5,Random Forest,936,386,,,,,0.3693,0.3811,0.7617,66.2162,16.6667,0.6171
+BOD 4-class,random 70-30,5,XGBoost,936,386,,,,,0.4202,0.6595,0.715,70.2703,22.1154,0.6235
+BOD 4-class,random 70-30,5,SVM,936,386,,,,,0.3672,0.3987,0.6995,66.2162,24.6795,0.5806
+BOD 4-class,random 70-30,5,kNN,936,386,,,,,0.3324,0.3996,0.6477,64.8649,29.4872,0.5505
+BOD 4-class,random 70-30,5,LSTM,936,386,,,,,0.3287,0.3749,0.6528,67.5676,26.2821,0.5841
+BOD 4-class,random 70-30,6,Baseline: same class as last month,936,386,,,,,0.2872,0.2882,0.7202,37.9747,16.6124,0.3778
+BOD 4-class,random 70-30,6,Baseline: always most common class,936,386,,,,,0.2215,0.25,0.7953,0.0,0.0,0.0
+BOD 4-class,random 70-30,6,MLR / Logistic Regression,936,386,,,,,0.3699,0.5754,0.6503,70.8861,26.7101,0.6167
+BOD 4-class,random 70-30,6,Random Forest,936,386,,,,,0.4757,0.5551,0.7409,74.6835,20.5212,0.6735
+BOD 4-class,random 70-30,6,XGBoost,936,386,,,,,0.4145,0.54,0.6943,68.3544,23.127,0.6122
+BOD 4-class,random 70-30,6,SVM,936,386,,,,,0.3552,0.3848,0.7176,58.2278,21.8241,0.5361
+BOD 4-class,random 70-30,6,kNN,936,386,,,,,0.3931,0.4787,0.614,62.0253,32.2476,0.528
+BOD 4-class,random 70-30,6,LSTM,936,386,,,,,0.2886,0.3037,0.6192,70.8861,31.5961,0.597
+BOD 4-class,random 70-30,7,Baseline: same class as last month,936,386,,,,,0.3397,0.3373,0.7902,45.4545,10.9375,0.4559
+BOD 4-class,random 70-30,7,Baseline: always most common class,936,386,,,,,0.2266,0.25,0.829,0.0,0.0,0.0
+BOD 4-class,random 70-30,7,MLR / Logistic Regression,936,386,,,,,0.2989,0.3311,0.6373,77.2727,30.9375,0.6159
+BOD 4-class,random 70-30,7,Random Forest,936,386,,,,,0.3471,0.3639,0.7591,62.1212,15.9375,0.5758
+BOD 4-class,random 70-30,7,XGBoost,936,386,,,,,0.3454,0.3851,0.7358,65.1515,19.375,0.5827
+BOD 4-class,random 70-30,7,SVM,936,386,,,,,0.3019,0.3211,0.7124,63.6364,22.5,0.5556
+BOD 4-class,random 70-30,7,kNN,936,386,,,,,0.2859,0.3282,0.6166,69.697,35.3125,0.5437
+BOD 4-class,random 70-30,7,LSTM,936,386,,,,,0.2925,0.3397,0.6244,77.2727,31.875,0.6115
+BOD 4-class,random 70-30,8,Baseline: same class as last month,936,386,,,,,0.2895,0.293,0.7617,46.9697,12.8125,0.4613
+BOD 4-class,random 70-30,8,Baseline: always most common class,936,386,,,,,0.2266,0.25,0.829,0.0,0.0,0.0
+BOD 4-class,random 70-30,8,MLR / Logistic Regression,936,386,,,,,0.2967,0.3596,0.6295,72.7273,30.3125,0.5868
+BOD 4-class,random 70-30,8,Random Forest,936,386,,,,,0.4576,0.4935,0.7876,66.6667,15.0,0.618
+BOD 4-class,random 70-30,8,XGBoost,936,386,,,,,0.39,0.4784,0.7409,80.303,18.4375,0.7048
+BOD 4-class,random 70-30,8,SVM,936,386,,,,,0.3369,0.3635,0.7332,65.1515,20.0,0.5795
+BOD 4-class,random 70-30,8,kNN,936,386,,,,,0.3206,0.3811,0.6554,77.2727,30.3125,0.6189
+BOD 4-class,random 70-30,8,LSTM,936,386,,,,,0.3001,0.3371,0.658,65.1515,25.625,0.5527
+BOD 4-class,random 70-30,9,Baseline: same class as last month,936,386,,,,,0.3256,0.3268,0.7772,49.3333,11.8971,0.4947
+BOD 4-class,random 70-30,9,Baseline: always most common class,936,386,,,,,0.2231,0.25,0.8057,0.0,0.0,0.0
+BOD 4-class,random 70-30,9,MLR / Logistic Regression,936,386,,,,,0.3346,0.358,0.6321,70.6667,30.5466,0.5915
+BOD 4-class,random 70-30,9,Random Forest,936,386,,,,,0.3605,0.4031,0.7409,61.3333,18.0064,0.5721
+BOD 4-class,random 70-30,9,XGBoost,936,386,,,,,0.3527,0.4238,0.6995,72.0,24.1158,0.6294
+BOD 4-class,random 70-30,9,SVM,936,386,,,,,0.3002,0.3224,0.6762,61.3333,24.7588,0.5437
+BOD 4-class,random 70-30,9,kNN,936,386,,,,,0.2961,0.3605,0.6036,69.3333,35.0482,0.564
+BOD 4-class,random 70-30,9,LSTM,936,386,,,,,0.3445,0.3891,0.658,74.6667,29.582,0.625
+BOD 4-class,random 80-20,0,Baseline: same class as last month,1064,258,,,,,0.3376,0.353,0.7829,52.5,13.3028,0.5
+BOD 4-class,random 80-20,0,Baseline: always most common class,1064,258,,,,,0.229,0.25,0.845,0.0,0.0,0.0
+BOD 4-class,random 80-20,0,MLR / Logistic Regression,1064,258,,,,,0.3023,0.3483,0.6434,85.0,31.1927,0.6489
+BOD 4-class,random 80-20,0,Random Forest,1064,258,,,,,0.3464,0.4031,0.7519,82.5,20.1835,0.6962
+BOD 4-class,random 80-20,0,XGBoost,1064,258,,,,,0.3486,0.4072,0.7093,80.0,24.3119,0.6531
+BOD 4-class,random 80-20,0,SVM,1064,258,,,,,0.3122,0.3813,0.6783,75.0,28.8991,0.5929
+BOD 4-class,random 80-20,0,kNN,1064,258,,,,,0.349,0.4479,0.6279,77.5,36.2385,0.5741
+BOD 4-class,random 80-20,0,LSTM,1064,258,,,,,0.3072,0.36,0.6163,80.0,34.8624,0.597
+BOD 4-class,random 80-20,1,Baseline: same class as last month,1064,258,,,,,0.3012,0.3067,0.7713,40.9091,12.6168,0.4072
+BOD 4-class,random 80-20,1,Baseline: always most common class,1064,258,,,,,0.2267,0.25,0.8295,0.0,0.0,0.0
+BOD 4-class,random 80-20,1,MLR / Logistic Regression,1064,258,,,,,0.2962,0.3406,0.6395,79.5455,29.4393,0.6387
+BOD 4-class,random 80-20,1,Random Forest,1064,258,,,,,0.4522,0.6281,0.7597,75.0,18.6916,0.6627
+BOD 4-class,random 80-20,1,XGBoost,1064,258,,,,,0.4625,0.6608,0.7326,77.2727,21.9626,0.6615
+BOD 4-class,random 80-20,1,SVM,1064,258,,,,,0.3222,0.3467,0.7132,61.3636,22.4299,0.5378
+BOD 4-class,random 80-20,1,kNN,1064,258,,,,,0.297,0.3308,0.6667,81.8182,29.4393,0.6545
+BOD 4-class,random 80-20,1,LSTM,1064,258,,,,,0.2956,0.3318,0.6512,61.3636,27.1028,0.5172
+BOD 4-class,random 80-20,2,Baseline: same class as last month,1064,258,,,,,0.2964,0.3037,0.7442,44.186,16.7442,0.4185
+BOD 4-class,random 80-20,2,Baseline: always most common class,1064,258,,,,,0.2273,0.25,0.8333,0.0,0.0,0.0
+BOD 4-class,random 80-20,2,MLR / Logistic Regression,1064,258,,,,,0.2801,0.2901,0.6163,83.7209,33.9535,0.6406
+BOD 4-class,random 80-20,2,Random Forest,1064,258,,,,,0.3549,0.3902,0.7287,69.7674,21.8605,0.6024
+BOD 4-class,random 80-20,2,XGBoost,1064,258,,,,,0.3289,0.3827,0.686,72.093,25.5814,0.6008
+BOD 4-class,random 80-20,2,SVM,1064,258,,,,,0.2957,0.3184,0.6899,67.4419,25.5814,0.5664
+BOD 4-class,random 80-20,2,kNN,1064,258,,,,,0.3012,0.3449,0.6395,62.7907,31.1628,0.5075
+BOD 4-class,random 80-20,2,LSTM,1064,258,,,,,0.2496,0.2833,0.5814,65.1163,33.0233,0.5166
+BOD 4-class,random 80-20,3,Baseline: same class as last month,1064,258,,,,,0.3251,0.3369,0.7674,52.9412,14.0097,0.5192
+BOD 4-class,random 80-20,3,Baseline: always most common class,1064,258,,,,,0.2226,0.25,0.8023,0.0,0.0,0.0
+BOD 4-class,random 80-20,3,MLR / Logistic Regression,1064,258,,,,,0.2973,0.3083,0.6434,72.549,27.5362,0.6208
+BOD 4-class,random 80-20,3,Random Forest,1064,258,,,,,0.4373,0.4635,0.7364,68.6275,20.7729,0.6206
+BOD 4-class,random 80-20,3,XGBoost,1064,258,,,,,0.4292,0.4675,0.7016,64.7059,23.6715,0.5769
+BOD 4-class,random 80-20,3,SVM,1064,258,,,,,0.3028,0.3201,0.6977,62.7451,23.1884,0.5634
+BOD 4-class,random 80-20,3,kNN,1064,258,,,,,0.3266,0.3583,0.6783,70.5882,27.0531,0.6081
+BOD 4-class,random 80-20,3,LSTM,1064,258,,,,,0.2855,0.3359,0.6047,74.5098,30.4348,0.623
+BOD 4-class,random 80-20,4,Baseline: same class as last month,1064,258,,,,,0.3062,0.31,0.7481,46.1538,14.0777,0.4598
+BOD 4-class,random 80-20,4,Baseline: always most common class,1064,258,,,,,0.222,0.25,0.7984,0.0,0.0,0.0
+BOD 4-class,random 80-20,4,MLR / Logistic Regression,1064,258,,,,,0.3323,0.415,0.5814,73.0769,33.9806,0.6013
+BOD 4-class,random 80-20,4,Random Forest,1064,258,,,,,0.4284,0.461,0.7636,75.0,17.9612,0.6866
+BOD 4-class,random 80-20,4,XGBoost,1064,258,,,,,0.4356,0.5369,0.6938,73.0769,25.7282,0.6355
+BOD 4-class,random 80-20,4,SVM,1064,258,,,,,0.3332,0.3561,0.7093,65.3846,21.8447,0.5923
+BOD 4-class,random 80-20,4,kNN,1064,258,,,,,0.3884,0.433,0.6279,67.3077,31.5534,0.5682
+BOD 4-class,random 80-20,4,LSTM,1064,258,,,,,0.2792,0.4136,0.5271,80.7692,39.3204,0.6344
+BOD 4-class,random 80-20,5,Baseline: same class as last month,1064,258,,,,,0.3336,0.3397,0.7829,54.1667,12.8571,0.5306
+BOD 4-class,random 80-20,5,Baseline: always most common class,1064,258,,,,,0.2244,0.25,0.814,0.0,0.0,0.0
+BOD 4-class,random 80-20,5,MLR / Logistic Regression,1064,258,,,,,0.3507,0.4535,0.655,79.1667,29.0476,0.6529
+BOD 4-class,random 80-20,5,Random Forest,1064,258,,,,,0.3471,0.3784,0.7287,70.8333,21.9048,0.625
+BOD 4-class,random 80-20,5,XGBoost,1064,258,,,,,0.3339,0.3615,0.7248,75.0,20.9524,0.6618
+BOD 4-class,random 80-20,5,SVM,1064,258,,,,,0.4947,0.4846,0.7054,70.8333,24.2857,0.6137
+BOD 4-class,random 80-20,5,kNN,1064,258,,,,,0.3108,0.3505,0.655,75.0,30.4762,0.6164
+BOD 4-class,random 80-20,5,LSTM,1064,258,,,,,0.3026,0.4169,0.5426,75.0,40.0,0.5769
+BOD 4-class,random 80-20,6,Baseline: same class as last month,1064,258,,,,,0.2895,0.2902,0.7171,38.5965,15.9204,0.3901
+BOD 4-class,random 80-20,6,Baseline: always most common class,1064,258,,,,,0.219,0.25,0.7791,0.0,0.0,0.0
+BOD 4-class,random 80-20,6,MLR / Logistic Regression,1064,258,,,,,0.2947,0.3091,0.6473,66.6667,24.3781,0.6032
+BOD 4-class,random 80-20,6,Random Forest,1064,258,,,,,0.3536,0.3827,0.7364,77.193,18.9055,0.7097
+BOD 4-class,random 80-20,6,XGBoost,1064,258,,,,,0.4038,0.519,0.7054,68.4211,20.398,0.6331
+BOD 4-class,random 80-20,6,SVM,1064,258,,,,,0.3144,0.3253,0.7093,59.6491,21.8905,0.5556
+BOD 4-class,random 80-20,6,kNN,1064,258,,,,,0.311,0.3428,0.6589,66.6667,26.8657,0.5938
+BOD 4-class,random 80-20,6,LSTM,1064,258,,,,,0.2776,0.2629,0.6202,63.1579,28.8557,0.559
+BOD 4-class,random 80-20,7,Baseline: same class as last month,1064,258,,,,,0.3467,0.3468,0.8062,43.5897,10.0457,0.4359
+BOD 4-class,random 80-20,7,Baseline: always most common class,1064,258,,,,,0.2296,0.25,0.8488,0.0,0.0,0.0
+BOD 4-class,random 80-20,7,MLR / Logistic Regression,1064,258,,,,,0.2765,0.2948,0.655,74.359,27.3973,0.5918
+BOD 4-class,random 80-20,7,Random Forest,1064,258,,,,,0.331,0.3555,0.7597,64.1026,16.895,0.5734
+BOD 4-class,random 80-20,7,XGBoost,1064,258,,,,,0.32,0.3435,0.7442,69.2308,18.2648,0.6054
+BOD 4-class,random 80-20,7,SVM,1064,258,,,,,0.279,0.3068,0.686,69.2308,25.5708,0.5649
+BOD 4-class,random 80-20,7,kNN,1064,258,,,,,0.3025,0.3656,0.6512,69.2308,30.5936,0.54
+BOD 4-class,random 80-20,7,LSTM,1064,258,,,,,0.3287,0.3666,0.7209,71.7949,22.8311,0.5983
+BOD 4-class,random 80-20,8,Baseline: same class as last month,1064,258,,,,,0.2687,0.2679,0.7519,38.0952,13.4259,0.3756
+BOD 4-class,random 80-20,8,Baseline: always most common class,1064,258,,,,,0.2278,0.25,0.8372,0.0,0.0,0.0
+BOD 4-class,random 80-20,8,MLR / Logistic Regression,1064,258,,,,,0.2835,0.3193,0.6512,64.2857,27.3148,0.5315
+BOD 4-class,random 80-20,8,Random Forest,1064,258,,,,,0.4509,0.5992,0.7791,61.9048,16.2037,0.5677
+BOD 4-class,random 80-20,8,XGBoost,1064,258,,,,,0.4246,0.59,0.7364,59.5238,19.4444,0.5319
+BOD 4-class,random 80-20,8,SVM,1064,258,,,,,0.2949,0.3105,0.7287,57.1429,19.9074,0.5106
+BOD 4-class,random 80-20,8,kNN,1064,258,,,,,0.27,0.2839,0.6395,69.0476,30.5556,0.5513
+BOD 4-class,random 80-20,8,LSTM,1064,258,,,,,0.2865,0.3057,0.6589,71.4286,27.3148,0.5837
+BOD 4-class,random 80-20,9,Baseline: same class as last month,1064,258,,,,,0.2849,0.2828,0.7519,32.6087,13.2075,0.3304
+BOD 4-class,random 80-20,9,Baseline: always most common class,1064,258,,,,,0.2255,0.25,0.8217,0.0,0.0,0.0
+BOD 4-class,random 80-20,9,MLR / Logistic Regression,1064,258,,,,,0.3312,0.4431,0.6589,60.8696,24.5283,0.5303
+BOD 4-class,random 80-20,9,Random Forest,1064,258,,,,,0.4529,0.5181,0.7636,60.8696,15.566,0.5714
+BOD 4-class,random 80-20,9,XGBoost,1064,258,,,,,0.3795,0.4955,0.7248,65.2174,19.3396,0.5882
+BOD 4-class,random 80-20,9,SVM,1064,258,,,,,0.3218,0.3469,0.7054,54.3478,22.6415,0.4864
+BOD 4-class,random 80-20,9,kNN,1064,258,,,,,0.3177,0.4201,0.6357,60.8696,30.1887,0.5072
+BOD 4-class,random 80-20,9,LSTM,1064,258,,,,,0.2692,0.4099,0.5853,58.6957,32.5472,0.4821
+BOD 4-class,10-fold CV,0,Baseline: same class as last month,1193,129,,,,,0.2725,0.2705,0.7442,40.9091,14.0187,0.4018
+BOD 4-class,10-fold CV,0,Baseline: always most common class,1193,129,,,,,0.2267,0.25,0.8295,0.0,0.0,0.0
+BOD 4-class,10-fold CV,0,MLR / Logistic Regression,1193,129,,,,,0.3059,0.3605,0.6589,95.4545,28.0374,0.7554
+BOD 4-class,10-fold CV,0,Random Forest,1193,129,,,,,0.3543,0.4001,0.7907,86.3636,17.757,0.754
+BOD 4-class,10-fold CV,0,XGBoost,1193,129,,,,,0.3684,0.4416,0.7364,90.9091,23.3645,0.7519
+BOD 4-class,10-fold CV,0,SVM,1193,129,,,,,0.331,0.3745,0.7442,77.2727,22.4299,0.6589
+BOD 4-class,10-fold CV,0,kNN,1193,129,,,,,0.3696,0.5062,0.6822,81.8182,30.8411,0.6475
+BOD 4-class,10-fold CV,0,LSTM,1193,129,,,,,0.2451,0.4551,0.5349,72.7273,40.1869,0.5442
+BOD 4-class,10-fold CV,1,Baseline: same class as last month,1193,129,,,,,0.3444,0.3756,0.845,77.7778,8.1081,0.7368
+BOD 4-class,10-fold CV,1,Baseline: always most common class,1193,129,,,,,0.2312,0.25,0.8605,0.0,0.0,0.0
+BOD 4-class,10-fold CV,1,MLR / Logistic Regression,1193,129,,,,,0.2948,0.4234,0.6434,94.4444,30.6306,0.6911
+BOD 4-class,10-fold CV,1,Random Forest,1193,129,,,,,0.2725,0.3024,0.7209,72.2222,20.7207,0.6019
+BOD 4-class,10-fold CV,1,XGBoost,1193,129,,,,,0.3848,0.5687,0.7364,88.8889,22.5225,0.708
+BOD 4-class,10-fold CV,1,SVM,1193,129,,,,,0.3042,0.3626,0.7364,77.7778,21.6216,0.6364
+BOD 4-class,10-fold CV,1,kNN,1193,129,,,,,0.303,0.4003,0.6512,88.8889,31.5315,0.6504
+BOD 4-class,10-fold CV,1,LSTM,1193,129,,,,,0.2522,0.42,0.4806,94.4444,48.6486,0.5944
+BOD 4-class,10-fold CV,2,Baseline: same class as last month,1193,129,,,,,0.3611,0.3622,0.7442,40.0,13.4615,0.4032
+BOD 4-class,10-fold CV,2,Baseline: always most common class,1193,129,,,,,0.2232,0.25,0.8062,0.0,0.0,0.0
+BOD 4-class,10-fold CV,2,MLR / Logistic Regression,1193,129,,,,,0.2855,0.2702,0.6434,68.0,26.9231,0.5862
+BOD 4-class,10-fold CV,2,Random Forest,1193,129,,,,,0.4899,0.4644,0.7442,72.0,19.2308,0.6522
+BOD 4-class,10-fold CV,2,XGBoost,1193,129,,,,,0.4973,0.5054,0.7132,72.0,21.1538,0.6429
+BOD 4-class,10-fold CV,2,SVM,1193,129,,,,,0.3595,0.4035,0.6822,68.0,26.9231,0.5862
+BOD 4-class,10-fold CV,2,kNN,1193,129,,,,,0.3111,0.3819,0.6124,72.0,35.5769,0.5806
+BOD 4-class,10-fold CV,2,LSTM,1193,129,,,,,0.2715,0.3088,0.6047,60.0,29.8077,0.5137
+BOD 4-class,10-fold CV,3,Baseline: same class as last month,1193,129,,,,,0.4467,0.4662,0.7907,59.0909,13.0841,0.5652
+BOD 4-class,10-fold CV,3,Baseline: always most common class,1193,129,,,,,0.3023,0.3333,0.8295,0.0,0.0,0.0
+BOD 4-class,10-fold CV,3,MLR / Logistic Regression,1193,129,,,,,0.4556,0.5606,0.6744,72.7273,27.1028,0.6015
+BOD 4-class,10-fold CV,3,Random Forest,1193,129,,,,,0.4742,0.5055,0.7364,54.5455,17.757,0.5042
+BOD 4-class,10-fold CV,3,XGBoost,1193,129,,,,,0.4878,0.5323,0.7209,63.6364,21.4953,0.56
+BOD 4-class,10-fold CV,3,SVM,1193,129,,,,,0.3726,0.403,0.6744,59.0909,26.1682,0.5039
+BOD 4-class,10-fold CV,3,kNN,1193,129,,,,,0.4495,0.5372,0.6512,72.7273,31.7757,0.5797
+BOD 4-class,10-fold CV,3,LSTM,1193,129,,,,,0.4508,0.5073,0.6589,68.1818,28.972,0.5597
+BOD 4-class,10-fold CV,4,Baseline: same class as last month,1193,129,,,,,0.3099,0.3197,0.7519,45.4545,15.8879,0.4348
+BOD 4-class,10-fold CV,4,Baseline: always most common class,1193,129,,,,,0.2267,0.25,0.8295,0.0,0.0,0.0
+BOD 4-class,10-fold CV,4,MLR / Logistic Regression,1193,129,,,,,0.2791,0.283,0.6744,68.1818,24.2991,0.5814
+BOD 4-class,10-fold CV,4,Random Forest,1193,129,,,,,0.2784,0.2884,0.7364,54.5455,15.8879,0.5128
+BOD 4-class,10-fold CV,4,XGBoost,1193,129,,,,,0.2808,0.2861,0.7287,50.0,16.8224,0.4701
+BOD 4-class,10-fold CV,4,SVM,1193,129,,,,,0.317,0.3502,0.7209,68.1818,22.4299,0.5906
+BOD 4-class,10-fold CV,4,kNN,1193,129,,,,,0.3263,0.3744,0.6899,72.7273,25.2336,0.6107
+BOD 4-class,10-fold CV,4,LSTM,1193,129,,,,,0.2436,0.2338,0.6434,59.0909,25.2336,0.5078
+BOD 4-class,10-fold CV,5,Baseline: same class as last month,1193,129,,,,,0.4207,0.4077,0.7907,33.3333,6.8627,0.3629
+BOD 4-class,10-fold CV,5,Baseline: always most common class,1193,129,,,,,0.2944,0.3333,0.7907,0.0,0.0,0.0
+BOD 4-class,10-fold CV,5,MLR / Logistic Regression,1193,129,,,,,0.3984,0.4485,0.6822,70.3704,19.6078,0.6463
+BOD 4-class,10-fold CV,5,Random Forest,1193,129,,,,,0.5995,0.6275,0.8295,77.7778,11.7647,0.7447
+BOD 4-class,10-fold CV,5,XGBoost,1193,129,,,,,0.5261,0.5727,0.7752,77.7778,15.6863,0.7241
+BOD 4-class,10-fold CV,5,SVM,1193,129,,,,,0.5101,0.5556,0.7597,59.2593,16.6667,0.5674
+BOD 4-class,10-fold CV,5,kNN,1193,129,,,,,0.4895,0.7157,0.6279,74.0741,35.2941,0.6098
+BOD 4-class,10-fold CV,5,LSTM,1193,129,,,,,0.4145,0.4567,0.6512,74.0741,25.4902,0.6494
+BOD 4-class,10-fold CV,6,Baseline: same class as last month,1194,128,,,,,0.4397,0.4259,0.7656,54.8387,9.2784,0.5667
+BOD 4-class,10-fold CV,6,Baseline: always most common class,1194,128,,,,,0.2874,0.3333,0.7578,0.0,0.0,0.0
+BOD 4-class,10-fold CV,6,MLR / Logistic Regression,1194,128,,,,,0.3658,0.329,0.5859,77.4194,30.9278,0.6742
+BOD 4-class,10-fold CV,6,Random Forest,1194,128,,,,,0.5317,0.5702,0.75,77.4194,20.6186,0.7143
+BOD 4-class,10-fold CV,6,XGBoost,1194,128,,,,,0.4249,0.4542,0.6484,74.1935,25.7732,0.6686
+BOD 4-class,10-fold CV,6,SVM,1194,128,,,,,0.4531,0.4498,0.7188,77.4194,20.6186,0.7143
+BOD 4-class,10-fold CV,6,kNN,1194,128,,,,,0.4976,0.5944,0.6641,83.871,30.9278,0.7222
+BOD 4-class,10-fold CV,6,LSTM,1194,128,,,,,0.339,0.3616,0.5391,70.9677,35.0515,0.6111
+BOD 4-class,10-fold CV,7,Baseline: same class as last month,1194,128,,,,,0.2993,0.302,0.75,40.9091,16.0377,0.3947
+BOD 4-class,10-fold CV,7,Baseline: always most common class,1194,128,,,,,0.2265,0.25,0.8281,0.0,0.0,0.0
+BOD 4-class,10-fold CV,7,MLR / Logistic Regression,1194,128,,,,,0.4152,0.6797,0.7031,77.2727,25.4717,0.6439
+BOD 4-class,10-fold CV,7,Random Forest,1194,128,,,,,0.3784,0.4665,0.7812,81.8182,16.0377,0.7317
+BOD 4-class,10-fold CV,7,XGBoost,1194,128,,,,,0.2813,0.2686,0.7109,72.7273,18.8679,0.6452
+BOD 4-class,10-fold CV,7,SVM,1194,128,,,,,0.4316,0.4904,0.7891,63.6364,16.9811,0.5833
+BOD 4-class,10-fold CV,7,kNN,1194,128,,,,,0.3412,0.449,0.6875,72.7273,28.3019,0.597
+BOD 4-class,10-fold CV,7,LSTM,1194,128,,,,,0.2929,0.488,0.6172,68.1818,31.1321,0.5515
+BOD 4-class,10-fold CV,8,Baseline: same class as last month,1194,128,,,,,0.3751,0.3757,0.7344,32.0,14.5631,0.3252
+BOD 4-class,10-fold CV,8,Baseline: always most common class,1194,128,,,,,0.2973,0.3333,0.8047,0.0,0.0,0.0
+BOD 4-class,10-fold CV,8,MLR / Logistic Regression,1194,128,,,,,0.3653,0.4177,0.6328,52.0,26.2136,0.4643
+BOD 4-class,10-fold CV,8,Random Forest,1194,128,,,,,0.4134,0.4201,0.7266,68.0,19.4175,0.6204
+BOD 4-class,10-fold CV,8,XGBoost,1194,128,,,,,0.3681,0.3585,0.6641,56.0,24.2718,0.5036
+BOD 4-class,10-fold CV,8,SVM,1194,128,,,,,0.4653,0.5183,0.7031,56.0,23.301,0.5072
+BOD 4-class,10-fold CV,8,kNN,1194,128,,,,,0.4276,0.5011,0.6328,64.0,33.0097,0.5333
+BOD 4-class,10-fold CV,8,LSTM,1194,128,,,,,0.2872,0.3366,0.5234,52.0,36.8932,0.4305
+BOD 4-class,10-fold CV,9,Baseline: same class as last month,1194,128,,,,,0.3744,0.375,0.6641,40.625,20.8333,0.4037
+BOD 4-class,10-fold CV,9,Baseline: always most common class,1194,128,,,,,0.2857,0.3333,0.75,0.0,0.0,0.0
+BOD 4-class,10-fold CV,9,MLR / Logistic Regression,1194,128,,,,,0.4429,0.5438,0.6172,71.875,30.2083,0.6389
+BOD 4-class,10-fold CV,9,Random Forest,1194,128,,,,,0.5169,0.5473,0.6875,59.375,23.9583,0.5588
+BOD 4-class,10-fold CV,9,XGBoost,1194,128,,,,,0.5213,0.565,0.6875,59.375,26.0417,0.5523
+BOD 4-class,10-fold CV,9,SVM,1194,128,,,,,0.3862,0.3893,0.6562,56.25,23.9583,0.5325
+BOD 4-class,10-fold CV,9,kNN,1194,128,,,,,0.3926,0.4104,0.6016,53.125,30.2083,0.4885
+BOD 4-class,10-fold CV,9,LSTM,1194,128,,,,,0.3652,0.4173,0.5547,59.375,33.3333,0.5307
+BOD 4-class,chronological 60-40,2023-02,Baseline: same class as last month,812,508,,,,,0.424,0.4243,0.7697,49.4737,11.8644,0.4937
+BOD 4-class,chronological 60-40,2023-02,Baseline: always most common class,812,508,,,,,0.299,0.3333,0.813,0.0,0.0,0.0
+BOD 4-class,chronological 60-40,2023-02,MLR / Logistic Regression,812,508,,,,,0.4333,0.4772,0.6772,68.4211,26.1501,0.5877
+BOD 4-class,chronological 60-40,2023-02,Random Forest,812,508,,,,,0.4729,0.4792,0.7953,57.8947,11.8644,0.5682
+BOD 4-class,chronological 60-40,2023-02,XGBoost,812,508,,,,,0.4716,0.4979,0.7421,67.3684,20.0969,0.6072
+BOD 4-class,chronological 60-40,2023-02,SVM,812,508,,,,,0.3912,0.4038,0.7185,52.6316,19.3705,0.4902
+BOD 4-class,chronological 60-40,2023-02,kNN,812,508,,,,,0.4051,0.4723,0.5748,66.3158,40.1937,0.5172
+BOD 4-class,chronological 60-40,2023-02,LSTM,812,508,,,,,0.4327,0.4521,0.7126,64.2105,22.5182,0.5712
+BOD 4-class,chronological 70-30,2023-11,Baseline: same class as last month,947,373,,,,,0.4135,0.4138,0.7078,51.1111,15.9011,0.51
+BOD 4-class,chronological 70-30,2023-11,Baseline: always most common class,947,373,,,,,0.2876,0.3333,0.7587,0.0,0.0,0.0
+BOD 4-class,chronological 70-30,2023-11,MLR / Logistic Regression,947,373,,,,,0.4546,0.4619,0.7051,63.3333,18.0212,0.609
+BOD 4-class,chronological 70-30,2023-11,Random Forest,947,373,,,,,0.4429,0.4486,0.756,54.4444,12.7208,0.5506
+BOD 4-class,chronological 70-30,2023-11,XGBoost,947,373,,,,,0.479,0.4914,0.7185,67.7778,20.4947,0.6367
+BOD 4-class,chronological 70-30,2023-11,SVM,947,373,,,,,0.4238,0.4267,0.6917,52.2222,20.1413,0.5065
+BOD 4-class,chronological 70-30,2023-11,kNN,947,373,,,,,0.4245,0.4427,0.6381,63.3333,29.682,0.5689
+BOD 4-class,chronological 70-30,2023-11,LSTM,947,373,,,,,0.4256,0.4319,0.681,64.4444,22.6148,0.6017
+BOD 4-class,chronological 80-20,2024-07,Baseline: same class as last month,1067,255,,,,,0.4112,0.4129,0.6667,51.4706,20.3209,0.5072
+BOD 4-class,chronological 80-20,2024-07,Baseline: always most common class,1067,255,,,,,0.2821,0.3333,0.7333,0.0,0.0,0.0
+BOD 4-class,chronological 80-20,2024-07,MLR / Logistic Regression,1067,255,,,,,0.4321,0.4304,0.6784,61.7647,20.3209,0.5966
+BOD 4-class,chronological 80-20,2024-07,Random Forest,1067,255,,,,,0.4539,0.4629,0.7412,57.3529,15.508,0.5735
+BOD 4-class,chronological 80-20,2024-07,XGBoost,1067,255,,,,,0.4882,0.4952,0.7137,66.1765,21.9251,0.6285
+BOD 4-class,chronological 80-20,2024-07,SVM,1067,255,,,,,0.4002,0.4049,0.6941,45.5882,17.1123,0.4627
+BOD 4-class,chronological 80-20,2024-07,kNN,1067,255,,,,,0.4651,0.4775,0.6745,60.2941,24.0642,0.5726
+BOD 4-class,chronological 80-20,2024-07,LSTM,1067,255,,,,,0.4276,0.4319,0.7176,50.0,16.0428,0.506
+BOD 4-class,rolling year-by-year,2018,Baseline: same class as last month,198,108,,,,,0.2685,0.2685,0.8241,18.1818,9.2784,0.1818
+BOD 4-class,rolling year-by-year,2018,Baseline: always most common class,198,108,,,,,0.2366,0.25,0.8981,0.0,0.0,0.0
+BOD 4-class,rolling year-by-year,2018,MLR / Logistic Regression,198,108,,,,,0.2897,0.3913,0.6852,45.4545,26.8041,0.3333
+BOD 4-class,rolling year-by-year,2018,Random Forest,198,108,,,,,0.3502,0.4012,0.8611,36.3636,6.1856,0.3704
+BOD 4-class,rolling year-by-year,2018,XGBoost,198,108,,,,,0.3405,0.396,0.8426,36.3636,8.2474,0.3571
+BOD 4-class,rolling year-by-year,2018,SVM,198,108,,,,,0.3412,0.3729,0.7593,27.2727,17.5258,0.2344
+BOD 4-class,rolling year-by-year,2018,kNN,198,108,,,,,0.2026,0.2015,0.5833,45.4545,36.0825,0.2976
+BOD 4-class,rolling year-by-year,2018,LSTM,198,108,,,,,0.2372,0.3239,0.5833,72.7273,37.1134,0.4545
+BOD 4-class,rolling year-by-year,2019,Baseline: same class as last month,306,108,,,,,0.2667,0.2661,0.5926,41.1765,24.3243,0.4167
+BOD 4-class,rolling year-by-year,2019,Baseline: always most common class,306,108,,,,,0.2033,0.25,0.6852,0.0,0.0,0.0
+BOD 4-class,rolling year-by-year,2019,MLR / Logistic Regression,306,108,,,,,0.3128,0.3331,0.5833,64.7059,27.027,0.618
+BOD 4-class,rolling year-by-year,2019,Random Forest,306,108,,,,,0.2962,0.2976,0.713,41.1765,4.0541,0.4575
+BOD 4-class,rolling year-by-year,2019,XGBoost,306,108,,,,,0.3101,0.3623,0.5926,61.7647,24.3243,0.6
+BOD 4-class,rolling year-by-year,2019,SVM,306,108,,,,,0.2915,0.2969,0.6574,35.2941,9.4595,0.3871
+BOD 4-class,rolling year-by-year,2019,kNN,306,108,,,,,0.2854,0.3066,0.5278,58.8235,33.7838,0.5525
+BOD 4-class,rolling year-by-year,2019,LSTM,306,108,,,,,0.2148,0.1978,0.4907,50.0,32.4324,0.4802
+BOD 4-class,rolling year-by-year,2020,Baseline: same class as last month,414,45,,,,,0.6011,0.6222,0.7556,42.8571,18.4211,0.3947
+BOD 4-class,rolling year-by-year,2020,Baseline: always most common class,414,45,,,,,0.4578,0.5,0.8444,0.0,0.0,0.0
+BOD 4-class,rolling year-by-year,2020,MLR / Logistic Regression,414,45,,,,,0.5538,0.5376,0.7111,28.5714,21.0526,0.2632
+BOD 4-class,rolling year-by-year,2020,Random Forest,414,45,,,,,0.775,0.7143,0.9111,42.8571,0.0,0.4839
+BOD 4-class,rolling year-by-year,2020,XGBoost,414,45,,,,,0.6974,0.6617,0.8222,42.8571,10.5263,0.4286
+BOD 4-class,rolling year-by-year,2020,SVM,414,45,,,,,0.7448,0.7782,0.8222,85.7143,15.7895,0.75
+BOD 4-class,rolling year-by-year,2020,kNN,414,45,,,,,0.6866,0.6936,0.7778,71.4286,18.4211,0.625
+BOD 4-class,rolling year-by-year,2020,LSTM,414,45,,,,,0.6009,0.5771,0.7778,28.5714,13.1579,0.2857
+BOD 4-class,rolling year-by-year,2021,Baseline: same class as last month,468,125,,,,,0.5421,0.5421,0.744,23.8095,15.3846,0.2381
+BOD 4-class,rolling year-by-year,2021,Baseline: always most common class,468,125,,,,,0.4541,0.5,0.832,0.0,0.0,0.0
+BOD 4-class,rolling year-by-year,2021,MLR / Logistic Regression,468,125,,,,,0.5427,0.513,0.664,52.381,25.9615,0.4508
+BOD 4-class,rolling year-by-year,2021,Random Forest,468,125,,,,,0.6602,0.6234,0.816,38.0952,8.6538,0.396
+BOD 4-class,rolling year-by-year,2021,XGBoost,468,125,,,,,0.6335,0.6181,0.744,52.381,19.2308,0.4783
+BOD 4-class,rolling year-by-year,2021,SVM,468,125,,,,,0.6068,0.5991,0.744,38.0952,18.2692,0.3604
+BOD 4-class,rolling year-by-year,2021,kNN,468,125,,,,,0.548,0.56,0.584,80.9524,40.3846,0.5944
+BOD 4-class,rolling year-by-year,2021,LSTM,468,125,,,,,0.5614,0.5511,0.664,47.619,27.8846,0.4065
+BOD 4-class,rolling year-by-year,2022,Baseline: same class as last month,618,164,,,,,0.3259,0.3264,0.7012,59.1837,18.2609,0.5894
+BOD 4-class,rolling year-by-year,2022,Baseline: always most common class,618,164,,,,,0.2061,0.25,0.7012,0.0,0.0,0.0
+BOD 4-class,rolling year-by-year,2022,MLR / Logistic Regression,618,164,,,,,0.2931,0.2975,0.5793,79.5918,39.1304,0.6964
+BOD 4-class,rolling year-by-year,2022,Random Forest,618,164,,,,,0.3322,0.3374,0.7012,63.2653,20.8696,0.6175
+BOD 4-class,rolling year-by-year,2022,XGBoost,618,164,,,,,0.3503,0.3563,0.7134,81.6327,22.6087,0.7634
+BOD 4-class,rolling year-by-year,2022,SVM,618,164,,,,,0.3179,0.3148,0.689,55.102,18.2609,0.5533
+BOD 4-class,rolling year-by-year,2022,kNN,618,164,,,,,0.2719,0.283,0.5488,67.3469,42.6087,0.5935
+BOD 4-class,rolling year-by-year,2022,LSTM,618,164,,,,,0.3237,0.3309,0.6524,71.4286,30.4348,0.6579
+BOD 4-class,rolling year-by-year,2023,Baseline: same class as last month,782,180,,,,,0.5886,0.5886,0.9556,20.0,2.2857,0.2
+BOD 4-class,rolling year-by-year,2023,Baseline: always most common class,782,180,,,,,0.493,0.5,0.9722,0.0,0.0,0.0
+BOD 4-class,rolling year-by-year,2023,MLR / Logistic Regression,782,180,,,,,0.522,0.6914,0.7778,60.0,21.7143,0.2459
+BOD 4-class,rolling year-by-year,2023,Random Forest,782,180,,,,,0.5526,0.5743,0.9278,20.0,5.1429,0.1667
+BOD 4-class,rolling year-by-year,2023,XGBoost,782,180,,,,,0.5488,0.6429,0.8722,40.0,11.4286,0.2381
+BOD 4-class,rolling year-by-year,2023,SVM,782,180,,,,,0.4964,0.6057,0.8,40.0,18.8571,0.1818
+BOD 4-class,rolling year-by-year,2023,kNN,782,180,,,,,0.3902,0.4886,0.5722,40.0,42.2857,0.1042
+BOD 4-class,rolling year-by-year,2023,LSTM,782,180,,,,,0.4921,0.5314,0.8444,20.0,13.7143,0.1111
+BOD 4-class,rolling year-by-year,2024,Baseline: same class as last month,962,178,,,,,0.3345,0.3355,0.691,32.5,14.4928,0.3368
+BOD 4-class,rolling year-by-year,2024,Baseline: always most common class,962,178,,,,,0.2911,0.3333,0.7753,0.0,0.0,0.0
+BOD 4-class,rolling year-by-year,2024,MLR / Logistic Regression,962,178,,,,,0.3917,0.4196,0.6404,55.0,23.913,0.5116
+BOD 4-class,rolling year-by-year,2024,Random Forest,962,178,,,,,0.3816,0.3917,0.6966,42.5,18.8406,0.4187
+BOD 4-class,rolling year-by-year,2024,XGBoost,962,178,,,,,0.3934,0.3998,0.6461,47.5,24.6377,0.446
+BOD 4-class,rolling year-by-year,2024,SVM,962,178,,,,,0.3273,0.3276,0.6011,42.5,28.9855,0.3917
+BOD 4-class,rolling year-by-year,2024,kNN,962,178,,,,,0.4114,0.4367,0.6067,62.5,34.7826,0.5365
+BOD 4-class,rolling year-by-year,2024,LSTM,962,178,,,,,0.4176,0.4156,0.6292,52.5,28.9855,0.4751
+BOD 4-class,rolling year-by-year,2025,Baseline: same class as last month,1142,180,,,,,0.463,0.4689,0.7,66.0,19.2308,0.6395
+BOD 4-class,rolling year-by-year,2025,Baseline: always most common class,1142,180,,,,,0.2796,0.3333,0.7222,0.0,0.0,0.0
+BOD 4-class,rolling year-by-year,2025,MLR / Logistic Regression,1142,180,,,,,0.4258,0.4083,0.6556,68.0,23.8462,0.6415
+BOD 4-class,rolling year-by-year,2025,Random Forest,1142,180,,,,,0.5252,0.5255,0.7889,80.0,13.0769,0.7782
+BOD 4-class,rolling year-by-year,2025,XGBoost,1142,180,,,,,0.4965,0.5078,0.7,82.0,24.6154,0.7509
+BOD 4-class,rolling year-by-year,2025,SVM,1142,180,,,,,0.3924,0.3959,0.6889,48.0,15.3846,0.4918
+BOD 4-class,rolling year-by-year,2025,kNN,1142,180,,,,,0.4141,0.4308,0.6056,66.0,33.0769,0.5978
+BOD 4-class,rolling year-by-year,2025,LSTM,1142,180,,,,,0.482,0.4939,0.7444,72.0,17.6923,0.695
+FC 5-class,random 60-40,0,Baseline: same class as last month,796,526,,,,,0.4917,0.4911,0.5932,68.6869,7.0258,0.6883
+FC 5-class,random 60-40,0,Baseline: always most common class,796,526,,,,,0.132,0.2,0.4924,0.0,0.0,0.0
+FC 5-class,random 60-40,0,MLR / Logistic Regression,796,526,,,,,0.4928,0.49,0.6236,72.7273,6.3232,0.7273
+FC 5-class,random 60-40,0,Random Forest,796,526,,,,,0.5101,0.5004,0.6103,66.6667,5.8548,0.6776
+FC 5-class,random 60-40,0,XGBoost,796,526,,,,,0.506,0.5016,0.6103,70.7071,6.5574,0.7085
+FC 5-class,random 60-40,0,SVM,796,526,,,,,0.4771,0.4659,0.6084,63.6364,4.918,0.6562
+FC 5-class,random 60-40,0,kNN,796,526,,,,,0.4098,0.3927,0.5608,45.4545,4.6838,0.4881
+FC 5-class,random 60-40,0,LSTM,796,526,,,,,0.4169,0.407,0.5722,55.5556,5.3864,0.5802
+FC 5-class,random 60-40,1,Baseline: same class as last month,796,526,,,,,0.4834,0.4886,0.6084,69.6629,7.0938,0.6904
+FC 5-class,random 60-40,1,Baseline: always most common class,796,526,,,,,0.1357,0.2,0.5133,0.0,0.0,0.0
+FC 5-class,random 60-40,1,MLR / Logistic Regression,796,526,,,,,0.5092,0.5055,0.6445,70.7865,5.2632,0.7127
+FC 5-class,random 60-40,1,Random Forest,796,526,,,,,0.4937,0.4869,0.6388,65.1685,6.6362,0.6546
+FC 5-class,random 60-40,1,XGBoost,796,526,,,,,0.5071,0.5028,0.6388,68.5393,7.0938,0.6808
+FC 5-class,random 60-40,1,SVM,796,526,,,,,0.4877,0.4813,0.6293,67.4157,6.6362,0.6742
+FC 5-class,random 60-40,1,kNN,796,526,,,,,0.4513,0.4355,0.576,50.5618,5.2632,0.5307
+FC 5-class,random 60-40,1,LSTM,796,526,,,,,0.4395,0.4319,0.6008,62.9213,5.492,0.6422
+FC 5-class,random 60-40,2,Baseline: same class as last month,796,526,,,,,0.5309,0.5363,0.6274,73.2673,5.4118,0.7385
+FC 5-class,random 60-40,2,Baseline: always most common class,796,526,,,,,0.1306,0.2,0.4848,0.0,0.0,0.0
+FC 5-class,random 60-40,2,MLR / Logistic Regression,796,526,,,,,0.4816,0.4764,0.6198,67.3267,3.7647,0.6967
+FC 5-class,random 60-40,2,Random Forest,796,526,,,,,0.5273,0.5149,0.6388,65.3465,3.5294,0.6804
+FC 5-class,random 60-40,2,XGBoost,796,526,,,,,0.5215,0.5104,0.635,65.3465,4.0,0.6776
+FC 5-class,random 60-40,2,SVM,796,526,,,,,0.4823,0.4688,0.6084,65.3465,3.2941,0.6818
+FC 5-class,random 60-40,2,kNN,796,526,,,,,0.423,0.4034,0.5665,45.5446,2.3529,0.5
+FC 5-class,random 60-40,2,LSTM,796,526,,,,,0.3886,0.3825,0.5627,58.4158,4.7059,0.6108
+FC 5-class,random 60-40,3,Baseline: same class as last month,796,526,,,,,0.4934,0.4952,0.6141,72.8261,5.9908,0.7267
+FC 5-class,random 60-40,3,Baseline: always most common class,796,526,,,,,0.1323,0.2,0.4943,0.0,0.0,0.0
+FC 5-class,random 60-40,3,MLR / Logistic Regression,796,526,,,,,0.4422,0.4559,0.5951,68.4783,5.7604,0.6908
+FC 5-class,random 60-40,3,Random Forest,796,526,,,,,0.506,0.5019,0.6331,69.5652,5.0691,0.7048
+FC 5-class,random 60-40,3,XGBoost,796,526,,,,,0.5165,0.5143,0.6388,72.8261,5.0691,0.733
+FC 5-class,random 60-40,3,SVM,796,526,,,,,0.4565,0.4467,0.597,60.8696,2.9954,0.6407
+FC 5-class,random 60-40,3,kNN,796,526,,,,,0.4068,0.3928,0.5437,44.5652,4.3779,0.479
+FC 5-class,random 60-40,3,LSTM,796,526,,,,,0.425,0.4197,0.5684,61.9565,5.53,0.6347
+FC 5-class,random 60-40,4,Baseline: same class as last month,796,526,,,,,0.4931,0.4914,0.5989,71.1111,5.7339,0.7127
+FC 5-class,random 60-40,4,Baseline: always most common class,796,526,,,,,0.132,0.2,0.4924,0.0,0.0,0.0
+FC 5-class,random 60-40,4,MLR / Logistic Regression,796,526,,,,,0.4484,0.4523,0.6008,74.4444,5.5046,0.7428
+FC 5-class,random 60-40,4,Random Forest,796,526,,,,,0.48,0.4748,0.6008,68.8889,6.6514,0.6874
+FC 5-class,random 60-40,4,XGBoost,796,526,,,,,0.47,0.4628,0.5951,68.8889,6.422,0.6889
+FC 5-class,random 60-40,4,SVM,796,526,,,,,0.4632,0.4572,0.5932,70.0,5.0459,0.7079
+FC 5-class,random 60-40,4,kNN,796,526,,,,,0.3987,0.3857,0.5494,52.2222,4.5872,0.5504
+FC 5-class,random 60-40,4,LSTM,796,526,,,,,0.4144,0.407,0.5684,63.3333,5.9633,0.6433
+FC 5-class,random 60-40,5,Baseline: same class as last month,796,526,,,,,0.5294,0.5355,0.6407,76.9231,6.4368,0.7576
+FC 5-class,random 60-40,5,Baseline: always most common class,796,526,,,,,0.134,0.2,0.5038,0.0,0.0,0.0
+FC 5-class,random 60-40,5,MLR / Logistic Regression,796,526,,,,,0.478,0.4788,0.6293,75.8242,6.2069,0.75
+FC 5-class,random 60-40,5,Random Forest,796,526,,,,,0.5152,0.5068,0.6483,64.8352,3.4483,0.6735
+FC 5-class,random 60-40,5,XGBoost,796,526,,,,,0.4857,0.4797,0.6293,68.1319,4.5977,0.6951
+FC 5-class,random 60-40,5,SVM,796,526,,,,,0.4653,0.4578,0.6084,68.1319,4.8276,0.6935
+FC 5-class,random 60-40,5,kNN,796,526,,,,,0.4059,0.3926,0.5627,45.0549,4.5977,0.4824
+FC 5-class,random 60-40,5,LSTM,796,526,,,,,0.419,0.416,0.576,63.7363,6.6667,0.643
+FC 5-class,random 60-40,6,Baseline: same class as last month,796,526,,,,,0.5281,0.5269,0.6464,69.7917,7.2093,0.695
+FC 5-class,random 60-40,6,Baseline: always most common class,796,526,,,,,0.134,0.2,0.5038,0.0,0.0,0.0
+FC 5-class,random 60-40,6,MLR / Logistic Regression,796,526,,,,,0.4965,0.4965,0.6407,72.9167,6.0465,0.7292
+FC 5-class,random 60-40,6,Random Forest,796,526,,,,,0.5231,0.5146,0.6578,69.7917,6.2791,0.7008
+FC 5-class,random 60-40,6,XGBoost,796,526,,,,,0.5254,0.5158,0.6559,62.5,5.814,0.6397
+FC 5-class,random 60-40,6,SVM,796,526,,,,,0.4666,0.4677,0.6179,70.8333,5.3488,0.7158
+FC 5-class,random 60-40,6,kNN,796,526,,,,,0.395,0.3808,0.5608,47.9167,4.8837,0.51
+FC 5-class,random 60-40,6,LSTM,796,526,,,,,0.4446,0.4333,0.6046,64.5833,5.3488,0.661
+FC 5-class,random 60-40,7,Baseline: same class as last month,796,526,,,,,0.5276,0.5414,0.6179,82.1429,7.4661,0.7877
+FC 5-class,random 60-40,7,Baseline: always most common class,796,526,,,,,0.1323,0.2,0.4943,0.0,0.0,0.0
+FC 5-class,random 60-40,7,MLR / Logistic Regression,796,526,,,,,0.4713,0.4864,0.6046,76.1905,8.1448,0.7339
+FC 5-class,random 60-40,7,Random Forest,796,526,,,,,0.5419,0.5375,0.635,76.1905,5.8824,0.7512
+FC 5-class,random 60-40,7,XGBoost,796,526,,,,,0.5217,0.5263,0.6217,73.8095,6.5611,0.726
+FC 5-class,random 60-40,7,SVM,796,526,,,,,0.4565,0.4614,0.5932,73.8095,7.4661,0.7193
+FC 5-class,random 60-40,7,kNN,796,526,,,,,0.4364,0.416,0.5646,54.7619,4.9774,0.5693
+FC 5-class,random 60-40,7,LSTM,796,526,,,,,0.38,0.3964,0.5323,69.0476,10.4072,0.6591
+FC 5-class,random 60-40,8,Baseline: same class as last month,796,526,,,,,0.5355,0.5438,0.6293,69.7917,6.9767,0.6965
+FC 5-class,random 60-40,8,Baseline: always most common class,796,526,,,,,0.1316,0.2,0.4905,0.0,0.0,0.0
+FC 5-class,random 60-40,8,MLR / Logistic Regression,796,526,,,,,0.4755,0.4847,0.6122,66.6667,6.2791,0.6737
+FC 5-class,random 60-40,8,Random Forest,796,526,,,,,0.5188,0.5321,0.635,64.5833,4.8837,0.6638
+FC 5-class,random 60-40,8,XGBoost,796,526,,,,,0.4917,0.5016,0.6236,67.7083,5.814,0.6857
+FC 5-class,random 60-40,8,SVM,796,526,,,,,0.4551,0.4629,0.5932,58.3333,5.1163,0.6061
+FC 5-class,random 60-40,8,kNN,796,526,,,,,0.4092,0.3951,0.5456,43.75,4.186,0.473
+FC 5-class,random 60-40,8,LSTM,796,526,,,,,0.4097,0.4225,0.5684,48.9583,6.5116,0.512
+FC 5-class,random 60-40,9,Baseline: same class as last month,796,526,,,,,0.551,0.5583,0.6483,76.1905,8.1448,0.7339
+FC 5-class,random 60-40,9,Baseline: always most common class,796,526,,,,,0.132,0.2,0.4924,0.0,0.0,0.0
+FC 5-class,random 60-40,9,MLR / Logistic Regression,796,526,,,,,0.4713,0.4795,0.616,78.5714,8.1448,0.7534
+FC 5-class,random 60-40,9,Random Forest,796,526,,,,,0.4887,0.4971,0.6198,75.0,8.8235,0.7192
+FC 5-class,random 60-40,9,XGBoost,796,526,,,,,0.5436,0.5392,0.6464,76.1905,6.3348,0.7477
+FC 5-class,random 60-40,9,SVM,796,526,,,,,0.4612,0.4571,0.6027,69.0476,5.8824,0.6905
+FC 5-class,random 60-40,9,kNN,796,526,,,,,0.3956,0.3816,0.5456,54.7619,4.7511,0.5707
+FC 5-class,random 60-40,9,LSTM,796,526,,,,,0.385,0.4104,0.557,69.0476,8.371,0.6729
+FC 5-class,random 70-30,0,Baseline: same class as last month,928,394,,,,,0.486,0.4852,0.5888,68.75,8.1818,0.6728
+FC 5-class,random 70-30,0,Baseline: always most common class,928,394,,,,,0.1297,0.2,0.4797,0.0,0.0,0.0
+FC 5-class,random 70-30,0,MLR / Logistic Regression,928,394,,,,,0.4746,0.4749,0.5914,70.3125,6.9697,0.6944
+FC 5-class,random 70-30,0,Random Forest,928,394,,,,,0.5235,0.518,0.6244,67.1875,6.9697,0.6677
+FC 5-class,random 70-30,0,XGBoost,928,394,,,,,0.4788,0.4806,0.5914,73.4375,7.5758,0.7165
+FC 5-class,random 70-30,0,SVM,928,394,,,,,0.5038,0.4924,0.6117,68.75,4.5455,0.6984
+FC 5-class,random 70-30,0,kNN,928,394,,,,,0.4554,0.4391,0.5711,53.125,4.8485,0.5556
+FC 5-class,random 70-30,0,LSTM,928,394,,,,,0.458,0.4627,0.5838,71.875,6.0606,0.7143
+FC 5-class,random 70-30,1,Baseline: same class as last month,928,394,,,,,0.5169,0.5136,0.5964,68.75,5.7576,0.6897
+FC 5-class,random 70-30,1,Baseline: always most common class,928,394,,,,,0.125,0.2,0.4543,0.0,0.0,0.0
+FC 5-class,random 70-30,1,MLR / Logistic Regression,928,394,,,,,0.4386,0.4315,0.5508,65.625,6.0606,0.6604
+FC 5-class,random 70-30,1,Random Forest,928,394,,,,,0.5035,0.4905,0.5939,64.0625,4.8485,0.655
+FC 5-class,random 70-30,1,XGBoost,928,394,,,,,0.4506,0.4454,0.5609,68.75,5.7576,0.6897
+FC 5-class,random 70-30,1,SVM,928,394,,,,,0.4601,0.4453,0.5533,59.375,5.4545,0.609
+FC 5-class,random 70-30,1,kNN,928,394,,,,,0.4264,0.4032,0.5381,45.3125,3.6364,0.4882
+FC 5-class,random 70-30,1,LSTM,928,394,,,,,0.416,0.4154,0.5305,60.9375,5.7576,0.621
+FC 5-class,random 70-30,2,Baseline: same class as last month,928,394,,,,,0.504,0.5119,0.6117,68.0,8.1505,0.6764
+FC 5-class,random 70-30,2,Baseline: always most common class,928,394,,,,,0.1338,0.2,0.5025,0.0,0.0,0.0
+FC 5-class,random 70-30,2,MLR / Logistic Regression,928,394,,,,,0.5068,0.5035,0.6447,69.3333,7.21,0.6933
+FC 5-class,random 70-30,2,Random Forest,928,394,,,,,0.5125,0.5043,0.632,60.0,6.5831,0.6148
+FC 5-class,random 70-30,2,XGBoost,928,394,,,,,0.5305,0.5246,0.6396,72.0,6.8966,0.7181
+FC 5-class,random 70-30,2,SVM,928,394,,,,,0.5132,0.5057,0.6371,69.3333,7.5235,0.6915
+FC 5-class,random 70-30,2,kNN,928,394,,,,,0.4864,0.4648,0.6015,58.6667,4.7022,0.6128
+FC 5-class,random 70-30,2,LSTM,928,394,,,,,0.422,0.4207,0.5863,58.6667,7.5235,0.5978
+FC 5-class,random 70-30,3,Baseline: same class as last month,928,394,,,,,0.5275,0.523,0.5964,70.1299,6.9401,0.7031
+FC 5-class,random 70-30,3,Baseline: always most common class,928,394,,,,,0.1245,0.2,0.4518,0.0,0.0,0.0
+FC 5-class,random 70-30,3,MLR / Logistic Regression,928,394,,,,,0.4801,0.4653,0.5761,62.3377,4.7319,0.6469
+FC 5-class,random 70-30,3,Random Forest,928,394,,,,,0.5078,0.497,0.5838,62.3377,4.7319,0.6469
+FC 5-class,random 70-30,3,XGBoost,928,394,,,,,0.5206,0.5064,0.599,59.7403,4.4164,0.625
+FC 5-class,random 70-30,3,SVM,928,394,,,,,0.4906,0.4753,0.5787,62.3377,4.4164,0.6486
+FC 5-class,random 70-30,3,kNN,928,394,,,,,0.4467,0.4314,0.5533,51.9481,2.8391,0.5602
+FC 5-class,random 70-30,3,LSTM,928,394,,,,,0.4307,0.44,0.5431,54.5455,4.1009,0.5785
+FC 5-class,random 70-30,4,Baseline: same class as last month,928,394,,,,,0.515,0.5187,0.6168,66.6667,6.2696,0.6757
+FC 5-class,random 70-30,4,Baseline: always most common class,928,394,,,,,0.1311,0.2,0.4873,0.0,0.0,0.0
+FC 5-class,random 70-30,4,MLR / Logistic Regression,928,394,,,,,0.442,0.4439,0.5787,72.0,5.3292,0.7278
+FC 5-class,random 70-30,4,Random Forest,928,394,,,,,0.4833,0.4755,0.599,57.3333,2.8213,0.6108
+FC 5-class,random 70-30,4,XGBoost,928,394,,,,,0.4708,0.4627,0.5914,69.3333,5.3292,0.7046
+FC 5-class,random 70-30,4,SVM,928,394,,,,,0.4698,0.4611,0.5964,68.0,4.0752,0.7005
+FC 5-class,random 70-30,4,kNN,928,394,,,,,0.4108,0.3927,0.5533,46.6667,3.1348,0.5072
+FC 5-class,random 70-30,4,LSTM,928,394,,,,,0.3854,0.3795,0.5431,53.3333,5.3292,0.5602
+FC 5-class,random 70-30,5,Baseline: same class as last month,928,394,,,,,0.4928,0.503,0.5863,78.7879,7.9268,0.7602
+FC 5-class,random 70-30,5,Baseline: always most common class,928,394,,,,,0.1333,0.2,0.5,0.0,0.0,0.0
+FC 5-class,random 70-30,5,MLR / Logistic Regression,928,394,,,,,0.4979,0.506,0.6091,72.7273,6.0976,0.7229
+FC 5-class,random 70-30,5,Random Forest,928,394,,,,,0.4784,0.4822,0.5888,68.1818,6.4024,0.6818
+FC 5-class,random 70-30,5,XGBoost,928,394,,,,,0.4832,0.4946,0.5964,74.2424,7.3171,0.727
+FC 5-class,random 70-30,5,SVM,928,394,,,,,0.4366,0.4362,0.566,66.6667,5.1829,0.6769
+FC 5-class,random 70-30,5,kNN,928,394,,,,,0.4306,0.4197,0.5482,56.0606,5.1829,0.5818
+FC 5-class,random 70-30,5,LSTM,928,394,,,,,0.4402,0.446,0.5711,65.1515,7.0122,0.6515
+FC 5-class,random 70-30,6,Baseline: same class as last month,928,394,,,,,0.5364,0.543,0.6294,75.0,6.8323,0.7418
+FC 5-class,random 70-30,6,Baseline: always most common class,928,394,,,,,0.1311,0.2,0.4873,0.0,0.0,0.0
+FC 5-class,random 70-30,6,MLR / Logistic Regression,928,394,,,,,0.5123,0.5069,0.6244,68.0556,4.3478,0.698
+FC 5-class,random 70-30,6,Random Forest,928,394,,,,,0.5386,0.5345,0.6345,66.6667,5.2795,0.6799
+FC 5-class,random 70-30,6,XGBoost,928,394,,,,,0.533,0.5279,0.6269,70.8333,5.9006,0.7123
+FC 5-class,random 70-30,6,SVM,928,394,,,,,0.4643,0.4591,0.5888,59.7222,3.4161,0.6287
+FC 5-class,random 70-30,6,kNN,928,394,,,,,0.4531,0.4384,0.5761,45.8333,2.1739,0.503
+FC 5-class,random 70-30,6,LSTM,928,394,,,,,0.4674,0.4735,0.5914,56.9444,4.9689,0.5942
+FC 5-class,random 70-30,7,Baseline: same class as last month,928,394,,,,,0.542,0.5421,0.6294,71.2121,5.7927,0.7121
+FC 5-class,random 70-30,7,Baseline: always most common class,928,394,,,,,0.1292,0.2,0.4772,0.0,0.0,0.0
+FC 5-class,random 70-30,7,MLR / Logistic Regression,928,394,,,,,0.4385,0.4385,0.5711,63.6364,6.0976,0.6442
+FC 5-class,random 70-30,7,Random Forest,928,394,,,,,0.4808,0.4796,0.5939,68.1818,7.9268,0.6716
+FC 5-class,random 70-30,7,XGBoost,928,394,,,,,0.4658,0.4623,0.5939,65.1515,7.622,0.6476
+FC 5-class,random 70-30,7,SVM,928,394,,,,,0.4732,0.4762,0.5939,69.697,5.7927,0.6991
+FC 5-class,random 70-30,7,kNN,928,394,,,,,0.3858,0.3921,0.5355,51.5152,5.4878,0.538
+FC 5-class,random 70-30,7,LSTM,928,394,,,,,0.3935,0.4065,0.5431,63.6364,8.2317,0.6306
+FC 5-class,random 70-30,8,Baseline: same class as last month,928,394,,,,,0.5065,0.519,0.5939,69.697,8.5366,0.6805
+FC 5-class,random 70-30,8,Baseline: always most common class,928,394,,,,,0.1315,0.2,0.4898,0.0,0.0,0.0
+FC 5-class,random 70-30,8,MLR / Logistic Regression,928,394,,,,,0.4716,0.4847,0.5964,74.2424,7.622,0.7249
+FC 5-class,random 70-30,8,Random Forest,928,394,,,,,0.5365,0.5319,0.632,65.1515,5.4878,0.6615
+FC 5-class,random 70-30,8,XGBoost,928,394,,,,,0.5156,0.5189,0.6193,65.1515,6.0976,0.6575
+FC 5-class,random 70-30,8,SVM,928,394,,,,,0.4574,0.4597,0.5812,66.6667,7.0122,0.6647
+FC 5-class,random 70-30,8,kNN,928,394,,,,,0.3822,0.3768,0.5279,46.9697,6.0976,0.4921
+FC 5-class,random 70-30,8,LSTM,928,394,,,,,0.4392,0.4426,0.5711,60.6061,6.7073,0.6135
+FC 5-class,random 70-30,9,Baseline: same class as last month,928,394,,,,,0.4735,0.4778,0.5888,65.4321,5.4313,0.6726
+FC 5-class,random 70-30,9,Baseline: always most common class,928,394,,,,,0.1292,0.2,0.4772,0.0,0.0,0.0
+FC 5-class,random 70-30,9,MLR / Logistic Regression,928,394,,,,,0.4964,0.4887,0.6142,60.4938,3.1949,0.6397
+FC 5-class,random 70-30,9,Random Forest,928,394,,,,,0.4825,0.4744,0.6015,59.2593,4.1534,0.6234
+FC 5-class,random 70-30,9,XGBoost,928,394,,,,,0.493,0.4847,0.6091,65.4321,5.4313,0.6726
+FC 5-class,random 70-30,9,SVM,928,394,,,,,0.502,0.4844,0.6142,60.4938,3.8339,0.6364
+FC 5-class,random 70-30,9,kNN,928,394,,,,,0.4226,0.4038,0.5533,39.5062,2.8754,0.4384
+FC 5-class,random 70-30,9,LSTM,928,394,,,,,0.4635,0.4486,0.5838,54.321,2.8754,0.5836
+FC 5-class,random 80-20,0,Baseline: same class as last month,1059,263,,,,,0.4981,0.4937,0.5779,73.3333,5.0459,0.7366
+FC 5-class,random 80-20,0,Baseline: always most common class,1059,263,,,,,0.133,0.2,0.4981,0.0,0.0,0.0
+FC 5-class,random 80-20,0,MLR / Logistic Regression,1059,263,,,,,0.4638,0.4613,0.5932,75.5556,4.5872,0.7589
+FC 5-class,random 80-20,0,Random Forest,1059,263,,,,,0.5078,0.4972,0.5932,66.6667,5.0459,0.6787
+FC 5-class,random 80-20,0,XGBoost,1059,263,,,,,0.475,0.4715,0.5741,71.1111,5.5046,0.7143
+FC 5-class,random 80-20,0,SVM,1059,263,,,,,0.5027,0.4876,0.597,66.6667,3.6697,0.6881
+FC 5-class,random 80-20,0,kNN,1059,263,,,,,0.4397,0.4237,0.5779,55.5556,3.6697,0.5869
+FC 5-class,random 80-20,0,LSTM,1059,263,,,,,0.4031,0.3944,0.5475,62.2222,4.5872,0.6422
+FC 5-class,random 80-20,1,Baseline: same class as last month,1059,263,,,,,0.4407,0.4549,0.5665,64.2857,9.0498,0.6279
+FC 5-class,random 80-20,1,Baseline: always most common class,1059,263,,,,,0.133,0.2,0.4981,0.0,0.0,0.0
+FC 5-class,random 80-20,1,MLR / Logistic Regression,1059,263,,,,,0.4318,0.4492,0.6046,61.9048,8.1448,0.6132
+FC 5-class,random 80-20,1,Random Forest,1059,263,,,,,0.4506,0.4506,0.6008,57.1429,9.5023,0.5634
+FC 5-class,random 80-20,1,XGBoost,1059,263,,,,,0.488,0.4915,0.616,64.2857,9.9548,0.6221
+FC 5-class,random 80-20,1,SVM,1059,263,,,,,0.4415,0.4446,0.5894,57.1429,8.1448,0.5714
+FC 5-class,random 80-20,1,kNN,1059,263,,,,,0.3813,0.3771,0.5437,42.8571,9.9548,0.4327
+FC 5-class,random 80-20,1,LSTM,1059,263,,,,,0.4239,0.4253,0.5665,54.7619,8.5973,0.5476
+FC 5-class,random 80-20,2,Baseline: same class as last month,1059,263,,,,,0.5346,0.5426,0.6274,72.2222,4.7847,0.7358
+FC 5-class,random 80-20,2,Baseline: always most common class,1059,263,,,,,0.1296,0.2,0.4791,0.0,0.0,0.0
+FC 5-class,random 80-20,2,MLR / Logistic Regression,1059,263,,,,,0.5328,0.5253,0.6502,66.6667,4.7847,0.687
+FC 5-class,random 80-20,2,Random Forest,1059,263,,,,,0.5453,0.5371,0.6464,61.1111,3.8278,0.642
+FC 5-class,random 80-20,2,XGBoost,1059,263,,,,,0.5338,0.5138,0.635,64.8148,3.8278,0.6757
+FC 5-class,random 80-20,2,SVM,1059,263,,,,,0.4782,0.474,0.6084,62.963,4.3062,0.6564
+FC 5-class,random 80-20,2,kNN,1059,263,,,,,0.472,0.4567,0.5856,53.7037,2.8708,0.5777
+FC 5-class,random 80-20,2,LSTM,1059,263,,,,,0.5151,0.5013,0.6312,62.963,3.3493,0.6615
+FC 5-class,random 80-20,3,Baseline: same class as last month,1059,263,,,,,0.4356,0.4482,0.5741,59.6154,5.6872,0.6175
+FC 5-class,random 80-20,3,Baseline: always most common class,1059,263,,,,,0.1289,0.2,0.4753,0.0,0.0,0.0
+FC 5-class,random 80-20,3,MLR / Logistic Regression,1059,263,,,,,0.436,0.4582,0.5932,57.6923,4.2654,0.6073
+FC 5-class,random 80-20,3,Random Forest,1059,263,,,,,0.4815,0.4872,0.6122,53.8462,6.1611,0.5622
+FC 5-class,random 80-20,3,XGBoost,1059,263,,,,,0.464,0.4701,0.5856,61.5385,6.1611,0.6324
+FC 5-class,random 80-20,3,SVM,1059,263,,,,,0.455,0.4609,0.5894,57.6923,4.7393,0.6048
+FC 5-class,random 80-20,3,kNN,1059,263,,,,,0.4275,0.4183,0.5551,40.3846,7.5829,0.4286
+FC 5-class,random 80-20,3,LSTM,1059,263,,,,,0.4135,0.4132,0.5475,53.8462,5.6872,0.5645
+FC 5-class,random 80-20,4,Baseline: same class as last month,1059,263,,,,,0.4911,0.4936,0.6008,63.8298,5.5556,0.6522
+FC 5-class,random 80-20,4,Baseline: always most common class,1059,263,,,,,0.137,0.2,0.5209,0.0,0.0,0.0
+FC 5-class,random 80-20,4,MLR / Logistic Regression,1059,263,,,,,0.505,0.4981,0.6388,63.8298,5.5556,0.6522
+FC 5-class,random 80-20,4,Random Forest,1059,263,,,,,0.4771,0.47,0.5932,57.4468,5.5556,0.5947
+FC 5-class,random 80-20,4,XGBoost,1059,263,,,,,0.4961,0.4801,0.6312,48.9362,3.7037,0.5251
+FC 5-class,random 80-20,4,SVM,1059,263,,,,,0.456,0.4509,0.6122,63.8298,6.0185,0.6494
+FC 5-class,random 80-20,4,kNN,1059,263,,,,,0.4646,0.448,0.6046,57.4468,4.6296,0.6
+FC 5-class,random 80-20,4,LSTM,1059,263,,,,,0.4718,0.4731,0.6046,59.5745,5.5556,0.614
+FC 5-class,random 80-20,5,Baseline: same class as last month,1059,263,,,,,0.541,0.5463,0.6692,82.2222,6.8807,0.7974
+FC 5-class,random 80-20,5,Baseline: always most common class,1059,263,,,,,0.135,0.2,0.5095,0.0,0.0,0.0
+FC 5-class,random 80-20,5,MLR / Logistic Regression,1059,263,,,,,0.4714,0.4733,0.6464,84.4444,5.5046,0.8261
+FC 5-class,random 80-20,5,Random Forest,1059,263,,,,,0.4841,0.4777,0.6578,77.7778,6.422,0.7642
+FC 5-class,random 80-20,5,XGBoost,1059,263,,,,,0.4914,0.4937,0.6502,75.5556,5.9633,0.7489
+FC 5-class,random 80-20,5,SVM,1059,263,,,,,0.4779,0.4715,0.6312,75.5556,5.0459,0.7556
+FC 5-class,random 80-20,5,kNN,1059,263,,,,,0.4541,0.4458,0.6046,57.7778,5.0459,0.5991
+FC 5-class,random 80-20,5,LSTM,1059,263,,,,,0.4613,0.4561,0.616,66.6667,5.5046,0.6757
+FC 5-class,random 80-20,6,Baseline: same class as last month,1059,263,,,,,0.5366,0.5339,0.6502,64.5833,7.907,0.6458
+FC 5-class,random 80-20,6,Baseline: always most common class,1059,263,,,,,0.1309,0.2,0.4867,0.0,0.0,0.0
+FC 5-class,random 80-20,6,MLR / Logistic Regression,1059,263,,,,,0.4839,0.4803,0.616,70.8333,6.0465,0.7113
+FC 5-class,random 80-20,6,Random Forest,1059,263,,,,,0.4945,0.4836,0.6312,60.4167,6.0465,0.6197
+FC 5-class,random 80-20,6,XGBoost,1059,263,,,,,0.4921,0.4754,0.6198,58.3333,5.1163,0.6061
+FC 5-class,random 80-20,6,SVM,1059,263,,,,,0.4664,0.4568,0.6046,66.6667,5.5814,0.678
+FC 5-class,random 80-20,6,kNN,1059,263,,,,,0.3962,0.3914,0.5551,54.1667,6.5116,0.5603
+FC 5-class,random 80-20,6,LSTM,1059,263,,,,,0.4896,0.4786,0.6198,64.5833,7.4419,0.6485
+FC 5-class,random 80-20,7,Baseline: same class as last month,1059,263,,,,,0.5291,0.5433,0.6274,78.5714,6.3348,0.7674
+FC 5-class,random 80-20,7,Baseline: always most common class,1059,263,,,,,0.135,0.2,0.5095,0.0,0.0,0.0
+FC 5-class,random 80-20,7,MLR / Logistic Regression,1059,263,,,,,0.5246,0.5369,0.6578,76.1905,6.7873,0.7442
+FC 5-class,random 80-20,7,Random Forest,1059,263,,,,,0.5665,0.5633,0.6464,76.1905,5.8824,0.7512
+FC 5-class,random 80-20,7,XGBoost,1059,263,,,,,0.5683,0.573,0.6426,78.5714,6.3348,0.7674
+FC 5-class,random 80-20,7,SVM,1059,263,,,,,0.5206,0.5321,0.635,69.0476,5.4299,0.6938
+FC 5-class,random 80-20,7,kNN,1059,263,,,,,0.4652,0.452,0.5856,61.9048,3.6199,0.6436
+FC 5-class,random 80-20,7,LSTM,1059,263,,,,,0.4733,0.4736,0.597,61.9048,6.7873,0.622
+FC 5-class,random 80-20,8,Baseline: same class as last month,1059,263,,,,,0.535,0.5447,0.6312,73.913,9.6774,0.7113
+FC 5-class,random 80-20,8,Baseline: always most common class,1059,263,,,,,0.1289,0.2,0.4753,0.0,0.0,0.0
+FC 5-class,random 80-20,8,MLR / Logistic Regression,1059,263,,,,,0.4657,0.4779,0.6046,73.913,7.8341,0.7234
+FC 5-class,random 80-20,8,Random Forest,1059,263,,,,,0.5165,0.517,0.6236,71.7391,7.8341,0.7051
+FC 5-class,random 80-20,8,XGBoost,1059,263,,,,,0.5041,0.5067,0.6198,73.913,7.3733,0.7265
+FC 5-class,random 80-20,8,SVM,1059,263,,,,,0.4859,0.4879,0.6046,69.5652,7.8341,0.6867
+FC 5-class,random 80-20,8,kNN,1059,263,,,,,0.4232,0.4094,0.5665,45.6522,5.0691,0.4861
+FC 5-class,random 80-20,8,LSTM,1059,263,,,,,0.4738,0.4764,0.6008,63.0435,7.3733,0.6332
+FC 5-class,random 80-20,9,Baseline: same class as last month,1059,263,,,,,0.5546,0.5644,0.6388,66.6667,6.8807,0.6667
+FC 5-class,random 80-20,9,Baseline: always most common class,1059,263,,,,,0.1289,0.2,0.4753,0.0,0.0,0.0
+FC 5-class,random 80-20,9,MLR / Logistic Regression,1059,263,,,,,0.469,0.4695,0.6008,68.8889,4.5872,0.7014
+FC 5-class,random 80-20,9,Random Forest,1059,263,,,,,0.5269,0.5246,0.6426,64.4444,5.0459,0.6591
+FC 5-class,random 80-20,9,XGBoost,1059,263,,,,,0.5804,0.5648,0.654,66.6667,3.6697,0.6881
+FC 5-class,random 80-20,9,SVM,1059,263,,,,,0.4847,0.4727,0.6084,64.4444,3.6697,0.6682
+FC 5-class,random 80-20,9,kNN,1059,263,,,,,0.4212,0.3995,0.5361,46.6667,5.0459,0.4953
+FC 5-class,random 80-20,9,LSTM,1059,263,,,,,0.4521,0.4424,0.5589,57.7778,4.1284,0.6047
+FC 5-class,10-fold CV,0,Baseline: same class as last month,1190,132,,,,,0.515,0.507,0.6212,68.0,4.6729,0.6967
+FC 5-class,10-fold CV,0,Baseline: always most common class,1190,132,,,,,0.1347,0.2,0.5076,0.0,0.0,0.0
+FC 5-class,10-fold CV,0,MLR / Logistic Regression,1190,132,,,,,0.5195,0.496,0.6515,68.0,1.8692,0.7143
+FC 5-class,10-fold CV,0,Random Forest,1190,132,,,,,0.4874,0.479,0.6288,72.0,1.8692,0.75
+FC 5-class,10-fold CV,0,XGBoost,1190,132,,,,,0.5637,0.549,0.6591,72.0,3.7383,0.7377
+FC 5-class,10-fold CV,0,SVM,1190,132,,,,,0.4749,0.451,0.6061,64.0,1.8692,0.678
+FC 5-class,10-fold CV,0,kNN,1190,132,,,,,0.4478,0.4338,0.5985,52.0,1.8692,0.5652
+FC 5-class,10-fold CV,0,LSTM,1190,132,,,,,0.4751,0.4594,0.5909,68.0,2.8037,0.7083
+FC 5-class,10-fold CV,1,Baseline: same class as last month,1190,132,,,,,0.4048,0.4209,0.5227,68.0,9.3458,0.6693
+FC 5-class,10-fold CV,1,Baseline: always most common class,1190,132,,,,,0.1161,0.2,0.4091,0.0,0.0,0.0
+FC 5-class,10-fold CV,1,MLR / Logistic Regression,1190,132,,,,,0.3625,0.3897,0.4924,64.0,8.4112,0.64
+FC 5-class,10-fold CV,1,Random Forest,1190,132,,,,,0.4192,0.4304,0.5227,68.0,7.4766,0.68
+FC 5-class,10-fold CV,1,XGBoost,1190,132,,,,,0.4003,0.4226,0.5227,68.0,11.215,0.6589
+FC 5-class,10-fold CV,1,SVM,1190,132,,,,,0.372,0.3874,0.4848,60.0,7.4766,0.6098
+FC 5-class,10-fold CV,1,kNN,1190,132,,,,,0.3606,0.367,0.4924,44.0,6.5421,0.4661
+FC 5-class,10-fold CV,1,LSTM,1190,132,,,,,0.3039,0.3089,0.447,56.0,5.6075,0.5833
+FC 5-class,10-fold CV,2,Baseline: same class as last month,1190,132,,,,,0.4763,0.5357,0.6742,61.9048,4.5045,0.6373
+FC 5-class,10-fold CV,2,Baseline: always most common class,1190,132,,,,,0.1462,0.2,0.5758,0.0,0.0,0.0
+FC 5-class,10-fold CV,2,MLR / Logistic Regression,1190,132,,,,,0.4677,0.499,0.7045,57.1429,3.6036,0.6
+FC 5-class,10-fold CV,2,Random Forest,1190,132,,,,,0.5336,0.558,0.7348,66.6667,3.6036,0.6863
+FC 5-class,10-fold CV,2,XGBoost,1190,132,,,,,0.5617,0.5727,0.7348,66.6667,3.6036,0.6863
+FC 5-class,10-fold CV,2,SVM,1190,132,,,,,0.5192,0.5443,0.7121,52.381,1.8018,0.567
+FC 5-class,10-fold CV,2,kNN,1190,132,,,,,0.4279,0.4497,0.6136,47.619,3.6036,0.5102
+FC 5-class,10-fold CV,2,LSTM,1190,132,,,,,0.3641,0.4046,0.6136,47.619,2.7027,0.5155
+FC 5-class,10-fold CV,3,Baseline: same class as last month,1191,131,,,,,0.4033,0.4161,0.5038,76.1905,8.1818,0.7339
+FC 5-class,10-fold CV,3,Baseline: always most common class,1191,131,,,,,0.1242,0.2,0.4504,0.0,0.0,0.0
+FC 5-class,10-fold CV,3,MLR / Logistic Regression,1191,131,,,,,0.4804,0.4871,0.5649,80.9524,5.4545,0.7944
+FC 5-class,10-fold CV,3,Random Forest,1191,131,,,,,0.4308,0.4346,0.5344,71.4286,6.3636,0.7075
+FC 5-class,10-fold CV,3,XGBoost,1191,131,,,,,0.4988,0.5044,0.5573,71.4286,6.3636,0.7075
+FC 5-class,10-fold CV,3,SVM,1191,131,,,,,0.4394,0.4444,0.5267,80.9524,6.3636,0.787
+FC 5-class,10-fold CV,3,kNN,1191,131,,,,,0.3698,0.3826,0.4962,66.6667,10.0,0.6422
+FC 5-class,10-fold CV,3,LSTM,1191,131,,,,,0.3575,0.374,0.5115,71.4286,7.2727,0.7009
+FC 5-class,10-fold CV,4,Baseline: same class as last month,1191,131,,,,,0.5433,0.557,0.6565,76.1905,8.1818,0.7339
+FC 5-class,10-fold CV,4,Baseline: always most common class,1191,131,,,,,0.1393,0.2,0.5344,0.0,0.0,0.0
+FC 5-class,10-fold CV,4,MLR / Logistic Regression,1191,131,,,,,0.4815,0.4905,0.6489,76.1905,7.2727,0.7407
+FC 5-class,10-fold CV,4,Random Forest,1191,131,,,,,0.5366,0.537,0.6718,57.1429,6.3636,0.5825
+FC 5-class,10-fold CV,4,XGBoost,1191,131,,,,,0.6077,0.6006,0.7023,66.6667,6.3636,0.6667
+FC 5-class,10-fold CV,4,SVM,1191,131,,,,,0.4577,0.4513,0.6031,71.4286,3.6364,0.7282
+FC 5-class,10-fold CV,4,kNN,1191,131,,,,,0.4115,0.4033,0.5725,28.5714,5.4545,0.3125
+FC 5-class,10-fold CV,4,LSTM,1191,131,,,,,0.4648,0.4673,0.6107,57.1429,6.3636,0.5825
+FC 5-class,10-fold CV,5,Baseline: same class as last month,1191,131,,,,,0.5665,0.6125,0.6794,60.0,5.4054,0.6122
+FC 5-class,10-fold CV,5,Baseline: always most common class,1191,131,,,,,0.1406,0.2,0.542,0.0,0.0,0.0
+FC 5-class,10-fold CV,5,MLR / Logistic Regression,1191,131,,,,,0.3692,0.374,0.542,65.0,5.4054,0.6566
+FC 5-class,10-fold CV,5,Random Forest,1191,131,,,,,0.4927,0.5085,0.6183,65.0,9.009,0.6311
+FC 5-class,10-fold CV,5,XGBoost,1191,131,,,,,0.3935,0.4095,0.5649,55.0,9.009,0.5446
+FC 5-class,10-fold CV,5,SVM,1191,131,,,,,0.4051,0.3989,0.5496,60.0,3.6036,0.625
+FC 5-class,10-fold CV,5,kNN,1191,131,,,,,0.4563,0.443,0.5878,40.0,6.3063,0.4211
+FC 5-class,10-fold CV,5,LSTM,1191,131,,,,,0.4835,0.4598,0.5878,40.0,4.5045,0.4301
+FC 5-class,10-fold CV,6,Baseline: same class as last month,1191,131,,,,,0.5439,0.5532,0.6031,73.913,8.3333,0.7203
+FC 5-class,10-fold CV,6,Baseline: always most common class,1191,131,,,,,0.1228,0.2,0.4427,0.0,0.0,0.0
+FC 5-class,10-fold CV,6,MLR / Logistic Regression,1191,131,,,,,0.4653,0.4832,0.5802,69.5652,10.1852,0.6723
+FC 5-class,10-fold CV,6,Random Forest,1191,131,,,,,0.5283,0.5257,0.6107,65.2174,7.4074,0.6522
+FC 5-class,10-fold CV,6,XGBoost,1191,131,,,,,0.4825,0.4954,0.5802,73.913,10.1852,0.7083
+FC 5-class,10-fold CV,6,SVM,1191,131,,,,,0.4419,0.4545,0.5649,69.5652,9.2593,0.678
+FC 5-class,10-fold CV,6,kNN,1191,131,,,,,0.363,0.3525,0.5115,52.1739,4.6296,0.5505
+FC 5-class,10-fold CV,6,LSTM,1191,131,,,,,0.4445,0.4419,0.5802,65.2174,7.4074,0.6522
+FC 5-class,10-fold CV,7,Baseline: same class as last month,1191,131,,,,,0.5402,0.5425,0.6565,82.1429,9.7087,0.7931
+FC 5-class,10-fold CV,7,Baseline: always most common class,1191,131,,,,,0.1271,0.2,0.4656,0.0,0.0,0.0
+FC 5-class,10-fold CV,7,MLR / Logistic Regression,1191,131,,,,,0.5386,0.5303,0.6565,82.1429,7.767,0.8042
+FC 5-class,10-fold CV,7,Random Forest,1191,131,,,,,0.5713,0.5681,0.6641,75.0,5.8252,0.7554
+FC 5-class,10-fold CV,7,XGBoost,1191,131,,,,,0.5561,0.5533,0.6565,78.5714,6.7961,0.7801
+FC 5-class,10-fold CV,7,SVM,1191,131,,,,,0.5232,0.5069,0.6565,67.8571,6.7961,0.6884
+FC 5-class,10-fold CV,7,kNN,1191,131,,,,,0.4181,0.4142,0.5649,57.1429,3.8835,0.6061
+FC 5-class,10-fold CV,7,LSTM,1191,131,,,,,0.39,0.3898,0.5649,67.8571,7.767,0.6835
+FC 5-class,10-fold CV,8,Baseline: same class as last month,1191,131,,,,,0.5439,0.5363,0.6489,76.9231,3.8095,0.7812
+FC 5-class,10-fold CV,8,Baseline: always most common class,1191,131,,,,,0.1242,0.2,0.4504,0.0,0.0,0.0
+FC 5-class,10-fold CV,8,MLR / Logistic Regression,1191,131,,,,,0.5009,0.4937,0.6336,80.7692,2.8571,0.8203
+FC 5-class,10-fold CV,8,Random Forest,1191,131,,,,,0.5284,0.521,0.6412,73.0769,3.8095,0.748
+FC 5-class,10-fold CV,8,XGBoost,1191,131,,,,,0.5068,0.5003,0.6183,73.0769,4.7619,0.7422
+FC 5-class,10-fold CV,8,SVM,1191,131,,,,,0.4987,0.4919,0.6183,73.0769,6.6667,0.7308
+FC 5-class,10-fold CV,8,kNN,1191,131,,,,,0.4282,0.4098,0.5573,50.0,3.8095,0.5372
+FC 5-class,10-fold CV,8,LSTM,1191,131,,,,,0.5442,0.5295,0.6412,73.0769,3.8095,0.748
+FC 5-class,10-fold CV,9,Baseline: same class as last month,1191,131,,,,,0.459,0.4525,0.5802,72.7273,5.5046,0.7273
+FC 5-class,10-fold CV,9,Baseline: always most common class,1191,131,,,,,0.1393,0.2,0.5344,0.0,0.0,0.0
+FC 5-class,10-fold CV,9,MLR / Logistic Regression,1191,131,,,,,0.5126,0.5113,0.6489,72.7273,6.422,0.7207
+FC 5-class,10-fold CV,9,Random Forest,1191,131,,,,,0.5165,0.5025,0.6565,63.6364,3.6697,0.6604
+FC 5-class,10-fold CV,9,XGBoost,1191,131,,,,,0.5541,0.5495,0.6641,77.2727,3.6697,0.7798
+FC 5-class,10-fold CV,9,SVM,1191,131,,,,,0.5013,0.5084,0.6412,63.6364,4.5872,0.6542
+FC 5-class,10-fold CV,9,kNN,1191,131,,,,,0.5524,0.5381,0.6565,63.6364,3.6697,0.6604
+FC 5-class,10-fold CV,9,LSTM,1191,131,,,,,0.4475,0.4588,0.5954,68.1818,4.5872,0.6944
+FC 5-class,chronological 60-40,2023-01,Baseline: same class as last month,797,525,,,,,0.5255,0.5335,0.6057,63.9344,5.3879,0.6331
+FC 5-class,chronological 60-40,2023-01,Baseline: always most common class,797,525,,,,,0.1266,0.2,0.4629,0.0,0.0,0.0
+FC 5-class,chronological 60-40,2023-01,MLR / Logistic Regression,797,525,,,,,0.4036,0.4387,0.52,65.5738,9.2672,0.6116
+FC 5-class,chronological 60-40,2023-01,Random Forest,797,525,,,,,0.4351,0.4701,0.5524,63.9344,7.1121,0.6171
+FC 5-class,chronological 60-40,2023-01,XGBoost,797,525,,,,,0.418,0.4491,0.5219,60.6557,8.6207,0.5763
+FC 5-class,chronological 60-40,2023-01,SVM,797,525,,,,,0.3928,0.4219,0.5067,67.2131,8.8362,0.6288
+FC 5-class,chronological 60-40,2023-01,kNN,797,525,,,,,0.2794,0.3042,0.4362,47.541,10.9914,0.4475
+FC 5-class,chronological 60-40,2023-01,LSTM,797,525,,,,,0.2352,0.2977,0.4076,67.2131,18.5345,0.5526
+FC 5-class,chronological 70-30,2023-10,Baseline: same class as last month,932,390,,,,,0.5285,0.5262,0.6359,62.7907,4.611,0.6279
+FC 5-class,chronological 70-30,2023-10,Baseline: always most common class,932,390,,,,,0.1273,0.2,0.4667,0.0,0.0,0.0
+FC 5-class,chronological 70-30,2023-10,MLR / Logistic Regression,932,390,,,,,0.434,0.4469,0.5538,60.4651,5.7637,0.5963
+FC 5-class,chronological 70-30,2023-10,Random Forest,932,390,,,,,0.4445,0.4616,0.5692,62.7907,5.4755,0.6193
+FC 5-class,chronological 70-30,2023-10,XGBoost,932,390,,,,,0.4294,0.4497,0.5462,62.7907,7.781,0.5973
+FC 5-class,chronological 70-30,2023-10,SVM,932,390,,,,,0.4013,0.4144,0.5205,55.814,6.0519,0.553
+FC 5-class,chronological 70-30,2023-10,kNN,932,390,,,,,0.2899,0.316,0.459,44.186,10.951,0.4148
+FC 5-class,chronological 70-30,2023-10,LSTM,932,390,,,,,0.2737,0.3432,0.4385,62.7907,11.2392,0.5672
+FC 5-class,chronological 80-20,2024-07,Baseline: same class as last month,1067,255,,,,,0.5497,0.5445,0.6902,65.2174,3.4483,0.6522
+FC 5-class,chronological 80-20,2024-07,Baseline: always most common class,1067,255,,,,,0.1378,0.2,0.5255,0.0,0.0,0.0
+FC 5-class,chronological 80-20,2024-07,MLR / Logistic Regression,1067,255,,,,,0.4203,0.4519,0.5922,65.2174,8.1897,0.5952
+FC 5-class,chronological 80-20,2024-07,Random Forest,1067,255,,,,,0.4852,0.5033,0.6314,69.5652,3.8793,0.6838
+FC 5-class,chronological 80-20,2024-07,XGBoost,1067,255,,,,,0.5048,0.542,0.6235,78.2609,6.8966,0.7143
+FC 5-class,chronological 80-20,2024-07,SVM,1067,255,,,,,0.4199,0.4403,0.5608,56.5217,9.0517,0.5159
+FC 5-class,chronological 80-20,2024-07,kNN,1067,255,,,,,0.357,0.3814,0.5294,52.1739,12.069,0.4545
+FC 5-class,chronological 80-20,2024-07,LSTM,1067,255,,,,,0.3796,0.4449,0.5176,73.913,14.6552,0.5944
+FC 5-class,rolling year-by-year,2018,Baseline: same class as last month,198,108,,,,,0.4123,0.428,0.8333,50.0,2.8302,0.4167
+FC 5-class,rolling year-by-year,2018,Baseline: always most common class,198,108,,,,,0.0091,0.25,0.0185,100.0,100.0,0.0862
+FC 5-class,rolling year-by-year,2018,MLR / Logistic Regression,198,108,,,,,0.1694,0.3851,0.3611,0.0,5.6604,0.0
+FC 5-class,rolling year-by-year,2018,Random Forest,198,108,,,,,0.0561,0.3093,0.0833,0.0,4.717,0.0
+FC 5-class,rolling year-by-year,2018,XGBoost,198,108,,,,,0.228,0.226,0.6852,0.0,5.6604,0.0
+FC 5-class,rolling year-by-year,2018,SVM,198,108,,,,,0.2094,0.3788,0.4815,0.0,7.5472,0.0
+FC 5-class,rolling year-by-year,2018,kNN,198,108,,,,,0.0769,0.0455,0.1667,0.0,32.0755,0.0
+FC 5-class,rolling year-by-year,2018,LSTM,198,108,,,,,0.053,0.0644,0.0926,0.0,17.9245,0.0
+FC 5-class,rolling year-by-year,2019,Baseline: same class as last month,306,108,,,,,0.5675,0.5535,0.787,0.0,0.9259,0.0
+FC 5-class,rolling year-by-year,2019,Baseline: always most common class,306,108,,,,,0.2857,0.3333,0.75,0.0,0.0,0.0
+FC 5-class,rolling year-by-year,2019,MLR / Logistic Regression,306,108,,,,,0.4048,0.4251,0.7315,0.0,5.5556,0.0
+FC 5-class,rolling year-by-year,2019,Random Forest,306,108,,,,,0.4198,0.6482,0.7222,0.0,0.0,0.0
+FC 5-class,rolling year-by-year,2019,XGBoost,306,108,,,,,0.4386,0.6382,0.6296,0.0,0.0,0.0
+FC 5-class,rolling year-by-year,2019,SVM,306,108,,,,,0.3843,0.4045,0.6852,0.0,8.3333,0.0
+FC 5-class,rolling year-by-year,2019,kNN,306,108,,,,,0.3138,0.28,0.5833,0.0,17.5926,0.0
+FC 5-class,rolling year-by-year,2019,LSTM,306,108,,,,,0.2819,0.3045,0.6852,0.0,8.3333,0.0
+FC 5-class,rolling year-by-year,2020,Baseline: same class as last month,414,45,,,,,0.2746,0.2773,0.6667,0.0,0.0,0.0
+FC 5-class,rolling year-by-year,2020,Baseline: always most common class,414,45,,,,,0.2152,0.25,0.7556,0.0,0.0,0.0
+FC 5-class,rolling year-by-year,2020,MLR / Logistic Regression,414,45,,,,,0.3799,0.3855,0.8222,0.0,0.0,0.0
+FC 5-class,rolling year-by-year,2020,Random Forest,414,45,,,,,0.3368,0.3351,0.7556,0.0,0.0,0.0
+FC 5-class,rolling year-by-year,2020,XGBoost,414,45,,,,,0.4845,0.5525,0.8,0.0,0.0,0.0
+FC 5-class,rolling year-by-year,2020,SVM,414,45,,,,,0.4143,0.4212,0.8444,0.0,0.0,0.0
+FC 5-class,rolling year-by-year,2020,kNN,414,45,,,,,0.5711,0.5672,0.8444,0.0,0.0,0.0
+FC 5-class,rolling year-by-year,2020,LSTM,414,45,,,,,0.3651,0.3782,0.8,0.0,0.0,0.0
+FC 5-class,rolling year-by-year,2021,Baseline: same class as last month,468,150,,,,,0.4022,0.4019,0.5667,73.913,5.5118,0.7328
+FC 5-class,rolling year-by-year,2021,Baseline: always most common class,468,150,,,,,0.1357,0.2,0.5133,0.0,0.0,0.0
+FC 5-class,rolling year-by-year,2021,MLR / Logistic Regression,468,150,,,,,0.3552,0.3541,0.5533,69.5652,2.3622,0.7207
+FC 5-class,rolling year-by-year,2021,Random Forest,468,150,,,,,0.4036,0.4074,0.5933,65.2174,2.3622,0.6818
+FC 5-class,rolling year-by-year,2021,XGBoost,468,150,,,,,0.3705,0.3746,0.54,73.913,6.2992,0.7265
+FC 5-class,rolling year-by-year,2021,SVM,468,150,,,,,0.3629,0.3676,0.5533,73.913,3.937,0.7456
+FC 5-class,rolling year-by-year,2021,kNN,468,150,,,,,0.2925,0.2973,0.5067,60.8696,7.0866,0.6087
+FC 5-class,rolling year-by-year,2021,LSTM,468,150,,,,,0.2557,0.2807,0.5067,73.913,5.5118,0.7328
+FC 5-class,rolling year-by-year,2022,Baseline: same class as last month,618,164,,,,,0.4813,0.474,0.6585,62.5,4.5455,0.6494
+FC 5-class,rolling year-by-year,2022,Baseline: always most common class,618,164,,,,,0.1477,0.2,0.5854,0.0,0.0,0.0
+FC 5-class,rolling year-by-year,2022,MLR / Logistic Regression,618,164,,,,,0.4576,0.455,0.6463,65.625,9.8485,0.6481
+FC 5-class,rolling year-by-year,2022,Random Forest,618,164,,,,,0.4174,0.4806,0.6463,50.0,4.5455,0.5333
+FC 5-class,rolling year-by-year,2022,XGBoost,618,164,,,,,0.44,0.4714,0.622,37.5,5.303,0.4082
+FC 5-class,rolling year-by-year,2022,SVM,618,164,,,,,0.4047,0.4314,0.622,50.0,9.0909,0.5128
+FC 5-class,rolling year-by-year,2022,kNN,618,164,,,,,0.2668,0.2874,0.5061,53.125,11.3636,0.5312
+FC 5-class,rolling year-by-year,2022,LSTM,618,164,,,,,0.2926,0.3206,0.5244,56.25,11.3636,0.559
+FC 5-class,rolling year-by-year,2023,Baseline: same class as last month,782,180,,,,,0.4502,0.4509,0.4778,60.0,10.0,0.5882
+FC 5-class,rolling year-by-year,2023,Baseline: always most common class,782,180,,,,,0.1085,0.2,0.3722,0.0,0.0,0.0
+FC 5-class,rolling year-by-year,2023,MLR / Logistic Regression,782,180,,,,,0.4043,0.4365,0.4611,70.0,12.0,0.6604
+FC 5-class,rolling year-by-year,2023,Random Forest,782,180,,,,,0.3722,0.4017,0.4444,60.0,13.3333,0.5696
+FC 5-class,rolling year-by-year,2023,XGBoost,782,180,,,,,0.395,0.4198,0.4444,60.0,11.3333,0.5806
+FC 5-class,rolling year-by-year,2023,SVM,782,180,,,,,0.3415,0.3649,0.4333,66.6667,10.0,0.6452
+FC 5-class,rolling year-by-year,2023,kNN,782,180,,,,,0.2889,0.3023,0.3944,53.3333,8.0,0.5405
+FC 5-class,rolling year-by-year,2023,LSTM,782,180,,,,,0.2188,0.2588,0.3111,70.0,20.6667,0.6105
+FC 5-class,rolling year-by-year,2024,Baseline: same class as last month,962,180,,,,,0.502,0.5176,0.6111,68.75,5.4878,0.6548
+FC 5-class,rolling year-by-year,2024,Baseline: always most common class,962,180,,,,,0.1241,0.2,0.45,0.0,0.0,0.0
+FC 5-class,rolling year-by-year,2024,MLR / Logistic Regression,962,180,,,,,0.3427,0.3591,0.5222,62.5,8.5366,0.5682
+FC 5-class,rolling year-by-year,2024,Random Forest,962,180,,,,,0.406,0.4301,0.5333,75.0,4.878,0.7143
+FC 5-class,rolling year-by-year,2024,XGBoost,962,180,,,,,0.3882,0.4117,0.5167,62.5,10.9756,0.5435
+FC 5-class,rolling year-by-year,2024,SVM,962,180,,,,,0.3913,0.409,0.5111,56.25,7.9268,0.5233
+FC 5-class,rolling year-by-year,2024,kNN,962,180,,,,,0.2499,0.2739,0.4278,18.75,11.5854,0.1744
+FC 5-class,rolling year-by-year,2024,LSTM,962,180,,,,,0.2849,0.3285,0.4444,56.25,12.8049,0.4787
+FC 5-class,rolling year-by-year,2025,Baseline: same class as last month,1142,180,,,,,0.5686,0.5619,0.7,65.0,3.75,0.6566
+FC 5-class,rolling year-by-year,2025,Baseline: always most common class,1142,180,,,,,0.1401,0.2,0.5389,0.0,0.0,0.0
+FC 5-class,rolling year-by-year,2025,MLR / Logistic Regression,1142,180,,,,,0.5037,0.5344,0.6611,65.0,4.375,0.65
+FC 5-class,rolling year-by-year,2025,Random Forest,1142,180,,,,,0.5265,0.5339,0.6944,70.0,3.75,0.7
+FC 5-class,rolling year-by-year,2025,XGBoost,1142,180,,,,,0.5144,0.531,0.6778,65.0,3.75,0.6566
+FC 5-class,rolling year-by-year,2025,SVM,1142,180,,,,,0.5325,0.5234,0.65,60.0,3.125,0.6186
+FC 5-class,rolling year-by-year,2025,kNN,1142,180,,,,,0.4811,0.5076,0.6167,70.0,6.875,0.6667
+FC 5-class,rolling year-by-year,2025,LSTM,1142,180,,,,,0.3979,0.4287,0.55,70.0,6.25,0.6731

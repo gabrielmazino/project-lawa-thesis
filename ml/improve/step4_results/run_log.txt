@@ -1,0 +1,165 @@
+[     2s] BOD (mg/L): random 60-40 0
+[    11s] BOD (mg/L): random 70-30 0
+[    21s] BOD (mg/L): random 80-20 0
+[    31s] BOD (mg/L): 10-fold CV 0
+[    41s] BOD (mg/L): chronological 60-40 2023-02
+[    42s] BOD (mg/L): chronological 70-30 2023-11
+[    43s] BOD (mg/L): chronological 80-20 2024-07
+[    44s] BOD (mg/L): rolling year-by-year 2018
+[    50s] BOD (mg/L) done
+[    51s] FC log10 (change model): random 60-40 0
+[    61s] FC log10 (change model): random 70-30 0
+[    70s] FC log10 (change model): random 80-20 0
+[    80s] FC log10 (change model): 10-fold CV 0
+[    90s] FC log10 (change model): chronological 60-40 2023-01
+[    91s] FC log10 (change model): chronological 70-30 2023-10
+[    92s] FC log10 (change model): chronological 80-20 2024-07
+[    92s] FC log10 (change model): rolling year-by-year 2018
+[    98s] FC log10 (change model) done
+[    99s] BOD 4-class: random 60-40 0
+[   109s] BOD 4-class: random 70-30 0
+[   119s] BOD 4-class: random 80-20 0
+[   130s] BOD 4-class: 10-fold CV 0
+[   141s] BOD 4-class: chronological 60-40 2023-02
+[   142s] BOD 4-class: chronological 70-30 2023-11
+[   143s] BOD 4-class: chronological 80-20 2024-07
+[   144s] BOD 4-class: rolling year-by-year 2018
+[   153s] BOD 4-class done
+[   155s] FC 5-class: random 60-40 0
+[   172s] FC 5-class: random 70-30 0
+[   192s] FC 5-class: random 80-20 0
+[   213s] FC 5-class: 10-fold CV 0
+[   235s] FC 5-class: chronological 60-40 2023-01
+[   237s] FC 5-class: chronological 70-30 2023-10
+[   239s] FC 5-class: chronological 80-20 2024-07
+[   240s] FC 5-class: rolling year-by-year 2018
+[   252s] FC 5-class done
+
+===== BOD (mg/L): R2 mean =====
+method                       random 60-40  random 70-30  random 80-20  10-fold CV  chronological 60-40  chronological 70-30  chronological 80-20  rolling year-by-year
+model                                                                                                                                                                 
+Baseline: repeat last month        -2.034        -1.833        -1.380      -2.322               -0.168               -0.213               -0.336                -0.487
+Baseline: training average         -0.006        -0.003        -0.003      -0.006               -0.017               -0.010               -0.043                -0.237
+LSTM                                0.196         0.217         0.194       0.282                0.242                0.240                0.118                -0.077
+MLR / Logistic Regression           0.078         0.086         0.109       0.112                0.193                0.184                0.077                -0.173
+Random Forest                       0.251         0.277         0.267       0.336                0.218                0.215                0.056                 0.029
+SVM                                 0.192         0.216         0.187       0.255                0.222                0.215                0.105                -0.164
+XGBoost                             0.235         0.250         0.244       0.314                0.210                0.218                0.097                -0.064
+kNN                                 0.145         0.161         0.135       0.197                0.161                0.157                0.040                -0.171
+----- BOD (mg/L): R2 standard deviation -----
+method                       random 60-40  random 70-30  random 80-20  10-fold CV  chronological 60-40  chronological 70-30  chronological 80-20  rolling year-by-year
+model                                                                                                                                                                 
+Baseline: repeat last month         2.244         2.830         3.243       6.476                  NaN                  NaN                  NaN                 0.285
+Baseline: training average          0.007         0.004         0.003       0.005                  NaN                  NaN                  NaN                 0.423
+LSTM                                0.112         0.112         0.136       0.119                  NaN                  NaN                  NaN                 0.344
+MLR / Logistic Regression           0.122         0.185         0.241       0.414                  NaN                  NaN                  NaN                 0.496
+Random Forest                       0.113         0.104         0.148       0.132                  NaN                  NaN                  NaN                 0.281
+SVM                                 0.114         0.115         0.135       0.095                  NaN                  NaN                  NaN                 0.477
+XGBoost                             0.088         0.077         0.115       0.126                  NaN                  NaN                  NaN                 0.315
+kNN                                 0.092         0.085         0.105       0.093                  NaN                  NaN                  NaN                 0.392
+----- BOD (mg/L): share of repeats in top 3 -----
+method                     random 60-40  random 70-30  random 80-20  10-fold CV  chronological 60-40  chronological 70-30  chronological 80-20  rolling year-by-year
+model                                                                                                                                                               
+LSTM                               70.0          50.0          60.0        50.0                100.0                100.0                100.0                  62.0
+MLR / Logistic Regression           0.0           0.0          30.0        20.0                  0.0                  0.0                  0.0                  50.0
+Random Forest                     100.0         100.0         100.0        90.0                100.0                100.0                  0.0                  62.0
+SVM                                40.0          70.0          10.0        50.0                100.0                  0.0                100.0                  50.0
+XGBoost                            90.0          80.0         100.0        90.0                  0.0                100.0                100.0                  50.0
+kNN                                 0.0           0.0           0.0         0.0                  0.0                  0.0                  0.0                  25.0
+
+===== FC log10 (change model): R2 mean =====
+method                       random 60-40  random 70-30  random 80-20  10-fold CV  chronological 60-40  chronological 70-30  chronological 80-20  rolling year-by-year
+model                                                                                                                                                                 
+Baseline: repeat last month         0.681         0.651         0.673       0.664                0.610                0.638                0.719                 0.358
+Baseline: training average         -0.001        -0.001        -0.001      -0.007               -0.011               -0.002               -0.013                -1.406
+LSTM                                0.719         0.702         0.715       0.715                0.531                0.533                0.587                 0.250
+MLR / Logistic Regression           0.720         0.699         0.718       0.711                0.591                0.616                0.664                 0.179
+Random Forest                       0.736         0.717         0.738       0.732                0.587                0.598                0.639                 0.337
+SVM                                 0.723         0.703         0.721       0.714                0.602                0.630                0.667                 0.291
+XGBoost                             0.730         0.709         0.728       0.721                0.562                0.575                0.603                 0.275
+kNN                                 0.701         0.673         0.692       0.689                0.622                0.652                0.720                 0.395
+----- FC log10 (change model): R2 standard deviation -----
+method                       random 60-40  random 70-30  random 80-20  10-fold CV  chronological 60-40  chronological 70-30  chronological 80-20  rolling year-by-year
+model                                                                                                                                                                 
+Baseline: repeat last month         0.023         0.028         0.048       0.093                  NaN                  NaN                  NaN                 0.412
+Baseline: training average          0.001         0.002         0.001       0.011                  NaN                  NaN                  NaN                 3.330
+LSTM                                0.019         0.025         0.036       0.067                  NaN                  NaN                  NaN                 0.649
+MLR / Logistic Regression           0.019         0.021         0.036       0.070                  NaN                  NaN                  NaN                 0.887
+Random Forest                       0.022         0.018         0.033       0.055                  NaN                  NaN                  NaN                 0.494
+SVM                                 0.018         0.022         0.036       0.069                  NaN                  NaN                  NaN                 0.617
+XGBoost                             0.023         0.017         0.034       0.061                  NaN                  NaN                  NaN                 0.587
+kNN                                 0.025         0.026         0.044       0.077                  NaN                  NaN                  NaN                 0.449
+----- FC log10 (change model): share of repeats in top 3 -----
+method                     random 60-40  random 70-30  random 80-20  10-fold CV  chronological 60-40  chronological 70-30  chronological 80-20  rolling year-by-year
+model                                                                                                                                                               
+LSTM                               30.0          70.0          10.0        50.0                  0.0                  0.0                  0.0                  25.0
+MLR / Logistic Regression          10.0           0.0          30.0        40.0                100.0                100.0                100.0                  62.0
+Random Forest                     100.0         100.0         100.0        80.0                  0.0                  0.0                  0.0                  38.0
+SVM                                70.0          50.0          60.0        40.0                100.0                100.0                100.0                  75.0
+XGBoost                            90.0          80.0         100.0        90.0                  0.0                  0.0                  0.0                  38.0
+kNN                                 0.0           0.0           0.0         0.0                100.0                100.0                100.0                  62.0
+
+===== BOD 4-class: macro_F1 mean =====
+method                              random 60-40  random 70-30  random 80-20  10-fold CV  chronological 60-40  chronological 70-30  chronological 80-20  rolling year-by-year
+model                                                                                                                                                                        
+Baseline: always most common class         0.225         0.224         0.225       0.260                0.299                0.288                0.282                 0.328
+Baseline: same class as last month         0.316         0.315         0.309       0.364                0.424                0.414                0.411                 0.424
+LSTM                                       0.287         0.311         0.288       0.316                0.433                0.426                0.428                 0.416
+MLR / Logistic Regression                  0.319         0.321         0.304       0.361                0.433                0.455                0.432                 0.416
+Random Forest                              0.413         0.412         0.395       0.431                0.473                0.443                0.454                 0.484
+SVM                                        0.323         0.328         0.327       0.393                0.391                0.424                0.400                 0.440
+XGBoost                                    0.374         0.385         0.387       0.414                0.472                0.479                0.488                 0.471
+kNN                                        0.304         0.322         0.317       0.391                0.405                0.425                0.465                 0.401
+----- BOD 4-class: macro_F1 standard deviation -----
+method                              random 60-40  random 70-30  random 80-20  10-fold CV  chronological 60-40  chronological 70-30  chronological 80-20  rolling year-by-year
+model                                                                                                                                                                        
+Baseline: always most common class         0.002         0.002         0.003       0.035                  NaN                  NaN                  NaN                 0.121
+Baseline: same class as last month         0.017         0.018         0.026       0.060                  NaN                  NaN                  NaN                 0.142
+LSTM                                       0.029         0.035         0.022       0.073                  NaN                  NaN                  NaN                 0.145
+MLR / Logistic Regression                  0.019         0.025         0.025       0.067                  NaN                  NaN                  NaN                 0.113
+Random Forest                              0.051         0.057         0.052       0.110                  NaN                  NaN                  NaN                 0.173
+SVM                                        0.019         0.023         0.061       0.069                  NaN                  NaN                  NaN                 0.163
+XGBoost                                    0.036         0.037         0.051       0.092                  NaN                  NaN                  NaN                 0.145
+kNN                                        0.012         0.032         0.032       0.072                  NaN                  NaN                  NaN                 0.157
+----- BOD 4-class: share of repeats in top 3 -----
+method                     random 60-40  random 70-30  random 80-20  10-fold CV  chronological 60-40  chronological 70-30  chronological 80-20  rolling year-by-year
+model                                                                                                                                                               
+LSTM                                0.0          30.0          10.0         0.0                  0.0                  0.0                  0.0                  38.0
+MLR / Logistic Regression          50.0          10.0          20.0        30.0                100.0                100.0                  0.0                  25.0
+Random Forest                     100.0         100.0         100.0        80.0                100.0                100.0                100.0                  88.0
+SVM                                40.0          50.0          40.0        70.0                  0.0                  0.0                  0.0                  38.0
+XGBoost                           100.0          90.0          90.0        70.0                100.0                100.0                100.0                 100.0
+kNN                                10.0          20.0          40.0        50.0                  0.0                  0.0                100.0                  12.0
+
+===== FC 5-class: macro_F1 mean =====
+method                              random 60-40  random 70-30  random 80-20  10-fold CV  chronological 60-40  chronological 70-30  chronological 80-20  rolling year-by-year
+model                                                                                                                                                                        
+Baseline: always most common class         0.133         0.130         0.132       0.131                0.127                0.127                0.138                 0.146
+Baseline: same class as last month         0.516         0.510         0.510       0.500                0.525                0.529                0.550                 0.457
+LSTM                                       0.412         0.432         0.458       0.428                0.235                0.274                0.380                 0.269
+MLR / Logistic Regression                  0.477         0.476         0.478       0.470                0.404                0.434                0.420                 0.377
+Random Forest                              0.510         0.505         0.505       0.504                0.435                0.444                0.485                 0.367
+SVM                                        0.467         0.477         0.477       0.463                0.393                0.401                0.420                 0.380
+XGBoost                                    0.509         0.494         0.509       0.513                0.418                0.429                0.505                 0.407
+kNN                                        0.413         0.430         0.434       0.424                0.279                0.290                0.357                 0.318
+----- FC 5-class: macro_F1 standard deviation -----
+method                              random 60-40  random 70-30  random 80-20  10-fold CV  chronological 60-40  chronological 70-30  chronological 80-20  rolling year-by-year
+model                                                                                                                                                                        
+Baseline: always most common class         0.001         0.003         0.003       0.010                  NaN                  NaN                  NaN                 0.080
+Baseline: same class as last month         0.024         0.022         0.042       0.060                  NaN                  NaN                  NaN                 0.097
+LSTM                                       0.022         0.028         0.035       0.072                  NaN                  NaN                  NaN                 0.104
+MLR / Logistic Regression                  0.021         0.028         0.034       0.060                  NaN                  NaN                  NaN                 0.099
+Random Forest                              0.019         0.023         0.035       0.048                  NaN                  NaN                  NaN                 0.137
+SVM                                        0.011         0.024         0.024       0.050                  NaN                  NaN                  NaN                 0.089
+XGBoost                                    0.022         0.029         0.039       0.071                  NaN                  NaN                  NaN                 0.087
+kNN                                        0.018         0.032         0.030       0.057                  NaN                  NaN                  NaN                 0.150
+----- FC 5-class: share of repeats in top 3 -----
+method                     random 60-40  random 70-30  random 80-20  10-fold CV  chronological 60-40  chronological 70-30  chronological 80-20  rolling year-by-year
+model                                                                                                                                                               
+LSTM                                0.0           0.0          10.0        20.0                  0.0                  0.0                  0.0                   0.0
+MLR / Logistic Regression          70.0          40.0          30.0        50.0                100.0                100.0                100.0                  50.0
+Random Forest                     100.0          90.0         100.0        90.0                100.0                100.0                100.0                  75.0
+SVM                                30.0          70.0          60.0        30.0                  0.0                  0.0                  0.0                  62.0
+XGBoost                           100.0         100.0         100.0        90.0                100.0                100.0                100.0                 100.0
+kNN                                 0.0           0.0           0.0        20.0                  0.0                  0.0                  0.0                  12.0
+[   253s] done

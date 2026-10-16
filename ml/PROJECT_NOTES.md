@@ -1,4 +1,4 @@
-# Project LAWA: ML notes and handoff (last updated 2026-10-08)
+# Project LAWA: ML notes and handoff (last updated 2026-10-16)
 
 Thesis: *Development of a Machine Learning Model for Soft Sensing of BOD and Fecal Coliform Estimation*
 (manuscript: `thesis_manuscript/*.docx`). Data: LLDA Laguna Lake monitoring, 15 lake stations.
@@ -18,7 +18,12 @@ Thesis: *Development of a Machine Learning Model for Soft Sensing of BOD and Fec
 | Below detection limit | "<x" stored as x/2 (same as the 2013–2023 data) |
 | Gaps | linear interpolation within station, gaps ≤ 6 months (yellow cells) |
 | Outliers | **flagged, not deleted** (sheet "Preprocessing v4 (flagged)"). Many high-BOD rows are algal blooms (high DO + high pH + high BOD) and are real. Sta. Rosa Sep 2017 BOD = 70 mg/L was confirmed in the LLDA report → kept. |
-| Split | time-based: train 2016–2023, test 2024–2025 (+ rolling year-by-year 2018–2025). Imputed target values are never used as test targets. |
+| Split | **Changed 2026-10-16 (adviser + user): random 70-30 of the whole 2016–2025 data**, stratified by station and year, averaged over 10 seeds (mean ± SD). Also report 10-fold CV and rolling year-by-year 2018–2025. Imputed target values are never used as test targets. (Old: train 2016–2023, test 2024–2025.) |
+| Inputs (Step 1) | BOD: DO, pH, Ammonia, Nitrate, Temperature, last month's BOD, month, station (no Phosphate). FC: last month's FC, pH, station, DO, month. |
+| Imbalance (Step 2) | BOD classes: class weights. FC classes: none. |
+| Class schemes | user keeps only **BOD 4-class** (A/B/C/D+) and **FC 5-class** (A/B/C/D/Failed) |
+| Models (Steps 3–4) | six compared (MLR/LR, RF, XGBoost, SVM, kNN, LSTM), tuned in `ml/improve/step3_results/tuned_settings.json`. **Top 3: Random Forest, XGBoost, SVM**; RF best overall. FC regression predicts the change from last month. |
+| **Final system (2026-10-16)** | Last month's lab value: user tested without it (Steps 6–7: BOD barely changes, FC collapses R² 0.72 → 0.20), then chose to **use it for both BOD and FC**. BOD value: Random Forest regression. BOD class: separate Random Forest classifier + class weights (Step 5: catches more polluted months than value → class). FC value: Random Forest on the change from last month; FC class from the value (Step 5). Ammonia kept (Step 8). Phosphate not used. Scores (70-30 × 10 seeds): BOD R² 0.28, BOD class macro F1 0.42 / 70% polluted caught; FC R² 0.72, FC class macro F1 0.53. Trained by `backend/train_models.py`. **scikit-learn must be 1.9.1** in both venvs (1.8 gives different RF-with-class-weights results). |
 | Classes | user chose official DENR classes (see below) |
 
 **BOD classes (DAO 2016-08), mg/L:** A ≤3, B >3–5, C >5–7, D >7 (the single value >15 is kept in D).
@@ -120,7 +125,7 @@ Oct 2024, actual Failed 818, predicted D, still flagged above standard while "sa
 1. ~~**Fecal coliform regression on log10 values**~~ **DONE 2026-10-08** (see results above, `ml/fc/`).
    Follow-ups: try predicting the change from last month (log FC − last log FC) so models can beat persistence;
    check whether training from 2018 onward (after the FC level drop) improves the rolling years.
-2. **Grid-search tuning** (promised in manuscript Phase 4), for BOD class, FC class, and the regressions.
+2. ~~**Grid-search tuning**~~ **DONE 2026-10-16** in `ml/improve/` Steps 1–4 (see each `step*_results/SUMMARY.md`). (promised in manuscript Phase 4), for BOD class, FC class, and the regressions.
    Time-ordered 5-fold CV on training years only, score = macro F1 (classes) / RMSE (regression).
    - Logistic Regression: C {0.01, 0.1, 1, 10}
    - Random Forest: n_estimators {200, 500}, max_depth {3, 5, 10, None}, min_samples_split {2, 5, 10}
@@ -151,7 +156,7 @@ Oct 2024, actual Failed 818, predicted D, still flagged above standard while "sa
 ## 6. Environment on a new PC
 - Python 3.12 (`winget install Python.Python.3.12`), then:
   `python -m venv ml/.venv` and
-  `ml/.venv/Scripts/python -m pip install pandas numpy scikit-learn==1.8.0 xgboost matplotlib scipy openpyxl joblib`
+  `ml/.venv/Scripts/python -m pip install pandas numpy scikit-learn==1.9.1 xgboost matplotlib scipy openpyxl joblib imbalanced-learn` (Step 3 LSTM also needs `pip install torch --index-url https://download.pytorch.org/whl/cpu`)
 - On the laptop, Windows Smart App Control blocked scikit-learn 1.9.x and the `shap` package (numba/llvmlite);
   scikit-learn 1.8.0 worked. Do not turn Smart App Control off (it cannot be turned back on without a reset).
 - Optional: Node.js (dataset/preprocessing-v3/build.js), Poppler (reading PDFs), Excel (merge.ps1).
