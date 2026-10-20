@@ -130,7 +130,7 @@ export default function DashboardPage() {
           <SidebarLink href="#overview" tip="Summary cards and alerts for the selected month.">Overview</SidebarLink>
           <SidebarLink href="#stations" tip="All lake stations with their DENR classes.">Station Status</SidebarLink>
           <SidebarLink href="#trend" tip="Monthly history of one station.">Station Trends</SidebarLink>
-          <div className="mt-8 flex flex-col gap-1 border-t border-line pt-4">
+          <div className="mt-20 flex flex-col gap-1 border-t border-line pt-4">
             <Tip text="DENR water quality classes, in the colors of the LLDA quarterly report legend. Laguna Lake is Class C: worse than Class C is above standard." underline={false}>
               <span className="px-4 pb-1 text-[12px] font-semibold text-text">Legend</span>
             </Tip>
