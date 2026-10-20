@@ -20,6 +20,7 @@ from dotenv import load_dotenv
 from flask import Flask, g, jsonify, request
 from flask_cors import CORS
 
+from lawa import bod5
 from lawa.data import MAX_LAG_MONTHS, READINGS, add_last_values, build_features, load_records
 from lawa.denr import LAKE_STANDARD, above_standard, bod_class, fc_class
 
@@ -267,6 +268,57 @@ def predict():
                "algorithm": FC_MODEL["algorithm"]},
         "standard": LAKE_STANDARD,
     })
+
+
+# ---------------- BOD5 computational lab model (demo, synthetic lab data) ----------------
+BOD5_SAMPLES = bod5.synthetic_samples()
+
+
+@app.get("/api/bod5/synthetic")
+@require_login
+def bod5_synthetic():
+    """Synthetic lab sheet rows for one month (default: latest), to demo the BOD5 calculator."""
+    months = sorted(BOD5_SAMPLES["month"].unique())
+    month = request.args.get("month", months[-1])
+    rows = BOD5_SAMPLES[BOD5_SAMPLES["month"] == month].sort_values("station")
+    cols = ["sample_id", "month", "station", "sample_ml", "bottle_ml", "d1", "d2", "llda_bod"]
+    return jsonify({"month": month, "months": months,
+                    "samples": [{k: clean(r[k]) for k in cols} for _, r in rows.iterrows()]})
+
+
+@app.post("/api/bod5/compute")
+@require_login
+def bod5_compute():
+    """Unseeded BOD5 for a batch of samples: BOD5 = (D1 - D2) / P, P = sample volume / bottle volume."""
+    samples = (request.get_json(silent=True) or {}).get("samples") or []
+    if not samples:
+        return error("Add at least one sample.")
+    if len(samples) > 500:
+        return error("At most 500 samples at a time.")
+    results = []
+    for i, s in enumerate(samples, start=1):
+        try:
+            values = {k: float(s.get(k)) for k in bod5.LIMITS}
+        except (TypeError, ValueError):
+            return error(f"Sample {i}: sample volume, bottle volume, D1 and D2 must be numbers.")
+        for k, (low, high) in bod5.LIMITS.items():
+            if not low <= values[k] <= high:
+                return error(f"Sample {i}: {k} = {values[k]} is outside {low}–{high}.")
+        try:
+            out = bod5.compute(values["sample_ml"], values["bottle_ml"], values["d1"], values["d2"])
+        except ValueError as e:
+            return error(f"Sample {i}: {e}")
+        llda = s.get("llda_bod")
+        llda = float(llda) if llda not in (None, "") else None
+        results.append({"sample_id": s.get("sample_id") or f"Sample {i}", "station": s.get("station"),
+                        "month": s.get("month"), **values, **out, "llda_bod": llda,
+                        "difference": round(out["BOD5"] - llda, 3) if llda is not None else None})
+    summary = {"samples": len(results),
+               "valid": sum(r["qc"] == "Valid" for r in results),
+               "below_range": sum(r["qc"] == "Below range" for r in results),
+               "invalid": sum(r["qc"] == "Invalid" for r in results),
+               "above_standard": sum(bool(r["above_standard"]) for r in results)}
+    return jsonify({"results": results, "summary": summary, "standard": LAKE_STANDARD["BOD"]})
 
 
 if __name__ == "__main__":

@@ -8,6 +8,7 @@ import Tip from '../ui/Tip'
 const NAV = [
   { to: '/dashboard', label: 'Dashboard', tip: 'Latest lab results of all lake stations, alerts and trends.' },
   { to: '/soft-sensor', label: 'Soft Sensor', tip: 'Enter readings to get instant BOD and fecal coliform estimates.' },
+  { to: '/bod5', label: 'BOD₅ Lab', tip: 'Compute BOD₅ from laboratory readings (D1, D2, dilution), classify it and print a report.' },
 ]
 
 export default function AppShell() {

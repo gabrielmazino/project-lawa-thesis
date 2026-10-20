@@ -41,6 +41,18 @@ export const GLOSSARY = {
     'Accuracy: the share of months whose class was predicted correctly. It can look high just because most months are Class A, so read it together with macro F1.',
   macro_f1:
     'Macro F1: how well each class is predicted, with rare classes (the polluted ones) counting as much as common ones. 1 = perfect.',
+  bod5_lab:
+    'Computational model of the BOD₅ laboratory test. The 5-day incubation still happens in the lab; this module speeds up the computation, the DENR classification and the report, which LLDA now does by hand in Excel.',
+  bod5_formula: 'BOD₅ = (D1 − D2) / P for unseeded samples (seed correction = 0). LLDA lake samples are unseeded.',
+  d1: 'D1: dissolved oxygen of the BOD bottle at the start, right after filling (mg/L).',
+  d2: 'D2: dissolved oxygen of the same bottle after 5 days in the dark at 20 °C (mg/L).',
+  p_fraction:
+    'P: the fraction of the bottle that is sample water = sample volume ÷ bottle volume. Clean lake water is usually tested undiluted (300 mL in a 300 mL bottle, P = 1); polluted water is diluted (e.g. 15 mL in 300 mL, P = 0.05).',
+  depletion: 'DO depletion = D1 − D2: the oxygen used by bacteria in 5 days (mg/L).',
+  qc_check:
+    'Validity check (Standard Methods): valid when the bottle used at least 2.0 mg/L of oxygen and at least 1.0 mg/L was left. "Below range" = clean water that used less than 2.0 mg/L (reported with a qualifier). "Invalid" = oxygen ran out; repeat with more dilution.',
+  synthetic_lab:
+    'Synthetic lab data: LLDA\'s raw lab sheets (D1, D2, dilution) are not available, so these values were generated to be consistent with LLDA\'s reported BOD for each station and month (allowed by the adviser for demonstration).',
   evaluation:
     'Tested on lab results the model never saw: the 2016–2025 data was split 70% training / 30% testing at random, 10 times with different splits; the value shown is the average (± how much it varied).',
 }
