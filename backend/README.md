@@ -63,5 +63,7 @@ makes the tree models estimate about 60 mg/L for some ordinary months. For train
 | GET | `/api/last-values?station=...&month=YYYY-MM` | last lab BOD/FC before that month (form auto-fill) |
 | GET | `/api/models` | model names, inputs and test scores (70-30 and rolling) |
 | POST | `/api/predict` | BOD and fecal coliform estimates, DENR classes (BOD: classifier + confidence), typical ranges |
+| GET | `/api/bod5/synthetic?month=YYYY-MM` | synthetic BOD₅ lab sheet rows for one month (demo data) |
+| POST | `/api/bod5/compute` | unseeded BOD₅ = (D1 − D2) / P for a batch of samples, DENR class, validity check, summary |
 
 Data comes from `dataset/bod_class_dataset.csv` and `dataset/fc_class_dataset.csv`.
