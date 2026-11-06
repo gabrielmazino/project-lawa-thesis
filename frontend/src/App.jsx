@@ -4,6 +4,7 @@ import { useAuth } from './hooks/useAuth'
 import Bod5Page from './pages/Bod5Page'
 import DashboardPage from './pages/DashboardPage'
 import LoginPage from './pages/LoginPage'
+import ModelInsightsPage from './pages/ModelInsightsPage'
 import SoftSensorPage from './pages/SoftSensorPage'
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
       <Route element={<AppShell />}>
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/soft-sensor" element={<SoftSensorPage />} />
+        <Route path="/model-insights" element={<ModelInsightsPage />} />
         <Route path="/bod5" element={<Bod5Page />} />
         <Route path="*" element={<Navigate to="/dashboard" replace />} />
       </Route>

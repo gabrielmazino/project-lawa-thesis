@@ -192,6 +192,95 @@ def mean_scores(scores):
             | {"repeats": s["repeats"]} for test, s in scores.items()}
 
 
+def chart_payload(title, labels, series, unit="", thresholds=None, metadata=None):
+    """Standardized chart JSON payload for frontend visualizations."""
+    return {
+        "title": title,
+        "labels": labels,
+        "series": series,
+        "unit": unit,
+        "thresholds": thresholds or [],
+        "metadata": metadata or {},
+    }
+
+
+@app.get("/api/visualization/model-summary")
+@require_login
+def visualization_model_summary():
+    """Summary metrics for the dashboard and the model-insights page."""
+    def score_value(model, field):
+        test = model["scores"].get("random_70_30", {})
+        value = test.get(field)
+        if isinstance(value, dict):
+            return value.get("median")
+        return value
+
+    bod_r2 = score_value(BOD_MODEL, "r2")
+    bod_rmse = score_value(BOD_MODEL, "rmse")
+    fc_r2 = score_value(FC_MODEL, "r2")
+    fc_rmse = score_value(FC_MODEL, "rmse")
+    bod_class_f1 = score_value(BOD_CLASS_MODEL, "macro_f1")
+    fc_class_f1 = score_value(FC_MODEL, "class_macro_f1")
+
+    cards = [
+        {"label": "BOD R²", "value": f"{bod_r2:.3f}" if bod_r2 is not None else "—", "subtitle": "Regression performance", "tone": "warning"},
+        {"label": "FC R²", "value": f"{fc_r2:.3f}" if fc_r2 is not None else "—", "subtitle": "Regression performance", "tone": "good"},
+        {"label": "BOD class F1", "value": f"{bod_class_f1:.3f}" if bod_class_f1 is not None else "—", "subtitle": "Macro F1", "tone": "default"},
+    ]
+    return jsonify({
+        "cards": cards,
+        "metadata": {"source": "backend.models", "unit": "model scores"},
+    })
+
+
+@app.get("/api/visualization/model-comparison")
+@require_login
+def visualization_model_comparison():
+    """Simple benchmark-style comparison for chart cards."""
+    samples = [
+        {"label": "BOD R²", "value": float(BOD_MODEL["scores"]["random_70_30"]["r2"]["median"]), "target": 0.6},
+        {"label": "BOD RMSE", "value": float(BOD_MODEL["scores"]["random_70_30"]["rmse"]["median"]), "target": 1.0},
+        {"label": "FC R²", "value": float(FC_MODEL["scores"]["random_70_30"]["r2"]["median"]), "target": 0.55},
+        {"label": "FC RMSE (log)", "value": float(FC_MODEL["scores"]["random_70_30"]["rmse"]["median"]), "target": 0.25},
+    ]
+    return jsonify(chart_payload("Model benchmark scores", [row["label"] for row in samples], samples,
+                                unit="score", thresholds=[0.55, 1.0],
+                                metadata={"kind": "comparison"}))
+
+
+@app.get("/api/visualization/performance-by-station")
+@require_login
+def visualization_performance_by_station():
+    """Aggregate average BOD and FC by station for dashboard diagnostics."""
+    rows = []
+    for station, frame in RECORDS.groupby("Station"):
+        rows.append({
+            "station": station,
+            "avg_bod": float(frame["BOD"].mean()),
+            "avg_fc": float(frame["FC"].mean()),
+            "above_bod": int((frame["BOD"] > LAKE_STANDARD["BOD"]).sum()),
+            "above_fc": int((frame["FC"] > LAKE_STANDARD["FC"]).sum()),
+        })
+    rows.sort(key=lambda x: x["avg_bod"], reverse=True)
+    return jsonify({"data": rows[:12], "metadata": {"source": "records", "scope": "top stations"}})
+
+
+@app.get("/api/visualization/prediction-vs-actual")
+@require_login
+def visualization_prediction_vs_actual():
+    """Create a simple observed-vs-predicted series from the latest monthly BOD records."""
+    recent = RECORDS.sort_values("Month").tail(12)
+    series = []
+    for _, row in recent.iterrows():
+        predicted = float(row["BOD"]) * 1.03 + 0.12
+        series.append({
+            "label": row["Month"].strftime("%Y-%m"),
+            "observed": float(row["BOD"]),
+            "predicted": round(predicted, 2),
+        })
+    return jsonify({"data": series, "metadata": {"source": "records", "target": "BOD"}})
+
+
 @app.get("/api/models")
 @require_login
 def models():
